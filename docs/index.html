@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 
     <head>
         <meta charset="utf-8" />
-        <title>SoulWorker Skill simulator</title>
+        <title>SoulWorker スキルシミュレーター</title>
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -28,27 +28,30 @@
         <link rel="manifest" href="manifest.json">
         <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
         <link rel="shortcut icon" href="favicon.ico">
-        <meta property="og:title" content="SoulWorker Skill Simulator" />
-        <meta property="og:description" content="SoulWorker Skill Simulator" />
-        <meta property="og:image"
-            content="http://github.com/Leayal/swskillsimu/raw/master/images/og-meta-preview.png" />
-        <meta property="og:image:secure_url"
-            content="https://github.com/Leayal/swskillsimu/raw/master/images/og-meta-preview.png" />
-        <meta property="og:type" content="article" />
-        <meta property="og:author" content="Dramiel Leayal" />
+
+        <meta property="og:title" content="SoulWorker スキルシミュレーター" />
+        <meta property="og:description" content="ソウルワーカー(SoulWorker)のスキルシミュレーター" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/PinkUsagi/swskillsimu_jp/master/images/og-meta-preview.png" />
+        <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/PinkUsagi/swskillsimu_jp/master/images/og-meta-preview.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:author" content="PinkUsagi" />
+
         <meta name="robots" content="index">
-        <meta name="description" content="Simulate SoulWorker's skill tree.">
-        <meta name="author" content="Dramiel Leayal">
-        <meta name="keywords" content="skill, simulator, soulworker, sw">
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84812163-3"></script>
+        <meta name="description" content="ソウルワーカー(SoulWorker)のスキルシミュレーター">
+        <meta name="author" content="PinkUsagi">
+        <meta name="keywords" content="ソウルワーカー, スキル, シミュ, シミュレータ, シミュレーター, SoulWorker, SW">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178473853-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
 
             function gtag() {
                 dataLayer.push(arguments);
-            };
+            }
             gtag('js', new Date());
-            gtag('config', 'UA-84812163-3');
+
+            gtag('config', 'UA-178473853-1');
         </script>
     </head>
 
@@ -56,59 +59,61 @@
         <div id="sakura" class="sakurabg1"></div>
         <div class="container-fluid">
             <div class="container bg-dark-fade">
-                <h1 class="text-center">SoulWorker Skill Simulator</h1>
+                <h1 class="text-center">SoulWorker スキルシミュレーター</h1>
                 <p>
-                    The skill simulator is made (mainly) based on the information from SoulWorker in Japan region.
+                    このスキルシミュレーターは、ほとんどがソウルワーカー(Soulworker)の日本版データを基に作られており、一部韓国語版のデータも含まれています。
                 </p>
                 <p>
-                    This skill simulator require javascript turned on.
-                    <span id="jsEnabled" class="text-feature-missing"><br />Javascript is disabled.</span>
+                    このスキルシミュレータはJavaScriptをONにする必要があります。
+                    <span id="jsEnabled" class="text-feature-missing"><br />JavaScriptが無効になっています。</span>
                     <br />
-                    The skill simulator should work on most
-                    of modern browsers. I just tested on: Firefox v62, Chrome v69, Edge.<br />
+                    スキルシミュレータは、最新のウェブブラウザのほとんどで動作するはずです。<br />
                     <br />
-                    As of now, the simulator video has skill preview video (which require <a
-                        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
-                        target="_blank">Promise</a> object).
+                    現在、シミュレーターではスキルプレビュー動画が利用可能です。（<a
+                        href="https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise" rel="nofollow noreferrer noopener"
+                        target="_blank">Promise</a>オブジェクトが必要です）
                     <br />
                     <span id="isPromiseSupportedLabel"></span>
                 </p>
-                <p>
-                    Full change-log can be found here: <a id="commit-link" target="_blank">Github Repository commit
-                        log</a>.
-                </p>
-                <br />
-                <span>Special thanks to all those who were contributed/help me maintain the skill tree:</span>
+                <span>下記は、基となった英語版の原作者と投稿者の名前であり、</span>
                 <ul>
-                    <li>Discord User: Asai「朝顔」#3254 (UserID: &lt;@165738921886482433&gt;)</li>
-                    <li>Discord User: Queentato#5458 (UserID: &lt;@90886564963442688&gt;)</li>
-                    <li>Discord User: Ignia#4302 (UserID: &lt;@164102051414933504&gt;)</li>
-                    <li>Discord User: IIBLACKANGELII#6382 (UserID: &lt;@210799826919620609&gt;)</li>
-                    <li>Discord User: Amaririsu#9020 (UserID: &lt;@261477098298933259&gt;)</li>
-                    <li>Discord User: SoulumStriker#8276 (UserID: &lt;@274559463782875137&gt;)</li>
-                    <li>Discord User: Yuuki#5282 (UserID: &lt;@127035858330058752&gt;)</li>
-                    <li>Discord User: すめらぎ#2463 (UserID: &lt;@172375598021214209&gt;)</li>
-                    <li>Discord User: Ruerwin#1807 (UserID: &lt;@81024898910138368&gt;)</li>
-                    <li>Discord User: Eden~♡#2724 (UserID: &lt;@119560532947632134&gt;) (Github: <a
-                            href="https://github.com/Eden333" target="_blank">Eden333</a>)</li>
-                    <li>Many others</li>
-                </ul>
+                    原作者（英語版）
+                    <ol>Dramiel Leayal (Github: <a href="https://github.com/Leayal" rel="nofollow noreferrer noopener" target="_blank">Leayal</a>)</ol>
 
-                <div class="py-3 text-center">
+                    投稿者（英語版）                    
+                    <ol>Asai「朝顔」</ol>
+                    <ol>Queentato</ol>
+                    <ol>Ignia</ol>
+                    <ol>IIBLACKANGELII</ol>
+                    <ol>Amaririsu</ol>
+                    <ol>SoulumStriker</ol>
+                    <ol>Yuuki</ol>
+                    <ol>すめらぎ</ol>
+                    <ol>Ruerwin</ol>
+                    <ol>Eden~♡ (Github: <a href="https://github.com/Eden333" rel="nofollow noreferrer noopener" target="_blank">Eden333</a>)</ol>
+                </ul>
+                <p>
+                    英語版のスキルシミュレーターにデータを追加して、<a href="https://github.com/PinkUsagi" target="_blank">PinkUsagi</a>（私）が日本語版でのスキルシミュレーターを製作しました。
+                    （ページ内の一部文章の校正の協力：<a href="https://ameblo.jp/lake12/" target="_blank">lacus</a>）<br /><br />
+                    原作者のLeayalさんと貢献してくれたすべての人に感謝します。<br /><br />
+                    DeepL翻訳を使って翻訳しています。プロが作った物ではないので、ミスなどはありますが、どうかご理解ください。
+                </p>
+
+                <div class="py-3 text-center" id="creativecommon-index">
                     <span class="text-center">Content is available under <a
-                            href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">Creative Commons
+                            href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="nofollow noreferrer noopener" target="_blank">Creative Commons
                             Attribution-NonCommercial-ShareAlike</a>
                         unless stated.<br />Official Art, Game Content and Screenshots are trademarks and
-                        copyrights of <a href="http://www.liongames.co.kr/Front/" target="_blank">Lion
+                        copyrights of <a href="http://www.liongames.co.kr/Front/" rel="nofollow noreferrer noopener" target="_blank">Lion
                             Games</a> and the game's publishers.
                     </span>
                 </div>
 
                 <div class="row justify-content-center">
                     <div class="col col-auto">
-                        <a class="nav-link github-button" github-button-type="fork" data-size="large"
-                            aria-label="Fork repo on GitHub">Fork</a>
-                    </div>
+                        <a class="nav-link github-button" href=https://github.com/PinkUsagi/swskillsimu_jp/fork github-button-type="fork" data-size="large"
+                            aria-label="Fork PinkUsagi's repo on GitHub">Fork</a>
+					</div>
                     <div class="col col-auto">
                         <a class="nav-link github-button" github-button-type="issues" data-size="large"
                             aria-label="Report issue on GitHub">Report Issue</a>
@@ -120,16 +125,16 @@
                 </div>
             </div>
             <div class="clearfix py-5">
-                <h2 class="text-center">Please select the character</h2>
-                <h5 class="text-center require-js">(Scroll to right for more characters)</h5>
+                <h2 class="text-center">キャラクターを選択してください</h2>
+                <h4 class="text-center require-js">(右にスクロールして他のキャラクターを見る)</h5>
                 <noscript>
-                    <h5 class="text-center">(You won't be able to see any character below because Javascript is
-                        disabled)</h5>
+                    <h4 class="text-center">(JavaScriptが無効になっているため、以下の文字が表示されません)</h5>
                 </noscript>
             </div>
             <div class="scrolling-wrapper-flexbox require-js">
                 <div class="content whitetext row" id="character_select"></div>
             </div>
+        </div>
         </div>
         <script src="assets/EntryPoint.js"></script>
         <script src="assets/EntryPoint_Homepage.js"></script>
