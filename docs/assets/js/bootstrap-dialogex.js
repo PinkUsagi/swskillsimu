@@ -94,7 +94,7 @@ function Bootstrap4ModalDialog(parent, content, title, buttons, type) {
             switch (buttons) {
                 case Bootstrap4ModalDialog.Buttons.Retry:
                     this.dialogButtons = $("<div>").addClass("modal-footer").append(
-                        $("<button>").addClass("btn btn-primary").attr({ "type": "button", "modal-IsDefault": "true" }).text("Retry").click(function (e) {
+                        $("<button>").addClass("btn btn-primary").attr({ "type": "button", "modal-IsDefault": "true" }).text("再試行").click(function (e) {
                             self.result = 1;
                         })
                     );
@@ -108,26 +108,26 @@ function Bootstrap4ModalDialog(parent, content, title, buttons, type) {
                     break;
                 case Bootstrap4ModalDialog.Buttons.Close:
                     this.dialogButtons = $("<div>").addClass("modal-footer").append(
-                        $("<button>").addClass("btn btn-primary").attr({ "type": "button", "modal-IsDefault": "true" }).text("Close").click(function (e) {
+                        $("<button>").addClass("btn btn-primary").attr({ "type": "button", "modal-IsDefault": "true" }).text("閉じる").click(function (e) {
                             self.result = 1;
                         })
                     );
                     break;
                 case Bootstrap4ModalDialog.Buttons.YesNo:
                     this.dialogButtons = $("<div>").addClass("modal-footer").append(
-                        $("<button>").addClass("btn btn-primary").attr({ "type": "button", "modal-IsDefault": "true" }).text("Yes").click(function (e) {
+                        $("<button>").addClass("btn btn-primary").attr({ "type": "button", "modal-IsDefault": "true" }).text("はい").click(function (e) {
                             self.result = 1;
                         }), [
-                            $("<button>").addClass("btn btn-secondary").attr({ "type": "button", "modal-IsCancel": "true", "data-dismiss": "modal" }).text("No")
+                            $("<button>").addClass("btn btn-secondary").attr({ "type": "button", "modal-IsCancel": "true", "data-dismiss": "modal" }).text("いいえ")
                         ]
                     );
                     break;
                 case Bootstrap4ModalDialog.Buttons.YesNoDanger:
                     this.dialogButtons = $("<div>").addClass("modal-footer").append(
-                        $("<button>").addClass("btn btn-danger").attr({ "type": "button", "modal-IsDefault": "true" }).text("Yes").click(function (e) {
+                        $("<button>").addClass("btn btn-danger").attr({ "type": "button", "modal-IsDefault": "true" }).text("はい").click(function (e) {
                             self.result = 1;
                         }), [
-                            $("<button>").addClass("btn btn-primary").attr({ "type": "button", "modal-IsCancel": "true", "data-dismiss": "modal" }).text("No")
+                            $("<button>").addClass("btn btn-primary").attr({ "type": "button", "modal-IsCancel": "true", "data-dismiss": "modal" }).text("いいえ")
                         ]
                     );
                     break;

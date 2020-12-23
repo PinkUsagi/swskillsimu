@@ -82,7 +82,7 @@ GridInfo.prototype.Redraw = function () {
         this.myDiv.append($("<img>").addClass("clickthrough").attr("src", (this.SkillInfo.GetIconURL())));
         this.myDiv.attr("title", "Skill: " + (this.SkillInfo.GetName()) + "\n" + window.SkillTreeData.Localization.SkillSlot.SmallGuideText_HowToSelectASkill);
     } else {
-        this.myDiv.append($("<img>").addClass("clickthrough").attr("src", "../assets/skillicons/skillslot_empty_null.png"));
+        this.myDiv.append($("<img>").addClass("clickthrough").attr("src", "../assets/SkillIcons/skillslot_empty_null.png"));
         this.myDiv.attr("title", window.SkillTreeData.Localization.SkillSlot.SmallGuideText_HowToSelectASkill);
     }
 }
@@ -127,7 +127,7 @@ GridInfo.prototype.GetRender = function () {
         this.myDiv.append($("<img>").addClass("clickthrough").attr("src", this.SkillInfo.GetIconURL()));
         this.myDiv.attr("title", "Skill: " + this.SkillInfo.GetName() + "\n" + window.SkillTreeData.Localization.SkillSlot.SmallGuideText_HowToSelectASkill);
     } else {
-        this.myDiv.append($("<img>").addClass("clickthrough").attr("src", "../assets/skillicons/skillslot_empty_null.png"))
+        this.myDiv.append($("<img>").addClass("clickthrough").attr("src", "../assets/SkillIcons/skillslot_empty_null.png"))
         this.myDiv.attr("title", window.SkillTreeData.Localization.SkillSlot.SmallGuideText_HowToSelectASkill);
     }
     return this.myDiv;

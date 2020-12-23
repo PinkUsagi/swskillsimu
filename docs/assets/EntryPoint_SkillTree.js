@@ -67,6 +67,10 @@ const previewOptionExplains = (function () {
     if (w.hasOwnProperty("SkillTreeData")) {
         if (w.SkillTreeData.hasOwnProperty("Localization")) {
             let myLocal = w.SkillTreeData.Localization;
+
+            if (myLocal.General.Lang) {
+                d.documentElement.setAttribute('lang', myLocal.General.Lang);
+            }
             if (myLocal.Option.Button_SaveSettingToBrowser) {
                 d.getElementById("saveSettingToBrowser").textContent = myLocal.Option.Button_SaveSettingToBrowser;
             }
@@ -109,6 +113,14 @@ const previewOptionExplains = (function () {
             }
             if (myLocal.General.WindowTitle) {
                 d.title = myLocal.General.WindowTitle;
+            }
+            if (myLocal.General.WindowTitle) {
+                d.title = myLocal.General.WindowTitle;
+            }
+			if (myLocal.Others.CreativeCommonNote) {
+				let link_cc = "<a href=\"https://creativecommons.org/licenses/by-nc-sa/3.0/deed.ja\" target=\"_blank\">" + myLocal.Others.CreativeCommon + "</a>",
+                    link_liongames = "<a href=\"http://www.liongames.co.kr/Front/\" target=\"_blank\">Lion Games</a>";
+                d.getElementById("creativecommon").innerHTML = myLocal.Others.CreativeCommonNote.fformat(link_cc, link_liongames);
             }
         }
 
@@ -174,7 +186,7 @@ function IsExtension(filename, extension) {
 }
 
 function ShowDangerDialog(msg, yesCallback, noCallback) {
-    let dialog = new Bootstrap4ModalDialog($("#dialogs"), msg, "Warning", Bootstrap4ModalDialog.Buttons.YesNoDanger, Bootstrap4ModalDialog.Type.Danger);
+    let dialog = new Bootstrap4ModalDialog($("#dialogs"), msg, window.SkillTreeData.Localization.Confirmation.Warning, Bootstrap4ModalDialog.Buttons.YesNoDanger, Bootstrap4ModalDialog.Type.Danger);
     dialog.RegisterCallback(function (sender, val) {
         if (val) {
             if (typeof yesCallback === "function")
@@ -197,7 +209,7 @@ function ShowRetryDialog(jquery_format_msg, title, retryCallback) {
 }
 
 function ShowMessageDialog(jquery_format_msg, okayCallback) {
-    let dialog = new Bootstrap4ModalDialog($("#dialogs"), jquery_format_msg, "Notice", null, Bootstrap4ModalDialog.Type.Info);
+    let dialog = new Bootstrap4ModalDialog($("#dialogs"), jquery_format_msg, window.SkillTreeData.Localization.Confirmation.Notice, null, Bootstrap4ModalDialog.Type.Info);
     dialog.RegisterCallback(function (sender, val) {
         if (val && (typeof okayCallback === "function"))
             okayCallback();
@@ -206,7 +218,7 @@ function ShowMessageDialog(jquery_format_msg, okayCallback) {
 }
 
 function ShowConfirmDialog(msg, yesCallback, noCallback) {
-    let dialog = new Bootstrap4ModalDialog($("#dialogs"), msg, "Double confirmation", Bootstrap4ModalDialog.Buttons.YesNo, Bootstrap4ModalDialog.Type.Primary);
+    let dialog = new Bootstrap4ModalDialog($("#dialogs"), msg, window.SkillTreeData.Localization.Confirmation.DoubleConfirm, Bootstrap4ModalDialog.Buttons.YesNo, Bootstrap4ModalDialog.Type.Primary);
     dialog.RegisterCallback(function (sender, val) {
         if (val) {
             if (typeof yesCallback === "function")
@@ -239,7 +251,7 @@ jQuery(document).ready(function ($) {
         clipboardsupport = false;
 
     // Read setting
-    let tmpSettingVal, defaultValue_SkillPreview = previewOptions["Show video (Beta)"];
+    let tmpSettingVal, defaultValue_SkillPreview = previewOptions[window.SkillTreeData.Localization.Option.Selection_PreviewOn_Beta];
     tmpSettingVal = SafeStorage.GetData("skilltree_firsttime");
     window.SkillTreeSetting.skilltree_firsttime = ((typeof (tmpSettingVal) === "string") ? parseInt(tmpSettingVal) : 1);
     tmpSettingVal = SafeStorage.GetData("skilltree_skillpreview");

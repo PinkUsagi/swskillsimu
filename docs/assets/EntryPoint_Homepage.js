@@ -1,26 +1,35 @@
 (function (w, d) {
     'use strict'
-    let theElement = d.getElementById("isPromiseSupportedLabel");
+    if (w.SkillTreeData.Localization.General.Lang) {
+        d.documentElement.setAttribute('lang', w.SkillTreeData.Localization.General.Lang);
+    }
+    
+    if (w.SkillTreeData.Localization.Others.CreativeCommonNoteIndex) {
+        let link_cc = "<a href=\"https://creativecommons.org/licenses/by-nc-sa/3.0/deed.ja\" target=\"_blank\" rel=\"nofollow noreferrer noopener\">" + w.SkillTreeData.Localization.Others.CreativeCommon + "</a>",
+            link_liongames = "<a href=\"http://www.liongames.co.kr/Front/\" target=\"_blank\" rel=\"nofollow noreferrer noopener\">Lion Games</a>";
+        d.getElementById("creativecommon-index").innerHTML = w.SkillTreeData.Localization.Others.CreativeCommonNoteIndex.fformat(link_cc, link_liongames);
+    }
+    
+	let theElement = d.getElementById("isPromiseSupportedLabel");
     let text;
     if (typeof (Promise) !== "undefined") {
-        text = d.createTextNode("The web browser you're using supports Promise object.");
+        text = d.createTextNode("お使いのウェブブラウザは、Promiseオブジェクトをサポートしています。");
         theElement.classList.add("text-feature-supported");
     } else {
-        text = d.createTextNode("The web browser you're using doesn't support Promise object. Please update your browser or use a browser which supports the feature.");
+        text = d.createTextNode("お使いのウェブブラウザはプロミスオブジェクトをサポートしていません。お使いのブラウザをアップデートするか、この機能をサポートしているブラウザをご利用ください。");
         // https://caniuse.com/#feat=promises
         // Click here to see more information about browsers support Promise
         let theMoreInfo = d.createElement("a");
-        theMoreInfo.text = "(Click here to see more information about browsers support Promise)";
+        theMoreInfo.text = "(Promiseに対応しているブラウザの詳細はこちら)";
         theMoreInfo.href = "https://caniuse.com/#feat=promises";
         theMoreInfo.target = "_blank";
+        theMoreInfo.rel = "nofollow noreferrer noopener";
         theElement.classList.add("text-feature-missing");
         theElement.parentNode.appendChild(d.createElement("br"));
         theElement.parentNode.appendChild(theMoreInfo);
     }
     theElement.appendChild(text);
-
-    d.getElementById("commit-link").href = "https://github.com/" + window.appdata["github-repo"] + "/commits/master";
-
+        
     if (w.SkillTreeData.hasOwnProperty("CharacterTable")) {
         let characterTable = w.SkillTreeData.CharacterTable,
             domCharacterList = d.getElementById("character_select");
@@ -30,6 +39,7 @@
         for (let i = 0; i < characterNames.length; i++) {
             let characterData = characterTable[characterNames[i]];
             if (typeof (characterData) === "object" && characterData.hasOwnProperty("url")) {
+                //$('charName').src(`assets/images/('url')_Select.png`);
                 let elementImg = d.createElement("img"),
                     elementHyperlink = d.createElement("a");
                 elementImg.draggable = false;
@@ -59,7 +69,7 @@
                 }
 
                 let theDiv = d.createElement("div");
-                theDiv.classList.add("col-md-2");
+                theDiv.classList.add("col-md-1");
                 theDiv.appendChild(elementHyperlink);
                 domCharacterList.appendChild(theDiv);
             }

@@ -69,16 +69,16 @@ SkillTreeCore.prototype.UpdateSP = function () {
         domRemainingSP.addClass("alertlow");
     else
         domRemainingSP.removeClass("alertlow");
-    $("#e_investedSP").text(window.SkillTreeData.Localization.SkillTree.InvestedSP + ": " + this._investedsp + "/" + this._totalsp);
-    domRemainingSP.text(window.SkillTreeData.Localization.SkillTree.RemainingSP + ": " + this._spleft + "/" + this._totalsp);
+    $("#e_investedSP").text(window.SkillTreeData.Localization.SkillTree.InvestedSP + this._investedsp + "/" + this._totalsp);
+    domRemainingSP.text(window.SkillTreeData.Localization.SkillTree.RemainingSP + this._spleft + "/" + this._totalsp);
     $("#spusageinfo").html(this.GenerateUsageInfo());
 }
 
 SkillTreeCore.prototype.UpdateAllSPs = function () {
-    $("#e_investedSP").text(window.SkillTreeData.Localization.SkillTree.InvestedSP + ": " + this._investedsp + "/" + this._totalsp);
+    $("#e_investedSP").text(window.SkillTreeData.Localization.SkillTree.InvestedSP + this._investedsp + "/" + this._totalsp);
     this._spleft = this._totalsp - this._investedsp;
     let domRemainingSP = $("#e_remainingSP");
-    domRemainingSP.text(window.SkillTreeData.Localization.SkillTree.RemainingSP + ": " + this._spleft + "/" + this._totalsp);
+    domRemainingSP.text(window.SkillTreeData.Localization.SkillTree.RemainingSP + this._spleft + "/" + this._totalsp);
     if (this.CheckAllSkills()) {
         if (this._spleft < 5)
             domRemainingSP.addClass("alertlow");
@@ -159,6 +159,9 @@ SkillTreeCore.prototype.inner_gettotalspex = function (a) {
         case 62:
         case 63:
         case 64:
+        case 66:
+        case 67:
+        case 68:
             return 1;
         case 5:
         case 65:
@@ -231,7 +234,7 @@ SkillTreeCore.prototype.GenerateUsageInfo = function () {
                 parent_target = this.SkillList[skillid].GetParent();
                 if (usedsp_target != 0)
                     if (!parent_target) {
-                        arrayString[skillid] = this.SkillList[skillid].GetName() + ": " + usedsp_target + "SP";
+                        arrayString[skillid] = this.SkillList[skillid].GetName() + "：" + usedsp_target + "SP";
                     } else {
                         arrayString[parent_target.GetID()] += " + " + usedsp_target + "SP";
                     }
