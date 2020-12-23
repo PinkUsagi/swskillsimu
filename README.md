@@ -4,7 +4,7 @@
 [シミュレータへのリンク](https://pinkusagi.github.io/swskillsimu_jp/)
 
 # クレジット
-[Leayal](https://github.com/Leayal)さんと貢献してくれたすべての人に感謝します。
+原作者の[Leayal](https://github.com/Leayal)さんと貢献してくれたすべての人に感謝します。
 
 # 依存関係
 - [JQuery v3.4.1](https://jquery.com)
