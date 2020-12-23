@@ -2,8 +2,8 @@
     'use strict'
     // modify the data here to your liking
     let app_data = {
-            "github-repo": "Leayal/swskillsimu", // Set to null to let auto-detect from Github Page default URL, unreliable though
-            maxCharacterLevel: 65 // Default max level will be used if the value cannot be found in a character's JSON data
+            "github-repo": "PinkUsagi/swskillsimu_jp", // Set to null to let auto-detect from Github Page default URL, unreliable though
+            maxCharacterLevel: 72 // Default max level will be used if the value cannot be found in a character's JSON data
         },
         // SP table.
         table_SkillPoint = {
@@ -40,13 +40,20 @@
                 63: 1,
                 64: 1,
                 65: 3,
+                66: 1,
+                67: 1,
+                68: 1,
+                69: 1,
+                70: 3,
+                71: 1,
+                72: 1
             }
         },
         table_Character = {
             /*
             Should be as format below, putting anything else at your own risk.
             The format is: `[string] Character Name: [object] character property`
-            + Character Name: Full name prefered, but can be anything.
+            + Character Name: Full name preferred, but can be anything.
             + Character property object contains 4 properties: ("enabled" can be omitted, "reason" can be omitted)
                                          url: The relative URL to the character's skill tree simulator page.
                                          selectImage: The big image of character selection on skill simulator's homepage.
@@ -55,37 +62,39 @@
                                                   (for example: the skill tree of said character is in building)
                                          reason: The reason when not enabled
             */
-            "Haru Estia": {
-                url: "haru",
-                selectImage: "assets/images/HaruSelect.png"
+            "ハル・エスティア": {
+                url: "Haru",
+                selectImage: "assets/images/Haru_Select.png"
             },
-            "Erwin Arclight": {
-                url: "erwin",
-                selectImage: "assets/images/ErwinSelect.png"
+            "アーウィン・アークライト": {
+                url: "Erwin",
+                selectImage: "assets/images/Erwin_Select.png"
             },
-            "Lily Bloomerchen": {
-                url: "lily",
-                selectImage: "assets/images/LilySelect.png"
+            "リリー・ブルームメルヘン": {
+                url: "Lily",
+                selectImage: "assets/images/Lily_Select.png"
             },
-            "Stella Unibell": {
-                url: "stella",
-                selectImage: "assets/images/StellaSelect.png"
+            "ステラ・ユニベル": {
+                url: "Stella",
+                selectImage: "assets/images/Stella_Select.png"
             },
-            "Jin Seipatsu": {
-                url: "jin",
-                selectImage: "assets/images/JinSelect.png"
+            "ジン・セイパーツ": {
+                url: "Jin",
+                selectImage: "assets/images/Jin_Select.png"
             },
-            "Iris Yuma": {
-                url: "iris",
-                selectImage: "assets/images/IrisSelect.png"
+            "イリス・ユマ": {
+                url: "Iris",
+                selectImage: "assets/images/Iris_Select.png"
             },
-            "Someone": {
-                url: "someone",
-                selectImage: "assets/images/SomeoneSelect.png",
-                enabled: false,
-                reason: "Your waifu is not here"
-            }
-        };
+			"チイ・アルエル": {
+                url: "Chii",
+                selectImage: "assets/images/Chii_Select.png"
+			},
+			"エフネル": {
+                url: "Ephnel",
+                selectImage: "assets/images/Ephnel_Select.png",
+			},
+            };
 
     // Debug purpose. Don't modify unless you know what're you doing or testing something
     let debug_data = {
@@ -147,7 +156,7 @@
     if (typeof (w.appdata) !== "object") {
         Object.defineProperty(w, "appdata", {
             value: Object.freeze(Object.assign({
-                "github-repo": "Leayal/swskillsimu",
+                "github-repo": "PinkUsagi/swskillsimu_jp",
                 maxCharacterLevel: 75,
                 use_h264: null,
                 use_vp9: null,
