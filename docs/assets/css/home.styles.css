@@ -4,7 +4,19 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: scroll;
-    background-position: center center
+    background-position: center center;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック", "MS Gothic", "Noto Sans CJK JP", TakaoPGothic, sans-serif;
+    font-feature-settings: "palt";
+}
+
+.col-md-1 {
+    padding-right: 220px;
+    padding-left: 15px;
+}
+
+.col-md-2 {
+    padding-right: 0%;
+    padding-left: 0%;
 }
 
 .text-feature-supported {
@@ -18,7 +30,7 @@ body {
 .scrolling-wrapper-flexbox {
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: visible;
+    overflow-x: show;
     overflow-y: hidden;
 
     transform: rotateX(180deg);
@@ -49,27 +61,17 @@ body {
     background-color: rgba(17, 17, 17, 0.8) !important;
 }
 
-.characterimage:not(.disabled):hover {
+.characterimage:hover {
     opacity: 1 !important;
     /* cursor: pointer; */
 }
 
 .characterimage {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.characterimage:not(.disabled) {
-    opacity: 0.7;
+    width: auto;
+    height: 110%;
+    opacity: 0.5;
     transition: all .2s ease-in-out;
-}
 
-a.disabled {
-    cursor: default;
-}
-
-.characterimage.disabled {
-    opacity: 1;
 }
 
 .hideaway {
@@ -79,4 +81,24 @@ a.disabled {
     left: 0px;
     top: 0px;
     transform: translate(-100%, -100%);
+}
+
+::-webkit-scrollbar {
+    background-color: #202324;
+    color: #aba499;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #575e62;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #484e51;
+}
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+* {
+    scrollbar-color: #202324 #454a4d;
 }
