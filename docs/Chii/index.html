@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>SW スキルシミュレーター</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+            integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="../assets/css/bootstrap4.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/solid.css"
+            integrity="sha384-VxweGom9fDoUf7YfLTHgO0r70LVNHP5+Oi8dcR4hbEjS8UnpRtrwTx7LpHq/MWLI" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/fontawesome.css"
+            integrity="sha384-rnr8fdrJ6oj4zli02To2U/e6t1qG8dvJ8yNZZPsKHcU7wFK3MGilejY5R/cUc5kf" crossorigin="anonymous">
+        <!--<link rel="stylesheet" href="../sakura/jquery-sakura.min.css" />-->
+        <link rel="stylesheet" href="../assets/css/styles.css?v=4" />
+        <link rel="stylesheet" href="../assets/css/kr.css?v=3" />
+
+        <script src="../assets/js/common.js"></script>
+        <script src="../assets/DefaultConfig.js"></script>
+        <script src="../assets/Localization.js"></script>
+        <script src="../assets/js/js.cookie-2.2.0.min.js"></script>
+        <script src="../assets/js/safe-storage.js"></script>
+        <script src="../assets/js/event-handlers.js"></script>
+        <script src="../assets/js/skilltree-tooltip.js"></script>
+        <script src="../assets/js/imagesLoaded.js"></script>
+        <script src="../assets/js/bootstrap-notify.min.js"></script>
+        <script src="../assets/js/jquery-ui.min.js"></script>
+        <script src="../assets/js/bootstrap-dialogex.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+        <script src="../assets/js/SlotGrid.js"></script>
+        <script src="../assets/js/skillinfos.js"></script>
+        <script src="../assets/js/skilltree.js"></script>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png" />
+        <link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16" />
+        <link rel="manifest" href="../manifest.json" />
+        <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5" />
+        <link rel="shortcut icon" href="../favicon.ico" />
+
+        <meta property="og:title" content="SoulWorker スキルシミュレーター" />
+        <meta property="og:description" content="ソウルワーカー(SoulWorker)のスキルシミュレーター" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/PinkUsagi/swskillsimu_jp/master/images/og-meta-preview.png" />
+        <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/PinkUsagi/swskillsimu_jp/master/images/og-meta-preview.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:author" content="PinkUsagi" />
+
+        <meta name="robots" content="noindex">
+        <meta name="description" content="ソウルワーカー(SoulWorker)のスキルシミュレーター">
+        <meta name="author" content="PinkUsagi">
+        <meta name="keywords" content="ソウルワーカー, スキル, シミュ, シミュレータ, シミュレーター, SoulWorker, SW">
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178473853-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-178473853-1');
+        </script>
+    </head>
+
+    <body>
+        <div id="forbackground" class="fixed-bg image-bg"></div>
+        <header class="require-js">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark-fade">
+                <a class="navbar-brand dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                    aria-expanded="false">
+                    <span id="charName"></span>
+                    <strong class="caret"></strong>
+                </a>
+                <div id="charList" class="dropdown-menu">
+                    <!-- <a class="dropdown-item" href="../haru">Haru Estia</a>
+                    <a class="dropdown-item" href="../erwin">Erwin Arclight</a>
+                    <a class="dropdown-item" href="../lily">Lily Bloomerchen</a>
+                    <a class="dropdown-item" href="../stella">Stella Unibell</a>
+                    <a class="dropdown-item" href="../jin">Jin Seipatsu</a>
+                    <a class="dropdown-item" href="../iris">Iris Yuma</a> -->
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" id="morecharacterinfo">More info</a>
+                    <a class="dropdown-item" href="..">Home</a>
+                </div>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a id="levelBoxtd" class="nav-link levellable">Level:</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="classBoxtd" class="nav-link levellable">Class:</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false">
+                                <span id="e_investedSP">Invested: </span>
+                                <strong class="caret"></strong>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    <p id="spusageinfo"></p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a id="e_remainingSP" class="nav-link no-mouse-change">Remaining: </a>
+                        </li>
+                        <li class="nav-item">
+                            <button id="slotassignment" class="btn btn-info mr-sm-2">Slot assignment</button>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <button id="resetAllSkill" class="btn btn-primary mr-sm-2">Reset All Skills</button>
+                        </li>
+                        <li class="nav-item">
+                            <div class="btn-group mr-sm-2">
+                                <button id="copyURL" type="button" class="btn btn-success"
+                                    data-clipboard-target="#copymagic">Copy Link to current build</button>
+                                <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                                    <span class="caret"></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                    <a class="dropdown-item" id="copyURLshowassign" href="#">Copy Link to current build
+                                        and show skill assignment on load</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="require-js" role="main">
+            <div class="container-fluid body-content">
+                <div class="container">
+                    <div id="skilltree">
+                        <ul>
+                            <li id="activeskill" class="activeskill"></li>
+                            <li id="passiveskill" class="passiveskill"></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--<div class="minsize"><div class="scrollable"><div class="overjumbotron skilltreeclass"></div></div></div>-->
+            </div>
+        </main>
+        <footer class="require-js">
+            <nav class="navbar navbar-expand-md fixed-bottom navbar-dark bg-dark-fade">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <div class="btn-group dropup">
+                            <button id="skillsimulatoroption" type="button"
+                                class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Options
+                            </button>
+                            <div class="dropdown-menu keep-open">
+                                <a class="dropdown-item" id="option_skillpreview">
+                                    <span>Skill preview:</span>
+                                    <select></select>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item">
+                                    <button class="btn btn-primary btn-lg btn-block btn-sm" id="saveSettingToBrowser">
+                                        Save the setting to browser
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarbottomCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarbottomCollapse">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item" id="creativecommon">
+                            <span>Content is available under
+                                <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">Creative
+                                    Commons Attribution-NonCommercial-ShareAlike </a> unless stated.
+                                <br />Official Art, Game Content and Screenshots are trademarks and copyrights of
+                                <a href="http://www.liongames.co.kr/Front/" target="_blank">Lion Games</a> and the
+                                game's
+                                publishers.
+                            </span>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link github-button" github-button-type="issues" data-size="large"
+                                aria-label="Report issue on GitHub">Report Issue</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </footer>
+        <div id="tooltip" class="require-js">
+            <h5 class="tooltipheader"></h5>
+            <div class="container">
+                <div id="skillpreview" class="row justify-content-center">
+                    <video preload="none" loop="loop" muted="muted" crossorigin="anonymous"></video>
+                </div>
+            </div>
+            <pre class="tooltipcontent"></pre>
+        </div>
+        <div id="dialogs" class="require-js"></div>
+        <noscript>
+            <div class="modal" style="display: block">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Javascript Required</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            Javascript is required to run simulator. Please enable javascript and reload this page.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </noscript>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+        </script>
+        <script src="../assets/EntryPoint.js"></script>
+        <script src="../assets/EntryPoint_SkillTree.js?v=1"></script>
+        <script async defer src="../assets/js/github-buttons.min.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,1647 @@
+{
+  "CharacterName": "ハル・エスティア",
+  "CharacterWikiURL": "https://wikiwiki.jp/soulworker/%E3%83%8F%E3%83%AB%E3%83%BB%E3%82%A8%E3%82%B9%E3%83%86%E3%82%A3%E3%82%A2",
+  "AvailableClass": {
+    "0": {
+      "Name": "ベース",
+      "Cover": "../assets/images/Haru_Base.png"
+    },
+    "1": {
+      "Name": "アップグレード",
+      "Cover": "../assets/images/Haru_Upgrade.png",
+      "RequiredLevel": 57
+    },
+    "2": {
+      "Name": "デザイア覚醒",
+      "Cover": "../assets/images/Haru_Desire.png",
+      "RequiredLevel": 65
+    }
+  },
+  "Skills": {
+    "FirstStrike": {
+      "Name": "ファストブレード",
+      "DefaultLevel": 1,
+      "ID": 1,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_FirstBlade.png",
+      "Levels": {
+        "0": {
+          "Description": "素早く前進し、連続攻撃を繰り出す。\nその後、追加操作により最後に斬り上げ攻撃を行う。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/B_Skill_FirstBlade.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[415%]\nSA破壊量：[223%]\n\n[スキル情報：追加攻撃]\nダメージ量：[259%]\nSA破壊量：[139%]\n\n[スキル情報：一般]\nSG消費量：[35]\nクールタイム：[10秒]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[436%]\nSA破壊量：[233%]\n\n[スキル情報：追加攻撃]\nダメージ量：[273%]\nSA破壊量：[146%]\n\n[スキル情報：一般]\nSG消費量：[35]\nクールタイム：[10秒]",
+          "RequiredLevel": 4,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[488%]\nSA破壊量：[262%]\n\n[スキル情報：追加攻撃]\nダメージ量：[305%]\nSA破壊量：[163%]\n\n[スキル情報：一般]\nSG消費量：[35]\nクールタイム：[10秒]",
+          "RequiredLevel": 7,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[540%]\nSA破壊量：[290%]\n\n[スキル情報：追加攻撃]\nダメージ量：[338%]\nSA破壊量：[180%]\n\n[スキル情報：一般]\nSG消費量：[35]\nクールタイム：[10秒]",
+          "RequiredLevel": 10,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[623%]\nSA破壊量：[334%]\n\n[スキル情報：追加攻撃]\nダメージ量：[390%]\nSA破壊量：[208%]\n\n[スキル情報：一般]\nSG消費量：[35]\nクールタイム：[10秒]",
+          "RequiredLevel": 13,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "FirstStrike-A"
+      ]
+    },
+    "FirstStrike-A": {
+      "Visible": false,
+      "Name": "範囲増加",
+      "ID": 2,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_FirstBlade_A.png",
+      "Levels": {
+        "0": {
+          "Description": "追加攻撃の範囲が増加する。\n刃に異能力を付与し、攻撃範囲を増加させる",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_First Blade_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量増加値：[0%]\nSA破壊量増加値：[0%]",
+          "RequiredLevel": 13,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量増加値：[101%]\nSA破壊量増加値：[54%]",
+          "RequiredLevel": 18,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量増加値：[302%]\nSA破壊量増加値：[109%]",
+          "RequiredLevel": 23,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "PierceStep": {
+      "Name": "ピアスステップ",
+      "DefaultLevel": 1,
+      "ID": 3,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_PierceStep.png",
+      "Levels": {
+        "0": {
+          "Description": "前方に素早く突進して敵を押し出す。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[83%]\nSA破壊量：[380%]\nSG消費量：[15]\nクールタイム：[8秒]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "ダメージ量：[87%]\nSA破壊量：[399%]\nSG消費量：[15]\nクールタイム：[8秒]",
+          "RequiredLevel": 6,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[97%]\nSA破壊量：[446%]\nSG消費量：[15]\nクールタイム：[8秒]",
+          "RequiredLevel": 11,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[108%]\nSA破壊量：[493%]\nSG消費量：[15]\nクールタイム：[8秒]",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[124%]\nSA破壊量：[569%]\nSG消費量：[15]\nクールタイム：[8秒]",
+          "RequiredLevel": 21,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "PierceStep-A",
+        "PierceStep-B"
+      ]
+    },
+    "PierceStep-A": {
+      "Visible": false,
+      "Name": "回転斬り",
+      "ID": 4,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_PierceStep_A.png",
+      "Levels": {
+        "0": {
+          "Description": "ピアスステップ後、回転斬りで敵を押し出す。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step_Attack01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量追加値：[92%]\nSA破壊量減少値：[438%]\n\n[特性情報：追加攻撃]\nダメージ量：[65%]\nSA破壊量：[39%]\n\nピアスステップ後、回転斬りで敵を押し出す。",
+          "RequiredLevel": 21,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量追加値：[92%]\nSA破壊量減少値：[438%]\n\n[特性情報：追加攻撃]\nダメージ量：[216%]\nSA破壊量：[131%]\n\nピアスステップ後、2回転斬りで敵を押し出す。",
+          "RequiredLevel": 26,
+          "RequiredSP": 1,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step_Attack02.{{auto}}"
+          }
+        }
+      }
+    },
+    "PierceStep-B": {
+      "Visible": false,
+      "Name": "斬り上げ",
+      "ID": 5,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_PierceStep_B.png",
+      "Levels": {
+        "0": {
+          "Description": "ピアスステップ後、斬り上げて敵を宙に浮かせる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step_Attack_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：追加攻撃]\nダメージ量：[74%]\nSA破壊量：[341%]",
+          "RequiredLevel": 21,
+          "RequiredSP": 1
+        }
+      }
+    },
+    "SpinCutter": {
+      "Name": "スピンカッター",
+      "DefaultLevel": 1,
+      "ID": 6,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_SpinCutter.png",
+      "Levels": {
+        "0": {
+          "Description": "体を素早く回転させ、前方の敵を連続で攻撃しながら押し出す。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Spin Cutter.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[178%]\nSA破壊量：[92%]\nSG消費量：[35]\nクールタイム：[5秒]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "ダメージ量：[187%]\nSA破壊量：[96%]\nSG消費量：[35]\nクールタイム：[5秒]",
+          "RequiredLevel": 5,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[209%]\nSA破壊量：[108%]\nSG消費量：[35]\nクールタイム：[5秒]",
+          "RequiredLevel": 9,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[231%]\nSA破壊量：[119%]\nSG消費量：[35]\nクールタイム：[5秒]",
+          "RequiredLevel": 13,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[267%]\nSA破壊量：[138%]\nSG消費量：[35]\nクールタイム：[5秒]",
+          "RequiredLevel": 17,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "SpinCutter-A"
+      ]
+    },
+    "BlowUp": {
+      "Name": "ブローアップ",
+      "ID": 7,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BlowUp.png",
+      "Levels": {
+        "0": {
+          "Description": "異能力の力でソウル獲得能力を強化し、全ての攻撃命中時にSGを追加獲得できるようにする。\nSG獲得量はモンスター等級によって増加し、該当効果は5体まで適用される。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blow Up.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "バフ効果：SA破壊量[4%]増加、命中時SG獲得[1%]\nバフ持続時間：[50秒]\nSG消費量：[50]\nクールタイム：[70秒]",
+          "RequiredLevel": 4,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "バフ効果：SA破壊量[8%]増加、命中時SG獲得[1.2%]\nバフ持続時間：[50秒]\nSG消費量：[50]\nクールタイム：[70秒]",
+          "RequiredLevel": 8,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "バフ効果：SA破壊量[12%]増加、命中時SG獲得[1.6%]\nバフ持続時間：[50秒]\nSG消費量：[50]\nクールタイム：[70秒]",
+          "RequiredLevel": 12,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "バフ効果：SA破壊量[16%]増加、命中時SG獲得[2%]\nバフ持続時間：[50秒]\nSG消費量：[50]\nクールタイム：[70秒]",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "バフ効果：SA破壊量[20%]増加、命中時SG獲得[3%]\nバフ持続時間：[50秒]\nSG消費量：[50]\nクールタイム：[70秒]",
+          "RequiredLevel": 20,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "BladeQuake": {
+      "Name": "ブレードクエイク",
+      "ID": 8,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BladeQuake.png",
+      "Levels": {
+        "0": {
+          "Description": "剣を地面に突き刺し、異能力の剣を召喚して連続攻撃を繰り出す。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Quake.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[424%]\nSA破壊量：[532%]\nSG消費量：[45]\nクールタイム：[16秒]",
+          "RequiredLevel": 6,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[445%]\nSA破壊量：[559%]\nSG消費量：[45]\nクールタイム：[16秒]",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[497%]\nSA破壊量：[626%]\nSG消費量：[45]\nクールタイム：[16秒]",
+          "RequiredLevel": 14,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[552%]\nSA破壊量：[692%]\nSG消費量：[45]\nクールタイム：[16秒]",
+          "RequiredLevel": 18,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[636%]\nSA破壊量：[799%]\nSG消費量：[45]\nクールタイム：[16秒]",
+          "RequiredLevel": 22,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "BladeQuake-A"
+      ]
+    },
+    "BladeQuake-A": {
+      "Visible": false,
+      "Name": "気絶",
+      "ID": 9,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BladeQuake_A.png",
+      "Levels": {
+        "0": {
+          "Description": "攻撃範囲を広げ、ダメージを与えた敵に気絶状態にする。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Quake_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報]\nダメージ量：[763%]\nSA破壊量：[958%]\nデバフ効果：気絶\nデバフ持続時間：[3秒]",
+          "RequiredLevel": 22,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報]\nダメージ量：[914%]\nSA破壊量：[1150%]\nデバフ効果：気絶\nデバフ持続時間：[3秒]",
+          "RequiredLevel": 27,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報]\nダメージ量：[1096%]\nSA破壊量：[1379%]\nデバフ効果：気絶\nデバフ持続時間：[3秒]",
+          "RequiredLevel": 32,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "BladeWall": {
+      "Name": "ブレードウォール",
+      "ID": 10,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BladeWall.png",
+      "Levels": {
+        "0": {
+          "Description": "前方に異能力の大剣を召喚し、敵にダメージを与えながらプレイヤーの前に引き寄せる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Wall.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[149%]\nSA破壊量：[310%]\nSG消費量：[40]\nクールタイム：[12秒]",
+          "RequiredLevel": 8,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[157%]\nSA破壊量：[326%]\nSG消費量：[40]\nクールタイム：[12秒]",
+          "RequiredLevel": 12,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[175%]\nSA破壊量：[364%]\nSG消費量：[40]\nクールタイム：[12秒]",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[194%]\nSA破壊量：[403%]\nSG消費量：[40]\nクールタイム：[12秒]",
+          "RequiredLevel": 20,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[224%]\nSA破壊量：[465%]\nSG消費量：[40]\nクールタイム：[12秒]",
+          "RequiredLevel": 24,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "PowerSlash": {
+      "Name": "パワースラッシュ",
+      "ID": 11,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_PowerSlash.png",
+      "Levels": {
+        "0": {
+          "Description": "前方に渾身の力を込めた一撃を放つ。\n前方の敵には追加打撃で2倍のダメージを与えます。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Power Slash.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[455%]\nSA破壊量：[393%]\nSG消費量：[50]\nクールタイム：[15秒]",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[478%]\nSA破壊量：[414%]\nSG消費量：[50]\nクールタイム：[15秒]",
+          "RequiredLevel": 15,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[535%]\nSA破壊量：[462%]\nSG消費量：[50]\nクールタイム：[15秒]",
+          "RequiredLevel": 20,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[592%]\nSA破壊量：[512%]\nSG消費量：[50]\nクールタイム：[15秒]",
+          "RequiredLevel": 25,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[683%]\nSA破壊量：[591%]\nSG消費量：[50]\nクールタイム：[15秒]",
+          "RequiredLevel": 30,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "LeapAttack": {
+      "Name": "リープアタック",
+      "ID": 12,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_LeapAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "前方にジャンプし、そのまま地面を強打して敵を浮かせる。チャージ（スキルボタン長押し）時間に応じてジャンプ可能距離が増加する。\n着地地点に位置している敵には追加打撃で1.0倍のダメージを与えます。",
+          "Effect": "",
+          "RequiredLevel": 13,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Leap Attack.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[392%]\nSA破壊量：[629%]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[392%]\nSA破壊量：[629%]",
+          "RequiredLevel": 13,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[411%]\nSA破壊量：[660%]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[411%]\nSA破壊量：[660%]",
+          "RequiredLevel": 18,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[460%]\nSA破壊量：[739%]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[460%]\nSA破壊量：[739%]",
+          "RequiredLevel": 23,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダ[スキル情報：基本攻撃]\nダメージ量：[509%]\nSA破壊量：[817%]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[509%]\nSA破壊量：[817%]",
+          "RequiredLevel": 28,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[588%]\nSA破壊量：[943%]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[588%]\nSA破壊量：[943%]",
+          "RequiredLevel": 33,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "LeapAttack-A",
+        "LeapAttack-B"
+      ]
+    },
+    "LeapAttack-A": {
+      "Visible": false,
+      "Name": "攻撃回数増加",
+      "ID": 13,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_LeapAttack_A.png",
+      "Levels": {
+        "0": {
+          "Description": "攻撃回数が増加し、多段ヒットが発生する。\n攻撃地点に位置している敵へ150％の追加ダメージを与える。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Leap Attack_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報]\nダメージ：[690%]\nSA破壊：[1115%]\n攻撃回数：[7回]\n\n[特性情報：追加攻撃]\nダメージ：[1725%]\nSA破壊：[2787%]",
+          "RequiredLevel": 33,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報]\nダメージ：[759%]\nSA破壊：[1226%]\n攻撃回数：[8回]\n\n[特性情報：追加攻撃]\nダメージ：[1897%]\nSA破壊：[3065%]",
+          "RequiredLevel": 38,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報]\nダメージ：[873%]\nSA破壊：[1413%]\n攻撃回数：[9回]\n\n[特性情報：追加攻撃]\nダメージ：[2182%]\nSA破壊：[3532%]",
+          "RequiredLevel": 43,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "LeapAttack-B": {
+      "Visible": false,
+      "Name": "範囲増加",
+      "ID": 14,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_LeapAttack_B.png",
+      "Levels": {
+        "0": {
+          "Description": "打撃範囲が広くなる。\n攻撃地点に位置している敵へ1.8倍のダメージを与える。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Leap Attack_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報]\nダメージ：[735%]\nSA破壊：[1178%]\n\n[特性情報：追加攻撃]\nダメージ：[1323%]\nSA破壊：[2120%]",
+          "RequiredLevel": 33,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報]\nダメージ：[807%]\nSA破壊：[1297%]\n\n[特性情報：追加攻撃]\nダメージ：[1452%]\nSA破壊：[2334%]",
+          "RequiredLevel": 38,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報]\nダメージ：[955%]\nSA破壊：[1532%]\n\n[特性情報：追加攻撃]\nダメージ：[1719%]\nSA破壊：[2757%]",
+          "RequiredLevel": 43,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "ArenaRush": {
+      "Name": "アリーナラッシュ",
+      "ID": 15,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_ArenaRush.png",
+      "Levels": {
+        "0": {
+          "Description": "一定範囲に能力強化エリアを作り出す。エリアは、範囲内にいる自分及びパーティーメンバーの攻撃力を上昇させる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Arena Rush.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[100%]\nSA破壊量：[100%]\n\n[バフ効果：個人]\nバフ効果：ダメージ量[5%]増加\nバフ持続時間：[20秒]\n\n[バフ効果：パーティー]\nバフ効果：ダメージ量[1%]増加\nバフ持続時間：[20秒]\n\nバフエリア持続時間：[10秒]\nSG消費量：[50]\nクールタイム：[45秒]",
+          "RequiredLevel": 17,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[100%]\nSA破壊量：[100%]\n\n[バフ効果：個人]\nバフ効果：ダメージ量[6%]増加\nバフ持続時間：[20秒]\n\n[バフ効果：パーティー]\nバフ効果：ダメージ量[2%]増加\nバフ持続時間：[20秒]\n\nバフエリア持続時間：[10秒]\nSG消費量：[50]\nクールタイム：[45秒]",
+          "RequiredLevel": 22,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[100%]\nSA破壊量：[100%]\n\n[バフ効果：個人]\nバフ効果：ダメージ量[7%]増加\nバフ持続時間：[20秒]\n\n[バフ効果：パーティー]\nバフ効果：ダメージ量[3%]増加\nバフ持続時間：[20秒]\n\nバフエリア持続時間：[10秒]\nSG消費量：[50]\nクールタイム：[45秒]",
+          "RequiredLevel": 27,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[100%]\nSA破壊量：[100%]\n\n[バフ効果：個人]\nバフ効果：ダメージ量[8%]増加\nバフ持続時間：[20秒]\n\n[バフ効果：パーティー]\nバフ効果：ダメージ量[4%]増加\nバフ持続時間：[20秒]\n\nバフエリア持続時間：[10秒]\nSG消費量：[50]\nクールタイム：[45秒]",
+          "RequiredLevel": 32,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[100%]\nSA破壊量：[100%]\n\n[バフ効果：個人]\nバフ効果：ダメージ量[10%]増加\nバフ持続時間：[20秒]\n\n[バフ効果：パーティー]\nバフ効果：ダメージ量[5%]増加\nバフ持続時間：[20秒]\n\nバフエリア持続時間：[10秒]\nSG消費量：[50]\nクールタイム：[45秒]",
+          "RequiredLevel": 37,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "ArenaRush-A",
+        "ArenaRush-B"
+      ]
+    },
+    "ArenaRush-A": {
+      "Visible": false,
+      "Name": "時間増加",
+      "ID": 16,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_ArenaRush_A.png",
+      "Levels": {
+        "0": {
+          "Description": "バフエリア範囲と持続時間が増加する。\nバフエリアにSG消費量減少効果が追加される",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_ArenaRush_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：基本攻撃]\nバフエリア持続時間増加値：[5秒]\nSG消費量減少：[10%]\n持続時間：[3秒]",
+          "RequiredLevel": 37,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：基本攻撃]\nバフエリア持続時間増加値：[7秒]\nSG消費量減少：[12%]\n持続時間：[3秒]",
+          "RequiredLevel": 42,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報：基本攻撃]\nバフエリア持続時間増加値：[10秒]\nSG消費量減少：[15%]\n持続時間：[3秒]",
+          "RequiredLevel": 47,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "ArenaRush-B": {
+      "Visible": false,
+      "Name": "気絶",
+      "ID": 17,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_ArenaRush_B.png",
+      "Levels": {
+        "0": {
+          "Description": "攻撃を受けた敵を気絶状態にする。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_ArenaRush_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[バフ情報：個人]\nバフ効果：ダメージ量[10%]増加\nバフ持続時間：[30秒]\n\n[バフ情報：パーティー]\nバフ効果：ダメージ量[5%]増加\nバフ持続時間：[30秒]\n\n[特性情報：追加攻撃]\nデバフ効果：気絶\nデバフ持続時間：[1秒]",
+          "RequiredLevel": 37,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[バフ情報：個人]\nバフ効果：ダメージ量[10%]増加\nバフ持続時間：[30秒]\n\n[バフ情報：パーティー]\nバフ効果：ダメージ量[5%]増加\nバフ持続時間：[30秒]\n\n[特性情報：追加攻撃]\nデバフ効果：気絶\nデバフ持続時間：[2秒]",
+          "RequiredLevel": 43,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[バフ情報：個人]\nバフ効果：ダメージ量[10%]増加\nバフ持続時間：[30秒]\n\n[バフ情報：パーティー]\nバフ効果：ダメージ量[5%]増加\nバフ持続時間：[30秒]\n\n[特性情報：追加攻撃]\nデバフ効果：気絶\nデバフ持続時間：[3秒]",
+          "RequiredLevel": 47,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "FlashStep": {
+      "Name": "フラッシュステップ",
+      "ID": 18,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_FlashStep.png",
+      "Levels": {
+        "0": {
+          "Description": "素早く後ろに回避し、異能力を付与した剣を前方に飛ばす。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Flash Step.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[468%]\nSA破壊量：[605%]\nSG消費量：[35]\nクールタイム：[20秒]",
+          "RequiredLevel": 21,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[491%]\nSA破壊量：[635%]\nSG消費量：[35]\nクールタイム：[20秒]",
+          "RequiredLevel": 26,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[550%]\nSA破壊量：[710%]\nSG消費量：[35]\nクールタイム：[20秒]",
+          "RequiredLevel": 31,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[608%]\nSA破壊量：[786%]\nSG消費量：[35]\nクールタイム：[20秒]",
+          "RequiredLevel": 36,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[702%]\nSA破壊量：[907%]\nSG消費量：[35]\nクールタイム：[20秒]",
+          "RequiredLevel": 41,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "FlashStep-A"
+      ]
+    },
+    "CrossStrike": {
+      "Name": "クロスストライク",
+      "ID": 19,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_CrossStrike.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "空中で剣を振り強力な剣気を連続で飛ばす。剣気が敵を通過してダメージを与える。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Cross Strike.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：攻撃1回あたり[98%]\nSA破壊量：攻撃1回あたり[74%]\nSG消費量：[45]\nクールタイム：[30秒]",
+          "RequiredLevel": 28,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：攻撃1回あたり[102%]\nSA破壊量：攻撃1回あたり[77%]\nSG消費量：[45]\nクールタイム：[30秒]",
+          "RequiredLevel": 32,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：攻撃1回あたり[114%]\nSA破壊量：攻撃1回あたり[86%]\nSG消費量：[45]\nクールタイム：[30秒]",
+          "RequiredLevel": 36,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：攻撃1回あたり[126%]\nSA破壊量：攻撃1回あたり[96%]\nSG消費量：[45]\nクールタイム：[30秒]",
+          "RequiredLevel": 40,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：攻撃1回あたり[146%]\nSA破壊量：攻撃1回あたり[110%]\nSG消費量：[45]\nクールタイム：[30秒]",
+          "RequiredLevel": 44,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "CrossStrike-A"
+      ]
+    },
+    "CrossStrike-A": {
+      "Visible": false,
+      "Name": "火炎",
+      "ID": 20,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_CrossStrike_A.png",
+      "Levels": {
+        "0": {
+          "Description": "剣気が地面に衝突すると、火炎地帯を生成する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Cross Strike_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報]\nダメージ量減少値：攻撃1回あたり[28%]\nSA破壊量減少値：攻撃1回あたり[21%]\n3秒間、火炎地帯を作り出す。\n火炎地帯ダメージ量：毎秒[45%]\n火炎地帯SA破壊量：毎秒[34%]",
+          "RequiredLevel": 44,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報]\nダメージ量減少値：攻撃1回あたり[13%]\nSA破壊量減少値：攻撃1回あたり[10%]\n3秒間、火炎地帯を作り出す。\n火炎地帯ダメージ量：毎秒[50%]\n火炎地帯SA破壊量：毎秒[38%]",
+          "RequiredLevel": 49,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報]\nダメージ量増加値：攻撃1回あたり[23%]\nSA破壊量増加値：攻撃1回あたり[17%]\n3秒間、火炎地帯を作り出す。\n火炎地帯ダメージ量：毎秒[62%]\n火炎地帯SA破壊量：毎秒[47%]",
+          "RequiredLevel": 54,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "WindBreak": {
+      "Name": "ウィンドブレイク",
+      "ID": 21,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_WindBreak.png",
+      "Levels": {
+        "0": {
+          "Description": "剣を後ろに構え、力を溜めて素早く剣気を放つ。\n剣気は敵を貫通しながら一直線に飛んで行く。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_03.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：攻撃1回あたり[466%]\nSA破壊量：[444%]\nSG消費量：[50]\nクールタイム：[35秒]",
+          "RequiredLevel": 34,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：攻撃1回あたり[489%]\nSA破壊量：[466%]\nSG消費量：[50]\nクールタイム：[35秒]",
+          "RequiredLevel": 38,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：攻撃1回あたり[547%]\nSA破壊量：[522%]\nSG消費量：[50]\nクールタイム：[35秒]",
+          "RequiredLevel": 42,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：攻撃1回あたり[605%]\nSA破壊量：[577%]\nSG消費量：[50]\nクールタイム：[35秒]",
+          "RequiredLevel": 46,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：攻撃1回あたり[699%]\nSA破壊量：[666%]\nSG消費量：[50]\nクールタイム：[35秒]",
+          "RequiredLevel": 50,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "WindBreak-A"
+      ]
+    },
+    "WindBreak-A": {
+      "Visible": false,
+      "Name": "ラッシュ",
+      "ID": 22,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_WindBreak_A.png",
+      "Levels": {
+        "0": {
+          "Description": "チャージなくすぐに剣気を放つことができる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ：[489%]\nSA破壊：[466%]\n\n[特性情報：追加攻撃]\nダメージ：[699%]\nSA破壊：[666%]\n攻撃回数：3回",
+          "RequiredLevel": 50,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ：[489%]\nSA破壊：[466%]\n\n[特性情報：追加攻撃]\nダメージ：[699%]\nSA破壊：[666%]\n攻撃回数：2秒",
+          "RequiredLevel": 55,
+          "RequiredSP": 1,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_03.{{auto}}"
+          }
+        }
+      }
+    },
+    "BladeShower": {
+      "Name": "ブレードシャワー",
+      "ID": 23,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BladeShower.png",
+      "Levels": {
+        "0": {
+          "Description": "前方空中に剣を投げ、強力な剣の雨を発生させる。剣の雨は広範囲に降り注ぐ。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Shower.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[2097%]\nSA破壊量：[2237%]\nSG消費量：[75]\nクールタイム：[45秒]",
+          "RequiredLevel": 42,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[2201%]\nSA破壊量：[2350%]\nSG消費量：[75]\nクールタイム：[45秒]",
+          "RequiredLevel": 45,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[2464%]\nSA破壊量：[2630%]\nSG消費量：[75]\nクールタイム：[45秒]",
+          "RequiredLevel": 48,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[2726%]\nSA破壊量：[2909%]\nSG消費量：[75]\nクールタイム：[45秒]",
+          "RequiredLevel": 51,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[3145%]\nSA破壊量：[3357%]\nSG消費量：[75]\nクールタイム：[45秒]",
+          "RequiredLevel": 54,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "BladeShower-A"
+      ]
+    },
+    "SpinCutter-A": {
+      "Visible": false,
+      "Name": "追撃",
+      "ID": 24,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_SpinAttack_A.png",
+      "Levels": {
+        "0": {
+          "Description": "スピンカッター後、敵に追撃します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Spin Cutter_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報]\n追加ダメージ量：[354%]\n追加SA破壊量：[552%]\n\n[特性情報:追加攻撃]\n追加ダメージ量：[354%]\n追加SA破壊量：[552%]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報]\n追加ダメージ量：[407%]\n追加SA破壊量：[635%]\n\n[特性情報:追加攻撃]\n追加ダメージ量：[407%]\n追加SA破壊量：[635%]",
+          "RequiredLevel": 58,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報]\n追加ダメージ量：[513%]\n追加SA破壊量：[801%]\n\n[特性情報:追加攻撃]\n追加ダメージ量：[513%]\n追加SA破壊量：[801%]",
+          "RequiredLevel": 60,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "FlashStep-A": {
+      "Visible": false,
+      "Name": "重撃",
+      "ID": 25,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_FlashStep_A.png",
+      "Levels": {
+        "0": {
+          "Description": "剣と大剣を結合して前方に投擲する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Flash Step_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報]\nダメージ量：[1394%]\nSA破壊量：[975%]\nデバフ効果:気絶[1.8秒]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報]\nダメージ量：[1603%]\nSA破壊量：[1122%]\nデバフ効果:気絶[2.4秒]",
+          "RequiredLevel": 59,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報]\nダメージ量：[2021%]\nSA破壊量：[1414%]\nデバフ効果:気絶[3.2秒]",
+          "RequiredLevel": 60,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SwordFall": {
+      "Name": "ソードフォール",
+      "ID": 26,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_Swordsfall.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "空中状態で前方の敵を打ちおろすと同時に、周辺に剣を召還し攻撃する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_SwardFall.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[684%]\nSA破壊量：[960%]\nSG消費量：[45]\nクールタイム：[30秒]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[720%]\nSA破壊量：[1008%]\nSG消費量：[45]\nクールタイム：[30秒]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[786%]\nSA破壊量：[1104%]\nSG消費量：[45]\nクールタイム：[30秒]",
+          "RequiredLevel": 58,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[888%]\nSA破壊量：[1248%]\nSG消費量：[45]\nクールタイム：[30秒]",
+          "RequiredLevel": 59,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[1026%]\nSA破壊量：[1440%]\nSG消費量：[45]\nクールタイム：[30秒]",
+          "RequiredLevel": 60,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "SlashingWarfare": {
+      "Name": "スラッシングワーフェア",
+      "ID": 27,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_Warfare.png",
+      "Levels": {
+        "0": {
+          "Description": "２本の剣を交差させるように切り裂き突進攻撃をした後、後方に向かって回転攻撃を加え敵を引き寄せる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Slashing Warfare.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[1837%]\nSA破壊量：[956%]\nSG消費量：[30]\nクールタイム：[20秒]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[2161%]\nSA破壊量：[1003%]\nSG消費量：[30]\nクールタイム：[20秒]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[2419%]\nSA破壊量：[1122%]\nSG消費量：[30]\nクールタイム：[20秒]",
+          "RequiredLevel": 58,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[2674%]\nSA破壊量：[1241%]\nSG消費量：[30]\nクールタイム：[20秒]",
+          "RequiredLevel": 59,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[3087%]\nSA破壊量：[1433%]\nSG消費量：[30]\nクールタイム：[20秒]",
+          "RequiredLevel": 60,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "Trollsverd": {
+      "Name": "トロルスベルド",
+      "ID": 28,
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_Trollsverd.png",
+      "Levels": {
+        "0": {
+          "Description": "ソウルエナジーで光の剣「トロルスベルド」を形象化して前方の敵を薙ぎ払います。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/B_Skill_Trollsverd.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[1656%]\nSA破壊量：[1827%]\nSG消費量：[50]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[165%]\nSA破壊量：[182%]",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[1823%]\nSA破壊量：[2010%]\nSG消費量：[50]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[182%]\nSA破壊量：[201%]",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[2042%]\nSA破壊量：[2252%]\nSG消費量：[50]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[204%]\nSA破壊量：[225%]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[2328%]\nSA破壊量：[2568%]\nSG消費量：[50]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[232%]\nSA破壊量：[256%]",
+          "RequiredLevel": 71,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "BladeShower-A": {
+      "Visible": false,
+      "Name": "迅速化",
+      "ID": 29,
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_BladeShower_A.png",
+      "Levels": {
+        "0": {
+          "Description": "攻撃速度に応じて打撃数が増加し、止め攻撃の打撃数と範囲が増加します。\nマウス右クリックで即時止め攻撃を行えます。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Shower_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[315%]\nSA破壊量：[336%]\n\n[特性情報：追加攻撃]\nダメージ量：[1258%]\nSA破壊量：[1343%]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },
+        "2": {
+          "Effect": "ダメージ量：[346%]\nSA破壊量：[369%]\n\n[特性情報：追加攻撃]\nダメージ量：[1384%]\nSA破壊量：[1477%]",
+          "RequiredLevel": 70,
+          "RequiredSP": 3
+        },
+        "3": {
+          "Effect": "ダメージ量：[398%]\nSA破壊量：[425%]\n\n[特性情報：追加攻撃]\nダメージ量：[1592%]\nSA破壊量：[1699%]",
+          "RequiredLevel": 72,
+          "RequiredSP": 4
+        }
+      }
+    },
+    "BasicAttackMastery": {
+      "Passive": true,
+      "Name": "基本攻撃マスタリー",
+      "ID": 1001,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DefaultAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "剣で敵を攻撃する。\nスキルレベルが上がるほど連係攻撃の種類が増加する。\n攻撃時、SGを獲得。\nSG獲得量は連係段階とモンスター等級に応じて増加する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Attack_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "SG獲得量が[20%]増加する。\n分岐攻撃Aを使用できる。",
+          "RequiredLevel": 5,
+          "RequiredSP": 1,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Attack_02.{{auto}}"
+          }
+        },
+        "3": {
+          "Effect": "SG獲得量が[70%]増加する。\n基本攻撃の追加攻撃を使用できる。",
+          "RequiredLevel": 10,
+          "RequiredSP": 2,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Attack_03.{{auto}}"
+          }
+        },
+        "4": {
+          "Effect": "SG獲得量が[120%]増加する。\n分岐攻撃Bを使用できる。\n空中攻撃の追加攻撃を使用できる。",
+          "RequiredLevel": 15,
+          "RequiredSP": 2,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Attack_04.{{auto}}"
+          }
+        },
+        "5": {
+          "Effect": "SG獲得量が[200%]増加する。\n分岐攻撃Cを使用できる。",
+          "RequiredLevel": 20,
+          "RequiredSP": 2,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/B_Attack_05.{{auto}}"
+          }
+        }
+      }
+    },
+    "SpecialAbilityMastery": {
+      "Passive": true,
+      "DefaultLevel": 1,
+      "ID": 1002,
+      "Name": "特殊能力マスタリー",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_OwnAbility.png",
+      "Levels": {
+        "0": {
+          "Description": "攻撃時、SGを獲得。\nSG獲得量はモンスター等級に応じて増加する。\n\n異能力により一定範囲内の敵を宙に浮かせ、動きを遅くする。\n空中で使用時、素早く蹴り攻撃を繰り出して着地する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_S_Attack_N.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：地上]\nダメージ量：[175%]\nSA破壊量：[140%]\n\n[スキル情報：空中]\nダメージ量：[229%]\nSA破壊量：[170%]\n\n[スキル情報：一般]\nクールタイム：[10秒]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[スキル情報：地上]\nダメージ量：[184％]\nSA破壊量：[147％]\n\n[スキル情報：空中]\nダメージ量：[241％]\nSA破壊量：[178％]\n\n[スキル情報：一般]\nクールタイム：[10秒]\n攻撃時、SG獲得量が[20%]増加する。",
+          "RequiredLevel": 15,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：地上]\nダメージ量：[206％]\nSA破壊量：[165％]\n\n[スキル情報：空中]\nダメージ量：[270％]\nSA破壊量：[200％]\n\n[スキル情報：一般]\nクールタイム：[10秒]\n攻撃時、SG獲得量が[70%]増加する",
+          "RequiredLevel": 30,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "EmergencyEvasion": {
+      "Passive": true,
+      "Name": "緊急回避",
+      "ID": 1003,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_Evasion.png",
+      "Levels": {
+        "0": {
+          "Description": "指定した方向に素早く移動する。\n緊急回避中はダメージを受けない。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Evade_F.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "スタミナ消費量：[20]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Welter": {
+      "Passive": true,
+      "Name": "回転起床",
+      "ID": 1004,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_Welter.png",
+      "Levels": {
+        "0": {
+          "Description": "ダウン時、指定した方向に素早く回転しながら起き上がる。\n回転起床中はダメージを受けない。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Roll_F.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "スタミナ消費量：[25]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "スタミナ消費量：[15]",
+          "RequiredLevel": 17,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "スタミナ消費量：[15]\n少し早く回転起床ができる。 ",
+          "RequiredLevel": 34,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "Dash": {
+      "Passive": true,
+      "Name": "ダッシュ",
+      "DefaultLevel": 1,
+      "ID": 1005,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_Dash.png",
+      "Levels": {
+        "0": {
+          "Description": "前方に素早くダッシュする。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/B_Run_F.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "ダッシュの速度が上昇する。",
+          "RequiredLevel": 25,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "RisingAttack": {
+      "Passive": true,
+      "Name": "起床攻撃",
+      "ID": 1006,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_RiseAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "ダウン時、周辺の敵を攻撃しながら起き上がる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Rise_Attack.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[100%]\nスタミナ消費量：[30]\nクールタイム：[15秒]\nスキル使用後3秒間、無敵状態になる。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "ダメージ量：[100%]\nスタミナ消費量：[20]\nクールタイム：[15秒]\nスキル使用後3秒間、無敵状態になる。",
+          "RequiredLevel": 18,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[100%]\nスタミナ消費量：[20]\nクールタイム：[15秒]\nスキル使用後5秒間、無敵状態になる。",
+          "RequiredLevel": 36,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "DashAttack": {
+      "Passive": true,
+      "Name": "ダッシュアタック",
+      "DefaultLevel": 1,
+      "ID": 1007,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DashAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "ダッシュ中に剣を大きく振り敵を押し出す。\n攻撃時、SGを獲得。\nSG獲得量は連係段階とモンスター等級に応じて増加する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/B_N_Attack_Dash.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[116%]\nSA破壊量：[46%]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "SpecialEvasion": {
+      "Passive": true,
+      "Name": "特殊回避",
+      "ID": 1008,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_EvasionAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "敵から攻撃を受けている最中に素早く移動する。\n特殊回避中はダメージを受けない。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Special_Evade_F.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "スタミナ消費量：[40]\nクールタイム：[30秒]",
+          "RequiredLevel": 4,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "スタミナ消費量：[40]\nクールタイム：[25秒]",
+          "RequiredLevel": 21,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "スタミナ消費量：[40]\nクールタイム：[20秒]",
+          "RequiredLevel": 38,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SpecialDashAttack": {
+      "Passive": true,
+      "Name": "特殊ダッシュアタック",
+      "ID": 1009,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DashSmashAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "ダッシュ中に前方にジャンプして回転斬り攻撃を繰り出す。\n攻撃命中時、SGを獲得。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_S_Attack_N_Dash.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[206%]\nSA破壊量：[92%]",
+          "RequiredLevel": 13,
+          "RequiredSP": 1
+        }
+      }
+    },
+    "StaminaMastery": {
+      "Passive": true,
+      "Name": "スタミナマスタリー",
+      "ID": 1010,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_StaminaMastery.png",
+      "Levels": {
+        "0": {
+          "Description": "スタミナ回復量が増加する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "スタミナ回復量[10%]増加",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "スタミナ回復量[20%]増加",
+          "RequiredLevel": 15,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "スタミナ回復量[30%]増加",
+          "RequiredLevel": 20,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "スタミナ回復量[40%]増加",
+          "RequiredLevel": 25,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "スタミナ回復量[50%]増加",
+          "RequiredLevel": 30,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "EternalCombination": {
+      "Passive": true,
+      "Name": "エターナルコンビネーション",
+      "ID": 1013,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_SGPassive2.png",
+      "Levels": {
+        "0": {
+          "Description": "20コンボ達成時、攻撃力が増加する。（最大5重複）\n最大重複達成時、バフ効果が60秒持続する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "攻撃力が150ほど増加する",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "攻撃力が300ほど増加する",
+          "RequiredLevel": 58,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "攻撃力が500ほど増加する",
+          "RequiredLevel": 59,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "EndlessStruggle": {
+      "Passive": true,
+      "Name": "果てなき闘争",
+      "ID": 1011,
+      "RowSpan": {
+        "0": 2,
+        "1": 1
+      },
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_SGPassive.png",
+      "Levels": {
+        "0": {
+          "Description": "攻撃力と防御度貫通が永久に増加する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "パッシブ効果：攻撃力[5%]、防御度貫通[2%]増加",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "パッシブ効果：攻撃力[10%]、防御度貫通[4%]増加",
+          "RequiredLevel": 20,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "パッシブ効果：攻撃力[15%]、防御度貫通[6%]増加",
+          "RequiredLevel": 30,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SwordofRevenge": {
+      "Passive": true,
+      "Name": "復讐の剣",
+      "DefaultLevel": 1,
+      "ID": 1012,
+      "RowSpan": {
+        "0": 2,
+        "1": 1
+      },
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_SoulMastery.png",
+      "Levels": {
+        "0": {
+          "Description": "通常攻撃命中時、SGを回復する。\n一定時間ごとに自動でSGを回復する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Prelude": {
+      "Passive": true,
+      "Name": "エクスティンクションプレリュード",
+      "DefaultLevel": 1,
+      "ID": 2003,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_Prelude.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "覚醒状態でのみスキル使用が可能です。\nスキル使用時に覚醒状態が解除されます。\n\nハルの幻影と共に連続突進斬撃攻撃で前方の敵を攻撃します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_EX.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[JP]\nダメージ量：[2250%]\nSA破壊量：[2950%]\n\n[KR]\n전체 피해량: [7650%]\n전체 슈퍼아머 파괴량: [7950%]\nSV 획득량: [10]",
+          "RequiredLevel": 57,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Erosion": {
+      "Passive": true,
+      "Name": "イロージョン",
+      "DefaultLevel": 1,
+      "ID": 2001,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "体を覚醒させ、身体能力を一時的に向上させる。\nソウルベイパーを消費し、スキルを使用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/B_Skill_SoulViper_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "1段階ゲージ消費（SV50消費）\n\n30秒間、覚醒状態になる。\n-受けるダメージ量が25%減少する。\n-移動速度が20%増加する。\n-SA状態になる。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Awakening": {
+      "Passive": true,
+      "Name": "覚醒",
+      "DefaultLevel": 1,
+      "ID": 2002,
+      "RequireClass": {
+        "CompareType": "atmost",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BreakWakeup.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "体を覚醒させ、身体能力を一時的に向上させる。\nソウルベイパーを消費し、スキルを使用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/B_Skill_SoulViper_02.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "2段階ゲージ消費（SV100消費）\n\n60秒間、覚醒状態になる。\n-与えるダメージが15%上昇する。\n-受けるダメージ量が25%減少する。\n-移動速度が20%増加する。\n-SA状態になる。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "DesireAwakening": {
+      "Passive": true,
+      "Name": "デザイア覚醒",
+      "DefaultLevel": 1,
+      "ID": 2004,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 2
+      },
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DBreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "体を覚醒させ、身体能力を一時的に向上させる。\nSV(ソウルベイパー)を消費し、スキルを使用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/B_Skill_SoulViper_03.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "2段階ゲージ消費（SV100消費）\n\n60秒間、デザイア覚醒状態になる。\n-与ダメージが20％上昇する。\n-SG消費量が20％減少する。\n-最大ダメージを固定する。\n-攻撃速度が20%増加する。\n-移動速度が30%増加する。\n-SA状態になる。\n-デザイアスキルが発動する。\n\n[デザイアスキル情報]\nExスキル使用後、効果が終了する。\n-60秒間スキルのダメージ量が1.3倍に上昇する。\n- ブレードシャワー\n- トロルスベルド\n- エクスティンクションプレリュード",
+          "RequiredLevel": 65,
+          "RequiredSP": 0
+        }
+      }
+    }
+  }
+}

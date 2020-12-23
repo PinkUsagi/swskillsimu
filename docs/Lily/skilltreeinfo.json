@@ -1,0 +1,1614 @@
+{
+  "CharacterName": "リリー・ブルームメルヘン",
+  "CharacterWikiURL": "https://wikiwiki.jp/soulworker/%E3%83%AA%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%96%E3%83%AB%E3%83%BC%E3%83%A0%E3%83%A1%E3%83%AB%E3%83%98%E3%83%B3",
+  "AvailableClass": {
+    "0": {
+      "Name": "ベース",
+      "Cover": "../assets/images/Lily_Base.png"
+    },
+    "1": {
+      "Name": "アップグレード",
+      "Cover": "../assets/images/Lily_Upgrade.png",
+      "RequiredLevel": 57
+    },
+    "2": {
+      "Name": "デザイア覚醒",
+      "Cover": "../assets/images/Lily_Desire.png",
+      "RequiredLevel": 65
+    }
+  },
+  "Skills": {
+    "EvilSlash": {
+      "Name": "イビルスラッシュ",
+      "DefaultLevel": 1,
+      "ID": 1,
+      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_EvilSlash.png",
+      "Levels": {
+        "0": {
+          "Description": "鎌を素早く回転させ、最後の一撃で敵を押し出す。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_EvilSlash.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[43%]+[173%]\nSA破壊量：[31%]+[126%]\nSG消費量：[30]\nクールタイム：[10秒]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "ダメージ量：[47%]+[190%]\nSA破壊量：[33%]+[132%]\nSG消費量：[30]\nクールタイム：[10秒]",
+          "RequiredLevel": 4,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[53%]+[213%]\nSA破壊量：[37%]+[147%]\nSG消費量：[30]\nクールタイム：[10秒]",
+          "RequiredLevel": 7,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[61%]+[243%]\nSA破壊量：[41%]+[163%]\nSG消費量：[30]\nクールタイム：[10秒]",
+          "RequiredLevel": 10,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[72%]+[286%]\nSA破壊量：[47%]+[188%]\nSG消費量：[30]\nクールタイム：[10秒]",
+          "RequiredLevel": 13,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "EvilSlash-A"
+      ]
+    },
+    "SpinningDevil": {
+      "Name": "スピニングデビル",
+      "DefaultLevel": 1,
+      "ID": 2,
+      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_SpinningDevil.png",
+      "Levels": {
+        "0": {
+          "Description": "前方に素早く飛び出し、蹴りからの回転斬撃を繰り出す。攻撃命中毎に、SGを回復する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_SpinningDevil.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[178%]\nSA破壊量：[209%]\nSG消費量：[25]\nSG回復量：[1]\nクールタイム：[12秒]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "ダメージ量：[187%]\nSA破壊量：[219%]\nSG消費量：[23]\nSG回復量：[2]\nクールタイム：[10秒]",
+          "RequiredLevel": 6,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[209%]\nSA破壊量：[246%]\nSG消費量：[20]\nSG回復量：[5]\nクールタイム：[8秒]",
+          "RequiredLevel": 11,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[231%]\nSA破壊量：[272%]\nSG消費量：[18]\nSG回復量：[4]\nクールタイム：[6秒]",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[267%]\nSA破壊量：[314%]\nSG消費量：[15]\nSG回復量：[5]\nクールタイム：[3秒]",
+          "RequiredLevel": 21,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "ScytheCutter": {
+      "Name": "サイスカッター",
+      "DefaultLevel": 1,
+      "ID": 3,
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_ScytheCutter.png",
+      "Levels": {
+        "0": {
+          "Description": "鎌を勢い良く振り上げる。攻撃を受けた敵は宙に浮く。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_ScytheCuter.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[274%]\nSA破壊量：[192%]\nSG消費量：[20]\nクールタイム：[10秒]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "ダメージ量：[288%]\nSA破壊量：[202%]\nSG消費量：[20]\nクールタイム：[10秒]",
+          "RequiredLevel": 5,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[322%]\nSA破壊量：[226%]\nSG消費量：[20]\nクールタイム：[10秒]",
+          "RequiredLevel": 9,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[358%]\nSA破壊量：[250%]\nSG消費量：[20]\nクールタイム：[10秒]",
+          "RequiredLevel": 13,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[412%]\nSA破壊量：[288%]\nSG消費量：[20]\nクールタイム：[10秒]",
+          "RequiredLevel": 17,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "ScytheCutter-A"
+      ]
+    },
+    "ScytheCutter-A": {
+      "Visible": false,
+      "Name": "チャージ",
+      "ID": 4,
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_ScytheCutter_A.png",
+      "Levels": {
+        "0": {
+          "Description": "敵と一緒に空中へ飛び上がる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_ScytheCuter_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "チャージの性能が1.8倍に増加する。",
+          "RequiredLevel": 17,
+          "RequiredSP": 1
+        }
+      }
+    },
+    "GrimCountdown": {
+      "Name": "グリムカウントダウン",
+      "ID": 5,
+      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_GrimCountDown.png",
+      "Levels": {
+        "0": {
+          "Description": "回転しながら敵を押し出した後、召喚した死神と共に前方の敵を切り裂く。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_GrimCountdown.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[358%]\nSA破壊量：[201%]\nSG消費量：[35]\nクールタイム：[15秒]",
+          "RequiredLevel": 4,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[394%]\nSA破壊量：[222%]\nSG消費量：[35]\nクールタイム：[15秒]",
+          "RequiredLevel": 8,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[442%]\nSA破壊量：[248%]\nSG消費量：[35]\nクールタイム：[15秒]",
+          "RequiredLevel": 12,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[503%]\nSA破壊量：[283%]\nSG消費量：[35]\nクールタイム：[15秒]",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[594%]\nSA破壊量：[334%]\nSG消費量：[35]\nクールタイム：[15秒]",
+          "RequiredLevel": 20,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "GrimCountdown-A"
+      ]
+    },
+    "GrimCountdown-A": {
+      "Visible": false,
+      "Name": "HP吸収",
+      "ID": 6,
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_GrimCountdown_A.png",
+      "Levels": {
+        "0": {
+          "Description": "ダメージを与えた敵からHPを奪い、回復する。\n該当効果は1体にのみ適用。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_GrimCountdown_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報]\nダメージ量：[594%]\nSA破壊量：[334%]\nHP吸収：[10%]",
+          "RequiredLevel": 20,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報]\nダメージ量：[594%]\nSA破壊量：[334%]\nHP吸収：[15%]",
+          "RequiredLevel": 25,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報]\nダメージ量：[594%]\nSA破壊量：[334%]\nHP吸収：[20%]",
+          "RequiredLevel": 30,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "FearChain": {
+      "Name": "フィアチェーン",
+      "ID": 7,
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_FearChain.png",
+      "Levels": {
+        "0": {
+          "Description": "前方に死神を召喚する。死神は周辺の敵を鎖で繋ぎ、攻撃範囲の中心に引き寄せる。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_FearChain.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[65%]\nSA破壊量：[433%]\nSG消費量：[30]\nクールタイム：[16秒]",
+          "RequiredLevel": 6,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[69%]\nSA破壊量：[454%]\nSG消費量：[30]\nクールタイム：[16秒]",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[77%]\nSA破壊量：[508%]\nSG消費量：[30]\nクールタイム：[16秒]",
+          "RequiredLevel": 14,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[85%]\nSA破壊量：[562%]\nSG消費量：[30]\nクールタイム：[16秒]",
+          "RequiredLevel": 18,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[98%]\nSA破壊量：[649%]\nSG消費量：[30]\nクールタイム：[16秒]",
+          "RequiredLevel": 22,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "FearChain-A"
+      ]
+    },
+    "FearChain-A": {
+      "Visible": false,
+      "Name": "気絶",
+      "ID": 8,
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_FearChain_A.png",
+      "Levels": {
+        "0": {
+          "Description": "攻撃命中時、敵に気絶効果を付与する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_FearChain_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報]\nデバフ効果：気絶[1秒]\nクールタイム：[14秒]",
+          "RequiredLevel": 22,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報]\nデバフ効果：気絶[2秒]\nクールタイム：[12秒]",
+          "RequiredLevel": 27,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報]\nデバフ効果：気絶[3秒]\nクールタイム：[10秒]",
+          "RequiredLevel": 32,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "DeathGrinder": {
+      "Name": "デスグラインダー",
+      "ID": 9,
+      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_DeathGrinder.png",
+      "Levels": {
+        "0": {
+          "Description": "鎌を投げて攻撃する。鎌が戻ってくる時に攻撃を受けた敵を自分へ引き寄せる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathGrinder.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[45%]\nSA破壊量：[55%]\nSG消費量：[25]\nクールタイム：[15秒]",
+          "RequiredLevel": 8,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[47%]\nSA破壊量：[58%]\nSG消費量：[25]\nクールタイム：[15秒]",
+          "RequiredLevel": 12,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[53%]\nSA破壊量：[65%]\nSG消費量：[25]\nクールタイム：[15秒]",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[59%]\nSA破壊量：[72%]\nSG消費量：[25]\nクールタイム：[15秒]",
+          "RequiredLevel": 20,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[68%]\nSA破壊量：[83%]\nSG消費量：[25]\nクールタイム：[15秒]",
+          "RequiredLevel": 24,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "DeathGrinder-A",
+        "DeathGrinder-B"
+      ]
+    },
+    "DeathGrinder-A": {
+      "Visible": false,
+      "Name": "死神召喚",
+      "ID": 10,
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_DeathGrinder_A.png",
+      "Levels": {
+        "0": {
+          "Description": "死神を召喚し、追加で鎌を投げる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathGrinder_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報]\nダメージ量：[68%]\nSA破壊量：[41%]",
+          "RequiredLevel": 24,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報]\nダメージ量：[75%]\nSA破壊量：[47%]",
+          "RequiredLevel": 29,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報]\nダメージ量：[89%]\nSA破壊量：[60%]",
+          "RequiredLevel": 34,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "DeathGrinder-B": {
+      "Visible": false,
+      "Name": "旋風",
+      "ID": 11,
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_DeathGrinder_B.png",
+      "Levels": {
+        "0": {
+          "Description": "前方に鎌を投げて旋風を発生させる。鎌は一定距離を進むと止まり、その場で敵にダメージを与える。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathGrinder_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報]\nダメージ量：[68%]\nSA破壊量：[108%]",
+          "RequiredLevel": 24,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報]\nダメージ量：[75%]\nSA破壊量：[118%]",
+          "RequiredLevel": 29,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報]\nダメージ量：[89%]\nSA破壊量：[135%]",
+          "RequiredLevel": 34,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "DeathScythe": {
+      "Name": "デスサイス",
+      "ID": 12,
+      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_DeathScythe.png",
+      "Levels": {
+        "0": {
+          "Description": "死神が現れ、周辺にいる敵を引き寄せて攻撃する。死神の攻撃後、任意操作により最後の攻撃方法が変化する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathScythe.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[207%]\nSA破壊量：[448%]\nSG消費量：[30]\nクールタイム：[25秒]\n4m以内の敵を引き寄せる。",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[218%]\nSA破壊量：[470%]\nSG消費量：[30]\nクールタイム：[25秒]\n4.5m以内の敵を引き寄せる。",
+          "RequiredLevel": 15,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[243%]\nSA破壊量：[526%]\nSG消費量：[30]\nクールタイム：[25秒]\n5m以内の敵を引き寄せる。",
+          "RequiredLevel": 20,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[269%]\nSA破壊量：[582%]\nSG消費量：[30]\nクールタイム：[25秒]\n5.5m以内の敵を引き寄せる。",
+          "RequiredLevel": 25,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[311%]\nSA破壊量：[671%]\nSG消費量：[30]\nクールタイム：[25秒]\n6.5m以内の敵を引き寄せる。",
+          "RequiredLevel": 30,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "DeathScythe-A"
+      ]
+    },
+    "CruelSlash": {
+      "Name": "クルエルスラッシュ",
+      "ID": 13,
+      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_CruelSlash.png",
+      "Levels": {
+        "0": {
+          "Description": "鎌を変形させ攻撃態勢をとる。左クリック連打で、一定時間その場で素早く連撃を繰り出す。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_CruelSlash.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本効果]\nSG消費量：[35]\nクールタイム：[35秒]\n\n[スキル情報：追加攻撃：連続攻撃]\nダメージ量：[80%]\nSA破壊量：[23%]\n\n[スキル情報：追加攻撃：叩きつけ]\nダメージ量：[401%]\nSA破壊量：[275%]",
+          "RequiredLevel": 13,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本効果]\nSG消費量：[35]\nクールタイム：[35秒]\n\n[スキル情報：追加攻撃：連続攻撃]\nダメージ量：[84%]\nSA破壊量：[24%]\n\n[スキル情報：追加攻撃：叩きつけ]\nダメージ量：[421%]\nSA破壊量：[288%]",
+          "RequiredLevel": 18,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本効果]\nSG消費量：[35]\nクールタイム：[35秒]\n\n[スキル情報：追加攻撃：連続攻撃]\nダメージ量：[94%]\nSA破壊量：[27%]\n\n[スキル情報：追加攻撃：叩きつけ]\nダメージ量：[471%]\nSA破壊量：[323%]",
+          "RequiredLevel": 23,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本効果]\nSG消費量：[35]\nクールタイム：[35秒]\n\n[スキル情報：追加攻撃：連続攻撃]\nダメージ量：[104%]\nSA破壊量：[29%]\n\n[スキル情報：追加攻撃：叩きつけ]\nダメージ量：[521%]\nSA破壊量：[357%]",
+          "RequiredLevel": 28,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本効果]\nSG消費量：[35]\nクールタイム：[35秒]\n\n[スキル情報：追加攻撃：連続攻撃]\nダメージ量：[120%]\nSA破壊量：[34%]\n\n[スキル情報：追加攻撃：叩きつけ]\nダメージ量：[606%]\nSA破壊量：[412%]",
+          "RequiredLevel": 33,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "CruelSlash-A",
+        "CruelSlash-B"
+      ]
+    },
+    "CruelSlash-A": {
+      "Visible": false,
+      "Name": "防御度貫通",
+      "ID": 14,
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_CruelSlash_A.png",
+      "Levels": {
+        "0": {
+          "Description": "連続攻撃時、バフ効果を適用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_CruelSlash_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報]\nダメージ量：[151%]\nSA破壊量：[62%]\n\nフィニッシュダメージ量：[754%]\nフィニッシュSA破壊量：[308%]\nバフ効果：敵防御度貫通[10%]\n最大攻撃時間減少：[10%]",
+          "RequiredLevel": 33,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報]\nダメージ量：[169%]\nSA破壊量：[69%]\n\nフィニッシュダメージ量：[844%]\nフィニッシュSA破壊量：[345%]\nバフ効果：敵防御度貫通[20%]、\n最大攻撃時間減少：[15%]",
+          "RequiredLevel": 38,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報]\nダメージ量：[189%]\nSA破壊量：[77%]\n\nフィニッシュダメージ量：[946%]\nフィニッシュSA破壊量：[386%]\nバフ効果：敵防御度貫通[30%]、\n最大攻撃時間減少：[25%]",
+          "RequiredLevel": 43,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "CruelSlash-B": {
+      "Visible": false,
+      "Name": "クリティカルダメージ増加",
+      "ID": 15,
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_CruelSlash_B.png",
+      "Levels": {
+        "0": {
+          "Description": "連続攻撃時、バフ効果を適用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_CruelSlash_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報]\nダメージ量：[135%]\nSA破壊量：[55%]\n\nフィニッシュダメージ量：[673%]\nフィニッシュSA破壊量：[275%]\nバフ効果：クリティカルダメージ[100%]増加",
+          "RequiredLevel": 33,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報]\nダメージ量：[151%]\nSA破壊量：[62%]\n\nフィニッシュダメージ量：[754%]\nフィニッシュSA破壊量：[308%]\nバフ効果：クリティカルダメージ[150%]増加",
+          "RequiredLevel": 38,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報]\nダメージ量：[169%]\nSA破壊量：[69%]\n\nフィニッシュダメージ量：[844%]\nフィニッシュSA破壊量：[345%]\nバフ効果：クリティカルダメージ[200%]増加",
+          "RequiredLevel": 43,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "GrimReaper": {
+      "Name": "グリムリーパー",
+      "ID": 16,
+      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_GrimReaper.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "中でのみ使用可能。前方に死神を召喚し、敵を宙に浮かせる。すでに空中にいる敵にも同一ダメージを与える。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_GrimReaper.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[475%]\nSA破壊量：[783%]\nSG消費量：[30]\nクールタイム：[10秒]",
+          "RequiredLevel": 17,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[499%]\nSA破壊量：[822%]\nSG消費量：[30]\nクールタイム：[10秒]",
+          "RequiredLevel": 22,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[558%]\nSA破壊量：[921%]\nSG消費量：[30]\nクールタイム：[10秒]",
+          "RequiredLevel": 27,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[618%]\nSA破壊量：[1018%]\nSG消費量：[30]\nクールタイム：[10秒]",
+          "RequiredLevel": 32,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[712%]\nSA破壊量：[1174%]\nSG消費量：[30]\nクールタイム：[10秒]",
+          "RequiredLevel": 37,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "ForceRegion": {
+      "Name": "フォースリージョン",
+      "ID": 17,
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_ForceRegion.png",
+      "Levels": {
+        "0": {
+          "Description": "召喚された死神が咆哮と共に、自身を含めた周囲にクリティカル率増加のバフを付与する。追加効果は自身にのみ適用攻撃速度増加バフは3秒ごとに重複し、最大4重複する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_ForceRegion.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本効果]\nバフ効果：クリティカル率[5%]増加\nバフ持続時間：[30秒]\nSG消費量：[80]\nクールタイム：[60秒]\n\n[スキル情報：追加効果]\nバフ効果：攻撃速度3.5秒毎[3％]増加\nバフ持続時間：[14秒]",
+          "RequiredLevel": 21,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本効果]\nバフ効果：クリティカル率[7%]増加\nバフ持続時間：[30秒]\nSG消費量：[75]\nクールタイム：[60秒]\n\n[スキル情報：追加効果]\nバフ効果：攻撃速度3.5秒毎[6％]増加\nバフ持続時間：[14秒]",
+          "RequiredLevel": 26,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本効果]\nバフ効果：クリティカル率[9%]増加\nバフ持続時間：[30秒]\nSG消費量：[65]\nクールタイム：[60秒]\n\n[スキル情報：追加効果]\nバフ効果：攻撃速度3.5秒毎[9％]増加\nバフ持続時間：[14秒]",
+          "RequiredLevel": 31,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本効果]\nバフ効果：クリティカル率[12%]増加\nバフ持続時間：[30秒]\nSG消費量：[55]\nクールタイム：[60秒]\n\n[スキル情報：追加効果]\nバフ効果：攻撃速度3.5秒毎[12％]増加\nバフ持続時間：[14秒]",
+          "RequiredLevel": 36,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本効果]\nバフ効果：クリティカル率[15%]増加\nバフ持続時間：[30秒]\nSG消費量：[45]\nクールタイム：[60秒]\n\n[スキル情報：追加効果]\nバフ効果：攻撃速度3.5秒毎[15％]増加\nバフ持続時間：[14秒]",
+          "RequiredLevel": 41,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "DeathTornado": {
+      "Name": "デストルネード",
+      "ID": 18,
+      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_DeathTornado.png",
+      "Levels": {
+        "0": {
+          "Description": "前方に強力な竜巻を作り出し、敵を攻撃する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathTornado.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[37%]\nSA破壊量：[60%]\nSG消費量：[50]\nクールタイム：[30秒]\n打撃数：[18回]",
+          "RequiredLevel": 28,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[39%]\nSA破壊量：[63%]\nSG消費量：[50]\nクールタイム：[30秒]\n打撃数：[18回]",
+          "RequiredLevel": 32,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[44%]\nSA破壊量：[70%]\nSG消費量：[50]\nクールタイム：[30秒]\n打撃数：[18回]",
+          "RequiredLevel": 36,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[49%]\nSA破壊量：[78%]\nSG消費量：[50]\nクールタイム：[30秒]\n打撃数：[18回]",
+          "RequiredLevel": 40,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[56%]\nSA破壊量：[90%]\nSG消費量：[50]\nクールタイム：[30秒]\n打撃数：[18回]",
+          "RequiredLevel": 44,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "DeathTornado-A",
+        "DeathTornado-B"
+      ]
+    },
+    "DeathTornado-A": {
+      "Visible": false,
+      "Name": "誘導",
+      "ID": 19,
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_DeathTornado_A.png",
+      "Levels": {
+        "0": {
+          "Description": "発生した竜巻が敵に向かって移動する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathTornado_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報]\nダメージ量：[64%]\nSA破壊量：[104%]\n攻撃回数：[30回]",
+          "RequiredLevel": 44,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報]\nダメージ量：[73%]\nSA破壊量：[117%]\n攻撃回数：[30回]",
+          "RequiredLevel": 49,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報]\nダメージ量：[92%]\nSA破壊量：[149%]\n攻撃回数：[30回]",
+          "RequiredLevel": 54,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "DeathTornado-B": {
+      "Visible": false,
+      "Name": "広域",
+      "ID": 20,
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_DeathTornado_B.png",
+      "Levels": {
+        "0": {
+          "Description": "味方に強化効果を与え、敵を攻撃する巨大な竜巻を作る。\n[空中に浮いた敵に追加ダメージ]",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathTornado_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報]\nダメージ量：[92%]\nSA破壊量：[54%]\n攻撃回数：[15回]\n\n[特性情報：バフ効果]\nバフ効果：攻撃速度、移動速度 [10%] 増加\nバフ持続時間：[10秒]",
+          "RequiredLevel": 44,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報]\nダメージ量：[105%]\nSA破壊量：[62%]\n攻撃回数：[15回]\n\n[特性情報：バフ効果]\nバフ効果：攻撃速度、移動速度 [15%] 増加\nバフ持続時間：[10秒]",
+          "RequiredLevel": 49,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報]\nダメージ量：[120%]\nSA破壊量：[70%]\n攻撃回数：[15回]\n\n[特性情報：バフ効果]\nバフ効果：攻撃速度、移動速度 [20%] 増加\nバフ持続時間：[10秒]",
+          "RequiredLevel": 54,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "EvilTrinity": {
+      "Name": "イビルトリニティ",
+      "ID": 21,
+      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_EvilTrinity.png",
+      "Levels": {
+        "0": {
+          "Description": "二つの鎌を持つ死神が現れ、ミストサイスと共に地面を強打する。地面強打時、三つの衝撃波が発生して範囲内の敵を攻撃する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_EvilTrinity.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[1437%]\nSA破壊量：[1263%]\nSG消費量：[55]\nクールタイム：[30秒]",
+          "RequiredLevel": 34,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[1581%]\nSA破壊量：[1327%]\nSG消費量：[55]\nクールタイム：[30秒]",
+          "RequiredLevel": 38,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[1772%]\nSA破壊量：[1485%]\nSG消費量：[55]\nクールタイム：[30秒]",
+          "RequiredLevel": 42,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[2019%]\nSA破壊量：[1643%]\nSG消費量：[55]\nクールタイム：[30秒]",
+          "RequiredLevel": 46,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[2382%]\nSA破壊量：[1895%]\nSG消費量：[55]\nクールタイム：[30秒]",
+          "RequiredLevel": 50,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "DeathGuillotine": {
+      "Name": "デスギロチン",
+      "ID": 22,
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_DeathGuillotine.png",
+      "Levels": {
+        "0": {
+          "Description": "周辺の敵に鎖をかけて拘束後、巨大な断頭台を召喚して敵を押し入れる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathGuillotine.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[2099%]\nSA破壊量：[1524%]\nSG消費量：[75]\nクールタイム：[45秒]",
+          "RequiredLevel": 42,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[2309%]\nSA破壊量：[1600%]\nSG消費量：[75]\nクールタイム：[45秒]",
+          "RequiredLevel": 45,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[2586%]\nSA破壊量：[1791%]\nSG消費量：[75]\nクールタイム：[45秒]",
+          "RequiredLevel": 48,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[2948%]\nSA破壊量：[1981%]\nSG消費量：[75]\nクールタイム：[45秒]",
+          "RequiredLevel": 51,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[3480%]\nSA破壊量：[2286%]\nSG消費量：[75]\nクールタイム：[45秒]",
+          "RequiredLevel": 54,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "DeathGuillotine-A"
+      ]
+    },
+    "EvilSlash-A": {
+      "Visible": false,
+      "Name": "鎖鎌",
+      "ID": 23,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_EvilSlash_A.png",
+      "Levels": {
+        "0": {
+          "Description": "鎌の代わりに鎖鎌を利用して、より広い範囲の敵を攻撃します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_EvilSlash_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報]\nダメージ量：[86%]+[345%]\nSA破壊量：[49%]+[194%]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報]\nダメージ量：[94%]+[376%]\nSA破壊量：[54%]+[214%]",
+          "RequiredLevel": 58,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報]\nダメージ量：[108%]+[432%]\nSA破壊量：[63%]+[252%]",
+          "RequiredLevel": 60,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "DeathScythe-A": {
+      "Visible": false,
+      "Name": "残像",
+      "ID": 24,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_DeathScythe_A.png",
+      "Levels": {
+        "0": {
+          "Description": "死神の残像が敵に追撃を与えます。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathScythe_A_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[129%]\nSA破壊量：[438%]\n\n[特性情報：追加攻撃：薙ぎ払い]\nダメージ量：[1097%]\nSA破壊量：[421%]\n\n[特性情報：追加攻撃：斬り上げ]\nダメージ量：[314%]+[107%]\nSA破壊量：[1068%]+[31%]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[145%]\nSA破壊量：[491%]\n\n[特性情報：追加攻撃：薙ぎ払い]\nダメージ量：[1230%]\nSA破壊量：[475%]\n\n[特性情報：追加攻撃：斬り上げ]\nダメージ量：[355%]+[119%]\nSA破壊量：[1197%]+[36%]",
+          "RequiredLevel": 59,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[180%]\nSA破壊量：[608%]\n\n[特性情報：追加攻撃：薙ぎ払い]\nダメージ量：[1526%]\nSA破壊量：[588%]\n\n[特性情報：追加攻撃：斬り上げ]\nダメージ量：[440%]+[148%]\nSA破壊量：[1484%]+[44%]",
+          "RequiredLevel": 60,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "BloodyBlossom": {
+      "Name": "ブラッディーブロッサム",
+      "ID": 25,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_BloodyBlossom.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "空中で素早く回転しながら攻撃した後、強力な追加攻撃を行います。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_BloodyBlossom.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[1504%]\nSA破壊量：[480%]\nSG消費量：[30]\nクールタイム：[20秒]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[1656%]\nSA破壊量：[504%]\nSG消費量：[30]\nクールタイム：[20秒]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[1854%]\nSA破壊量：[550%]\nSG消費量：[30]\nクールタイム：[20秒]",
+          "RequiredLevel": 58,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[2114%]\nSA破壊量：[616%]\nSG消費量：[30]\nクールタイム：[20秒]",
+          "RequiredLevel": 59,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[2494%]\nSA破壊量：[708%]\nSG消費量：[30]\nクールタイム：[20秒]",
+          "RequiredLevel": 60,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "FuryMach": {
+      "Name": "フューリーサイス",
+      "ID": 26,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_Furymach.png",
+      "Levels": {
+        "0": {
+          "Description": "前方に突撃を合わせた攻撃をし、追加操作により両手に鎌を持ち攻撃します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_FuryMach.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[476%]\nSA破壊量：[319%]\nSG消費量：[55]\nクールタイム：[30秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[793%]\nSA破壊量：[532%]\n止めダメージ量：[636%]\n止めSA破壊量：[427%]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[523%]\nSA破壊量：[335%]\nSG消費量：[55]\nクールタイム：[30秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[873%]\nSA破壊量：[559%]\n止めダメージ量：[770%]\n止めSA破壊量：[448%]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[586%]\nSA破壊量：[365%]\nSG消費量：[55]\nクールタイム：[30秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[978%]\nSA破壊量：[609%]\n止めダメージ量：[784%]\n止めSA破壊量：[488%]",
+          "RequiredLevel": 58,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[668%]\nSA破壊量：[409%]\nSG消費量：[55]\nクールタイム：[30秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[1114%]\nSA破壊量：[682%]\n止めダメージ量：[893%]\n止めSA破壊量：[547%]",
+          "RequiredLevel": 59,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[789%]\nSA破壊量：[471%]\nSG消費量：[55]\nクールタイム：[30秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[1315%]\nSA破壊量：[785%]\n止めダメージ量：[1055%]\n止めSA破壊量：[629%]",
+          "RequiredLevel": 60,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "LeashedBeast": {
+      "Name": "リーシュドビースト",
+      "ID": 27,
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_LeashedBeast.png",
+      "Levels": {
+        "0": {
+          "Description": "前方にソウルエナジーの球体を召喚した後、飛び上がって全力で切り落とします。球体は周りの敵を引き寄せて攻撃し、斬り攻撃の後に爆発します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_LeashedBest.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[321%]\nSA破壊量：[327%]\nSG消費量：[55]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[428%]\nSA破壊量：[437%]",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[353%]\nSA破壊量：[360%]\nSG消費量：[55]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[471%]\nSA破壊量：[480%]",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[396%]\nSA破壊量：[404%]\nSG消費量：[55]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[528%]\nSA破壊量：[539%]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[451%]\nSA破壊量：[460%]\nSG消費量：[55]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[601%]\nSA破壊量：[614%]",
+          "RequiredLevel": 71,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "DeathGuillotine-A": {
+      "Visible": false,
+      "Name": "執行",
+      "ID": 28,
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_DeathGuillotine_A.png",
+      "Levels": {
+        "0": {
+          "Description": "死神が召喚され執行し、デスギロチン攻撃が敵の防御を完全に貫通します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathGuillotine_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[3480%]\nSA破壊量：[2286%]\n敵防御度貫通：[100%]増加\n\n[特性情報：死神]\nダメージ量：[1392%]\nSA破壊量：[914%]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },
+        "2": {
+          "Effect": "ダメージ量：[3828%]\nSA破壊量：[2515%]\n敵防御度貫通：[100%]増加\n\n[特性情報：死神]\nダメージ量：[1531%]\nSA破壊量：[1006%]",
+          "RequiredLevel": 70,
+          "RequiredSP": 3
+        },
+        "3": {
+          "Effect": "ダメージ量：[4402%]\nSA破壊量：[2892%]\n敵防御度貫通：[100%]増加\n\n[特性情報：死神]\nダメージ量：[1761%]\nSA破壊量：[1157%]",
+          "RequiredLevel": 72,
+          "RequiredSP": 4
+        }
+      }
+    },
+    "BasicAttackMastery": {
+      "Passive": true,
+      "Name": "基本攻撃マスタリー",
+      "ID": 1001,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DefaultAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "鎌で敵を攻撃する。\nスキルレベルが上がるほど連係攻撃の種類が増加する。\n攻撃時、SGを獲得。\nSG獲得量は連係段階とモンスター等級に応じて増加する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Attack_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "SG獲得量が[20%]増加する。\n分岐攻撃Aを使用できる。",
+          "RequiredLevel": 5,
+          "RequiredSP": 1,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Attack_02.{{auto}}"
+          }
+        },
+        "3": {
+          "Effect": "SG獲得量が[70%]増加する。\n基本攻撃の追加攻撃を使用できる。",
+          "RequiredLevel": 10,
+          "RequiredSP": 2,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Attack_03.{{auto}}"
+          }
+        },
+        "4": {
+          "Effect": "SG獲得量が[120%]増加する。\n空中攻撃の追加攻撃を使用できる。",
+          "RequiredLevel": 15,
+          "RequiredSP": 2,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Attack_04.{{auto}}"
+          }
+        },
+        "5": {
+          "Effect": "SG獲得量が[200%]増加する。%\n分岐攻撃Bを使用できる。",
+          "RequiredLevel": 20,
+          "RequiredSP": 2,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Attack_05.{{auto}}"
+          }
+        }
+      }
+    },
+    "SpecialAbilityMastery": {
+      "Passive": true,
+      "DefaultLevel": 1,
+      "ID": 1002,
+      "Name": "特殊能力マスタリー",
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_OwnAbility.png",
+      "Levels": {
+        "0": {
+          "Description": "攻撃時、SGを獲得。\nSG獲得量はモンスター等級に応じて増加する。\n\n素早く前方に移動し、移動ルート上にいる敵の動きを遅くする。\n空中で使用時、回転斬りを繰り出す。追加入力時、下に向かって回転攻撃を繰り出す。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_S_Attack_N_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：地上]\nダメージ量：[164%]\nデバフ効果：移動速度[50%]減少\nデバフ持続時間：[3秒]\nSA破壊量：[119%]\n\n[スキル情報：空中基本]\nダメージ量：[239%]\nSA破壊量：[119%]\n追加入力時、落下して1回反復\n\n[スキル情報：一般]\nクールタイム：[10秒]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[スキル情報：地上]\nダメージ量：[173%]\nデバフ効果：移動速度[50%]減少\nデバフ持続時間：[3秒]\nSA破壊量：[125%]\n\n[スキル情報：空中基本]\nダメージ量：[251%]\nSA破壊量：[125%]\n追加入力時、落下して1回反復\n\n[スキル情報：一般]\nクールタイム：[10秒]\n攻撃時、SG獲得量が[20%]増加する。",
+          "RequiredLevel": 15,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：地上]\nダメージ量：[193%]\nデバフ効果：移動速度[50%]減少\nデバフ持続時間：[3秒]\nSA破壊量：[140%]\n\n[スキル情報：空中]\nダメージ量：[281%]\nSA破壊量：[140%]\n追加入力時、落下して1回反復\n\n[スキル情報：空中追加]\nダメージ量：[198%]\nSA破壊量：[131%]\n\n[スキル情報：一般]\nクールタイム：[10秒]\n攻撃時、SG獲得量が[70%]増加する。",
+          "RequiredLevel": 30,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "EmergencyEvasion": {
+      "Passive": true,
+      "Name": "緊急回避",
+      "ID": 1003,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_Evasion.png",
+      "Levels": {
+        "0": {
+          "Description": "指定した方向に素早く移動する。\n緊急回避中はダメージを受けない。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Evade_F.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "スタミナ消費量：[20]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Welter": {
+      "Passive": true,
+      "Name": "回転起床",
+      "ID": 1004,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_Welter.png",
+      "Levels": {
+        "0": {
+          "Description": "ダウン時、指定した方向に素早く回転しながら起き上がる。\n回転起床中はダメージを受けない。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Roll_F.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "スタミナ消費量：[25]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "スタミナ消費量：[15]",
+          "RequiredLevel": 17,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "スタミナ消費量：[15]\n少し早く回転起床ができる。 ",
+          "RequiredLevel": 34,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "Dash": {
+      "Passive": true,
+      "Name": "ダッシュ",
+      "DefaultLevel": 1,
+      "ID": 1005,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_Dash.png",
+      "Levels": {
+        "0": {
+          "Description": "前方に素早くダッシュする。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Run_F.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "ダッシュの速度が上昇する。",
+          "RequiredLevel": 25,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "RisingAttack": {
+      "Passive": true,
+      "Name": "起床攻撃",
+      "ID": 1006,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_RiseAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "ダウン時、周辺の敵を攻撃しながら起き上がる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Rise_Attack.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[100%]\nスタミナ消費量：[30]\nクールタイム：[15秒]\nスキル使用後3秒間、無敵状態になる。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "ダメージ量：[100%]\nスタミナ消費量：[20]\nクールタイム：[15秒]\nスキル使用後3秒間、無敵状態になる。",
+          "RequiredLevel": 18,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[100%]\nスタミナ消費量：[20]\nクールタイム：[15秒]\nスキル使用後5秒間、無敵状態になる。",
+          "RequiredLevel": 36,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "DashAttack": {
+      "Passive": true,
+      "Name": "ダッシュアタック",
+      "DefaultLevel": 1,
+      "ID": 1007,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DashAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "ダッシュ中に空中で体を回転させ、とび蹴りをする。\n攻撃時、SGを獲得。\nSG獲得量は連係段階とモンスター等級に応じて増加する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_N_Attack_Dash.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[102%]\nSA破壊量：[54%]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "SpecialEvasion": {
+      "Passive": true,
+      "Name": "特殊回避",
+      "ID": 1008,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_EvasionAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "敵から攻撃を受けている最中に素早く移動する。\n特殊回避中はダメージを受けない。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_S_Evade_F.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "スタミナ消費量：[40]\nクールタイム：[30秒]",
+          "RequiredLevel": 4,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "スタミナ消費量：[40]\nクールタイム：[25秒]",
+          "RequiredLevel": 21,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "スタミナ消費量：[40]\nクールタイム：[20秒]",
+          "RequiredLevel": 38,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SpecialDashAttack": {
+      "Passive": true,
+      "Name": "特殊ダッシュアタック",
+      "ID": 1009,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DashSmashAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "ダッシュ中に前方で鎌を振り上げ攻撃する。\n攻撃命中時、SGを獲得。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_S_Attack_N_Dash.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[217%]\nSA破壊量：[96%]",
+          "RequiredLevel": 13,
+          "RequiredSP": 1
+        }
+      }
+    },
+    "StaminaMastery": {
+      "Passive": true,
+      "Name": "スタミナマスタリー",
+      "ID": 1010,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_StaminaMastery.png",
+      "Levels": {
+        "0": {
+          "Description": "スタミナ回復量が増加する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "スタミナ回復量[10%]増加",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "スタミナ回復量[20%]増加",
+          "RequiredLevel": 15,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "スタミナ回復量[30%]増加",
+          "RequiredLevel": 20,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "スタミナ回復量[40%]増加",
+          "RequiredLevel": 25,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "スタミナ回復量[50%]増加",
+          "RequiredLevel": 30,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "RampagingMadness": {
+      "Passive": true,
+      "Name": "暴走する狂気",
+      "ID": 1013,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_SGPassive2.png",
+      "Levels": {
+        "0": {
+          "Description": "SGが70%以上の場合、60秒毎に15秒間SG消費量減少、クリティカルダメージ増加、敵防御度貫通が増加します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "SG消費量5%減少、クリティカルダメージ600増加、敵防御度貫通が5%増加。",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "SG消費量10%減少、クリティカルダメージ1200増加、敵防御度貫通が10%増加。",
+          "RequiredLevel": 58,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "SG消費量15%減少、クリティカルダメージ2000増加、敵防御度貫通が20%増加。",
+          "RequiredLevel": 59,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "IntensifyingMadness": {
+      "Passive": true,
+      "Name": "満ちる狂気",
+      "ID": 1011,
+      "RowSpan": {
+        "0": 2,
+        "1": 1
+      },
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_SGPassive.png",
+      "Levels": {
+        "0": {
+          "Description": "クリティカルダメージ量が増加する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "パッシブ効果：クリティカルダメージ量[400]増加",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "パッシブ効果：クリティカルダメージ量[800]増加",
+          "RequiredLevel": 20,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "パッシブ効果：クリティカルダメージ量[1300]増加",
+          "RequiredLevel": 30,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "MadScythe": {
+      "Passive": true,
+      "DefaultLevel": 1,
+      "ID": 1012,
+      "RowSpan": {
+        "0": 2,
+        "1": 1
+      },
+      "Name": "狂気の鎌",
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_SoulMastery.png",
+      "Levels": {
+        "0": {
+          "Description": "基本攻撃命中時、SGを回復する。\n一定時間ごとに自動でSGを回復する。\nSGが一定数値以上になると、狂気モードになる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "攻撃力が5%増加する。\nクリティカル率が5%増加する。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Asmodeus": {
+      "Passive": true,
+      "Name": "アスモデウス",
+      "DefaultLevel": 1,
+      "ID": 2003,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_Asmodeus.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "覚醒状態でのみスキル使用が可能です。\nスキル使用時に覚醒状態が解除されます。\n\n動きを封鎖する強力な攻撃で前方の敵を蹂躙します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_Asmodeus.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[JP]\nダメージ量：[2700%]\nSA破壊量：[2360%]\n\n[KR]\n*토네이도 연타 → 단타로 조정됩니다.\n\n전체 피해량: [7700%]\n전체 슈퍼아머 파괴량: [7360%]\nSV 획득량: [10]",
+          "RequiredLevel": 57,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Erosion": {
+      "Passive": true,
+      "Name": "イロージョン",
+      "DefaultLevel": 1,
+      "ID": 2001,
+      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_BreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "体を覚醒させ、身体能力を一時的に向上させる。\nソウルベイパーを消費し、スキルを使用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_SoulViper_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "1段階ゲージ消費（SV50消費）\n\n30秒間、覚醒状態になる。\n-クリティカルダメージが150%増加する。\n-移動速度が20%増加する。\n-SA状態になる。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Awakening": {
+      "Passive": true,
+      "Name": "覚醒",
+      "DefaultLevel": 1,
+      "ID": 2002,
+      "RequireClass": {
+        "CompareType": "atmost",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_BreakWakeup.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "体を覚醒させ、身体能力を一時的に向上させる。\nソウルベイパーを消費し、スキルを使用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_SoulViper_02.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "2段階ゲージ消費（SV100消費）\n\n60秒間、覚醒状態になる。\n-クリティカルダメージが300%増加する。\n-移動速度が20%増加する。\n-SA状態になる。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "DesireAwakening": {
+      "Passive": true,
+      "Name": "デザイア覚醒",
+      "DefaultLevel": 1,
+      "ID": 2004,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 2
+      },
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DBreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "体を覚醒させ、身体能力を一時的に向上させる。\nSV(ソウルベイパー)を消費し、スキルを使用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_SoulViper_03.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "2段階ゲージ消費（SV100消費）\n\n60秒間、デザイア覚醒状態になる。\n-与ダメージが20％上昇する。\n-SG消費量が20％減少する。\n-最大ダメージを固定する。\n-攻撃速度が20%増加する。\n-移動速度が30%増加する。\n-SA状態になる。\n-デザイアスキルが発動する。\n\n[デザイアスキル情報]\nExスキル使用後、効果が終了する。\n-60秒間スキルのダメージ量が1.3倍に上昇する。\n- デスギロチン\n- リーシュドビースト\n- アスモデウス",
+          "RequiredLevel": 65,
+          "RequiredSP": 0
+        }
+      }
+    }
+  }
+}
