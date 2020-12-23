@@ -1,0 +1,1728 @@
+{
+  "CharacterName": "エフネル",
+  "CharacterWikiURL": "https://wikiwiki.jp/soulworker/%E3%82%A8%E3%83%95%E3%83%8D%E3%83%AB",
+  "AvailableClass": {
+    "0": {
+      "Name": "ベース",
+      "Cover": "../assets/images/Ephnel_Base.png"
+    },
+    "1": {
+      "Name": "アップグレード",
+      "Cover": "../assets/images/Ephnel_Upgrade.png",
+      "RequiredLevel": 57
+    },
+    "2": {
+      "Name": "デザイア覚醒",
+      "Cover": "../assets/images/Ephnel_Desire.png",
+      "RequiredLevel": 65
+    }
+  },
+  "Skills": {
+    "AirBurst": {
+      "Name": "エアバースト",
+      "DefaultLevel": 1,
+      "ID": 1,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_AirBurst.png",
+      "Levels": {
+        "0": {
+          "Description": "前方に強く打ちおろして周辺の敵を浮かせます。\n追加入力時、回し蹴りで追加攻撃をします。\n弾丸バフまたは武器制限解除バフ時、追加爆発が発生します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AirBurst.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[150％]\nSA破壊量：[44％]\nSG消費量：[35]\nクールタイム：[8秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[225％]\nSA破壊量：[66％]\n\n[スキル情報：追加爆発]\nダメージ量：[37％]/[112％]\nSA破壊量：[11％]/[33％]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[165％]\nSA破壊量：[48％]\nSG消費量：[35]\nクールタイム：[8秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[248％]\nSA破壊量：[72％]\n\n[スキル情報：追加爆発]\nダメージ量：[41％]/[124％]\nSA破壊量：[12％]/[36％]",
+          "RequiredLevel": 4,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[185％]\nSA破壊量：[54％]\nSG消費量：[35]\nクールタイム：[8秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[278％]\nSA破壊量：[81％]\n\n[スキル情報：追加爆発]\nダメージ量：[46％]/[139％]\nSA破壊量：[13％]/[40％]",
+          "RequiredLevel": 7,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[211％]\nSA破壊量：[62％]\nSG消費量：[35]\nクールタイム：[8秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[317％]\nSA破壊量：[93％]\n\n[スキル情報：追加爆発]\nダメージ量：[52％]/[158％]\nSA破壊量：[15％]/[46％]",
+          "RequiredLevel": 10,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[249％]\nSA破壊量：[73％]\nSG消費量：[35]\nクールタイム：[8秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[374％]\nSA破壊量：[109％]\n\n[スキル情報：追加爆発]\nダメージ量：[62％]/[187%]\nSA破壊量：[18％]/[54％]",
+          "RequiredLevel": 13,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "AirBurst-A",
+        "AirBurst-B"
+      ]
+    },
+    "AirBurst-A": {
+      "Visible": false,
+      "Name": "追加攻撃",
+      "ID": 2,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_AirBurst_A.png",
+      "Levels": {
+        "0": {
+          "Description": "空中回し蹴りの後、追加入力でツバメ蹴りを加えます。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AirBurst_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[249％]+[374％]+[374％]\nSA破壊量：[73％]+[109％]+[109％]\n\n[特性情報：追加爆発]\nダメージ量：[62％]/[187％]\nSA破壊量：[18％]/[54％]",
+          "RequiredLevel": 13,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[286％]+[430％]+[430％]\nSA破壊量：[84％]+[126％]+[126％]\n\n[特性情報：追加爆発]\nダメージ量：[71％]/[215％]\nSA破壊量：[21％]/[63％]",
+          "RequiredLevel": 18,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[361％]+[542％]+[542％]\nSA破壊量：[106％]+[159％]+[159％]\n\n[特性情報：追加爆発]\nダメージ量：[90％]/[271％]\nSA破壊量：[26％]/[79％]",
+          "RequiredLevel": 23,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "AirBurst-B": {
+      "Visible": false,
+      "Name": "追加ダメージ",
+      "ID": 3,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_AirBurst_B.png",
+      "Levels": {
+        "0": {
+          "Description": "振り下ろし攻撃の後、1.5秒間周辺の敵に追加攻撃します。\nまた攻撃後リロードモーションが追加されます。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AirBurst_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[436％]+[374％]\nSA破壊量：[255％]+[219％]\n\n[特性情報：追加爆発]\nダメージ量：[62％]/[187％]\nSA破壊量：[36％]/[109％]",
+          "RequiredLevel": 13,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[501％]+[430％]\nSA破壊量：[294％]+[252％]\n\n[特性情報：追加爆発]\nダメージ量：[71％]/[215％]\nSA破壊量：[42％]/[126％]",
+          "RequiredLevel": 18,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[632％]+[542％]\nSA破壊量：[370％]+[317％]\n\n[特性情報：追加爆発]\nダメージ量：[90％]/[271％]\nSA破壊量：[52％]/[158％]",
+          "RequiredLevel": 23,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SonicBoom": {
+      "Name": "ソニックブーム",
+      "DefaultLevel": 1,
+      "ID": 4,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_SonicBoom.png",
+      "Levels": {
+        "0": {
+          "Description": "素早く前方に突進して敵を貫きます。\n弾丸バフまたは武器制限解除バフ時、突進中に追加爆発が発生します。  ",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SonicBoom.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[144％]\nSA破壊量：[210％]\nバフ：攻撃速度[3％]増加\nバフ維持時間：[5秒]\nSG消費量：[15]\nクールタイム：[10秒]\n\n[スキル情報：追加爆発]\nダメージ量：[14％]/[43％]\nSA破壊量：[21％]/[63％]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[159％]\nSA破壊量：[231％]\nバフ：攻撃速度[5％]増加\nバフ維持時間：[5秒]\nSG消費量：[15]\nクールタイム：[9秒]\n\n[スキル情報：追加爆発]\nダメージ量：[15％]/[47％]\nSA破壊量：[23％]/[69％]",
+          "RequiredLevel": 6,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[178％]\nSA破壊量：[259％]\nバフ：攻撃速度[7％]増加\nバフ維持時間：[5秒]\nSG消費量：[15]\nクールタイム：[8秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[17％]/[53％]\nSA破壊量：[25％]/[77％]",
+          "RequiredLevel": 11,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[203％]\nSA破壊量：[295％]\nバフ：攻撃速度[9％]増加\nバフ維持時間：[5秒]\nSG消費量：[15]\nクールタイム：[7秒]\n\n[スキル情報：追加爆発]\nダメージ量：[20％]/[60％]\nSA破壊量：[29％]/[88％]",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[239％]\nSA破壊量：[349％]\nバフ：攻撃速度[12％]増加\nバフ維持時間：[5秒]\nSG消費量：[15]\nクールタイム：[6秒]\n\n[スキル情報：追加爆発]\nダメージ量：[23％]/[71％]\nSA破壊量：[34％]/[104％]",
+          "RequiredLevel": 21,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "SonicBoom-A"
+      ]
+    },
+    "LightningRod": {
+      "Name": "ライトニングロッド",
+      "DefaultLevel": 1,
+      "ID": 5,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_LightningRod.png",
+      "Levels": {
+        "0": {
+          "Description": "前方にソウルスピアを3個召喚して敵を攻撃します。\n弾丸バフまたは武器制限解除バフ時、追加爆発が発生します。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_LightningRod.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[176％]+[58％]\nSA破壊量：[276％]+[92％]\nSG消費量：[30]\nクールタイム：[10秒]\n\n[スキル情報：追加爆発]\nダメージ量：[29％]/[88％]\nSA破壊量：[46％]/[138％]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[194％]+[64％]\nSA破壊量：[303％]+[101％]\nSG消費量：[30]\nクールタイム：[10秒\n\n[スキル情報：追加爆発]\nダメージ量：[32％]/[97％]\nSA破壊量：[50％]/[151％]",
+          "RequiredLevel": 5,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[217％]+[72％]\nSA破壊量：[340％]+[113％]\nSG消費量：[30]\nクールタイム：[10秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[36％]/[108％]\nSA破壊量：[56％]/[170％]",
+          "RequiredLevel": 9,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[247％]+[82％]\nSA破壊量：[388％]+[129％]\nSG消費量：[30]\nクールタイム：[10秒]\n\n[スキル情報：追加爆発]\nダメージ量：[41％]/[123％]\nSA破壊量：[64％]/[194％]",
+          "RequiredLevel": 13,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[292％]+[97％]\nSA破壊量：[457％]+[152％]\nSG消費量：[30]\nクールタイム：[10秒]\n\n[スキル情報：追加爆発]\nダメージ量：[48％]/[146％]\nSA破壊量：[76％]/[228％]",
+          "RequiredLevel": 17,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "LightningRod-A"
+      ]
+    },
+    "LightningRod-A": {
+      "Visible": false,
+      "Name": "追加設置",
+      "ID": 6,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_LightningRod_A.png",
+      "Levels": {
+        "0": {
+          "Description": "ソウルスピアが6個に増加します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_LightningRod_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[292％]+[97％]\nSA破壊量：[457％]+[152％]\n\n[特性情報：追加爆発]\nダメージ量：[48％]/[146％]\nSA破壊量：[76％]/[228％]",
+          "RequiredLevel": 17,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[336％]+[112％]\nSA破壊量：[526％]+[175％]\n\n[特性情報：追加爆発]\nダメージ量：[56％]/[168％]\nSA破壊量：[87％]/[263％]",
+          "RequiredLevel": 22,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[424％]+[141％]\nSA破壊量：[663％]+[221％]\n\n[特性情報：追加爆発]\nダメージ量：[70％]/[212％]\nSA破壊量：[110％]/[331％]",
+          "RequiredLevel": 27,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SwiftStab": {
+      "Name": "スウィフトスタブ",
+      "ID": 7,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_SwiftStab.png",
+      "Levels": {
+        "0": {
+          "Description": "大きく前進して一突きし、敵を集めて爆発させます。\n弾丸バフまたは武器制限解除バフ時、前方に突く時、追加爆発が発生します。\nスキル使用後リロードします。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SwiftStab.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[336％]\nSA破壊量：[270％]\nSG消費量：[35]\nクールタイム：[15秒]\n\n[スキル情報：追加爆発]\nダメージ量：[33％]/[100％]\nSA破壊量：[27％]/[81％]",
+          "RequiredLevel": 4,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[370％]\nSA破壊量：[297％]\nSG消費量：[35]\nクールタイム：[15秒]\n\n[スキル情報：追加爆発]\nダメージ量：[37％]/[111％]\nSA破壊量：[29％]/[89％]",
+          "RequiredLevel": 8,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[414％]\nSA破壊量：[333％]\nSG消費量：[35]\nクールタイム：[15秒]\n\n[スキル情報：追加爆発]\nダメージ量：[41％]/[124％]\nSA破壊量：[33％]/[99％]",
+          "RequiredLevel": 12,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[472％]\nSA破壊量：[380％]\nSG消費量：[35]\nクールタイム：[15秒]\n\n[スキル情報：追加爆発]\nダメージ量：[47％]/[141％]\nSA破壊量：[38％]/[114％]",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[557％]\nSA破壊量：[448％]\nSG消費量：[35]\nクールタイム：[15秒]\n\n[スキル情報：追加爆発]\nダメージ量：[55％]/[167％]\nSA破壊量：[44％]/[134％]",
+          "RequiredLevel": 20,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "SwiftStab-A",
+        "SwiftStab-B"
+      ]
+    },
+    "SwiftStab-A": {
+      "Visible": false,
+      "Name": "ダメージ増加",
+      "ID": 8,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_SwiftStab_A.png",
+      "Levels": {
+        "0": {
+          "Description": "スキル使用時[ダメージ増加]バフを習得します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SwiftStab_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[557％]\nSA破壊量：[448％]\nバフ効果：ダメージ増加[5％]\nバフ持続時間：[8秒]\n\n[特性情報：追加爆発]\nダメージ量：[55％]/[167％]\nSA破壊量：[44％]/[134％]",
+          "RequiredLevel": 20,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[641％]\nSA破壊量：[515％]\nバフ効果：ダメージ増加[7％]\nバフ持続時間：[9秒]\n\n[特性情報：追加爆発]\nダメージ量：[64％]/[192％]\nSA破壊量：[51％]/[154％]",
+          "RequiredLevel": 25,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[808％]\nSA破壊量：[649％]\nバフ効果：ダメージ増加[10％]\nバフ持続時間：[10秒]\n\n[特性情報：追加爆発]\nダメージ量：[80％]/[242％]\nSA破壊量：[64％]/[194％]",
+          "RequiredLevel": 30,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SwiftStab-B": {
+      "Visible": false,
+      "Name": "打ち上げ",
+      "ID": 9,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_SwiftStab_B.png",
+      "Levels": {
+        "0": {
+          "Description": "スキルの最後に、連打で敵を浮かせます。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SwiftStab_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[334％]+[334％]\nSA破壊量：[268％]+[268％]\n\n[特性情報：追加爆発]\nダメージ量[55％]/[167％]\nSA破壊量：[44％]/[134％]",
+          "RequiredLevel": 20,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[384％]+[384％]\nSA破壊量：[309％]+[309％]\n\n[特性情報：追加爆発]\nダメージ量[64％]/[192％]\nSA破壊量：[51％]/[154％]",
+          "RequiredLevel": 25,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[484％]+[484％]\nSA破壊量：[389％]+[389％]\n\n[特性情報：追加爆発]\nダメージ量[80％]/[242％]\nSA破壊量：[64％]/[194％]",
+          "RequiredLevel": 30,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "FieldOctagon": {
+      "Name": "フィールドオクタゴン",
+      "ID": 10,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_FieldOctagon.png",
+      "Levels": {
+        "0": {
+          "Description": "召喚者がダメージを与えると、範囲内の敵に一定の間隔でダメージを与えるフィールドを展開する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_FieldOctagon.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[150％]\nSA破壊量：[150％]\nフィールド維持時間：[10秒]\nSG消費量：[55]\nクールタイム：[30秒]",
+          "RequiredLevel": 6,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[150％]\nSA破壊量：[150％]\nフィールド維持時間：[11秒]\nSG消費量：[55]\nクールタイム：[30秒]",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[150％]\nSA破壊量：[150％]\nフィールド維持時間：[12秒]\nSG消費量：[55]\nクールタイム：[30秒]",
+          "RequiredLevel": 14,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[150％]\nSA破壊量：[150％]\nフィールド維持時間：[13秒]\nSG消費量：[55]\nクールタイム：[30秒]",
+          "RequiredLevel": 18,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "ダメージ量：[150％]\nSA破壊量：[150％]\nフィールド維持時間：[15秒]\nSG消費量：[55]\nクールタイム：[30秒]",
+          "RequiredLevel": 22,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "FieldOctagon-A"
+      ]
+    },
+    "FieldOctagon-A": {
+      "Visible": false,
+      "Name": "出力上昇",
+      "ID": 11,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_FieldOctagon_A.png",
+      "Levels": {
+        "0": {
+          "Description": "フィールドの出力を上昇させ、短時間で大きなダメージを与えられるようになる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_FieldOctagon.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：追加攻撃]\nダメージ量：[300％]\nSA破壊量：[300％]\nフィールド維持時間：[8秒]",
+          "RequiredLevel": 22,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：追加攻撃]\nダメージ量：[300％]\nSA破壊量：[300％]\nフィールド維持時間：[9秒]",
+          "RequiredLevel": 27,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報：追加攻撃]\nダメージ量：[300％]\nSA破壊量：[300％]\nフィールド維持時間：[10秒]",
+          "RequiredLevel": 32,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SpearDance": {
+      "Name": "スピアダンス",
+      "ID": 12,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_SpearDance.png",
+      "Levels": {
+        "0": {
+          "Description": "素早く前方の敵を連続で蹴り、その後ソウルスピアを召喚して追い打ちをかけます。\n弾丸バフまたは武器制限解除バフ時、ソウルスピアの追い打ちで追加爆発が発生します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SpearDance.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[630％]+[210％]\nSA破壊量：[465％]+[155％]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[84％]/[252％]\nSA破壊量：[62％]/[186％]",
+          "RequiredLevel": 8,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[693％]+[231％]\nSA破壊量：[511％]+[170％]\nG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[92％]/[277％]\nSA破壊量：[68％]/[204％]",
+          "RequiredLevel": 12,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[776％]+[258％]\nSA破壊量：[573％]+[191％]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[103％]/[310％]\nSA破壊量：[76％]/[229％]",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[885％]+[295％]\nSA破壊量：[653％]+[217％]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[118％]/[354％]\nSA破壊量：[87％]/[261％]",
+          "RequiredLevel": 20,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[1044％]+[348％]\nSA破壊量：[771％]+[257％]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[139％]/[417％]\nSA破壊量：[102％]/[308％]",
+          "RequiredLevel": 24,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "SpearDance-A"
+      ]
+    },
+    "SpearDance-A": {
+      "Visible": false,
+      "Name": "攻撃回数増加",
+      "ID": 13,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_SpearDance_A.png",
+      "Levels": {
+        "0": {
+          "Description": "より素早い攻撃で手数が増加します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SpearDance_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[1044％]+[334％]+[348％]\nSA破壊量：[771％]+[247％]+[257％]\n\n[特性情報：追加爆発]\nダメージ量：[139％]/[417％]\nSA破壊量：[102％]/[308％]",
+          "RequiredLevel": 24,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[1210％]+[384％]+[400％]\nSA破壊量：[886％]+[284％]+[295％]\n\n[特性情報：追加爆発]\nダメージ量：[160％]/[480％]\nSA破壊量：[118％]/[354％]",
+          "RequiredLevel": 29,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[1514％]+[485％]+[504％]\nSA破壊量：[1118％]+[358％]+[372％]\n\n[特性情報：追加爆発]\nダメージ量：[201％]/[605％]\nSA破壊量：[149％]/[447％]",
+          "RequiredLevel": 34,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "ViciousWoodpecker": {
+      "Name": "ヴィシャスウッドペッカー",
+      "ID": 14,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_ViciousWoodpecker.png",
+      "Levels": {
+        "0": {
+          "Description": "敵を乱れ突きします。\n一定時間経過または右クリックで、ソウルエナジーを集めて前方の敵を突き刺します。\n弾丸バフまたは武器制限解除バフ時、追い打ちに追加爆発が発生します。\nスキル使用後リロードします。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_ViciousWoodpecker.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[85％]+[426％]\nSA破壊量：[60％]+[301％]\nSG消費量：[50]\nクールタイム：[25秒]\n\n[スキル情報：追加爆発]\nダメージ量：[213％]/[638％]\nSA破壊量：[151％]/[452％]",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[94％]+[468％]\nSA破壊量：[66％]+[331％]\nSG消費量：[50]\nクールタイム：[25秒]\n\n[スキル情報：追加爆発]\nダメージ量：[234％]+[702％]\nSA破壊量：[166％]+[497％]",
+          "RequiredLevel": 15,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[105％]+[524％]\nSA破壊量：[74％]+[371％]\nSG消費量：[50]\nクールタイム：[25秒]\n\n[スキル情報：追加爆発]\nダメージ量：[262％]/[787％]\nSA破壊量：[185％]/[556％]",
+          "RequiredLevel": 20,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[120％]+[598％]\nSA破壊量：[85％]+[423％]\nSG消費量：[50]\nクールタイム：[25秒]\n\n[スキル情報：追加爆発]\nダメージ量：[299％]/[897％]\nSA破壊量：[211％]/[634％]",
+          "RequiredLevel": 25,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[141％]+[705％]\nSA破壊量：[100％]+[499％]\nSG消費量：[50]\nクールタイム：[25秒]\n\n[スキル情報：追加爆発]\nダメージ量：[353％]/[1058％]\nSA破壊量：[249％]/[748％]",
+          "RequiredLevel": 30,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "ViciousWoodpecker-A"
+      ]
+    },
+    "AngelicStep": {
+      "Name": "エンジェリックステップ",
+      "ID": 15,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_AngelicStep.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "空中から垂直に落下し、周辺の敵を攻撃します。\n弾丸バフまたは武器制限解除バフ時、追加爆発が発生します。",
+          "Effect": "",
+          "RequiredLevel": 13,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AngelicStep.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[641％]\nSA破壊量：[1040％]\nデバフ：麻痺[2.5秒]\nSG消費量：[35]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[64％]/[192％]\nSA破壊量：[104％]/[312％]",
+          "RequiredLevel": 13,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[706％]\nSA破壊量：[1145％]\nデバフ：麻痺[2.5秒]\nSG消費量：[35]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[70％]/[212％]\nSA破壊量：[114％]/[334％]",
+          "RequiredLevel": 18,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[790％]\nSA破壊量：[1282％]\nデバフ：麻痺[2.5秒]\nSG消費量：[35]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[79％]/[237％]\nSA破壊量：[128％]/[385％]",
+          "RequiredLevel": 23,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[901％]\nSA破壊量：[1462％]\nデバフ：麻痺[2.5秒]\nSG消費量：[35]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[90％]/[270％]\nSA破壊量：[146％]/[439％]",
+          "RequiredLevel": 28,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[1062％]\nSA破壊量：[1725％]\nデバフ：麻痺[2.5秒]\nSG消費量：[35]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[106％]/[319％]\nSA破壊量：[172％]/[518％]",
+          "RequiredLevel": 33,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "Amazones": {
+      "Name": "アマゾネスハント",
+      "ID": 16,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_Amazones.png",
+      "Levels": {
+        "0": {
+          "Description": "5個ソウルスピアを召喚させて、前方の敵を貫きます。\n弾丸バフまたは武器制限解除バフ時、スピアが敵を貫きながら追加爆発が発生します。\nスキル使用後リロードします。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_Amazones.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[512％]\nSA破壊量：[487％]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[51％]/[153％]\nSA破壊量：[48％]/[146％]",
+          "RequiredLevel": 17,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[564％]\nSA破壊量：[536％]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[56％]/[169％]\nSA破壊量：[53％]/[160％]",
+          "RequiredLevel": 22,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[631％]\nSA破壊量：[600％]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[63％]/[189％]\nSA破壊量：[60％]/[180％]",
+          "RequiredLevel": 27,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[720％]\nSA破壊量：[684％]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[72％]/[216％]\nSA破壊量：[68％]/[205％]",
+          "RequiredLevel": 32,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[849％]\nSA破壊量：[808％]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[84％]/[254％]\nSA破壊量：[80％]/[242％]",
+          "RequiredLevel": 37,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "Amazones-A",
+        "Amazones-B"
+      ]
+    },
+    "Amazones-A": {
+      "Visible": false,
+      "Name": "発射体追加",
+      "ID": 17,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_Amazones_A.png",
+      "Levels": {
+        "0": {
+          "Description": "ソウルスピアが10個に増加します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_Amazones_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[1103％]\nSA破壊量：[1050％]\n\n[特性情報：追加爆発]\nダメージ量：[84％]/[254％]\nSA破壊量：[80％]/[242％]",
+          "RequiredLevel": 37,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[1268％]\nSA破壊量：[1207％]\n\n[特性情報：追加爆発]\nダメージ量：[97％]/[292％]\nSA破壊量：[92％]/[278％]",
+          "RequiredLevel": 42,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[1600％]\nSA破壊量：[1522％]\n\n[特性情報：追加爆発]\nダメージ量：[123％]/[369％]\nSA破壊量：[117％]/[351％]",
+          "RequiredLevel": 47,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "Amazones-B": {
+      "Visible": false,
+      "Name": "狙撃",
+      "ID": 18,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_Amazones_B.png",
+      "Levels": {
+        "0": {
+          "Description": "残ったソウルスピアを槍投げのように投げつけます。\n軌道上の敵に強力なダメージを与えます。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_Amazones_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[679％]+[1018％]\nSA破壊量：[646％]+[969％]\n\n[特性情報：追加爆発]\nダメージ量：[84％]/[254％]\nSA破壊量：[80％]/[242％]",
+          "RequiredLevel": 37,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[780％]+[1171％]\nSA破壊量：[743％]+[1114％]\n\n[特性情報：追加爆発]\nダメージ量：[97％]/[292％]\nSA破壊量：[92％]/[278％]",
+          "RequiredLevel": 43,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[984％]+[1477％]\nSA破壊量：[936％]+[1405％]\n\n[特性情報：追加爆発]\nダメージ量：[123％]/[369％]\nSA破壊量：[117％]/[351％]",
+          "RequiredLevel": 47,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SupportCall": {
+      "Name": "サポートコール",
+      "ID": 19,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_SupportCall.png",
+      "Levels": {
+        "0": {
+          "Description": "支援を要請して本人とパーティーにバフを与えます。\nパーティーバフは20秒間4秒ごとにダメージ量減少が7%ずつ減少、攻撃速度は4%ずつ増加します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SupportCall.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "バフ効果：SG消費量減少[5%]\nバフ持続時間：[25秒]\nSG消費量：[50]\nクールタイム：[60秒]\n\n[スキル情報：追加効果]\nバフ効果：ダメージ減少[最大35％、4秒毎7％減少]\nバフ効果：攻撃速度[4秒毎4％増加]\nバフ持続時間：[20秒]",
+          "RequiredLevel": 21,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "バフ効果：SG消費量減少[7％]\nバフ持続時間：[25秒]\nSG消費量：[50]\nクールタイム：[60秒]\n\n[スキル情報：追加効果]\nバフ効果：ダメージ減少[最大35％、4秒毎7％減少]\nバフ効果：攻撃速度[4秒毎4％増加]\nバフ持続時間：[20秒]",
+          "RequiredLevel": 26,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "バフ効果：SG消費量減少[9％]\nバフ持続時間：[25秒]\nSG消費量：[50]\nクールタイム：[60秒]\n\n[スキル情報：追加効果]\nバフ効果：ダメージ減少[最大35％、4秒毎7％減少]\nバフ効果：攻撃速度[4秒毎4％増加]\nバフ持続時間：[20秒]",
+          "RequiredLevel": 31,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "バフ効果：SG消費量減少[11％]\nバフ持続時間：[25秒]\nSG消費量：[50]\nクールタイム：[60秒]\n\n[スキル情報：追加効果]\nバフ効果：ダメージ減少[最大35％、4秒毎7％減少]\nバフ効果：攻撃速度[4秒毎4％増加]\nバフ持続時間：[20秒]",
+          "RequiredLevel": 36,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "バフ効果：SG消費量減少[15％]\nバフ持続時間：[25秒]\nSG消費量：[50]\nクールタイム：[60秒]\n\n[スキル情報：追加効果]\nバフ効果：ダメージ減少[最大35％、4秒毎7％減少]\nバフ効果：攻撃速度[4秒毎4％増加]\nバフ持続時間：[20秒]",
+          "RequiredLevel": 41,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "MambasCoil": {
+      "Name": "マンバスコイルI",
+      "ID": 20,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_MambasCoil.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "スピアで下から上に振り回す一撃をします。\n地を這うスピアが敵を斬り上げ、敵に連続攻撃を加えます。\n弾丸バフまたは武器制限解除バフ時、追加爆発が発生します。\nスキル使用後リロードします。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_MambasCoil.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[67％]+[672％]\nSA破壊量：[91％]+[912％]\nSG消費量：[55]\nクールタイム：[35秒]\n\n[スキル情報：追加爆発]\nダメージ量：[67％]/[201％]\nSA破壊量：[91％]/[273％]",
+          "RequiredLevel": 28,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[74％]+[740％]\nSA破壊量：[100％]+[1004％]\nSG消費量：[55]\nクールタイム：[35秒]\n\n[スキル情報：追加爆発]\nダメージ量：[74％]/[222％]\nSA破壊量：[100％]/[301％]",
+          "RequiredLevel": 32,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[82％]+[828％]\nSA破壊量：[112％]+[1124％]\nSG消費量：[55]\nクールタイム：[35秒]\n\n[スキル情報：追加爆発]\nダメージ量：[82％]/[248％]\nSA破壊量：[112％]/[337％]",
+          "RequiredLevel": 36,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[94％]+[944％]\nSA破壊量：[128％]+[1281％]\nSG消費量：[55]\nクールタイム：[35秒]\n\n[スキル情報：追加爆発]\nダメージ量：[94％]/[283％]\nSA破壊量：[128％]/[384％]",
+          "RequiredLevel": 40,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[111％]+[1114％]\nSA破壊量：[151％]+[1512％]\nSG消費量：[55]\nクールタイム：[35秒]\n\n[スキル情報：追加爆発]\nダメージ量：[111％]/[334％]\nSA破壊量：[151％]/[453％]",
+          "RequiredLevel": 44,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "MambasCoil-A",
+        "MambasCoil-B"
+      ]
+    },
+    "MambasCoil-A": {
+      "Visible": false,
+      "Name": "ライトニングフィールド",
+      "ID": 21,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_MambasCoil_A.png",
+      "Levels": {
+        "0": {
+          "Description": "床面から現れたスピアが追加ダメージを与えます。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_MambasCoil_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[111％]+[1114％]\nSA破壊量：[151％]+[1512％]\n\n[特性情報：麻痺攻撃]\nダメージ量：[77％]\nSA破壊量：[105％]\nデバフ：麻痺[2秒]\n\n[特性情報：追加爆発]\nダメージ量：[111％]/[334％]\nSA破壊量：[151％]/[453％]",
+          "RequiredLevel": 44,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[128％]+[1281％]\nSA破壊量：[173％]+[1739％]\n\n[特性情報：麻痺攻撃]\nダメージ量：[89％]\nSA破壊量：[121％]\nデバフ：麻痺[2秒]\n\n[特性情報：追加爆発]\nダメージ量：[128％]/[384％]\nSA破壊量：[173％]/[521％]",
+          "RequiredLevel": 49,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[161％]+[1616％]\nSA破壊量：[219％]+[2193％]\n\n[特性情報：麻痺攻撃]\nダメージ量：[113％]\nSA破壊量：[153％]\nデバフ：麻痺[2秒]\n\n[特性情報：追加爆発]\nダメージ量：[161％]/[484％]\nSA破壊量：[219％]/[657％]",
+          "RequiredLevel": 54,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "MambasCoil-B": {
+      "Visible": false,
+      "Name": "攻撃回数増加",
+      "ID": 22,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_MambasCoil_B.png",
+      "Levels": {
+        "0": {
+          "Description": "ソウルスピア攻撃回数が増加します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_MambasCoil_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[111％]+[1782％]\nSA破壊量：[151％]+[2419％]\n\n[特性情報：追加爆発]\nダメージ量：[111％]/[334％]\nSA破壊量：[151％]/[453％]",
+          "RequiredLevel": 44,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[128％]+[2049％]\nSA破壊量：[173％]+[2782％]\n\n[特性情報：追加爆発]\nダメージ量：[128％]/[384％]\nSA破壊量：[173％]/[521％]",
+          "RequiredLevel": 49,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[161％]+[2585％]\nSA破壊量：[219％]+[3508％]\n\n[特性情報：追加爆発]\nダメージ量：[161％]/[484％]\nSA破壊量：[219％]/[657％]",
+          "RequiredLevel": 54,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "AscendingTornado": {
+      "Name": "アセンディングトルネード",
+      "ID": 23,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_AscendingTornado.png",
+      "Levels": {
+        "0": {
+          "Description": "素早く回転しながらトルネードとなり、周辺の敵を攻撃します。\n弾丸バフまたは武器制限解除バフ時、追加爆発が発生します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AscendingTornado.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[1099％]+[471％]\nSA破壊量：[519％]+[222％]\nSG消費量：[50]\nクールタイム：[35秒]\n\n[スキル情報：追加爆発]\nダメージ量：[157％]/[471％]\nSA破壊量：[74％]/[222％]",
+          "RequiredLevel": 34,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[1208％]+[518％]\nSA破壊量：[571％]+[245％]\nSG消費量：[50]\nクールタイム：[35秒]\n\n[スキル情報：追加爆発]\nダメージ量：[172％]/[518％]\nSA破壊量：[81％]/[245％]",
+          "RequiredLevel": 37,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[1354％]+[580％]\nSA破壊量：[640％]+[274％]\nSG消費量：[50]\nクールタイム：[35秒]\n\n[スキル情報：追加爆発]\nダメージ量：[193％]/[580％]\nSA破壊量：[91％]/[274％]",
+          "RequiredLevel": 40,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[1544％]+[661％]\nSA破壊量：[730％]+[312％]\nSG消費量：[50]\nクールタイム：[35秒]\n\n[スキル情報：追加爆発]\nダメージ量：[220％]/[661％]\nSA破壊量：[104％]/[312％]",
+          "RequiredLevel": 43,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[1821％]+[780％]\nSA破壊量：[861％]+[369％]\nSG消費量：[50]\nクールタイム：[35秒]\n\n[スキル情報：追加爆発]\nダメージ量：[260％]/[780％]\nSA破壊量：[123％]/[369％]",
+          "RequiredLevel": 46,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "AscendingTornado-A"
+      ]
+    },
+    "AscendingTornado-A": {
+      "Visible": false,
+      "Name": "移動",
+      "ID": 24,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_AscendingTornado_A.png",
+      "Levels": {
+        "0": {
+          "Description": "スキル使用時、地面に沿って動きながら敵を攻撃します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AscendingTornado_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[1821％]+[780％]\nSA破壊量：[861％]+[369％]\n\n[特性情報：追加爆発]\nダメージ量：[260％]/[780％]\nSA破壊量：[123％]/[369％]",
+          "RequiredLevel": 46,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[2095％]+[897％]\nSA破壊量：[990％]+[424％]\n\n[特性情報：追加爆発]\nダメージ量：[299％]/[897％]\nSA破壊量：[141％]/[424％]",
+          "RequiredLevel": 50,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[2641％]+[1132％]\nSA破壊量：[1248％]+[535％]\n\n[特性情報：追加爆発]\nダメージ量：[377％]/[1132％]\nSA破壊量：[178％]/[535％]",
+          "RequiredLevel": 54,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SuperNova": {
+      "Name": "スーパーノヴァ",
+      "ID": 25,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_SuperNova.png",
+      "Levels": {
+        "0": {
+          "Description": "エナジーを集めて空中に跳躍します。\nその後狙った位置に振り下ろし攻撃を加えます。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SuperNova.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[1483％]+[635％]\nSA破壊量：[1369％]+[587％]\nSG消費量：[75]\nクールタイム：[45秒]",
+          "RequiredLevel": 42,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[1631％]+[699％]\nSA破壊量：[1507％]+[645％]\nSG消費量：[75]\nクールタイム：[45秒]",
+          "RequiredLevel": 45,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[1827％]+[783％]\nSA破壊量：[1688％]+[723％]\nSG消費量：[75]\nクールタイム：[45秒]",
+          "RequiredLevel": 48,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[2083％]+[893％]\nSA破壊量：[1924％]+[824％]\nSG消費量：[75]\nクールタイム：[45秒]",
+          "RequiredLevel": 52,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[2458％]+[1053％]\nSA破壊量：[2270％]+[973％]\nSG消費量：[75]\nクールタイム：[45秒]",
+          "RequiredLevel": 55,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "SuperNova-A"
+      ]
+    },
+    "SonicBoom-A": {
+      "Visible": false,
+      "Name": "クイックコンボ",
+      "ID": 26,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_Sonic-Boom_A.png",
+      "Levels": {
+        "0": {
+          "Description": "突進中に左クリックで前方の敵を攻撃し、その後追加ダメージを与えます。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SonicBoom_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[488％]+[122%]+[146%]\nSA破壊量：[763％]+[191%]+[229%]\n\n[スキル情報：追加爆発]\nダメージ量：[49％]+[146％]\nSA破壊量：[76％]+[229％]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[561％]+[140%]+[168%]\nSA破壊量：[877％]+[219%]+[263%]\n\n[スキル情報：追加爆発]\nダメージ量：[56％]+[168％]\nSA破壊量：[88％]+[263％]",
+          "RequiredLevel": 58,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[707％]+[177%]+[212%]\nSA破壊量：[1106％]+[277%]+[332%]\n\n[スキル情報：追加爆発]\nダメージ量：[71％]+[212％]\nSA破壊量：[111％]+[332％]",
+          "RequiredLevel": 60,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "ViciousWoodpecker-A": {
+      "Visible": false,
+      "Name": "ラストボム",
+      "ID": 27,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_Vicious-Woodpecker_A.png",
+      "Levels": {
+        "0": {
+          "Description": "スキルレベルにより攻撃可能時間が減少し、ダメージ量が増加します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_ViciousWoodpecker_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[157％]+[784%]\nSA破壊量：[111％]+[554%]\n\n[スキル情報：追加爆発]\nダメージ量：[392％]+[1175％]\nSA破壊量：[277％]+[831％]\n\n[特性情報]\n最大攻撃時間：10%減少。",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[166％]+[830%]\nSA破壊量：[117％]+[587%]\n\n[スキル情報：追加爆発]\nダメージ量：[415％]+[1244％]\nSA破壊量：[293％]+[880％]\n\n[特性情報]\n最大攻撃時間：15%減少。",
+          "RequiredLevel": 59,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[188％]+[940%]\nSA破壊量：[133％]+[665%]\n\n[スキル情報：追加爆発]\nダメージ量：[470％]+[1411％]\nSA破壊量：[333％]+[998％]\n\n[特性情報]\n最大攻撃時間：25%減少。",
+          "RequiredLevel": 60,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "Debris": {
+      "Name": "バーティカルクリア",
+      "ID": 28,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_Debris.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "前方に投げた槍が爆風を起こし敵を攻撃します。\n弾丸バフまたは武器制限解除バフ時、追い打ちに追加爆発が発生します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_Debris.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[366％]+[175％]\nSA破壊量：[371％]+[178％]\nSG消費量：[35]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[159％]+[477％]\nSA破壊量：[162％]+[485％]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[402％]+[192％]\nSA破壊量：[409％]+[196％]\nSG消費量：[35]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[175％]+[524％]\nSA破壊量：[178％]+[533％]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[450%]+[215％]\nSA破壊量：[458％]+[219％]\nSG消費量：[35]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[196％]+[587％]\nSA破壊量：[199％]+[597％]",
+          "RequiredLevel": 58,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[514％]+[246％]\nSA破壊量：[522％]+[250％]\nSG消費量：[35]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[223％]+[670％]\nSA破壊量：[227％]+[681％]",
+          "RequiredLevel": 59,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[606％]+[290％]\nSA破壊量：[616％]+[295％]\nSG消費量：[35]\nクールタイム：[20秒]\n\n[スキル情報：追加爆発]\nダメージ量：[264％]+[791％]\nSA破壊量：[268％]+[803％]",
+          "RequiredLevel": 60,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "CloudSix": {
+      "Name": "リバースターン",
+      "ID": 29,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_Cloud-Six.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "空中で回転し、周辺の敵を攻撃します。\n回転中に移動ができ、周辺に落雷での追加ダメージを与えます。\n弾丸バフまたは武器制限解除バフ時、追加爆発が発生します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_CloudSix.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[576％]+[534%]\nSA破壊量：[354％]+[330%]\nSG消費量：[35]\nクールタイム：[25秒]\n\n[スキル情報：追加爆発]\nダメージ量：[112％]+[335％]\nSA破壊量：[69％]+[206％]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[636％]+[588%]\nSA破壊量：[390％]+[363%]\nSG消費量：[35]\nクールタイム：[25秒]\n\n[スキル情報：追加爆発]\nダメージ量：[123％]+[368％]\nSA破壊量：[76％]+[227％]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[708％]+[660%]\nSA破壊量：[437％]+[406%]\nSG消費量：[35]\nクールタイム：[25秒]\n\n[スキル情報：追加爆発]\nダメージ量：[137％]+[412％]\nSA破壊量：[85％]+[254％]",
+          "RequiredLevel": 58,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[810％]+[750%]\nSA破壊量：[498％]+[463%]\nSG消費量：[35]\nクールタイム：[25秒]\n\n[スキル情報：追加爆発]\nダメージ量：[157％]+[470％]\nSA破壊量：[97％]+[290％]",
+          "RequiredLevel": 59,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[954％]+[888%]\nSA破壊量：[587％]+[546%]\nSG消費量：[35]\nクールタイム：[25秒]\n\n[スキル情報：追加爆発]\nダメージ量：[185％]+[554％]\nSA破壊量：[114％]+[341％]",
+          "RequiredLevel": 60,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "TitansFinger": {
+      "Name": "タイタンズマサカー",
+      "ID": 30,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_Titans-Finger.png",
+      "Levels": {
+        "0": {
+          "Description": "武器を巨大化させ前方の敵にダメージを与え、その後周辺の敵にも攻撃します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_TitansFinger.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[385%]+[2023%]\nSA破壊量：[356%]+[1868%]\nSG消費量：[60]\nクールタイム：[50秒]",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[424%]+[2224%]\nSA破壊量：[391%]+[2055%]\nSG消費量：[60]\nクールタイム：[50秒]",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[475%]+[2492%]\nSA破壊量：[438%]+[2302%]\nSG消費量：[60]\nクールタイム：[50秒]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[507%]+[2841%]\nSA破壊量：[468%]+[2624%]\nSG消費量：[60]\nクールタイム：[50秒]",
+          "RequiredLevel": 71,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "SuperNova-A": {
+      "Visible": false,
+      "Name": "オーバーチャージ",
+      "ID": 31,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_SuperNova_A.png",
+      "Levels": {
+        "0": {
+          "Description": "移動中範囲内の敵にダメージを与えます。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SuperNova_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[特性情報：落雷]\nダメージ量：[351％]\nSA破壊量：[324％]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },
+        "2": {
+          "Effect": "[特性情報：落雷]\nダメージ量：[351％]\nSA破壊量：[324％]\n\n[特性情報]\n移動速度増加：[1.5倍]\n打撃頻度数：[2倍]",
+          "RequiredLevel": 70,
+          "RequiredSP": 3
+        },
+        "3": {
+          "Effect": "[特性情報：落雷]\nダメージ量：[351％]\nSA破壊量：[324％]\n\n[特性情報]\n移動速度増加：[1.5倍]\n打撃頻度数：[2倍]\nバフ効果：[制限解除]\n\n攻撃が終わった後即時制限解除バフが適用されます。",
+          "RequiredLevel": 72,
+          "RequiredSP": 4
+        }
+      }
+    },
+    "BasicAttackMastery": {
+      "Passive": true,
+      "Name": "基本攻撃マスタリー",
+      "ID": 1001,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DefaultAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "槍で敵を攻撃する。\nスキルレベルが上がるほど連携攻撃の種類とダメージが増加する。\n攻撃時、SGを獲得。\nSG獲得量は連携段階とモンスター等級に応じて増加する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Attack_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "SG獲得量：[10%]増加\n分岐攻撃：[A]使用可能",
+          "RequiredLevel": 5,
+          "RequiredSP": 1,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Attack_02.{{auto}}"
+          }
+        },
+        "3": {
+          "Effect": "SG獲得量：[22%]\n分岐攻撃：[B]使用可能",
+          "RequiredLevel": 10,
+          "RequiredSP": 2,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Attack_03.{{auto}}"
+          }
+        },
+        "4": {
+          "Effect": "SG獲得量：[36%]\n基本6打使用時、リロードができる。",
+          "RequiredLevel": 15,
+          "RequiredSP": 2,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Attack_04.{{auto}}"
+          }
+        },
+        "5": {
+          "Effect": "SG獲得量：[54%]\n分岐攻撃：[C]使用可能",
+          "RequiredLevel": 20,
+          "RequiredSP": 2,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Attack_05.{{auto}}"
+          }
+        }
+      }
+    },
+    "SpecialAbilityMastery": {
+      "Passive": true,
+      "DefaultLevel": 1,
+      "ID": 1002,
+      "Name": "特殊能力マスタリー",
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_OwnAbility.png",
+      "Levels": {
+        "0": {
+          "Description": "ソウル弾丸をリロードして[弾丸]、[活性化]バフを習得する。\n[弾丸]バフ：次に使用するスキルに爆発攻撃追加する。\n[活性化]バフ：5重複時、[制限解除]バフに変更される。\n[制限解除]バフ：SG30％回復、7秒間使用するすべてのスキルに、より強力な爆発攻撃追加する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_S_Attack_N.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：地上]\nバフ効果：次に使用するスキルに爆発攻撃追加\nバフ効果2：1.5秒間0.5秒ごとにSG[5％]回復\nクールタイム：[10秒]\n\n[スキル情報：空中]\nダメージ：[186％]、[223％]\nSA破壊量：[127％]、[152％]\n\n周辺を攻撃後、着地して追い打ちをかける。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[スキル情報：地上]\nバフ効果：次に使用するスキルに爆発攻撃追加\nバフ効果2：1.5秒間0.5秒ごとにSG[7％]回復\nクールタイム：[10秒]\n\n[スキル情報：空中]\nダメージ：[204％]、[245％]\nSA破壊量：[139％]、[167％]\n\n周辺を攻撃後、着地して追い打ちをかける。",
+          "RequiredLevel": 15,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：地上]\nバフ効果：次に使用するスキルに爆発攻撃追加\nバフ効果2：1.5秒間0.5秒ごとにSG[9％]回復\nクールタイム：[10秒]\n\n[スキル情報：空中]\nダメージ：[249％]、[299％]\nSA破壊量：[170％]、[204％]\n\n周辺を攻撃後、着地して追い打ちをかける。",
+          "RequiredLevel": 30,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "EmergencyEvasion": {
+      "Passive": true,
+      "Name": "緊急回避",
+      "ID": 1003,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_Evasion.png",
+      "Levels": {
+        "0": {
+          "Description": "指定した方向に素早く移動する。\n緊急回避中はダメージを受けない。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Evade_F.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "スタミナ消費量：[20]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Welter": {
+      "Passive": true,
+      "Name": "回転起床",
+      "ID": 1004,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_Welter.png",
+      "Levels": {
+        "0": {
+          "Description": "ダウン時、指定した方向に素早く回転しながら起き上がる。\n回転起床中はダメージを受けない。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Roll_F.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "スタミナ消費量：[25]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "スタミナ消費量：[15]",
+          "RequiredLevel": 17,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "スタミナ消費量：[15]\n少し早く回転起床ができる。 ",
+          "RequiredLevel": 34,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "Dash": {
+      "Passive": true,
+      "Name": "ダッシュ",
+      "DefaultLevel": 1,
+      "ID": 1005,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_Dash.png",
+      "Levels": {
+        "0": {
+          "Description": "前方に素早くダッシュする。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Run_F.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "ダッシュの速度が上昇する。",
+          "RequiredLevel": 25,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "RisingAttack": {
+      "Passive": true,
+      "Name": "起床攻撃",
+      "ID": 1006,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_RiseAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "ダウン時、周辺の敵を攻撃しながら起き上がる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Rise_Attack.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[100%]\nスタミナ消費量：[30]\nクールタイム：[15秒]\nスキル使用後3秒間、無敵状態になる。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "ダメージ量：[100%]\nスタミナ消費量：[20]\nクールタイム：[15秒]\nスキル使用後3秒間、無敵状態になる。",
+          "RequiredLevel": 18,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[100%]\nスタミナ消費量：[20]\nクールタイム：[15秒]\nスキル使用後5秒間、無敵状態になる。",
+          "RequiredLevel": 36,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "DashAttack": {
+      "Passive": true,
+      "Name": "ダッシュアタック",
+      "DefaultLevel": 1,
+      "ID": 1007,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DashAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "ダッシュ中に回転し前方を攻撃する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_N_Attack_Dash.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[116%]\nSA破壊量：[46%]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "SpecialEvasion": {
+      "Passive": true,
+      "Name": "特殊回避",
+      "ID": 1008,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_EvasionAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "敵から攻撃を受けている最中に素早く移動する。\n特殊回避中はダメージを受けない。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Special_Evade_F.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "スタミナ消費量：[40]\nクールタイム：[30秒]",
+          "RequiredLevel": 4,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "スタミナ消費量：[40]\nクールタイム：[25秒]",
+          "RequiredLevel": 21,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "スタミナ消費量：[40]\nクールタイム：[20秒]",
+          "RequiredLevel": 38,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SpecialDashAttack": {
+      "Passive": true,
+      "Name": "特殊ダッシュアタック",
+      "ID": 1009,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DashSmashAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "ダッシュ中にジャンプして空中攻撃後、強力な追い打ちをかける。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_S_Attack_N_Dash.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[206％]\nSA破壊量：[92％]",
+          "RequiredLevel": 13,
+          "RequiredSP": 1
+        }
+      }
+    },
+    "StaminaMastery": {
+      "Passive": true,
+      "Name": "スタミナマスタリー",
+      "ID": 1010,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_StaminaMastery.png",
+      "Levels": {
+        "0": {
+          "Description": "スタミナ回復量が増加する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "スタミナ回復量[10%]増加",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "スタミナ回復量[20%]増加",
+          "RequiredLevel": 15,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "スタミナ回復量[30%]増加",
+          "RequiredLevel": 20,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "スタミナ回復量[40%]増加",
+          "RequiredLevel": 25,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "スタミナ回復量[50%]増加",
+          "RequiredLevel": 30,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "OutputIntensification": {
+      "Passive": true,
+      "Name": "出力激化",
+      "ID": 1013,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_SGPassive2.png",
+      "Levels": {
+        "0": {
+          "Description": "スキル効果による装填バフ発生時、SGが即時回復します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "パッシブ効果：SG回復量：[5%]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "パッシブ効果：SG回復量：[7%]",
+          "RequiredLevel": 58,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "パッシブ効果：SG回復量：[10%]",
+          "RequiredLevel": 59,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "OutputReinforcement": {
+      "Passive": true,
+      "Name": "出力強化",
+      "ID": 1011,
+      "RowSpan": {
+        "0": 2,
+        "1": 1
+      },
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_SGPassive.png",
+      "Levels": {
+        "0": {
+          "Description": "攻撃速度と移動速度を増加させる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "パッシブ効果：攻撃速度[3％]、移動速度[5％]増加",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "パッシブ効果：攻撃速度[6％]、移動速度[9％]増加",
+          "RequiredLevel": 20,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "パッシブ効果：攻撃速度[9％]、移動速度[13％]増加",
+          "RequiredLevel": 30,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "IndomitableSpear": {
+      "ID": 1012,
+      "Passive": true,
+      "DefaultLevel": 1,
+      "RowSpan": 2,
+      "Name": "不屈の槍",
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_SoulMastery.png",
+      "Levels": {
+        "0": {
+          "Description": "一定時間ごとにSGを回復します。\n通常攻撃成功時、SGを回復します。\n特殊攻撃および制限解除モーション発動時、SGを回復します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "RegionsBombing": {
+      "Passive": true,
+      "Name": "イクシード：レギオンズボミング",
+      "DefaultLevel": 1,
+      "ID": 2003,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_Regions-Bombing.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "覚醒状態でのみスキル使用が可能です。\nスキル使用時に覚醒状態が解除されます。\n\n多くの武器を宙に召喚し攻撃した後、連続爆発を起こします。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_RegionsBombing.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[JP]\nダメージ量：[3000%]\nSA破壊量：[2700%]\n\n[KR]\n전체 피해량: [8000%]\n전체 슈퍼아머 파괴량: [7700%]\nSV 획득량: [10]",
+          "RequiredLevel": 57,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Erosion": {
+      "Passive": true,
+      "Name": "イロージョン",
+      "DefaultLevel": 1,
+      "ID": 2001,
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_BreakErode.png ",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "体を覚醒させ、身体能力を一時的に向上させる。\nソウルベイパーを消費し、スキルを使用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SoulViper_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "1段階ゲージ消費(SV50消費)\n\n30秒間、覚醒状態になる。\n-ダメージが15％増加する。\n-移動速度が20%増加する。\n-SA状態になる。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Awakening": {
+      "Passive": true,
+      "Name": "覚醒",
+      "DefaultLevel": 1,
+      "ID": 2002,
+      "RequireClass": {
+        "CompareType": "atmost",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_BreakWakeup.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "体を覚醒させ、身体能力を一時的に向上させる。\nソウルベイパーを消費し、スキルを使用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SoulViper_02.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "2段階ゲージ消費(SV100消費)\n\n60秒間、覚醒状態になる。\n-ダメージが15％増加する。\n-SA破壊量が30%増加する。\n-移動速度が20%増加する。\n-SA状態になる。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "DesireAwakening": {
+      "Passive": true,
+      "Name": "デザイア覚醒",
+      "DefaultLevel": 1,
+      "ID": 2004,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 2
+      },
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DBreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "体を覚醒させ、身体能力を一時的に向上させる。\nSV(ソウルベイパー)を消費し、スキルを使用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SoulViper_03.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "2段階ゲージ消費（SV100消費）\n\n60秒間、デザイア覚醒状態になる。\n-与ダメージが20％上昇する。\n-SG消費量が20％減少する。\n-最大ダメージを固定する。\n-攻撃速度が20%増加する。\n-移動速度が30%増加する。\n-SA状態になる。\n-デザイアスキルが発動する。\n\n[バーニングスキル情報]\nExスキル使用後、効果が終了する。\n-60秒間スキルのダメージ量が1.3倍に上昇する。\n- スーパーノヴァ\n- タイタンズマサカー\n- イクシード：レギオンズボミング",
+          "RequiredLevel": 57,
+          "RequiredSP": 0
+        }
+      }
+    }
+  }
+}

@@ -1,1182 +1,1261 @@
 {
-  "CharacterName": "Iris Yuma",
-  "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Iris_Yuma",
+  "CharacterName": "イリス・ユマ",
+  "CharacterWikiURL": "https://wikiwiki.jp/soulworker/%E3%82%A4%E3%83%AA%E3%82%B9%E3%83%BB%E3%83%A6%E3%83%9E",
   "AvailableClass": {
     "0": {
-      "Name": "Base",
-      "Cover": "../assets/images/bg-iris1.png"
+      "Name": "ベース",
+      "Cover": "../assets/images/Iris_Base.png"
     },
     "1": {
-      "Name": "Upgraded",
-      "Cover": "../assets/images/bg-iris2.png",
+      "Name": "アップグレード",
+      "Cover": "../assets/images/Iris_Upgrade.png",
       "RequiredLevel": 57
+    },
+    "2": {
+      "Name": "デザイア覚醒",
+      "Cover": "../assets/images/Iris_Desire.png",
+      "RequiredLevel": 65
     }
   },
   "Skills": {
     "HammerCrash": {
-      "Name": "Hammer Crash",
+      "Name": "ハンマークラッシュ",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_HammerCrash.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_HammerCrash.png",
       "Levels": {
         "0": {
-          "Description": "Swings the hammer to attack",
+          "Description": "ハンマーを振り回して攻撃する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_HammerCrash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_HammerCrash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[142%]\nSA破壊量：[51%]\nSG消費量：[40]\nクールタイム：[15秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[106%][106%]\nSA破壊量：[38%][38%]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[149%]\nSA破壊量：[53%]\nSG消費量：[40]\nクールタイム：[15秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[112%][112%]\nSA破壊量：[40%][40%]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[167%]\nSA破壊量：[60%]\nSG消費量：[40]\nクールタイム：[15秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[125%][125%]\nSA破壊量：[45%][45%]",
           "RequiredLevel": 7,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[185%]\nSA破壊量：[66%]\nSG消費量：[40]\nクールタイム：[15秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[138%][138%]\nSA破壊量：[49%][49%]",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[213%]\nSA破壊量：[76%]\nSG消費量：[40]\nクールタイム：[15秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[160%][160%]\nSA破壊量：[57%][57%]",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "HammerCrash-ContinuousExplosion",
-        "HammerCrash-FullSwing"
+        "HammerCrash-A",
+        "HammerCrash-B"
       ]
     },
-    "HammerCrash-ContinuousExplosion": {
+    "HammerCrash-A": {
       "Visible": false,
-      "Name": "Continuous Explosion",
+      "Name": "連続爆発",
       "ID": 2,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_HammerCrash_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_HammerCrash_A.png",
       "Levels": {
         "0": {
-          "Description": "Adds an additional explosion on the ground",
+          "Description": "前方の地面が追加で爆発する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_HammerCrash_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_HammerCrash_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[特性情報]\n地面爆発：[3個]追加",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[特性情報]\n地面爆発：[3個]+3個追加",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[特性情報]\n地面爆発：[6個]+4個追加",
           "RequiredLevel": 23,
           "RequiredSP": 2
         }
       }
     },
-    "HammerCrash-FullSwing": {
+    "HammerCrash-B": {
       "Visible": false,
-      "Name": "Full Swing",
+      "Name": "フルスウィング",
       "ID": 3,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_HammerCrash_B.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_HammerCrash_B.png",
       "Levels": {
         "0": {
-          "Description": "Launch an additional attack after the last attack",
+          "Description": "最後の攻撃後、追加攻撃が発生する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_HammerCrash_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_HammerCrash_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[特性情報：追加攻撃]\nダメージ量：[854%]\nSA破壊量：[307%]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[特性情報：追加攻撃]\nダメージ量：[961%]\nSA破壊量：[346%]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[特性情報：追加攻撃]\nダメージ量：[1175%]\nSA破壊量：[422%]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         }
       }
     },
     "CamelSpin": {
-      "Name": "Camel Spin",
+      "Name": "キャメルスピン",
       "DefaultLevel": 1,
       "ID": 4,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_CamelSpin.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_CamelSpin.png",
       "Levels": {
         "0": {
-          "Description": "Take a short leap forward and then strike with a 360° rotation",
+          "Description": "前方に向かって低く飛び、体を360度回転させ攻撃する。\n攻撃命中時、SGを回復する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_CamelSpin.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_CamelSpin.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "ダメージ量：[320%]\nSA破壊量：[209%]\nSG消費量：[35]\nSG回復量：[1]\nクールタイム：[10秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "ダメージ量：[336%]\nSA破壊量：[219%]\nSG消費量：[35]\nSG回復量：[2]\nクールタイム：[10秒]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "ダメージ量：[376%]\nSA破壊量：[245%]\nSG消費量：[35]\nSG回復量：[3]\nクールタイム：[10秒]",
           "RequiredLevel": 11,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "ダメージ量：[416%]\nSA破壊量：[271%]\nSG消費量：[35]\nSG回復量：[4]\nクールタイム：[10秒]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "ダメージ量：[480%]\nSA破壊量：[313%]\nSG消費量：[35]\nSG回復量：[5]\nクールタイム：[10秒]",
           "RequiredLevel": 21,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "CamelSpin-BladeWings"
+        "CamelSpin-A"
       ]
     },
     "AssaultDive": {
-      "Name": "Assault Dive",
+      "Name": "アサルトダイブ",
       "DefaultLevel": 1,
       "ID": 5,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_AssaultDive.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_AssaultDive.png",
       "Levels": {
         "0": {
-          "Description": "Quickly leap forward and push with your weapon, 2 additional rapid-fire explosion attacks",
+          "Description": "前方に素早く跳躍し武器を突き出し、2連射爆発攻撃を加える。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_AssaultDive.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_AssaultDive.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[423%]\nSA破壊量：[327%]\nSG消費量：[30]\nクールタイム：[8秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[84%][84%]\nSA破壊量：[64%][65%]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[444%]\nSA破壊量：[343%]\nSG消費量：[30]\nクールタイム：[8秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[88%][88%]\nSA破壊量：[68%][68%]",
           "RequiredLevel": 5,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[497%]\nSA破壊量：[384%]\nSG消費量：[30]\nクールタイム：[8秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[98%][99%]\nSA破壊量：[76%][76%]",
           "RequiredLevel": 9,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[550%]\nSA破壊量：[425%]\nSG消費量：[30]\nクールタイム：[8秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[110%][110%]\nSA破壊量：[84%][85%]",
           "RequiredLevel": 13,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[634%]\nSA破壊量：[490%]\nSG消費量：[30]\nクールタイム：[8秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[126%][126%]\nSA破壊量：[98%][98%]",
           "RequiredLevel": 17,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "AssaultDive-Shatter",
-        "AssaultDive-Emission"
+        "AssaultDive-A",
+        "AssaultDive-B"
       ]
     },
-    "AssaultDive-Shatter": {
+    "AssaultDive-A": {
       "Visible": false,
-      "Name": "Shatter",
+      "Name": "粉砕",
       "ID": 6,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_AssaultDive_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_AssaultDive_A.png",
       "Levels": {
         "0": {
-          "Description": "Replaces the additional attack with an additional consecutive attack",
+          "Description": "追加操作により連続攻撃が追加される。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_AssaultDive_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_AssaultDive_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[534%]\nSA破壊量：[637%]\n\n連続攻撃の速度が増加する。",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[534%]\nSA破壊量：[637%]\n\n連続攻撃の速度が増加する。",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[534%]\nSA破壊量：[637%]\n\n連続攻撃の速度が増加する。",
           "RequiredLevel": 27,
           "RequiredSP": 2
         }
       }
     },
-    "AssaultDive-Emission": {
+    "AssaultDive-B": {
       "Visible": false,
-      "Name": "Emission",
+      "Name": "放射",
       "ID": 7,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_AssaultDive_B.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_AssaultDive_B.png",
       "Levels": {
         "0": {
-          "Description": "Increases the range of the last attack",
+          "Description": "追加攻撃の範囲が増加する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_AssaultDive_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_AssaultDive_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[254%]\nSA破壊量：[196%]\n\n[特性情報：追加攻撃]\nダメージ量：[190%] [349%]\nSA破壊量：[147%] [270%]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[330%]\nSA破壊量：[255%]\n\n[特性情報：追加攻撃]\nダメージ量：[247%] [453%]\nSA破壊量：[191%] [350%]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[406%]\nSA破壊量：[314%]\n\n[特性情報：追加攻撃]\nダメージ量：[304%] [558%]\nSA破壊量：[235%] [431%]",
           "RequiredLevel": 27,
           "RequiredSP": 2
         }
       }
     },
     "FireSomersault": {
-      "Name": "Fire Somersault",
+      "Name": "ファイアサマーソルト",
       "ID": 8,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_FireSomersault.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_FireSomersault.png",
       "Levels": {
         "0": {
-          "Description": "Fires towards the ground and does a backwards somersault, quickly retreating using the recoil from the rotation",
+          "Description": "その場でバック宙し地面に向かって衝撃波を放ち、\nその反動で素早く回転しながら後退する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_FireSomersault.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_FireSomersault.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "衝撃波ダメージ量：[187%]\n衝撃波SA破壊量：[120%]\n火炎地帯ダメージ量：[224%]\n火炎地帯SA破壊量：[143%]\n範囲攻撃持続時間：[3秒]\nSG消費量：[35]\nクールタイム：[8秒]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "衝撃波ダメージ量：[196%]\n衝撃波SA破壊量：[126%]\n火炎地帯ダメージ量：[235%]\n火炎地帯SA破壊量：[151%]\n範囲攻撃持続時間：[3秒]\nSG消費量：[35]\nクールタイム：[8秒]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "衝撃波ダメージ量：[219%]\n衝撃波SA破壊量：[140%]\n火炎地帯ダメージ量：[263%]\n火炎地帯SA破壊量：[168%]\n範囲攻撃持続時間：[3秒]\nSG消費量：[35]\nクールタイム：[8秒]",
           "RequiredLevel": 12,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "衝撃波ダメージ量：[243%]\n衝撃波SA破壊量：[155%]\n火炎地帯ダメージ量：[291%]\n火炎地帯SA破壊量：[186%]\n範囲攻撃持続時間：[3秒]\nSG消費量：[35]\nクールタイム：[8秒]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "衝撃波ダメージ量：[280%]\n衝撃波SA破壊量：[179%]\n火炎地帯ダメージ量：[336%]\n火炎地帯SA破壊量：[215%]\n範囲攻撃持続時間：[3秒]\nSG消費量：[35]\nクールタイム：[8秒]",
           "RequiredLevel": 20,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "FireSomersault-HellFire"
+        "FireSomersault-A"
       ]
     },
-    "FireSomersault-HellFire": {
+    "FireSomersault-A": {
       "Visible": false,
-      "Name": "Hell Fire",
+      "Name": "ヘルファイア",
       "ID": 9,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_FireSomersault_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_FireSomersault_A.png",
       "Levels": {
         "0": {
-          "Description": "Adds attack zones in front of the base one",
+          "Description": "火炎地帯が広がります。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_FireSomersault_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_FireSomersault_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[特性情報]\n衝撃波ダメージ量：[196%]\n衝撃波SA破壊量：[125%]\n火炎地帯ダメージ量：[336%]\n火炎地帯SA破壊量：[215%]\n範囲攻撃持続時間：[3秒]",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[特性情報]\n衝撃波ダメージ量：[255%]\n衝撃波SA破壊量：[163%]\n火炎地帯ダメージ量：[582%]\n火炎地帯SA破壊量：[372%]\n範囲攻撃持続時間：[4秒]",
           "RequiredLevel": 25,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[特性情報]\n衝撃波ダメージ量：[314%]\n衝撃波SA破壊量：[201%]\n火炎地帯ダメージ量：[896%]\n火炎地帯SA破壊量：[573%]\n範囲攻撃持続時間：[5秒]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
     "SpiralPierce": {
-      "Name": "Spiral Pierce",
+      "Name": "スパイラルピアス",
       "ID": 10,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_SpiralPierce.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_SpiralPierce.png",
       "Levels": {
         "0": {
-          "Description": "Projects a drill which continuously attacks at gun point. Shock waves are released at the end",
+          "Description": "銃口を正面に突き出しドリル状の能力で\n連続攻撃をし、最後に衝撃波と共に飛ばします。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_SpiralPierce.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_SpiralPierce.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[29%]\nSA破壊量：[66%]\nSG消費量：[45]\nクールタイム：[16秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[49%]\nSA破壊量：[110%]\n\n[スキル情報：発射攻撃]\nダメージ量：[49%]\nSA破壊量：[110%]\n\nデバフ効果：命中時、防御度[20%]減少",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[31%]\nSA破壊量：[69%]\nSG消費量：[45]\nクールタイム：[16秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[51%]\nSA破壊量：[115%]\n\n[スキル情報：発射攻撃]\nダメージ量：[51%]\nSA破壊量：[115%]\n\nデバフ効果：命中時、防御度[20%]減少",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[34%]\nSA破壊量：[77%]\nSG消費量：[45]\nクールタイム：[16秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[57%]\nSA破壊量：[129%]\n\n[スキル情報：発射攻撃]\nダメージ量：[57%]\nSA破壊量：[129%]\n\nデバフ効果：命中時、防御度[20%]減少",
           "RequiredLevel": 14,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[38%]\nSA破壊量：[86%]\nSG消費量：[45]\nクールタイム：[16秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[63%]\nSA破壊量：[143%]\n\n[スキル情報：発射攻撃]\nダメージ量：[63%]\nSA破壊量：[143%]\n\nデバフ効果：命中時、防御度[20%]減少",
           "RequiredLevel": 18,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[44%]\nSA破壊量：[99%]\nSG消費量：[45]\nクールタイム：[16秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[73%]\nSA破壊量：[165%]\n\n[スキル情報：発射攻撃]\nダメージ量：[73%]\nSA破壊量：[165%]\n\nデバフ効果：命中時、防御度[20%]減少",
           "RequiredLevel": 22,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "SpiralPierce-Gale"
+        "SpiralPierce-A"
       ]
     },
-    "SpiralPierce-Gale": {
+    "SpiralPierce-A": {
       "Visible": false,
-      "Name": "Gale",
+      "Name": "疾風",
       "ID": 11,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_SpiralPierce_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_SpiralPierce_A.png",
       "Levels": {
         "0": {
-          "Description": "A whirlwind with a pulling effect is added",
+          "Description": "つむじ風が発生し、引き寄せ効果が追加される。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_SpiralPierce_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_SpiralPierce_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[114%]\nSA破壊量：[154%]\n\n[特性情報：追加攻撃]\nダメージ量：[190%]\nSA破壊量：[257%]\n\n[特性情報：発射攻撃]\nダメージ量：[190%]\nSA破壊量：[257%]\n\nデバフ効果：命中時、防御度[20%]減少",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[132%]\nSA破壊量：[178%]\n\n[特性情報：追加攻撃]\nダメージ量：[220％]\nSA破壊量：[296%]\n\n[特性情報：発射攻撃]\nダメージ量：[220%]\nSA破壊量：[296%]\n\nデバフ効果：命中時、防御度[20%]減少",
           "RequiredLevel": 27,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[特性情報：基本攻撃]\nダメージ量：[150%]\nSA破壊量：[202%]\n\n[特性情報：追加攻撃]\nダメージ量：[248%]\nSA破壊量：[336%]\n\n[特性情報：発射攻撃]\nダメージ量：[248%]\nSA破壊量：[336%]\n\nデバフ効果：命中時、防御度[20%]減少",
           "RequiredLevel": 32,
           "RequiredSP": 2
         }
       }
     },
     "PulseFire": {
-      "Name": "Pulse Fire",
+      "Name": "パルスファイア ",
       "ID": 12,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_PulseFire.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_PulseFire.png",
       "Levels": {
         "0": {
-          "Description": "Take a firing stance and launch very powerful energy spheres for a fixed amount of time or attacks",
+          "Description": "その場で砲撃体制をとり、その後の追加操作によって\n多数の強力なエナジー球体を一定時間発射する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_PulseFire.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_PulseFire.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "ダメージ量：[716%]\n発射回数：[3回]\nSA破壊量：[298%]\nSG消費量：[60]\nクールタイム：[15秒]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "ダメージ量：[752%]\n発射回数：[3回]\nSA破壊量：[313%]\nSG消費量：[60]\nクールタイム：[15秒]",
           "RequiredLevel": 12,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "ダメージ量：[841%]\n発射回数：[3回]\nSA破壊量：[348%]\nSG消費量：[60]\nクールタイム：[15秒]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "ダメージ量：[930%]\n発射回数：[3回]\nSA破壊量：[387%]\nSG消費量：[60]\nクールタイム：[15秒]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "ダメージ量：[1073%]\n発射回数：[3回]\nSA破壊量：[444%]\nSG消費量：[60]\nクールタイム：[15秒]",
           "RequiredLevel": 24,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "PulseFire-RapidShot",
-        "PulseFire-PowerShot"
+        "PulseFire-A",
+        "PulseFire-B"
       ]
     },
-    "PulseFire-RapidShot": {
+    "PulseFire-A": {
       "Visible": false,
-      "Name": "Rapid Shot",
+      "Name": "ラピッドショット",
       "ID": 13,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_PulseFire_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_PulseFire_A.png",
       "Levels": {
         "0": {
-          "Description": "Increases the number of shots",
+          "Description": "発射数とダメージ量が増加し、発射角が狭くなります。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_PulseFire_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_PulseFire_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[1593%]\nSA破壊量：[660%]\n発射個数：[9発]\n発射回数：[2回]",
           "RequiredLevel": 24,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[1914%]\nSA破壊量：[791%]\n発射個数：[9発]\n発射回数：[2回]",
           "RequiredLevel": 29,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[2234%]\nSA破壊量：[926%]\n発射個数：[9発]\n発射回数：[2回]",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
       }
     },
-    "PulseFire-PowerShot": {
+    "PulseFire-B": {
       "Visible": false,
       "Name": "Power Shot",
       "ID": 14,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_PulseFire_B.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_PulseFire_B.png",
       "Levels": {
         "0": {
-          "Description": "Fire long-range bullets",
+          "Description": "エネルギーを凝縮させた遠距離爆発弾を発射します。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_PulseFire_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_PulseFire_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[1170%]\nSA破壊量：[486%]\n発射回数：[2発]",
           "RequiredLevel": 24,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[1405%]\nSA破壊量：[580%]\n発射回数：[2発]",
           "RequiredLevel": 29,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[1636%]\nSA破壊量：[679%]\n発射回数：[2発]",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
       }
     },
     "LimitBreak": {
-      "Name": "Limit Break",
+      "Name": "リミットブレイク",
       "ID": 15,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_LimitBrake.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_LimitBrake.png",
       "Levels": {
         "0": {
-          "Description": "Releases soul energy within the body to amplify the damage of the next attack",
+          "Description": "体内のソウルエナジーを放出しダメージを増幅する。\n使用時に周囲の仲間に追加効果を与える。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_LimitBrake.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_LimitBrake.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本効果]\nバフ効果：最大ダメージ固定、攻撃力[50％]上昇\nバフ持続時間：[20秒]\nSG消費量：[60]\nクールタイム：[45秒]\n\n[スキル情報：追加効果]\nバフ効果：最大ダメージ固定\nバフ持続時間：[20秒]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本効果]\nバフ効果：最大ダメージ固定、攻撃力[75％]上昇\nバフ持続時間：[20秒]\nSG消費量：[60]\nクールタイム：[45秒]\n\n[スキル情報：追加効果]\nバフ効果：最大ダメージ固定\nバフ持続時間：[20秒]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本効果]\nバフ効果：最大ダメージ固定、攻撃力[100％]上昇\nバフ持続時間：[20秒]\nSG消費量：[60]\nクールタイム：[45秒]\n\n[スキル情報：追加効果]\nバフ効果：最大ダメージ固定\nバフ持続時間：[20秒]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本効果]\nバフ効果：最大ダメージ固定、攻撃力[125％]上昇\nバフ持続時間：[20秒]\nSG消費量：[60]\nクールタイム：[45秒]\n\n[スキル情報：追加効果]\nバフ効果：最大ダメージ固定\nバフ持続時間：[20秒]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本効果]\nバフ効果：最大ダメージ固定、攻撃力[150％]上昇\nバフ持続時間：[20秒]\nSG消費量：[60]\nクールタイム：[45秒]\n\n[スキル情報：追加効果]\nバフ効果：最大ダメージ固定\nバフ持続時間：[20秒]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
       }
     },
     "BulletStorm": {
-      "Name": "Bullet Storm",
+      "Name": "バレットストーム",
       "ID": 16,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_BulletStorm.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_BulletStorm.png",
       "Levels": {
         "0": {
-          "Description": "Shoots a powerful shell upwards. The fired shells separates mid-air into several small shells that will explode when reaching the ground",
+          "Description": "銃口を上に向け異能力弾を発射する。\n発射された弾は空中で数発の小さな弾に分離し\n地面を爆撃する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_BulletStorm.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_BulletStorm.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "合計ダメージ量：[696%]\n合計SA破壊量：[853%]\nSG消費量：[50]\nクールタイム：[20秒]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "合計ダメージ量：[731%]\n合計SA破壊量：[894%]\nSG消費量：[50]\nクールタイム：[20秒]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "合計ダメージ量：[818%]\n合計SA破壊量：[1002%]\nSG消費量：[50]\nクールタイム：[20秒]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "合計ダメージ量：[906%]\n合計SA破壊量：[1107%]\nSG消費量：[50]\nクールタイム：[20秒]",
           "RequiredLevel": 28,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "合計ダメージ量：[1045%]\n合計SA破壊量：[1278%]\nSG消費量：[50]\nクールタイム：[20秒]",
           "RequiredLevel": 33,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "BulletStorm-RangeIncrease",
-        "BulletStorm-MeteorFall"
+        "BulletStorm-A",
+        "BulletStorm-B"
       ]
     },
-    "BulletStorm-RangeIncrease": {
+    "BulletStorm-A": {
       "Visible": false,
-      "Name": "Range Increase",
+      "Name": "範囲増加",
       "ID": 17,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_BulletStorm_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_BulletStorm_A.png",
       "Levels": {
         "0": {
-          "Description": "Extends the attack range",
+          "Description": "発射される弾数と爆発範囲が増加します。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_BulletStorm_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_BulletStorm_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[1175%]\nSA破壊量：[1438%]\n発射弾数増加：[12個]\n攻撃範囲増加：[7m]",
           "RequiredLevel": 33,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[1528%]\nSA破壊量：[1870%]\n発射弾数増加：[12個]\n攻撃範囲増加：[7m]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[1881%]\nSA破壊量：[2300%]\n発射弾数増加：[12個]\n攻撃範囲増加：[7m]",
           "RequiredLevel": 43,
           "RequiredSP": 2
         }
       }
     },
-    "BulletStorm-MeteorFall": {
+    "BulletStorm-B": {
       "Visible": false,
-      "Name": "Meteor Fall",
+      "Name": "メテオフォール",
       "ID": 18,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_BulletStorm_B.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_BulletStorm_B.png",
       "Levels": {
         "0": {
-          "Description": "Attack with series of exploding meteorites . Deals continuous damage in the area",
+          "Description": "隕石を召喚し着弾地点を爆発させる。\n隕石の落下地点から遠ざかるほど爆発ダメージが\n[33％]まで減少する。\n\n中心に位置した敵には落下ダメージ及びSA破壊量が2倍に適用されます。\n\n爆発後、溶岩地帯となり継続なダメージをを与える。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_BulletStorm_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_BulletStorm_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[特性情報]\n隕石ダメージ量：[1458%]\n隕石SA破壊量：[1783%]\n溶岩地帯ダメージ量：[292%]\n溶岩地帯SA破壊量：[357%]\n溶岩地帯持続時間：[5秒]",
           "RequiredLevel": 33,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[特性情報]\n隕石ダメージ量：[1651%]\n隕石SA破壊量：[2020%]\n溶岩地帯ダメージ量：[330%]\n溶岩地帯SA破壊量：[404%]\n溶岩地帯持続時間：[5秒]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[特性情報]\n隕石ダメージ量：[1942%]\n隕石SA破壊量：[2377%]\n溶岩地帯ダメージ量：[388%]\n溶岩地帯SA破壊量：[475%]\n溶岩地帯持続時間：[5秒]",
           "RequiredLevel": 43,
           "RequiredSP": 2
         }
       }
     },
     "FullBurst": {
-      "Name": "Full Burst",
+      "Name": "フルバースト",
       "ID": 19,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_FullBurst.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_FullBurst.png",
       "Levels": {
         "0": {
-          "Description": "Hold the weapon with both hands and swing it like a laser beam sword and attack the enemies",
+          "Description": "チャージ段階によって攻撃範囲が増加する。\n2段階目で性能が80％上昇し、最大150％上昇する。\n\n武器を両手で持ち、銃口のレーザービームを振るって\n敵を攻撃する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_FullBurst.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_FullBurst.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "ダメージ量：[885%]\nSA破壊量：[113%]\nSG消費量：[40]\nクールタイム：[12秒]\n最大チャージ段階：[3]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "ダメージ量：[930%]\nSA破壊量：[118%]\nSG消費量：[40]\nクールタイム：[12秒]\n最大チャージ段階：[3]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "ダメージ量：[1040%]\nSA破壊量：[133%]\nSG消費量：[40]\nクールタイム：[12秒]\n最大チャージ段階：[3]",
           "RequiredLevel": 27,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "ダメージ量：[1151%]\nSA破壊量：[147%]\nSG消費量：[40]\nクールタイム：[12秒]\n最大チャージ段階：[3]",
           "RequiredLevel": 32,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "ダメージ量：[1329%]\nSA破壊量：[169%]\nSG消費量：[40]\nクールタイム：[12秒]\n最大チャージ段階：[3]",
           "RequiredLevel": 37,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "FullBurst-Rend"
+        "FullBurst-A"
       ]
     },
     "EternalAbyss": {
-      "Name": "Eternal Abyss",
+      "Name": "エターナルアビス",
       "ID": 20,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_EternalAbyss.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_EternalAbyss.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "While in mid-air, throw a weapon towards the ground to create a black hole that pulls enemies",
+          "Description": "空中に浮いた状態で地面に向かって武器を投げつけ\nブラックホールを生成し敵を引き寄せる。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_EternalAbyss.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_EternalAbyss.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "ダメージ量：[345%]\nSA破壊量：[701%]\n範囲持続時間：[4秒]\nSG消費量：[35]\nクールタイム：[20秒]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "ダメージ量：[362%]\nSA破壊量：[736%]\n範囲持続時間：[5秒]\nSG消費量：[35]\nクールタイム：[20秒]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "ダメージ量：[405%]\nSA破壊量：[824%]\n範囲持続時間：[6秒]\nSG消費量：[35]\nクールタイム：[20秒]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "ダメージ量：[449%]\nSA破壊量：[911%]\n範囲持続時間：[7秒]\nSG消費量：[35]\nクールタイム：[20秒]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "ダメージ量：[518%]\nSA破壊量：[1051%]\n範囲持続時間：[8秒]\nSG消費量：[35]\nクールタイム：[20秒]",
           "RequiredLevel": 41,
           "RequiredSP": 3
         }
       }
     },
     "Earthquake": {
-      "Name": "Earthquake",
+      "Name": "アースクエイク",
       "ID": 21,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_Earthquake.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_Earthquake.png",
       "Levels": {
         "0": {
-          "Description": "Insert the weapon into the ground then shoot towards the ground to create several shock waves",
+          "Description": "銃口を地面に向け武器を差し込んだ後\n衝撃波を数回発射する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_Earthquake.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_Earthquake.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "ダメージ量：[126%]\nSA破壊量：[65%]\nSG消費量：[45]\nクールタイム：[30秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[189%]\nSA破壊量：[97%]",
           "RequiredLevel": 28,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "ダメージ量：[133%]\nSA破壊量：[68%]\nSG消費量：[45]\nクールタイム：[30秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[199%]\nSA破壊量：[102%]",
           "RequiredLevel": 32,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "ダメージ量：[148%]\nSA破壊量：[76%]\nSG消費量：[45]\nクールタイム：[30秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[222%]\nSA破壊量：[114%]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "ダメージ量：[164%]\nSA破壊量：[84%]\nSG消費量：[45]\nクールタイム：[30秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[246%]\nSA破壊量：[126%]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "ダメージ量：[189%]\nSA破壊量：[97%]\nSG消費量：[45]\nクールタイム：[30秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[284%]\nSA破壊量：[146%]",
           "RequiredLevel": 44,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "Earthquake-Volcano",
-        "Earthquake-FirePillar"
+        "Earthquake-A",
+        "Earthquake-B"
       ]
     },
-    "Earthquake-Volcano": {
+    "Earthquake-A": {
       "Visible": false,
-      "Name": "Volcano",
+      "Name": "ボルケーノ",
       "ID": 22,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_Earthquake_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_Earthquake_A.png",
       "Levels": {
         "0": {
-          "Description": "Generates a volcano after the last attack",
+          "Description": "アースクエイクのダメージが増加します。\n攻撃持続時間が減少し、ダメージが増加します。\n攻撃後、火山地域を生成する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_Earthquake_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_Earthquake_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[246%]\nSA破壊量：[126%]\n\n衝撃波ダメージ量：[738%]\n衝撃波SA破壊量：[378%]\n\n火山地域ダメージ量：[123%]\n火山地域SA破壊量：[63%]\n火山地域の攻撃回数[16回]",
           "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[283%]\nSA破壊量：[145%]\n\n衝撃波ダメージ量：[849%]\n衝撃波SA破壊量：[435%]\n\n火山地域ダメージ量：[142%]\n火山地域SA破壊量：[73%]\n火山地域の攻撃回数[24回]",
           "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[325%]\nSA破壊量：[167%]\n\n衝撃波ダメージ量：[976%]\n衝撃波SA破壊量：[500%]\n\n火山地域ダメージ量：[163%]\n火山地域SA破壊量：[84%]\n火山地域の攻撃回数[34回]",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
       }
     },
-    "Earthquake-FirePillar": {
+    "Earthquake-B": {
       "Visible": false,
-      "Name": "Fire Pillar",
+      "Name": "火柱",
       "ID": 23,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_Earthquake_B.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_Earthquake_B.png",
       "Levels": {
         "0": {
-          "Description": "Generates a volcano after the last attack",
+          "Description": "地面攻撃中火柱が生成され、攻撃します。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_Earthquake_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_Earthquake_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[289%]\nSA破壊量：[148%]\n\n衝撃波ダメージ量：[289%] １秒毎に3回\n衝撃波SA破壊量：[148%] １秒毎に3回\n\n火柱[中]ダメージ量：[144％] １秒毎に3個\n火柱[中]ダメージ量：[74％] 1秒毎に3個",
           "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[331%]\nSA破壊量：[170%]\n\n衝撃波ダメージ量：[331%] １秒毎に3回\n衝撃波SA破壊量：[170%] １秒毎に3回\n\n火柱[中]ダメージ量：[166％] １秒毎に3個\n火柱[中]ダメージ量：[85％] 1秒毎に3個\n\n火柱[小]ダメージ量：[66％] １秒毎に1個\n火柱[小]ダメージ量：[34％] １秒毎に1個",
           "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[特性情報]\nダメージ量：[374%]\nSA破壊量：[192%]\n\n衝撃波ダメージ量：[374%] １秒毎に3回\n衝撃波SA破壊量：[192%] １秒毎に3回\n\n火柱[中]ダメージ量：[187％] １秒毎に3個\n火柱[中]ダメージ量：[96％] 1秒毎に3個\n\n火柱[小]ダメージ量：[75％] １秒毎に1個\n火柱[小]ダメージ量：[38％] １秒毎に1個",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
       }
     },
     "ElectricCannon": {
-      "Name": "Electric Cannon",
+      "Name": "エレクトリックキャノン",
       "ID": 24,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_ElectricCannon.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_ElectricCannon.png",
       "Levels": {
         "0": {
-          "Description": "Make the weapons float and ride on it facing forwards. Afterwards, fire a laser beam forwards. Can move while the skill is in use",
+          "Description": "武器に乗って、前方に強力なレーザービームを発射する。\nスキル使用中に移動可能。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_ElectricCannon.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_ElectricCannon.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "ダメージ量：[336%]\nSA破壊量：[627%]\nSG消費量：[50]\nクールタイム：[35秒]",
           "RequiredLevel": 34,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "ダメージ量：[353%]\nSA破壊量：[658%]\nSG消費量：[50]\nクールタイム：[35秒]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "ダメージ量：[395%]\nSA破壊量：[737%]\nSG消費量：[50]\nクールタイム：[35秒]",
           "RequiredLevel": 42,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "ダメージ量：[437%]\nSA破壊量：[815%]\nSG消費量：[50]\nクールタイム：[35秒]",
           "RequiredLevel": 46,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "ダメージ量：[504%]\nSA破壊量：[940%]\nSG消費量：[50]\nクールタイム：[35秒]",
           "RequiredLevel": 50,
           "RequiredSP": 3
         }
       }
     },
     "ExceedDriver": {
-      "Name": "Exceed Driver",
+      "Name": "イクシードドライバー",
       "ID": 25,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_ExceedDriver.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_ExceedDriver.png",
       "Levels": {
         "0": {
-          "Description": "Disassemble the soul weapon and absorbs it in your hand. Afterwards, countless energy portals appear firing powerful energy simultaneously",
+          "Description": "武器をソウルで分解し、自分の片腕に吸収させる。\nその後、その腕を構えると多数のエナジーポータルが現れ\nそれと同時に強力なエナジーを発射する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_ExceedDriver.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_ExceedDriver.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "ダメージ量：[2151%]\nSA破壊量：[1473%]\nSG消費量：[75]\nクールタイム：[45秒]",
           "RequiredLevel": 42,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "ダメージ量：[2259%]\nSA破壊量：[1547%]\nSG消費量：[75]\nクールタイム：[45秒]",
           "RequiredLevel": 45,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "ダメージ量：[2528%]\nSA破壊量：[1731%]\nSG消費量：[75]\nクールタイム：[45秒]",
           "RequiredLevel": 48,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "ダメージ量：[2796%]\nSA破壊量：[1915%]\nSG消費量：[75]\nクールタイム：[45秒]",
           "RequiredLevel": 51,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "ダメージ量：[3227%]\nSA破壊量：[2210%]\nSG消費量：[75]\nクールタイム：[45秒]",
           "RequiredLevel": 54,
           "RequiredSP": 3
         }
-      }
+      },
+      "Extensions": [
+        "ExceedDriver-A"
+      ]
     },
-    "CamelSpin-BladeWings": {
+    "CamelSpin-A": {
       "Visible": false,
-      "Name": "Blade Wings",
+      "Name": "キャメルスピンｰ翼刃",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_HamerStoll_Skill_CamelSpin_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_CamelSpin_A.png",
       "Levels": {
         "0": {
-          "Description": "???",
+          "Description": "クラスターウィングが攻撃を補助し、強力な蹴り攻撃及びクラスターウィングの発射攻撃をします。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_CamelSpin_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_CamelSpin_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "ダメージ量：[480%]\nSA破壊量：[313%]\n\n[特性情報：サブウェポン発射体]\nダメージ量：[72%]\nSA破壊量：[46%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "ダメージ量：[524%]\nSA破壊量：[342%]\n\n[特性情報：サブウェポン発射体]\nダメージ量：[78%]\nSA破壊量：[51%]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "ダメージ量：[602%]\nSA破壊量：[393%]\n\n[特性情報：サブウェポン発射体]\nダメージ量：[90%]\nSA破壊量：[58%]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
       }
     },
-    "FullBurst-Rend": {
+    "FullBurst-A": {
       "Visible": false,
-      "Name": "Rend",
+      "Name": "フルバースト-斬撃",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_HamerStoll_Skill_FullBurst_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_FullBurst_A.png",
       "Levels": {
         "0": {
-          "Description": "???",
+          "Description": "一度の攻撃で前方の敵を切り裂きます。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_FullBurst_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_FullBurst_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[特性情報]\nチャージ時間：[3秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[特性情報]\nチャージ時間：[2.5秒]",
           "RequiredLevel": 59,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[特性情報]\nチャージ時間：[2秒]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
       }
     },
-    "PulverizerHeadbutt": {
-      "Name": "Pulverizer Headbutt",
+    "PulverizeHeadButt": {
+      "Name": "パルベライザーヘッドバット",
       "ID": 28,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_HamerStoll_Skill_RhinoHeadButt.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_RhinoHeadButt.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "???",
+          "Description": "巨大なハンマーで敵を叩き付け、\n爆発により追撃を行います。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_PulverizeHeadButt.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_PulverizeHeadButt.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[503%]\nSA破壊量：[680%]\nSG消耗量：[40]\nクールタイム：[40秒]\n\n[スキル情報：追加効果]\nダメージ量：[755%]\nSA破壊量：[1020%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[554%]\nSA破壊量：[748%]\nSG消耗量：[40]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[831%]\nSA破壊量：[1122%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[620%]\nSA破壊量：[838%]\nSG消耗量：[40]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[931%]\nSA破壊量：[1257%]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[707%]\nSA破壊量：[955%]\nSG消耗量：[40]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[1061%]\nSA破壊量：[1432%]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[834%]\nSA破壊量：[1127%]\nSG消耗量：[40]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[1252%]\nSA破壊量：[1690%]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
-    "OperationAsh": {
-      "Name": "Operation Ash",
+    "OperationAshes": {
+      "Name": "オペレーションアッシュ",
       "ID": 29,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_HamerStoll_Skill_CombatFalcons.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_CombatFalcons.png",
       "Levels": {
         "0": {
-          "Description": "???",
+          "Description": "前方の敵を浮かばせた後、クラスターウィングで、\n周辺の敵を一定時間攻撃します。 ",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_Operation Ashes.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_Operation Ashes.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量： [387%]\nSA破壊量： [162%]\nSG消耗量：[35]\nクールタイム：[30秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[77%]\nSA破壊量：[32%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量： [425%]\nSA破壊量： [178%]\nSG消耗量：[35]\nクールタイム：[30秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[85%]\nSA破壊量：[35%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量： [477%]\nSA破壊量： [199%]\nSG消耗量：[35]\nクールタイム：[30秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[95%]\nSA破壊量：[39%]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量： [543%]\nSA破壊量： [227%]\nSG消耗量：[35]\nクールタイム：[30秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[108%]\nSA破壊量：[45%]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量： [641%]\nSA破壊量： [268%]\nSG消耗量：[35]\nクールタイム：[30秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[128%]\nSA破壊量：[53%]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
-    "BasicAttackMastery": {
-      "Passive": true,
-      "Name": "Basic Attack Mastery",
-      "ID": 1002,
-      "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DefaultAttack.png",
+    "RapidVulcan": {
+      "Name": "ラピッドバルカン",
+      "ID": 30,
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_Expocalypse.png",
       "Levels": {
         "0": {
-          "Description": "Attack with your sword.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\nSG gain will vary by enemy type",
+          "Description": "ハンマーを機関銃にして、前方の敵に通常弾と誘導弾を無差別に連射します。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Attack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_RapidVulcan.{{auto}}"
           }
         },
         "1": {
-          "Effect": "SG Gain +20%.\nUnlock alternative attack “A”",
+          "Effect": "ダメージ量：[105%]\nSA破壊量：[133%]\nSG消費量：[60]\nクールタイム：[40秒]",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "ダメージ量：[116%]\nSA破壊量：[147%]\nSG消費量：[60]\nクールタイム：[40秒]",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "ダメージ量：[129%]\nSA破壊量：[164%]\nSG消費量：[60]\nクールタイム：[40秒]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "ダメージ量：[147%]\nSA破壊量：[186%]\nSG消費量：[60]\nクールタイム：[40秒]",
+          "RequiredLevel": 71,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "ExceedDriver-A": {
+      "Visible": false,
+      "Name": "追跡",
+      "ID": 31,
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_ExceedDriver_A.png",
+      "Levels": {
+        "0": {
+          "Description": "発射準備中、方向を変更できるレーザー攻撃が追加されます。\n発射準備が完了すると方向が固定され、強力なレーザーを発射します。\n攻撃完了後、一定時間SG消費なしでスキルを使用できる効果が付与されます。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_ExceedDriver_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[1291%]\nSA破壊量：[884%]\nSG消耗量減少：[100%]\n持続時間：[5秒]\n\n[特性情報：追加攻撃]\nダメージ量：[4356%]\nSA破壊量：[2984%]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },
+        "2": {
+          "Effect": "ダメージ量：[1420%]\nSA破壊量：[972%]\nSG消耗量減少：[100%]\n持続時間：[7秒]\n\n[特性情報：追加攻撃]\nダメージ量：[4793%]\nSA破壊量：[3282%]",
+          "RequiredLevel": 70,
+          "RequiredSP": 3
+        },
+        "3": {
+          "Effect": "ダメージ量：[1633%]\nSA破壊量：[1118%]\nSG消耗量減少：[100%]\n持続時間：[10秒]\n\n[特性情報：追加攻撃]\nダメージ量：[5512%]\nSA破壊量：[3775%]",
+          "RequiredLevel": 72,
+          "RequiredSP": 4
+        }
+      }
+    },
+    "BasicAttackMastery": {
+      "Passive": true,
+      "Name": "基本攻撃マスタリー",
+      "ID": 1001,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DefaultAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "ハンマーで敵を攻撃する。\nスキルレベルが上がるほど連携攻撃の種類が増加し\nダメージ量も増加する。\n攻撃時、SGを獲得。\nSG獲得量は連係段階とモンスター等級に応じて増加する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Iris/B_Attack_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "SG Gain +70%.\nUnlock additional basic attack",
+          "Effect": "SG獲得量が[20%]増加する。\n分岐攻撃Aを使用できる。",
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Attack_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "SG Gain +120%\nUnlock alternative attack “B”.\nUnlock alternative aerial attack",
+          "Effect": "SG獲得量が[70%]増加する。\n基本攻撃の追加攻撃を使用できる。",
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Attack_04_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Attack_02.{{auto}}"
           }
         },
         "4": {
-          "Effect": "SG Gain +200%\nUnlock alternative attack “C”",
+          "Effect": "SG獲得量が[120%]増加する。\n分岐攻撃A-1を使用できる。\n分岐攻撃Bを使用できる。",
           "RequiredLevel": 15,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Iris/B_Attack_04_01.{{auto}}"
+          }
         },
         "5": {
-          "Effect": "",
+          "Effect": "SG獲得量が[200%]増加する。%\n基本攻撃の追加攻撃を使用できる。",
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Attack_05.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Attack_05.{{auto}}"
           }
         }
       }
@@ -1184,87 +1263,87 @@
     "SpecialAbilityMastery": {
       "Passive": true,
       "DefaultLevel": 1,
-      "ID": 1001,
-      "Name": "Special Ability Mastery",
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_OwnAbility.png",
+      "ID": 1002,
+      "Name": "特殊能力マスタリー",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_OwnAbility.png",
       "Levels": {
         "0": {
-          "Description": "[Ground]\nInstantly recovers SG and acquire a fire buff.\n[Air]\nHit the hammer on the ground. Gain SG on hit. SG gain varies on attack and monster-type.",
+          "Description": "即時にSGを回復し発火バフを獲得する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_S_Attack_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_S_Attack_N.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Ground]\nSG Recovery: 15%\nBuff effect: 'Fire' in 5s\nCooldown: 15s\n[Air]\nDamage: 382%\nSA Damage: 197%\nCooldown: 10s",
+          "Effect": "[スキル情報：地上]\nダメージ量：[366%]\nSA破壊量：[201%]\nバフ持続時間：[5秒]\nソウル増加：[15%]\nクールタイム：[15秒]\n\n[スキル情報：空中]\nダメージ量：[336%]\nSA破壊量：[173%]\nクールタイム：[10秒]\n\n地上にハンマーを叩きつける。",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Ground]\nSG Recovery: 20%\nBuff effect: 'Fire' in 7s\nCooldown: 15s\n[Air]\nDamage: 384%\nSA Damage: 202%\nCooldown: 10s\nSG Gain: +20%",
+          "Effect": "[スキル情報：地上]\nダメージ量：[384%]\nSA破壊量：[211%]\nバフ持続時間：[5秒]\nソウル増加：[15%]\nクールタイム：[15秒]\n\n[スキル情報：空中]\nダメージ量：[353%]\nSA破壊量：[182%]\nクールタイム：[10秒]\n\n地上にハンマーを叩きつける。",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Ground]\nSG Recovery: 25%\nBuff effect: 'Fire' in 10s\nCooldown: 15s\n[Air]\nDamage: 430%\nSA Damage: 249%\nCooldown: 10s\nSG Gain: +70%",
+          "Effect": "[スキル情報：地上]\nダメージ量：[430%]\nSA破壊量：[236%]\nバフ持続時間：[5秒]\nソウル増加：[15%]\nクールタイム：[15秒]\n\n[スキル情報：空中]\nダメージ量：[395%]\nSA破壊量：[203%]\nクールタイム：[10秒]\n\n地上にハンマーを叩きつける。",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "EmergencyDodge": {
+    "EmergencyEvasion": {
       "Passive": true,
-      "Name": "Emergency Dodge",
-      "ID": 1004,
+      "Name": "緊急回避",
+      "ID": 1003,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Evasion.png",
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_Evasion.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge in a direction. Negate damage during an emergency dodge.",
+          "Description": "指定した方向に素早く移動する。\n緊急回避中はダメージを受けない。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 20",
+          "Effect": "スタミナ消費量：[20]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
-    "RisingRoll": {
+    "Welter": {
       "Passive": true,
-      "Name": "Rising Roll",
-      "ID": 1003,
+      "Name": "回転起床",
+      "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Welter.png",
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_Welter.png",
       "Levels": {
         "0": {
-          "Description": "When downed, get up by rolling in a direction. During the roll, damage is negated",
+          "Description": "ダウン時、指定した方向に素早く回転しながら起き上がる。\n回転起床中はダメージを受けない。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Roll_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Roll_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 25",
+          "Effect": "スタミナ消費量：[25]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 15",
+          "Effect": "スタミナ消費量：[15]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 15\nFaster Rolling Speed",
+          "Effect": "スタミナ消費量：[15]\n少し早く回転起床ができる。 ",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -1272,18 +1351,18 @@
     },
     "Dash": {
       "Passive": true,
-      "Name": "Dash",
+      "Name": "ダッシュ",
       "DefaultLevel": 1,
-      "ID": 1006,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Dash.png",
+      "ID": 1005,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_Dash.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dash forward",
+          "Description": "前方に素早くダッシュする。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Run_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Run_F.{{auto}}"
           }
         },
         "1": {
@@ -1292,7 +1371,7 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Faster Dashing Speed",
+          "Effect": "ダッシュの速度が上昇する。",
           "RequiredLevel": 25,
           "RequiredSP": 2
         }
@@ -1300,32 +1379,32 @@
     },
     "RisingAttack": {
       "Passive": true,
-      "Name": "Rising Attack",
-      "ID": 1005,
+      "Name": "起床攻撃",
+      "ID": 1006,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_RiseAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_RiseAttack.png",
       "Levels": {
         "0": {
-          "Description": "While downed, get up while damaging surrounding enemies",
+          "Description": "ダウン時、周辺の敵を攻撃しながら起き上がる。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Rise_Attack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 30\nInvincibility Duration: 1 seconds",
+          "Effect": "ダメージ量：[100%]\nスタミナ消費量：[30]\nクールタイム：[15秒]\nスキル使用後3秒間、無敵状態になる。",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 1 seconds",
+          "Effect": "ダメージ量：[100%]\nスタミナ消費量：[20]\nクールタイム：[15秒]\nスキル使用後3秒間、無敵状態になる。",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 3 seconds",
+          "Effect": "ダメージ量：[100%]\nスタミナ消費量：[20]\nクールタイム：[15秒]\nスキル使用後5秒間、無敵状態になる。",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1333,54 +1412,54 @@
     },
     "DashAttack": {
       "Passive": true,
-      "Name": "Dash Attack",
+      "Name": "ダッシュアタック",
       "DefaultLevel": 1,
-      "ID": 1008,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashAttack.png",
+      "ID": 1007,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Perform an attack while dashing. Different character does different attacks. ",
+          "Description": "ダッシュ中に滑りながら前方を攻撃する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_N_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_N_Attack_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 115%\nSA Damage: 38%",
+          "Effect": "ダメージ量：[122%]\nSA破壊量：[41%]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
-    "SpecialDodge": {
+    "SpecialEvasion": {
       "Passive": true,
-      "Name": "Special Dodge",
-      "ID": 1007,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_EvasionAttack.png",
+      "Name": "特殊回避",
+      "ID": 1008,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_EvasionAttack.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge as an enemy attacks you. Negate Damage during the special dodge",
+          "Description": "敵から攻撃を受けている最中に素早く移動する。\n特殊回避中はダメージを受けない。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Special_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 40\nCooldown: 60 seconds",
+          "Effect": "スタミナ消費量：[40]\nクールタイム：[30秒]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Cost: 40\nCooldown: 50 seconds",
+          "Effect": "スタミナ消費量：[40]\nクールタイム：[25秒]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 40\nCooldown: 40 seconds",
+          "Effect": "スタミナ消費量：[40]\nクールタイム：[20秒]",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
@@ -1388,21 +1467,21 @@
     },
     "SpecialDashAttack": {
       "Passive": true,
-      "Name": "Special Dash Attack",
-      "ID": 1010,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashSmashAttack.png",
+      "Name": "特殊ダッシュアタック",
+      "ID": 1009,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DashSmashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Performs a special attack while dashing. Different characters do different special attacks",
+          "Description": "ダッシュ中に体を回転させて攻撃する。\n攻撃命中時、SGを獲得。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_S_Attack_N_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_S_Attack_N_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSA Damage: 92%\nCooldown: 5 seconds",
+          "Effect": "ダメージ量：[241%]\nSA破壊量：[111%]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -1410,38 +1489,38 @@
     },
     "StaminaMastery": {
       "Passive": true,
-      "Name": "Stamina Mastery",
-      "ID": 1009,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_StaminaMastery.png",
+      "Name": "スタミナマスタリー",
+      "ID": 1010,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_StaminaMastery.png",
       "Levels": {
         "0": {
-          "Description": "Increases stamina recovery rate",
+          "Description": "スタミナ回復量が増加する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Stamina Recovery Rate: +10%",
+          "Effect": "スタミナ回復量[10%]増加",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Recovery Rate: +20%",
+          "Effect": "スタミナ回復量[20%]増加",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Recovery Rate: +30%",
+          "Effect": "スタミナ回復量[30%]増加",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Stamina Recovery Rate: +40%",
+          "Effect": "スタミナ回復量[40%]増加",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Stamina Recovery Rate: +50%",
+          "Effect": "スタミナ回復量[50%]増加",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -1449,35 +1528,32 @@
     },
     "ExtremeRush": {
       "Passive": true,
-      "Name": "Extreme Rush",
+      "Name": "エクストリームラッシュ",
       "ID": 1013,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_HamerStoll_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "Provides the ability to gain invulnerable state when using special attack.",
+          "Description": "特殊攻撃使用時、一定時間の間無敵状態になります。",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/skillpreviews/iris/Contributor_iris_ExtremeRush.{{auto}}"
-          }
+          "RequiredSP": 0
         },
         "1": {
-          "Effect": "Duration: 3s\nCooldown: 60 seconds",
+          "Effect": "無敵持続時間：[3秒]\nクールタイム：[40秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Duration: 4s\nCooldown: 60 seconds",
+          "Effect": "無敵持続時間：[4秒]\nクールタイム：[40秒]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Duration: 5s\nCooldown: 60 seconds",
+          "Effect": "無敵持続時間：[5秒]\nクールタイム：[40秒]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }
@@ -1485,54 +1561,165 @@
     },
     "RapidAttack": {
       "Passive": true,
-      "Name": "Rapid Attack",
+      "Name": "快速攻撃",
       "ID": 1011,
       "RowSpan": {
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_SGPassive.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_SGPassive.png",
       "Levels": {
         "0": {
-          "Description": "Reduces SG Cost of skills",
+          "Description": "SG消費量を減少する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "SG Cost Rate: -5%",
+          "Effect": "パッシブ効果：SG消費量[5%]減少",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "SG Cost Rate: -8%",
+          "Effect": "パッシブ効果：SG消費量[8%]減少",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "SG Cost Rate: -10%",
+          "Effect": "パッシブ効果：SG消費量[10%]減少",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "FuryStrike": {
+    "BlowofWrath": {
       "Passive": true,
       "DefaultLevel": 1,
       "ID": 1012,
-      "RowSpan": 2,
-      "Name": "Fury Strike",
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_SoulMastery.png",
+      "RowSpan": {
+        "0": 2,
+        "1": 1
+      },
+      "Name": "憤怒の一撃",
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_SoulMastery.png",
       "Levels": {
         "0": {
-          "Description": "Recovers SG on successful basic attacks. Automatically restore SG at regular time intervals",
+          "Description": "基本攻撃成功時、SGを回復する。\n一定時間ごとに自動でSGを回復する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
           "Effect": "",
-          "RequiredLevel": 10,
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "SpiralofInfinity": {
+      "Passive": true,
+      "Name": "スパイラルブリッツ",
+      "DefaultLevel": 1,
+      "ID": 2003,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_SpiralofInfinity.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "覚醒状態でのみスキル使用が可能です。\nスキル使用時に覚醒状態が解除されます。\n武器に巨大なドリルを結合して前方の敵を粉砕した後、巨大ドリルを操作して前方を爆発攻撃します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_SpiralofInfinity.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[JP]\nダメージ量：[2900%]\nSA破壊量：[2700%]\n\n[KR]\n전체 피해량: [7900%]\n전체 슈퍼아머 파괴량: [7700%]\nSV 획득량: [10]",
+          "RequiredLevel": 57,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Erosion": {
+      "Passive": true,
+      "Name": "イロージョン",
+      "DefaultLevel": 1,
+      "ID": 2001,
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_BreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "体を覚醒させ、身体能力を一時的に向上させる。\nソウルベイパーを消費し、スキルを使用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_SoulViper.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "1段階ゲージ消費（SV50消費）\n\n30秒間、覚醒状態になる。\n-SA破壊力が15%増加する。\n-移動速度が20%増加する。\n-SA状態になる。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Awakening": {
+      "Passive": true,
+      "Name": "覚醒",
+      "DefaultLevel": 1,
+      "ID": 2002,
+      "RequireClass": {
+        "CompareType": "atmost",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_BreakWakeup.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "体を覚醒させ、身体能力を一時的に向上させる。\nソウルベイパーを消費し、スキルを使用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_SoulViper_02.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "2段階ゲージ消費（SV100消費）\n\n60秒間、覚醒状態になる。\n-与えるダメージ量が15%増加する。\n-SA破壊力が30%増加する。\n-移動速度が20%増加する。\n-SA状態になる。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "DesireAwakening": {
+      "Passive": true,
+      "Name": "デザイア覚醒",
+      "DefaultLevel": 1,
+      "ID": 2004,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 2
+      },
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DBreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "体を覚醒させ、身体能力を一時的に向上させる。\nSV(ソウルベイパー)を消費し、スキルを使用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_SoulViper_03.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "2段階ゲージ消費（SV100消費）\n\n60秒間、デザイア覚醒状態になる。\n-与ダメージが20％上昇する。\n-SG消費量が20％減少する。\n-最大ダメージを固定する。\n-攻撃速度が20%増加する。\n-移動速度が30%増加する。\n-SA状態になる。\n-デザイアスキルが発動する。\n\n[デザイアスキル情報]\nExスキル使用後、効果が終了する。\n-60秒間スキルのダメージ量が1.3倍に上昇する。\n- イクシードドライバー\n- ラピッドバルカン\n- スパイラルブリッツ",
+          "RequiredLevel": 65,
           "RequiredSP": 0
         }
       }

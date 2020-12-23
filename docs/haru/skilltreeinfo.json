@@ -1,1064 +1,1143 @@
 {
-  "CharacterName": "Haru Estia",
-  "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Haru_Estia",
+  "CharacterName": "ハル・エスティア",
+  "CharacterWikiURL": "https://wikiwiki.jp/soulworker/%E3%83%8F%E3%83%AB%E3%83%BB%E3%82%A8%E3%82%B9%E3%83%86%E3%82%A3%E3%82%A2",
   "AvailableClass": {
     "0": {
-      "Name": "Base",
-      "Cover": "../assets/images/bg-haru1.png"
+      "Name": "ベース",
+      "Cover": "../assets/images/Haru_Base.png"
     },
     "1": {
-      "Name": "Upgraded",
-      "Cover": "../assets/images/bg-haru2.png",
+      "Name": "アップグレード",
+      "Cover": "../assets/images/Haru_Upgrade.png",
       "RequiredLevel": 57
+    },
+    "2": {
+      "Name": "デザイア覚醒",
+      "Cover": "../assets/images/Haru_Desire.png",
+      "RequiredLevel": 65
     }
   },
   "Skills": {
     "FirstStrike": {
-      "Name": "First Strike",
+      "Name": "ファストブレード",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_FirstBlade.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_FirstBlade.png",
       "Levels": {
         "0": {
-          "Description": "Perform a series of slashes while advancing forward. An additional strike can be used [Right-click] at the end of the skill.",
+          "Description": "素早く前進し、連続攻撃を繰り出す。\nその後、追加操作により最後に斬り上げ攻撃を行う。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/B_Skill_FirstBlade.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Skill_FirstBlade.{{auto}}"
           }
         },
         "1": {
-          "Effect": "{Basic Attack}\nDamage: 361%\nSA Damage: 194%\n{Final Slash}\nDamage: 225%\nSA Damage: 121%\nSG Cost: 55\nCooldown: 15 seconds",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[415%]\nSA破壊量：[223%]\n\n[スキル情報：追加攻撃]\nダメージ量：[259%]\nSA破壊量：[139%]\n\n[スキル情報：一般]\nSG消費量：[35]\nクールタイム：[10秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "{Basic Attack}\nDamage: 379%\nSA Damage: 203%\n{Final Slash}\nDamage: 237%\nSA Damage: 127%\nSG Cost: 55\nCooldown: 15 seconds",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[436%]\nSA破壊量：[233%]\n\n[スキル情報：追加攻撃]\nダメージ量：[273%]\nSA破壊量：[146%]\n\n[スキル情報：一般]\nSG消費量：[35]\nクールタイム：[10秒]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "{Basic Attack}\nDamage: 424%\nSA Damage: 228%\n{Final Slash}\nDamage: 265%\nSA Damage: 142%\nSG Cost: 55\nCooldown: 15 seconds",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[488%]\nSA破壊量：[262%]\n\n[スキル情報：追加攻撃]\nダメージ量：[305%]\nSA破壊量：[163%]\n\n[スキル情報：一般]\nSG消費量：[35]\nクールタイム：[10秒]",
           "RequiredLevel": 7,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "{Basic Attack}\nDamage: 469%\nSA Damage: 252%\n{Final Slash}\nDamage: 294%\nSA Damage: 157%\nSG Cost: 55\nCooldown: 15 seconds",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[540%]\nSA破壊量：[290%]\n\n[スキル情報：追加攻撃]\nダメージ量：[338%]\nSA破壊量：[180%]\n\n[スキル情報：一般]\nSG消費量：[35]\nクールタイム：[10秒]",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "{Basic Attack}\nDamage: 541%\nSA Damage: 290%\n{Final Slash}\nDamage: 339%\nSA Damage: 181%\nSG Cost: 55\nCooldown: 15 seconds",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[623%]\nSA破壊量：[334%]\n\n[スキル情報：追加攻撃]\nダメージ量：[390%]\nSA破壊量：[208%]\n\n[スキル情報：一般]\nSG消費量：[35]\nクールタイム：[10秒]",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "FirstStrike-RangeIncrease"
+        "FirstStrike-A"
       ]
     },
-    "FirstStrike-RangeIncrease": {
+    "FirstStrike-A": {
       "Visible": false,
-      "Name": "Range Increase",
+      "Name": "範囲増加",
       "ID": 2,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_FirstBlade_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_FirstBlade_A.png",
       "Levels": {
         "0": {
-          "Description": "The Extension strike radius becomes bigger.",
+          "Description": "追加攻撃の範囲が増加する。\n刃に異能力を付与し、攻撃範囲を増加させる",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_First Blade_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_First Blade_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[特性情報：基本攻撃]\nダメージ量増加値：[0%]\nSA破壊量増加値：[0%]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "{Basic Attack}\nDamage: 54%\nSA Damage: 29%\n{Final Slash}\nDamage: 33%\nSA Damage: 19%",
+          "Effect": "[特性情報：基本攻撃]\nダメージ量増加値：[101%]\nSA破壊量増加値：[54%]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "{Basic Attack}\nDamage: 162%\nSA Damage: 62%\n{Final Slash}\nDamage: 101%\nSA Damage: 87%",
+          "Effect": "[特性情報：基本攻撃]\nダメージ量増加値：[302%]\nSA破壊量増加値：[109%]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         }
       }
     },
     "PierceStep": {
-      "Name": "Pierce Step",
+      "Name": "ピアスステップ",
       "DefaultLevel": 1,
       "ID": 3,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_PierceStep.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_PierceStep.png",
       "Levels": {
         "0": {
-          "Description": "Perform a series of slashes while advancing forward. An additional strike can be used with an additional input.",
+          "Description": "前方に素早く突進して敵を押し出す。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Pierce Step.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 83%\nSA Damage: 330%\nSG Cost: 30\nCooldown: 8 seconds",
+          "Effect": "ダメージ量：[83%]\nSA破壊量：[380%]\nSG消費量：[15]\nクールタイム：[8秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Damage: 87%\nSA Damage: 347%\nSG Cost: 30\nCooldown: 8 seconds",
+          "Effect": "ダメージ量：[87%]\nSA破壊量：[399%]\nSG消費量：[15]\nクールタイム：[8秒]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 97%\nSA Damage: 388%\nSG Cost: 30\nCooldown: 8 seconds",
+          "Effect": "ダメージ量：[97%]\nSA破壊量：[446%]\nSG消費量：[15]\nクールタイム：[8秒]",
           "RequiredLevel": 11,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 108%\nSA Damage: 429%\nSG Cost: 30\nCooldown: 8 seconds",
+          "Effect": "ダメージ量：[108%]\nSA破壊量：[493%]\nSG消費量：[15]\nクールタイム：[8秒]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 124%\nSA Damage: 495%\nSG Cost: 30\nCooldown: 8 seconds",
+          "Effect": "ダメージ量：[124%]\nSA破壊量：[569%]\nSG消費量：[15]\nクールタイム：[8秒]",
           "RequiredLevel": 21,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "PierceStep-SpinningSlash",
-        "PierceStep-RisingSlash"
+        "PierceStep-A",
+        "PierceStep-B"
       ]
     },
-    "PierceStep-SpinningSlash": {
+    "PierceStep-A": {
       "Visible": false,
-      "Name": "Pierce Step - Spinning Slash",
+      "Name": "回転斬り",
       "ID": 4,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_PierceStep_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_PierceStep_A.png",
       "Levels": {
         "0": {
-          "Description": "Push away the enemies with a spinning slash after Pierce Step.",
+          "Description": "ピアスステップ後、回転斬りで敵を押し出す。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Pierce Step_Attack01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step_Attack01.{{auto}}"
           }
         },
         "1": {
-          "Effect": "{Base Attack}\nDamage: +92%\nSA Damage: -381%\n{Spin Attack}\nDamage: 65%\nSA Damage: 35%\nMaximum Spin Attack: 1",
+          "Effect": "[特性情報：基本攻撃]\nダメージ量追加値：[92%]\nSA破壊量減少値：[438%]\n\n[特性情報：追加攻撃]\nダメージ量：[65%]\nSA破壊量：[39%]\n\nピアスステップ後、回転斬りで敵を押し出す。",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "{Base Attack}\nDamage: +92%\nSA Damage: -381%\n{Spin Attack}\nDamage: 216%\nSA Damage: 114%\nMaximum Spin Attack: 2",
+          "Effect": "[特性情報：基本攻撃]\nダメージ量追加値：[92%]\nSA破壊量減少値：[438%]\n\n[特性情報：追加攻撃]\nダメージ量：[216%]\nSA破壊量：[131%]\n\nピアスステップ後、2回転斬りで敵を押し出す。",
           "RequiredLevel": 26,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Pierce Step_Attack02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step_Attack02.{{auto}}"
           }
         }
       }
     },
-    "PierceStep-RisingSlash": {
+    "PierceStep-B": {
       "Visible": false,
-      "Name": "Pierce Step - Rising Slash",
+      "Name": "斬り上げ",
       "ID": 5,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_PierceStep_B.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_PierceStep_B.png",
       "Levels": {
         "0": {
-          "Description": "Launch the enemies to the air after Pierce Step with a rising slash.",
+          "Description": "ピアスステップ後、斬り上げて敵を宙に浮かせる。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Pierce Step_Attack_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step_Attack_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 200%\nSA Damage: 280%",
+          "Effect": "[特性情報：追加攻撃]\nダメージ量：[74%]\nSA破壊量：[341%]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         }
       }
     },
     "SpinCutter": {
-      "Name": "Spin Cutter",
+      "Name": "スピンカッター",
       "DefaultLevel": 1,
       "ID": 6,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_SpinCutter.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_SpinCutter.png",
       "Levels": {
         "0": {
-          "Description": "Push enemies away by performing a spinning slash.",
+          "Description": "体を素早く回転させ、前方の敵を連続で攻撃しながら押し出す。",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Spin Cutter.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Spin Cutter.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 178%\nSA Damage: 92%\nSG Cost: 35\nCooldown: 5 seconds",
+          "Effect": "ダメージ量：[178%]\nSA破壊量：[92%]\nSG消費量：[35]\nクールタイム：[5秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Damage: 187%\nSA Damage: 96%\nSG Cost: 35\nCooldown: 5 seconds",
+          "Effect": "ダメージ量：[187%]\nSA破壊量：[96%]\nSG消費量：[35]\nクールタイム：[5秒]",
           "RequiredLevel": 5,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 209%\nSA Damage: 108%\nSG Cost: 35\nCooldown: 5 seconds",
+          "Effect": "ダメージ量：[209%]\nSA破壊量：[108%]\nSG消費量：[35]\nクールタイム：[5秒]",
           "RequiredLevel": 9,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 231%\nSA Damage: 119%\nSG Cost: 35\nCooldown: 5 seconds",
+          "Effect": "ダメージ量：[231%]\nSA破壊量：[119%]\nSG消費量：[35]\nクールタイム：[5秒]",
           "RequiredLevel": 13,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 267%\nSA Damage: 138%\nSG Cost: 35\nCooldown: 5 seconds",
+          "Effect": "ダメージ量：[267%]\nSA破壊量：[138%]\nSG消費量：[35]\nクールタイム：[5秒]",
           "RequiredLevel": 17,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "SpinCutter-ExtraAttack"
+        "SpinCutter-A"
       ]
     },
     "BlowUp": {
-      "Name": "Blow Up",
+      "Name": "ブローアップ",
       "ID": 7,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_BlowUp.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BlowUp.png",
       "Levels": {
         "0": {
-          "Description": "Use your special power to enhance your SG acquisition rate. All attacks that hit will be able to give additional SG.\nThe amount of SG gained will increase with monster grade/rank and the effect is applicable on up to 5 hits.",
+          "Description": "異能力の力でソウル獲得能力を強化し、全ての攻撃命中時にSGを追加獲得できるようにする。\nSG獲得量はモンスター等級によって増加し、該当効果は5体まで適用される。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Blow Up.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blow Up.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Buff effect: 1.0% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
+          "Effect": "バフ効果：SA破壊量[4%]増加、命中時SG獲得[1%]\nバフ持続時間：[50秒]\nSG消費量：[50]\nクールタイム：[70秒]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Buff effect: 1.2% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
+          "Effect": "バフ効果：SA破壊量[8%]増加、命中時SG獲得[1.2%]\nバフ持続時間：[50秒]\nSG消費量：[50]\nクールタイム：[70秒]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Buff effect: 1.6% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
+          "Effect": "バフ効果：SA破壊量[12%]増加、命中時SG獲得[1.6%]\nバフ持続時間：[50秒]\nSG消費量：[50]\nクールタイム：[70秒]",
           "RequiredLevel": 12,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Buff effect: 2.0% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
+          "Effect": "バフ効果：SA破壊量[16%]増加、命中時SG獲得[2%]\nバフ持続時間：[50秒]\nSG消費量：[50]\nクールタイム：[70秒]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Buff effect: 3.0% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
+          "Effect": "バフ効果：SA破壊量[20%]増加、命中時SG獲得[3%]\nバフ持続時間：[50秒]\nSG消費量：[50]\nクールタイム：[70秒]",
           "RequiredLevel": 20,
           "RequiredSP": 3
         }
       }
     },
     "BladeQuake": {
-      "Name": "Blade Quake",
+      "Name": "ブレードクエイク",
       "ID": 8,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_BladeQuake.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BladeQuake.png",
       "Levels": {
         "0": {
-          "Description": "Push the sword through the ground, summoning multiple swords to deal damage.",
+          "Description": "剣を地面に突き刺し、異能力の剣を召喚して連続攻撃を繰り出す。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Blade Quake.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Quake.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 212%\nSA Damage:444%\nSG Cost: 45\nCooldown: 16 seconds",
+          "Effect": "ダメージ量：[424%]\nSA破壊量：[532%]\nSG消費量：[45]\nクールタイム：[16秒]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 223%\nSA Damage:466%\nSG Cost: 45\nCooldown: 16 seconds",
+          "Effect": "ダメージ量：[445%]\nSA破壊量：[559%]\nSG消費量：[45]\nクールタイム：[16秒]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 249%\nSA Damage:522%\nSG Cost: 45\nCooldown: 16 seconds",
+          "Effect": "ダメージ量：[497%]\nSA破壊量：[626%]\nSG消費量：[45]\nクールタイム：[16秒]",
           "RequiredLevel": 14,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 279%\nSA Damage:577%\nSG Cost: 45\nCooldown: 16 seconds",
+          "Effect": "ダメージ量：[552%]\nSA破壊量：[692%]\nSG消費量：[45]\nクールタイム：[16秒]",
           "RequiredLevel": 18,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 318%\nSA Damage:666%\nSG Cost: 45\nCooldown: 16 seconds",
+          "Effect": "ダメージ量：[636%]\nSA破壊量：[799%]\nSG消費量：[45]\nクールタイム：[16秒]",
           "RequiredLevel": 22,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "BladeQuake-KnockOut"
+        "BladeQuake-A"
       ]
     },
-    "BladeQuake-KnockOut": {
+    "BladeQuake-A": {
       "Visible": false,
-      "Name": "Knock Out",
+      "Name": "気絶",
       "ID": 9,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_BladeQuake_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BladeQuake_A.png",
       "Levels": {
         "0": {
-          "Description": "All enemies hit by the skill will be stunned.",
+          "Description": "攻撃範囲を広げ、ダメージを与えた敵に気絶状態にする。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Blade Quake_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Quake_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stun Duration: 3 Seconds",
+          "Effect": "[特性情報]\nダメージ量：[763%]\nSA破壊量：[958%]\nデバフ効果：気絶\nデバフ持続時間：[3秒]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stun Duration: 4 Seconds",
+          "Effect": "[特性情報]\nダメージ量：[914%]\nSA破壊量：[1150%]\nデバフ効果：気絶\nデバフ持続時間：[3秒]",
           "RequiredLevel": 27,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stun Duration: 5 Seconds",
+          "Effect": "[特性情報]\nダメージ量：[1096%]\nSA破壊量：[1379%]\nデバフ効果：気絶\nデバフ持続時間：[3秒]",
           "RequiredLevel": 32,
           "RequiredSP": 2
         }
       }
     },
     "BladeWall": {
-      "Name": "Blade Wall",
+      "Name": "ブレードウォール",
       "ID": 10,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_BladeWall.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BladeWall.png",
       "Levels": {
         "0": {
-          "Description": "Summoned swords will damage enemies and pull them towards the player.",
+          "Description": "前方に異能力の大剣を召喚し、敵にダメージを与えながらプレイヤーの前に引き寄せる。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Blade Wall.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Wall.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 149%\nSA Damage: 310%\nSG Cost: 40\nCooldown: 12 seconds",
+          "Effect": "ダメージ量：[149%]\nSA破壊量：[310%]\nSG消費量：[40]\nクールタイム：[12秒]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 157%\nSA Damage: 326%\nSG Cost: 40\nCooldown: 12 seconds",
+          "Effect": "ダメージ量：[157%]\nSA破壊量：[326%]\nSG消費量：[40]\nクールタイム：[12秒]",
           "RequiredLevel": 12,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 175%\nSA Damage: 364%\nSG Cost: 40\nCooldown: 12 seconds",
+          "Effect": "ダメージ量：[175%]\nSA破壊量：[364%]\nSG消費量：[40]\nクールタイム：[12秒]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 194%\nSA Damage: 403%\nSG Cost: 40\nCooldown: 12 seconds",
+          "Effect": "ダメージ量：[194%]\nSA破壊量：[403%]\nSG消費量：[40]\nクールタイム：[12秒]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 224%\nSA Damage: 465%\nSG Cost: 40\nCooldown: 12 seconds",
+          "Effect": "ダメージ量：[224%]\nSA破壊量：[465%]\nSG消費量：[40]\nクールタイム：[12秒]",
           "RequiredLevel": 24,
           "RequiredSP": 3
         }
       }
     },
     "PowerSlash": {
-      "Name": "Power Slash",
+      "Name": "パワースラッシュ",
       "ID": 11,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_PowerSlash.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_PowerSlash.png",
       "Levels": {
         "0": {
-          "Description": "Slashes frontward with great power.",
+          "Description": "前方に渾身の力を込めた一撃を放つ。\n前方の敵には追加打撃で2倍のダメージを与えます。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Power Slash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Power Slash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 455%\nSA Damage: 262%\nSG Cost: 60\nCooldown: 15 seconds",
+          "Effect": "ダメージ量：[455%]\nSA破壊量：[393%]\nSG消費量：[50]\nクールタイム：[15秒]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 478%\nSA Damage: 276%\nSG Cost: 60\nCooldown: 15 seconds",
+          "Effect": "ダメージ量：[478%]\nSA破壊量：[414%]\nSG消費量：[50]\nクールタイム：[15秒]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 535%\nSA Damage: 308%\nSG Cost: 60\nCooldown: 15 seconds",
+          "Effect": "ダメージ量：[535%]\nSA破壊量：[462%]\nSG消費量：[50]\nクールタイム：[15秒]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 592%\nSA Damage: 341%\nSG Cost: 60\nCooldown: 15 seconds",
+          "Effect": "ダメージ量：[592%]\nSA破壊量：[512%]\nSG消費量：[50]\nクールタイム：[15秒]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 683%\nSA Damage: 394%\nSG Cost: 60\nCooldown: 15 seconds",
+          "Effect": "ダメージ量：[683%]\nSA破壊量：[591%]\nSG消費量：[50]\nクールタイム：[15秒]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
       }
     },
     "LeapAttack": {
-      "Name": "Leap Attack",
+      "Name": "リープアタック",
       "ID": 12,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_LeapAttack.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_LeapAttack.png",
       "Levels": {
         "0": {
-          "Description": "Leap forward and slam the ground, launching the enemies into the air. Hold the skill button to charge the skill and leap further.",
+          "Description": "前方にジャンプし、そのまま地面を強打して敵を浮かせる。チャージ（スキルボタン長押し）時間に応じてジャンプ可能距離が増加する。\n着地地点に位置している敵には追加打撃で1.0倍のダメージを与えます。",
           "Effect": "",
           "RequiredLevel": 13,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Leap Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Leap Attack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 392%\nSA Damage: 629%\nSG Cost: 50\nCooldown: 20 seconds",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[392%]\nSA破壊量：[629%]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[392%]\nSA破壊量：[629%]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 411%\nSA Damage: 660%\nSG Cost: 50\nCooldown: 20 seconds",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[411%]\nSA破壊量：[660%]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[411%]\nSA破壊量：[660%]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 460%\nSA Damage: 739%\nSG Cost: 50\nCooldown: 20 seconds",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[460%]\nSA破壊量：[739%]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[460%]\nSA破壊量：[739%]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 509%\nSA Damage: 817%\nSG Cost: 50\nCooldown: 20 seconds",
+          "Effect": "ダ[スキル情報：基本攻撃]\nダメージ量：[509%]\nSA破壊量：[817%]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[509%]\nSA破壊量：[817%]",
           "RequiredLevel": 28,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 588%\nSA Damage: 943%\nSG Cost: 50\nCooldown: 20 seconds",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[588%]\nSA破壊量：[943%]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[588%]\nSA破壊量：[943%]",
           "RequiredLevel": 33,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "LeapAttack-ExtraAttack",
-        "LeapAttack-RangeIncrease"
+        "LeapAttack-A",
+        "LeapAttack-B"
       ]
     },
-    "LeapAttack-ExtraAttack": {
+    "LeapAttack-A": {
       "Visible": false,
-      "Name": "Extra Attack",
+      "Name": "攻撃回数増加",
       "ID": 13,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_LeapAttack_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_LeapAttack_A.png",
       "Levels": {
         "0": {
-          "Description": "There will be more attacks, increasing hitcount.",
+          "Description": "攻撃回数が増加し、多段ヒットが発生する。\n攻撃地点に位置している敵へ150％の追加ダメージを与える。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Leap Attack_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Leap Attack_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 102%\nSA Damage: 172%",
+          "Effect": "[特性情報]\nダメージ：[690%]\nSA破壊：[1115%]\n攻撃回数：[7回]\n\n[特性情報：追加攻撃]\nダメージ：[1725%]\nSA破壊：[2787%]",
           "RequiredLevel": 33,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 171%\nSA Damage: 283%",
+          "Effect": "[特性情報]\nダメージ：[759%]\nSA破壊：[1226%]\n攻撃回数：[8回]\n\n[特性情報：追加攻撃]\nダメージ：[1897%]\nSA破壊：[3065%]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 285%\nSA Damage: 470%",
+          "Effect": "[特性情報]\nダメージ：[873%]\nSA破壊：[1413%]\n攻撃回数：[9回]\n\n[特性情報：追加攻撃]\nダメージ：[2182%]\nSA破壊：[3532%]",
           "RequiredLevel": 43,
           "RequiredSP": 2
         }
       }
     },
-    "LeapAttack-RangeIncrease": {
+    "LeapAttack-B": {
       "Visible": false,
-      "Name": "Range Increase",
+      "Name": "範囲増加",
       "ID": 14,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_LeapAttack_B.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_LeapAttack_B.png",
       "Levels": {
         "0": {
-          "Description": "Attack range is increased. Slam impact attack range increased.",
+          "Description": "打撃範囲が広くなる。\n攻撃地点に位置している敵へ1.8倍のダメージを与える。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Leap Attack_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Leap Attack_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Additional Effect]\nAttack range is increased",
+          "Effect": "[特性情報]\nダメージ：[735%]\nSA破壊：[1178%]\n\n[特性情報：追加攻撃]\nダメージ：[1323%]\nSA破壊：[2120%]",
           "RequiredLevel": 33,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 58%\nSA Damage: 95%\n[Additional Effect]\nAttack range is increased",
+          "Effect": "[特性情報]\nダメージ：[807%]\nSA破壊：[1297%]\n\n[特性情報：追加攻撃]\nダメージ：[1452%]\nSA破壊：[2334%]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 176%\nSA Damage: 183%\n[Additional Effect]\nAttack range is increased",
+          "Effect": "[特性情報]\nダメージ：[955%]\nSA破壊：[1532%]\n\n[特性情報：追加攻撃]\nダメージ：[1719%]\nSA破壊：[2757%]",
           "RequiredLevel": 43,
           "RequiredSP": 2
         }
       }
     },
     "ArenaRush": {
-      "Name": "Arena Rush",
+      "Name": "アリーナラッシュ",
       "ID": 15,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_ArenaRush.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_ArenaRush.png",
       "Levels": {
         "0": {
-          "Description": "Create an enhancing field in a set radius. All party members within the area will have increased damage.",
+          "Description": "一定範囲に能力強化エリアを作り出す。エリアは、範囲内にいる自分及びパーティーメンバーの攻撃力を上昇させる。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Arena Rush.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Arena Rush.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 100%\nSA Damage: 100%\n[Buff Area]\nBuff Effect: Attack Increase by 7%\nBuff Duration: 20 seconds\nBuff Area Duration: 10 seconds\nSG Cost: 50\nCooldown: 45 seconds",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[100%]\nSA破壊量：[100%]\n\n[バフ効果：個人]\nバフ効果：ダメージ量[5%]増加\nバフ持続時間：[20秒]\n\n[バフ効果：パーティー]\nバフ効果：ダメージ量[1%]増加\nバフ持続時間：[20秒]\n\nバフエリア持続時間：[10秒]\nSG消費量：[50]\nクールタイム：[45秒]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 100%\nSA Damage: 100%\n[Buff Area]\nBuff Effect: Attack Increase by 9%\nBuff Duration: 20 seconds\nBuff Area Duration: 10 seconds\nSG Cost: 50\nCooldown: 45 seconds",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[100%]\nSA破壊量：[100%]\n\n[バフ効果：個人]\nバフ効果：ダメージ量[6%]増加\nバフ持続時間：[20秒]\n\n[バフ効果：パーティー]\nバフ効果：ダメージ量[2%]増加\nバフ持続時間：[20秒]\n\nバフエリア持続時間：[10秒]\nSG消費量：[50]\nクールタイム：[45秒]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 100%\nSA Damage: 100%\n[Buff Area]\nBuff Effect: Attack Increase by 12%\nBuff Duration: 20 seconds\nBuff Area Duration: 10 seconds\nSG Cost: 50\nCooldown: 45 seconds",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[100%]\nSA破壊量：[100%]\n\n[バフ効果：個人]\nバフ効果：ダメージ量[7%]増加\nバフ持続時間：[20秒]\n\n[バフ効果：パーティー]\nバフ効果：ダメージ量[3%]増加\nバフ持続時間：[20秒]\n\nバフエリア持続時間：[10秒]\nSG消費量：[50]\nクールタイム：[45秒]",
           "RequiredLevel": 27,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 100%\nSA Damage: 100%\n[Buff Area]\nBuff Effect: Attack Increase by 15%\nBuff Duration: 20 seconds\nBuff Area Duration: 10 seconds\nSG Cost: 50\nCooldown: 45 seconds",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[100%]\nSA破壊量：[100%]\n\n[バフ効果：個人]\nバフ効果：ダメージ量[8%]増加\nバフ持続時間：[20秒]\n\n[バフ効果：パーティー]\nバフ効果：ダメージ量[4%]増加\nバフ持続時間：[20秒]\n\nバフエリア持続時間：[10秒]\nSG消費量：[50]\nクールタイム：[45秒]",
           "RequiredLevel": 32,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 100%\nSA Damage: 100%\n[Buff Area]\nBuff Effect: Attack Increase by 20%\nBuff Duration: 20 seconds\nBuff Area Duration: 10 seconds\nSG Cost: 50\nCooldown: 45 seconds",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[100%]\nSA破壊量：[100%]\n\n[バフ効果：個人]\nバフ効果：ダメージ量[10%]増加\nバフ持続時間：[20秒]\n\n[バフ効果：パーティー]\nバフ効果：ダメージ量[5%]増加\nバフ持続時間：[20秒]\n\nバフエリア持続時間：[10秒]\nSG消費量：[50]\nクールタイム：[45秒]",
           "RequiredLevel": 37,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "ArenaRush-DurationIncrease",
-        "ArenaRush-KnockOut"
+        "ArenaRush-A",
+        "ArenaRush-B"
       ]
     },
-    "ArenaRush-DurationIncrease": {
+    "ArenaRush-A": {
       "Visible": false,
-      "Name": "Duration Increase",
+      "Name": "時間増加",
       "ID": 16,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_ArenaRush_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_ArenaRush_A.png",
       "Levels": {
         "0": {
-          "Description": "Area duration increased.",
+          "Description": "バフエリア範囲と持続時間が増加する。\nバフエリアにSG消費量減少効果が追加される",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_ArenaRush_A.{{auto}}"
+          }
         },
         "1": {
-          "Effect": "Duration: +4 seconds",
+          "Effect": "[特性情報：基本攻撃]\nバフエリア持続時間増加値：[5秒]\nSG消費量減少：[10%]\n持続時間：[3秒]",
           "RequiredLevel": 37,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Duration: +6 seconds",
+          "Effect": "[特性情報：基本攻撃]\nバフエリア持続時間増加値：[7秒]\nSG消費量減少：[12%]\n持続時間：[3秒]",
           "RequiredLevel": 42,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Duration: +9 seconds",
+          "Effect": "[特性情報：基本攻撃]\nバフエリア持続時間増加値：[10秒]\nSG消費量減少：[15%]\n持続時間：[3秒]",
           "RequiredLevel": 47,
           "RequiredSP": 2
         }
       }
     },
-    "ArenaRush-KnockOut": {
+    "ArenaRush-B": {
       "Visible": false,
-      "Name": "Knock Out",
+      "Name": "気絶",
       "ID": 17,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_ArenaRush_B.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_ArenaRush_B.png",
       "Levels": {
         "0": {
-          "Description": "All hit enemies will be stunned for a brief moment.",
+          "Description": "攻撃を受けた敵を気絶状態にする。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/B_Skill_ArenaRush_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_ArenaRush_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stun Duration: 1 second",
+          "Effect": "[バフ情報：個人]\nバフ効果：ダメージ量[10%]増加\nバフ持続時間：[30秒]\n\n[バフ情報：パーティー]\nバフ効果：ダメージ量[5%]増加\nバフ持続時間：[30秒]\n\n[特性情報：追加攻撃]\nデバフ効果：気絶\nデバフ持続時間：[1秒]",
           "RequiredLevel": 37,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stun Duration: 2 seconds",
+          "Effect": "[バフ情報：個人]\nバフ効果：ダメージ量[10%]増加\nバフ持続時間：[30秒]\n\n[バフ情報：パーティー]\nバフ効果：ダメージ量[5%]増加\nバフ持続時間：[30秒]\n\n[特性情報：追加攻撃]\nデバフ効果：気絶\nデバフ持続時間：[2秒]",
           "RequiredLevel": 43,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stun Duration: 3 seconds",
+          "Effect": "[バフ情報：個人]\nバフ効果：ダメージ量[10%]増加\nバフ持続時間：[30秒]\n\n[バフ情報：パーティー]\nバフ効果：ダメージ量[5%]増加\nバフ持続時間：[30秒]\n\n[特性情報：追加攻撃]\nデバフ効果：気絶\nデバフ持続時間：[3秒]",
           "RequiredLevel": 47,
           "RequiredSP": 2
         }
       }
     },
     "FlashStep": {
-      "Name": "Flash Step",
+      "Name": "フラッシュステップ",
       "ID": 18,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_FlashStep.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_FlashStep.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly leap backwards, summoning a sword imbued with supernatural powers and firing it frontward.",
+          "Description": "素早く後ろに回避し、異能力を付与した剣を前方に飛ばす。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Flash Step.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Flash Step.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 468%\nSA Damage: 605%\nSG Cost: 35\nCooldown: 20 seconds",
+          "Effect": "ダメージ量：[468%]\nSA破壊量：[605%]\nSG消費量：[35]\nクールタイム：[20秒]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 491%\nSA Damage: 635%\nSG Cost: 35\nCooldown: 20 seconds",
+          "Effect": "ダメージ量：[491%]\nSA破壊量：[635%]\nSG消費量：[35]\nクールタイム：[20秒]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 550%\nSA Damage: 710%\nSG Cost: 35\nCooldown: 20 seconds",
+          "Effect": "ダメージ量：[550%]\nSA破壊量：[710%]\nSG消費量：[35]\nクールタイム：[20秒]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 608%\nSA Damage: 768%\nSG Cost: 35\nCooldown: 20 seconds",
+          "Effect": "ダメージ量：[608%]\nSA破壊量：[786%]\nSG消費量：[35]\nクールタイム：[20秒]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 702%\nSA Damage: 907%\nSG Cost: 35\nCooldown: 20 seconds",
+          "Effect": "ダメージ量：[702%]\nSA破壊量：[907%]\nSG消費量：[35]\nクールタイム：[20秒]",
           "RequiredLevel": 41,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "FlashStep-HeavyAttack"
+        "FlashStep-A"
       ]
     },
     "CrossStrike": {
-      "Name": "Cross Strike",
+      "Name": "クロスストライク",
       "ID": 19,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_CrossStrike.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_CrossStrike.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Slash in a X pattern mid-air and fire strong sword energy. The sword energy will explode on the ground and deal additional damage.",
+          "Description": "空中で剣を振り強力な剣気を連続で飛ばす。剣気が敵を通過してダメージを与える。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Cross Strike.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Cross Strike.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage per slash: 98%\nSA Damage per slash: 74%\nSG Cost: 45\nCooldown: 30 seconds",
+          "Effect": "ダメージ量：攻撃1回あたり[98%]\nSA破壊量：攻撃1回あたり[74%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 28,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage per slash: 102%\nSA Damage per slash: 77%\nSG Cost: 45\nCooldown: 30 seconds",
+          "Effect": "ダメージ量：攻撃1回あたり[102%]\nSA破壊量：攻撃1回あたり[77%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 32,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage per slash: 114%\nSA Damage per slash: 86%\nSG Cost: 45\nCooldown: 30 seconds",
+          "Effect": "ダメージ量：攻撃1回あたり[114%]\nSA破壊量：攻撃1回あたり[86%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage per slash: 126%\nSA Damage per slash: 96%\nSG Cost: 45\nCooldown: 30 seconds",
+          "Effect": "ダメージ量：攻撃1回あたり[126%]\nSA破壊量：攻撃1回あたり[96%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage per slash: 146%\nSA Damage per slash: 110%\nSG Cost: 45\nCooldown: 30 seconds",
+          "Effect": "ダメージ量：攻撃1回あたり[146%]\nSA破壊量：攻撃1回あたり[110%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 44,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "CrossStrike-Blaze"
+        "CrossStrike-A"
       ]
     },
-    "CrossStrike-Blaze": {
+    "CrossStrike-A": {
       "Visible": false,
-      "Name": "Blaze",
+      "Name": "火炎",
       "ID": 20,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_CrossStrike_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_CrossStrike_A.png",
       "Levels": {
         "0": {
-          "Description": "A burning zone will appear when the sword energy explodes on the ground.",
+          "Description": "剣気が地面に衝突すると、火炎地帯を生成する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Cross Strike_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Cross Strike_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Increased Damage]\nDamage: -28%\nSA Damage: -21%\n{Burning Zone}\nDamage: 45%\nSA Damage: 34%",
+          "Effect": "[特性情報]\nダメージ量減少値：攻撃1回あたり[28%]\nSA破壊量減少値：攻撃1回あたり[21%]\n3秒間、火炎地帯を作り出す。\n火炎地帯ダメージ量：毎秒[45%]\n火炎地帯SA破壊量：毎秒[34%]",
           "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Increased Damage]\nDamage: +13%\nSA Damage: +10%\n{Burning Zone}\nDamage: 50%\nSA Damage: 38%",
+          "Effect": "[特性情報]\nダメージ量減少値：攻撃1回あたり[13%]\nSA破壊量減少値：攻撃1回あたり[10%]\n3秒間、火炎地帯を作り出す。\n火炎地帯ダメージ量：毎秒[50%]\n火炎地帯SA破壊量：毎秒[38%]",
           "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Increased Damage]\nDamage: +23%\nSA Damage: +17%\n{Burning Zone}\nDamage: 62%\nSA Damage: 47%",
+          "Effect": "[特性情報]\nダメージ量増加値：攻撃1回あたり[23%]\nSA破壊量増加値：攻撃1回あたり[17%]\n3秒間、火炎地帯を作り出す。\n火炎地帯ダメージ量：毎秒[62%]\n火炎地帯SA破壊量：毎秒[47%]",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
       }
     },
     "WindBreak": {
-      "Name": "Wind Break",
+      "Name": "ウィンドブレイク",
       "ID": 21,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_WindBreak.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_WindBreak.png",
       "Levels": {
         "0": {
-          "Description": "Charge your sword with energy behind your back , then release it. The sword energy flies in a straight line while penetrating enemies.",
+          "Description": "剣を後ろに構え、力を溜めて素早く剣気を放つ。\n剣気は敵を貫通しながら一直線に飛んで行く。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Wind Break.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_03.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 466%\nSA Damage: 444%\nSG Cost: 50\nCooldown: 35 seconds",
+          "Effect": "ダメージ量：攻撃1回あたり[466%]\nSA破壊量：[444%]\nSG消費量：[50]\nクールタイム：[35秒]",
           "RequiredLevel": 34,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 489%\nSA Damage: 466%\nSG Cost: 50\nCooldown: 35 seconds",
+          "Effect": "ダメージ量：攻撃1回あたり[489%]\nSA破壊量：[466%]\nSG消費量：[50]\nクールタイム：[35秒]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 548%\nSA Damage: 522%\nSG Cost: 50\nCooldown: 35 seconds",
+          "Effect": "ダメージ量：攻撃1回あたり[547%]\nSA破壊量：[522%]\nSG消費量：[50]\nクールタイム：[35秒]",
           "RequiredLevel": 42,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 606%\nSA Damage: 577%\nSG Cost: 50\nCooldown: 35 seconds",
+          "Effect": "ダメージ量：攻撃1回あたり[605%]\nSA破壊量：[577%]\nSG消費量：[50]\nクールタイム：[35秒]",
           "RequiredLevel": 46,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 699%\nSA Damage: 666%\nSG Cost: 50\nCooldown: 35 seconds",
+          "Effect": "ダメージ量：攻撃1回あたり[699%]\nSA破壊量：[666%]\nSG消費量：[50]\nクールタイム：[35秒]",
           "RequiredLevel": 50,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "WindBreak-Charge"
+        "WindBreak-A"
       ]
     },
-    "WindBreak-Charge": {
+    "WindBreak-A": {
       "Visible": false,
-      "Name": "Charge",
+      "Name": "ラッシュ",
       "ID": 22,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_WindBreak_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_WindBreak_A.png",
       "Levels": {
         "0": {
-          "Description": "Fires multiple charged energy waves. Fires 2 waves with 0.7x the power of an original slash.",
+          "Description": "チャージなくすぐに剣気を放つことができる。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Wind Break_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Maximum Waves: 2",
+          "Effect": "[特性情報：基本攻撃]\nダメージ：[489%]\nSA破壊：[466%]\n\n[特性情報：追加攻撃]\nダメージ：[699%]\nSA破壊：[666%]\n攻撃回数：3回",
           "RequiredLevel": 50,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Maximum Waves: 3",
+          "Effect": "[特性情報：基本攻撃]\nダメージ：[489%]\nSA破壊：[466%]\n\n[特性情報：追加攻撃]\nダメージ：[699%]\nSA破壊：[666%]\n攻撃回数：2秒",
           "RequiredLevel": 55,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Wind Break_Attack_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_03.{{auto}}"
           }
         }
       }
     },
     "BladeShower": {
-      "Name": "Blade Shower",
+      "Name": "ブレードシャワー",
       "ID": 23,
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_BladeShower.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BladeShower.png",
       "Levels": {
         "0": {
-          "Description": "Throw your sword upwards, summoning a torrential rain of energy swords. Very large AoE.",
+          "Description": "前方空中に剣を投げ、強力な剣の雨を発生させる。剣の雨は広範囲に降り注ぐ。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Blade Shower.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Shower.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 1678%\nSA Damage: 1721%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "ダメージ量：[2097%]\nSA破壊量：[2237%]\nSG消費量：[75]\nクールタイム：[45秒]",
           "RequiredLevel": 42,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 1761%\nSA Damage: 1808%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "ダメージ量：[2201%]\nSA破壊量：[2350%]\nSG消費量：[75]\nクールタイム：[45秒]",
           "RequiredLevel": 45,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 1971%\nSA Damage: 2023%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "ダメージ量：[2464%]\nSA破壊量：[2630%]\nSG消費量：[75]\nクールタイム：[45秒]",
           "RequiredLevel": 48,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 2181%\nSA Damage: 2238%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "ダメージ量：[2726%]\nSA破壊量：[2909%]\nSG消費量：[75]\nクールタイム：[45秒]",
           "RequiredLevel": 51,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 2516%\nSA Damage: 2582%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "ダメージ量：[3145%]\nSA破壊量：[3357%]\nSG消費量：[75]\nクールタイム：[45秒]",
           "RequiredLevel": 54,
           "RequiredSP": 3
         }
-      }
+      },
+      "Extensions": [
+        "BladeShower-A"
+      ]
     },
-    "SpinCutter-ExtraAttack": {
+    "SpinCutter-A": {
       "Visible": false,
-      "Name": "Extra Attack",
+      "Name": "追撃",
       "ID": 24,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/SoulumSword/Icon_Ssword_Skill_SpinAttack_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_SpinAttack_A.png",
       "Levels": {
         "0": {
-          "Description": "Chase enemies after the spin cutter.",
+          "Description": "スピンカッター後、敵に追撃します。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Spin Cutter_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Spin Cutter_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 267%\nSA Damage: 138%",
+          "Effect": "[特性情報]\n追加ダメージ量：[354%]\n追加SA破壊量：[552%]\n\n[特性情報:追加攻撃]\n追加ダメージ量：[354%]\n追加SA破壊量：[552%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 294%\nSA Damage: 152%",
+          "Effect": "[特性情報]\n追加ダメージ量：[407%]\n追加SA破壊量：[635%]\n\n[特性情報:追加攻撃]\n追加ダメージ量：[407%]\n追加SA破壊量：[635%]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 347%\nSA Damage: 179%",
+          "Effect": "[特性情報]\n追加ダメージ量：[513%]\n追加SA破壊量：[801%]\n\n[特性情報:追加攻撃]\n追加ダメージ量：[513%]\n追加SA破壊量：[801%]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
       }
     },
-    "FlashStep-HeavyAttack": {
+    "FlashStep-A": {
       "Visible": false,
-      "Name": "Heavy Attack",
+      "Name": "重撃",
       "ID": 25,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/SoulumSword/Icon_Ssword_Skill_FlashStep_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_FlashStep_A.png",
       "Levels": {
         "0": {
-          "Description": "Attach the small sword to the big one and then throw it.",
+          "Description": "剣と大剣を結合して前方に投擲する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Flash Step_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Flash Step_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 702%\nSA Damage: 907%",
+          "Effect": "[特性情報]\nダメージ量：[1394%]\nSA破壊量：[975%]\nデバフ効果:気絶[1.8秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 770%\nSA Damage: 1000%",
+          "Effect": "[特性情報]\nダメージ量：[1603%]\nSA破壊量：[1122%]\nデバフ効果:気絶[2.4秒]",
           "RequiredLevel": 59,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 912%\nSA Damage: 1180%",
+          "Effect": "[特性情報]\nダメージ量：[2021%]\nSA破壊量：[1414%]\nデバフ効果:気絶[3.2秒]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
       }
     },
     "SwordFall": {
-      "Name": "Sword Fall",
+      "Name": "ソードフォール",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/SoulumSword/Icon_Ssword_Skill_Swordsfall.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_Swordsfall.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Immediately land then generate a small sword rain on the area around Haru.",
+          "Description": "空中状態で前方の敵を打ちおろすと同時に、周辺に剣を召還し攻撃する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_SwardFall.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_SwardFall.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 1678%\nSA Damage: 1721%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "ダメージ量：[684%]\nSA破壊量：[960%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 1761%\nSA Damage: 1808%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "ダメージ量：[720%]\nSA破壊量：[1008%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 1971%\nSA Damage: 2023%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "ダメージ量：[786%]\nSA破壊量：[1104%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 2181%\nSA Damage: 2238%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "ダメージ量：[888%]\nSA破壊量：[1248%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 2517%\nSA Damage: 2582%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "ダメージ量：[1026%]\nSA破壊量：[1440%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
     "SlashingWarfare": {
-      "Name": "Slashing Warfare",
+      "Name": "スラッシングワーフェア",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/SoulumSword/Icon_Ssword_Skill_Warfare.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_Warfare.png",
       "Levels": {
         "0": {
-          "Description": "After rushing to make two swords cross and attacking rushing, add a rotational attack towards the back and draw enemies.",
+          "Description": "２本の剣を交差させるように切り裂き突進攻撃をした後、後方に向かって回転攻撃を加え敵を引き寄せる。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Slashing Warfare.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Slashing Warfare.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 320%\nSA Damage: 300%\nSG Cost: 30\nCooldown: 20 seconds",
+          "Effect": "ダメージ量：[1837%]\nSA破壊量：[956%]\nSG消費量：[30]\nクールタイム：[20秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 330%\nSA Damage: 315%\nSG Cost: 30\nCooldown: 20 seconds",
+          "Effect": "ダメージ量：[2161%]\nSA破壊量：[1003%]\nSG消費量：[30]\nクールタイム：[20秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 368%\nSA Damage: 345%\nSG Cost: 30\nCooldown: 20 seconds",
+          "Effect": "ダメージ量：[2419%]\nSA破壊量：[1122%]\nSG消費量：[30]\nクールタイム：[20秒]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 416%\nSA Damage: 390%\nSG Cost: 30\nCooldown: 20 seconds",
+          "Effect": "ダメージ量：[2674%]\nSA破壊量：[1241%]\nSG消費量：[30]\nクールタイム：[20秒]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 480%\nSA Damage: 450%\nSG Cost: 30\nCooldown: 20 seconds",
+          "Effect": "ダメージ量：[3087%]\nSA破壊量：[1433%]\nSG消費量：[30]\nクールタイム：[20秒]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
-    "BasicAttackMastery": {
-      "Passive": true,
-      "Name": "Basic Attack Mastery",
-      "ID": 1002,
-      "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DefaultAttack.png",
+    "Trollsverd": {
+      "Name": "トロルスベルド",
+      "ID": 28,
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_Trollsverd.png",
       "Levels": {
         "0": {
-          "Description": "Attack enemies with the sword.\nYou can unlock new combo attacks as the skill level increases.",
+          "Description": "ソウルエナジーで光の剣「トロルスベルド」を形象化して前方の敵を薙ぎ払います。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Attack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Skill_Trollsverd.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[1656%]\nSA破壊量：[1827%]\nSG消費量：[50]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[165%]\nSA破壊量：[182%]",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[1823%]\nSA破壊量：[2010%]\nSG消費量：[50]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[182%]\nSA破壊量：[201%]",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[2042%]\nSA破壊量：[2252%]\nSG消費量：[50]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[204%]\nSA破壊量：[225%]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[2328%]\nSA破壊量：[2568%]\nSG消費量：[50]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[232%]\nSA破壊量：[256%]",
+          "RequiredLevel": 71,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "BladeShower-A": {
+      "Visible": false,
+      "Name": "迅速化",
+      "ID": 29,
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_BladeShower_A.png",
+      "Levels": {
+        "0": {
+          "Description": "攻撃速度に応じて打撃数が増加し、止め攻撃の打撃数と範囲が増加します。\nマウス右クリックで即時止め攻撃を行えます。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Shower_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[315%]\nSA破壊量：[336%]\n\n[特性情報：追加攻撃]\nダメージ量：[1258%]\nSA破壊量：[1343%]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },
+        "2": {
+          "Effect": "ダメージ量：[346%]\nSA破壊量：[369%]\n\n[特性情報：追加攻撃]\nダメージ量：[1384%]\nSA破壊量：[1477%]",
+          "RequiredLevel": 70,
+          "RequiredSP": 3
+        },
+        "3": {
+          "Effect": "ダメージ量：[398%]\nSA破壊量：[425%]\n\n[特性情報：追加攻撃]\nダメージ量：[1592%]\nSA破壊量：[1699%]",
+          "RequiredLevel": 72,
+          "RequiredSP": 4
+        }
+      }
+    },
+    "BasicAttackMastery": {
+      "Passive": true,
+      "Name": "基本攻撃マスタリー",
+      "ID": 1001,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DefaultAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "剣で敵を攻撃する。\nスキルレベルが上がるほど連係攻撃の種類が増加する。\n攻撃時、SGを獲得。\nSG獲得量は連係段階とモンスター等級に応じて増加する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Attack_01.{{auto}}"
           }
         },
         "1": {
@@ -1067,35 +1146,35 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "SG Gain + 20%.\nUnlock alternative attack “A”.",
+          "Effect": "SG獲得量が[20%]増加する。\n分岐攻撃Aを使用できる。",
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Attack_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "SG Gain: + 70%.\nUnlock additional basic attack.",
+          "Effect": "SG獲得量が[70%]増加する。\n基本攻撃の追加攻撃を使用できる。",
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Attack_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Attack_03.{{auto}}"
           }
         },
         "4": {
-          "Effect": "SG Gain: + 120%\nUnlock alternative attack “B”.\nUnlock additional aerial attack.",
+          "Effect": "SG獲得量が[120%]増加する。\n分岐攻撃Bを使用できる。\n空中攻撃の追加攻撃を使用できる。",
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Attack_04.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Attack_04.{{auto}}"
           }
         },
         "5": {
-          "Effect": "SG Gain: + 200%\nUnlock alternative attack “C”.",
+          "Effect": "SG獲得量が[200%]増加する。\n分岐攻撃Cを使用できる。",
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/B_Attack_05.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Attack_05.{{auto}}"
           }
         }
       }
@@ -1103,87 +1182,87 @@
     "SpecialAbilityMastery": {
       "Passive": true,
       "DefaultLevel": 1,
-      "ID": 1001,
-      "Name": "Special Ability Mastery",
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_OwnAbility.png",
+      "ID": 1002,
+      "Name": "特殊能力マスタリー",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_OwnAbility.png",
       "Levels": {
         "0": {
-          "Description": "Launch enemies within a certain range in midair.\nWhen used midair, unleash a fast dive kick.",
+          "Description": "攻撃時、SGを獲得。\nSG獲得量はモンスター等級に応じて増加する。\n\n異能力により一定範囲内の敵を宙に浮かせ、動きを遅くする。\n空中で使用時、素早く蹴り攻撃を繰り出して着地する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_S_Attack_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_S_Attack_N.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Ground]\nDamage: 175%\nSA Break: 140%\n\n[Midair]\nDamage:229%\nSA Break: 170%\n\n[Common]\nCooldown: 10 sec",
+          "Effect": "[スキル情報：地上]\nダメージ量：[175%]\nSA破壊量：[140%]\n\n[スキル情報：空中]\nダメージ量：[229%]\nSA破壊量：[170%]\n\n[スキル情報：一般]\nクールタイム：[10秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Ground]\nDamage: 184%\nSA Break: 147%\n\n[Midair]\nDamage:241%\nSA Break: 178%\n\n[Common]\nCooldown: 10 sec\nSG Gain: + 20%",
+          "Effect": "[スキル情報：地上]\nダメージ量：[184％]\nSA破壊量：[147％]\n\n[スキル情報：空中]\nダメージ量：[241％]\nSA破壊量：[178％]\n\n[スキル情報：一般]\nクールタイム：[10秒]\n攻撃時、SG獲得量が[20%]増加する。",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Ground]\nDamage: 206%\nSA Break: 165%\n\n[Midair]\nDamage:270%\nSA Break: 200%\n\n[Common]\nCooldown: 10 sec\nSG Gain: + 70%",
+          "Effect": "[スキル情報：地上]\nダメージ量：[206％]\nSA破壊量：[165％]\n\n[スキル情報：空中]\nダメージ量：[270％]\nSA破壊量：[200％]\n\n[スキル情報：一般]\nクールタイム：[10秒]\n攻撃時、SG獲得量が[70%]増加する",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "Evasion": {
+    "EmergencyEvasion": {
       "Passive": true,
-      "Name": "Evasion",
-      "ID": 1004,
+      "Name": "緊急回避",
+      "ID": 1003,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Evasion.png",
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_Evasion.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge to a specified direction.\nDamage is negated during evasion.",
+          "Description": "指定した方向に素早く移動する。\n緊急回避中はダメージを受けない。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 20",
+          "Effect": "スタミナ消費量：[20]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
-    "Roll": {
+    "Welter": {
       "Passive": true,
-      "Name": "Roll",
-      "ID": 1003,
+      "Name": "回転起床",
+      "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Welter.png",
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_Welter.png",
       "Levels": {
         "0": {
-          "Description": "When downed, get up by swiftly rolling in a specified direction.\nDamage is negated during roll.",
+          "Description": "ダウン時、指定した方向に素早く回転しながら起き上がる。\n回転起床中はダメージを受けない。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Roll_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Roll_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 25",
+          "Effect": "スタミナ消費量：[25]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 15",
+          "Effect": "スタミナ消費量：[15]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 15\nFaster rolling speed.",
+          "Effect": "スタミナ消費量：[15]\n少し早く回転起床ができる。 ",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -1191,18 +1270,18 @@
     },
     "Dash": {
       "Passive": true,
-      "Name": "Dash",
+      "Name": "ダッシュ",
       "DefaultLevel": 1,
-      "ID": 1006,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Dash.png",
+      "ID": 1005,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_Dash.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dash forward.",
+          "Description": "前方に素早くダッシュする。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/B_Run_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Run_F.{{auto}}"
           }
         },
         "1": {
@@ -1211,7 +1290,7 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Faster dashing Speed",
+          "Effect": "ダッシュの速度が上昇する。",
           "RequiredLevel": 25,
           "RequiredSP": 2
         }
@@ -1219,32 +1298,32 @@
     },
     "RisingAttack": {
       "Passive": true,
-      "Name": "Rising Attack",
-      "ID": 1005,
+      "Name": "起床攻撃",
+      "ID": 1006,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_RiseAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_RiseAttack.png",
       "Levels": {
         "0": {
-          "Description": "When downed, get up while attacking nearby enemies.",
+          "Description": "ダウン時、周辺の敵を攻撃しながら起き上がる。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Rise_Attack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 30\nInvincibility Duration: 1 second",
+          "Effect": "ダメージ量：[100%]\nスタミナ消費量：[30]\nクールタイム：[15秒]\nスキル使用後3秒間、無敵状態になる。",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 1 second",
+          "Effect": "ダメージ量：[100%]\nスタミナ消費量：[20]\nクールタイム：[15秒]\nスキル使用後3秒間、無敵状態になる。",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 3 seconds",
+          "Effect": "ダメージ量：[100%]\nスタミナ消費量：[20]\nクールタイム：[15秒]\nスキル使用後5秒間、無敵状態になる。",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1252,22 +1331,22 @@
     },
     "DashAttack": {
       "Passive": true,
-      "Name": "Dash Attack",
+      "Name": "ダッシュアタック",
       "DefaultLevel": 1,
-      "ID": 1008,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashAttack.png",
+      "ID": 1007,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Push enemies back with a large swing while dashing.",
+          "Description": "ダッシュ中に剣を大きく振り敵を押し出す。\n攻撃時、SGを獲得。\nSG獲得量は連係段階とモンスター等級に応じて増加する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/B_N_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_N_Attack_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 116%\nSA Damage: 46%",
+          "Effect": "ダメージ量：[116%]\nSA破壊量：[46%]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1275,31 +1354,31 @@
     },
     "SpecialEvasion": {
       "Passive": true,
-      "Name": "Special Evasion",
-      "ID": 1007,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_EvasionAttack.png",
+      "Name": "特殊回避",
+      "ID": 1008,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_EvasionAttack.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge to a specific direction while being attacked by an enemy.\nDamage is negated during special evasion.",
+          "Description": "敵から攻撃を受けている最中に素早く移動する。\n特殊回避中はダメージを受けない。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Special_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 40\nCooldown: 60 seconds",
+          "Effect": "スタミナ消費量：[40]\nクールタイム：[30秒]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Cost: 40\nCooldown: 50 seconds",
+          "Effect": "スタミナ消費量：[40]\nクールタイム：[25秒]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 40\nCooldown: 40 seconds",
+          "Effect": "スタミナ消費量：[40]\nクールタイム：[20秒]",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
@@ -1307,21 +1386,21 @@
     },
     "SpecialDashAttack": {
       "Passive": true,
-      "Name": "Special Dash Attack",
-      "ID": 1010,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashSmashAttack.png",
+      "Name": "特殊ダッシュアタック",
+      "ID": 1009,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DashSmashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Do a spinning jump attack during dash.",
+          "Description": "ダッシュ中に前方にジャンプして回転斬り攻撃を繰り出す。\n攻撃命中時、SGを獲得。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_S_Attack_N_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_S_Attack_N_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSA Damage: 92%\nCooldown: 5 seconds",
+          "Effect": "ダメージ量：[206%]\nSA破壊量：[92%]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -1329,38 +1408,38 @@
     },
     "StaminaMastery": {
       "Passive": true,
-      "Name": "Stamina Mastery",
-      "ID": 1009,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_StaminaMastery.png",
+      "Name": "スタミナマスタリー",
+      "ID": 1010,
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_StaminaMastery.png",
       "Levels": {
         "0": {
-          "Description": "Increases stamina recovery.",
+          "Description": "スタミナ回復量が増加する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Stamina Recovery: + 10%",
+          "Effect": "スタミナ回復量[10%]増加",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Recovery: + 20%",
+          "Effect": "スタミナ回復量[20%]増加",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Recovery: + 30%",
+          "Effect": "スタミナ回復量[30%]増加",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Stamina Recovery: + 40%",
+          "Effect": "スタミナ回復量[40%]増加",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Stamina Recovery: + 50%",
+          "Effect": "スタミナ回復量[50%]増加",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -1368,32 +1447,32 @@
     },
     "EternalCombination": {
       "Passive": true,
-      "Name": "Eternal Combination",
+      "Name": "エターナルコンビネーション",
       "ID": 1013,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/SoulumSword/Icon_Ssword_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "For every 20th combo, increases Attack for 20 seconds.\n(Max Stack: 5)",
+          "Description": "20コンボ達成時、攻撃力が増加する。（最大5重複）\n最大重複達成時、バフ効果が60秒持続する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Attack: + 150 per stack",
+          "Effect": "攻撃力が150ほど増加する",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Attack: + 300 per stack",
+          "Effect": "攻撃力が300ほど増加する",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Attack: + 500 per stack",
+          "Effect": "攻撃力が500ほど増加する",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }
@@ -1401,32 +1480,32 @@
     },
     "EndlessStruggle": {
       "Passive": true,
-      "Name": "Endless Struggle",
+      "Name": "果てなき闘争",
       "ID": 1011,
       "RowSpan": {
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_SGPassive.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_SGPassive.png",
       "Levels": {
         "0": {
-          "Description": "Permanently increases Attack and Penetration.",
+          "Description": "攻撃力と防御度貫通が永久に増加する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Passive Effect: Attack + 5%, Penetration + 2%",
+          "Effect": "パッシブ効果：攻撃力[5%]、防御度貫通[2%]増加",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Passive Effect: Attack + 10%, Penetration + 4%",
+          "Effect": "パッシブ効果：攻撃力[10%]、防御度貫通[4%]増加",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Passive Effect: Attack + 15%, Penetration + 6%",
+          "Effect": "パッシブ効果：攻撃力[15%]、防御度貫通[6%]増加",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1434,21 +1513,132 @@
     },
     "SwordofRevenge": {
       "Passive": true,
-      "Name": "Sword of Revenge",
+      "Name": "復讐の剣",
       "DefaultLevel": 1,
       "ID": 1012,
-      "RowSpan": 2,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_SoulMastery.png",
+      "RowSpan": {
+        "0": 2,
+        "1": 1
+      },
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_SoulMastery.png",
       "Levels": {
         "0": {
-          "Description": "Gain SG on hit using normal attacks.\nAutomatically gain SG on fixed intervals.",
+          "Description": "通常攻撃命中時、SGを回復する。\n一定時間ごとに自動でSGを回復する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
           "Effect": "",
-          "RequiredLevel": 10,
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Prelude": {
+      "Passive": true,
+      "Name": "エクスティンクションプレリュード",
+      "DefaultLevel": 1,
+      "ID": 2003,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_Prelude.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "覚醒状態でのみスキル使用が可能です。\nスキル使用時に覚醒状態が解除されます。\n\nハルの幻影と共に連続突進斬撃攻撃で前方の敵を攻撃します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_EX.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[JP]\nダメージ量：[2250%]\nSA破壊量：[2950%]\n\n[KR]\n전체 피해량: [7650%]\n전체 슈퍼아머 파괴량: [7950%]\nSV 획득량: [10]",
+          "RequiredLevel": 57,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Erosion": {
+      "Passive": true,
+      "Name": "イロージョン",
+      "DefaultLevel": 1,
+      "ID": 2001,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "体を覚醒させ、身体能力を一時的に向上させる。\nソウルベイパーを消費し、スキルを使用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/B_Skill_SoulViper_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "1段階ゲージ消費（SV50消費）\n\n30秒間、覚醒状態になる。\n-受けるダメージ量が25%減少する。\n-移動速度が20%増加する。\n-SA状態になる。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Awakening": {
+      "Passive": true,
+      "Name": "覚醒",
+      "DefaultLevel": 1,
+      "ID": 2002,
+      "RequireClass": {
+        "CompareType": "atmost",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BreakWakeup.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "体を覚醒させ、身体能力を一時的に向上させる。\nソウルベイパーを消費し、スキルを使用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/B_Skill_SoulViper_02.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "2段階ゲージ消費（SV100消費）\n\n60秒間、覚醒状態になる。\n-与えるダメージが15%上昇する。\n-受けるダメージ量が25%減少する。\n-移動速度が20%増加する。\n-SA状態になる。",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "DesireAwakening": {
+      "Passive": true,
+      "Name": "デザイア覚醒",
+      "DefaultLevel": 1,
+      "ID": 2004,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 2
+      },
+      "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DBreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "体を覚醒させ、身体能力を一時的に向上させる。\nSV(ソウルベイパー)を消費し、スキルを使用する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/B_Skill_SoulViper_03.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "2段階ゲージ消費（SV100消費）\n\n60秒間、デザイア覚醒状態になる。\n-与ダメージが20％上昇する。\n-SG消費量が20％減少する。\n-最大ダメージを固定する。\n-攻撃速度が20%増加する。\n-移動速度が30%増加する。\n-SA状態になる。\n-デザイアスキルが発動する。\n\n[デザイアスキル情報]\nExスキル使用後、効果が終了する。\n-60秒間スキルのダメージ量が1.3倍に上昇する。\n- ブレードシャワー\n- トロルスベルド\n- エクスティンクションプレリュード",
+          "RequiredLevel": 65,
           "RequiredSP": 0
         }
       }

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
     <head>
         <meta charset="utf-8" />
-        <title>Skill simulator</title>
+        <title>SW スキルシミュレーター</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
@@ -41,28 +42,30 @@
         <link rel="manifest" href="../manifest.json" />
         <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5" />
         <link rel="shortcut icon" href="../favicon.ico" />
-        <meta property="og:title" content="SoulWorker Skill Simulator" />
-        <meta property="og:description" content="SoulWorker Skill Simulator" />
-        <meta property="og:image"
-            content="http://github.com/Leayal/swskillsimu/raw/master/images/og-meta-preview.png" />
-        <meta property="og:image:secure_url"
-            content="https://github.com/Leayal/swskillsimu/raw/master/images/og-meta-preview.png" />
-        <meta property="og:type" content="article" />
-        <meta property="og:author" content="Dramiel Leayal" />
-        <meta name="robots" content="index">
-        <meta name="description" content="Simulate SoulWorker's skill tree.">
-        <meta name="author" content="Dramiel Leayal">
-        <meta name="keywords" content="skill, simulator, soulworker, sw">
+
+        <meta property="og:title" content="SoulWorker スキルシミュレーター" />
+        <meta property="og:description" content="ソウルワーカー(SoulWorker)のスキルシミュレーター" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/PinkUsagi/swskillsimu_jp/master/images/og-meta-preview.png" />
+        <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/PinkUsagi/swskillsimu_jp/master/images/og-meta-preview.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:author" content="PinkUsagi" />
+
+        <meta name="robots" content="noindex"">
+        <meta name="description" content="ソウルワーカー(SoulWorker)のスキルシミュレーター">
+        <meta name="author" content="PinkUsagi">
+        <meta name="keywords" content="ソウルワーカー, スキル, シミュ, シミュレータ, シミュレーター, SoulWorker, SW">
+        
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84812163-3"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178473853-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
 
             function gtag() {
                 dataLayer.push(arguments);
-            };
+            }
             gtag('js', new Date());
-            gtag('config', 'UA-84812163-3');
+
+            gtag('config', 'UA-178473853-1');
         </script>
     </head>
 
@@ -185,7 +188,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarbottomCollapse">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
+                        <li class="nav-item" id="creativecommon">
                             <span>Content is available under
                                 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">Creative
                                     Commons Attribution-NonCommercial-ShareAlike </a> unless stated.
