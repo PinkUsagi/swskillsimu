@@ -92,7 +92,13 @@
 			},
 			"エフネル": {
                 url: "Ephnel",
-                selectImage: "assets/images/Ephnel_Select.png",
+                selectImage: "assets/images/Ephnel_Select.png"
+            },
+            "이나비": {
+                url: "Locked",
+                selectImage: "assets/images/Nabi_Select.png",
+                enable: false,
+                reason: "Coming soon"
 			},
             };
 
