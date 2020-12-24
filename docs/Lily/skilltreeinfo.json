@@ -1137,7 +1137,7 @@
           }
         },
         "5": {
-          "Effect": "SG獲得量が[200%]増加する。%\n分岐攻撃Bを使用できる。",
+          "Effect": "SG獲得量が[200%]増加する。\n分岐攻撃Bを使用できる。",
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
