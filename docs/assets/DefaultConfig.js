@@ -95,7 +95,10 @@
                 selectImage: "assets/images/Ephnel_Select.png"
             },
             "이나비": {
+                url: "Nabi",
                 selectImage: "assets/images/Nabi_Select.png",
+                enable: false,
+                reason: "Coming soon"
 			},
             };
 
