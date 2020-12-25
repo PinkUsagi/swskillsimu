@@ -7,8 +7,8 @@
       "Cover": "../assets/images/Jin_Base.png"
     },
     "1": {
-      "Name": "アップグレード",
-      "Cover": "../assets/images/Jin_Upgrade.png",
+      "Name": "昇級",
+      "Cover": "../assets/images/Jin_Promotion.png",
       "RequiredLevel": 57
     },
     "2": {

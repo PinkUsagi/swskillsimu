@@ -7,8 +7,8 @@
       "Cover": "../assets/images/Stella_Base.png"
     },
     "1": {
-      "Name": "アップグレード",
-      "Cover": "../assets/images/Stella_Upgrade.png",
+      "Name": "昇級",
+      "Cover": "../assets/images/Stella_Promotion.png",
       "RequiredLevel": 57
     },
     "2": {

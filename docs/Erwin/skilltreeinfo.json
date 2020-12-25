@@ -7,8 +7,8 @@
       "Cover": "../assets/images/Erwin_Base.png"
     },
     "1": {
-      "Name": "アップグレード",
-      "Cover": "../assets/images/Erwin_Upgrade.png",
+      "Name": "昇級",
+      "Cover": "../assets/images/Erwin_Promotion.png",
       "RequiredLevel": 57
     },
     "2": {
