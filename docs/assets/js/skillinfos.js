@@ -9,7 +9,7 @@ const ClassOperator = {
 
 const ClassIndex = {
     Base: 0,
-    Upgraded: 1,
+    Promotion: 1,
     DesireAwakening: 2
 }
 
