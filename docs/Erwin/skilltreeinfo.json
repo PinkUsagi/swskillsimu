@@ -1248,7 +1248,7 @@
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "スタミナ消費量：[15]\n少し早く回転起床ができる。 ",
+          "Effect": "スタミナ消費量：[15]\n少し早く回転起床ができる。",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
