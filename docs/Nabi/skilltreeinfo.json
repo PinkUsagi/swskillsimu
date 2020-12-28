@@ -3,16 +3,16 @@
   "CharacterWikiURL": "https://namu.wiki/w/%EC%9D%B4%EB%82%98%EB%B9%84",
   "AvailableClass": {
     "0": {
-      "Name": "ベース (Alpha version)",
+      "Name": "ベース (Beta version)",
       "Cover": "../assets/images/Nabi_Base.png"
     },
     "1": {
-      "Name": "昇級 (Alpha version)",
+      "Name": "昇級 (Beta version)",
       "Cover": "../assets/images/Nabi_Base.png",
       "RequiredLevel": 57
     },
     "2": {
-      "Name": "デザイア覚醒 (Alpha version)",
+      "Name": "デザイア覚醒 (Beta version)",
       "Cover": "../assets/images/Nabi_Desire.png",
       "RequiredLevel": 65
     }
@@ -115,7 +115,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_BlackOut.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "공중에 섬광탄을 던져 섬광탄의 폭발지점 주변의 적들에게 피해를 입히고 기절 시킵니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -124,27 +124,27 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 섬광탄 폭발]\n피해량: [316%]\n슈퍼아머 파괴량: [210%]\n\n[스킬 정보: 일반]\n디버프: 기절 [3초]\nSG 소모량: [35]\n재사용 대기 시간: [26초]\n*배틀룸에서는 기절의 지속시간이 [1.5초]로 적용됩니다.",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 섬광탄 폭발]\n피해량: [346%]\n슈퍼아머 파괴량: [231%]\n\n[스킬 정보: 일반]\n디버프: 기절 [3초]\nSG 소모량: [35]\n재사용 대기 시간: [24초]\n*배틀룸에서는 기절의 지속시간이 [1.5초]로 적용됩니다.",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 섬광탄 폭발]\n피해량: [388%]\n슈퍼아머 파괴량: [259%]\n\n[스킬 정보: 일반]\n디버프: 기절 [3초]\nSG 소모량: [35]\n재사용 대기 시간: [22초]\n*배틀룸에서는 기절의 지속시간이 [1.5초]로 적용됩니다.",
           "RequiredLevel": 11,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 섬광탄 폭발]\n피해량: [442%]\n슈퍼아머 파괴량: [295%]\n\n[스킬 정보: 일반]\n디버프: 기절 [3초]\nSG 소모량: [35]\n재사용 대기 시간: [20초]\n*배틀룸에서는 기절의 지속시간이 [1.5초]로 적용됩니다.",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 섬광탄 폭발]\n피해량: [524%]\n슈퍼아머 파괴량: [349%]\n\n[스킬 정보: 일반]\n디버프: 기절 [3초]\nSG 소모량: [35]\n재사용 대기 시간: [18초]\n*배틀룸에서는 기절의 지속시간이 [1.5초]로 적용됩니다.",
           "RequiredLevel": 21,
           "RequiredSP": 3
         }
@@ -160,7 +160,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_BlackOut_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "섬광탄을 던질 시 바라보는  방향으로 던질 수 있으며 포물선을 그리며 날아가다 지면에 닿으면 폭발합니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -169,7 +169,7 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[특성 정보]\n피해량: [1144%]\n슈퍼아머 파괴량: [763%]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         }
@@ -182,7 +182,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_QuickReload.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "탄창을 교환하여 SG를 모두 회복합니다. 대쉬, 이동중에도 사용 가능합니다.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
@@ -190,27 +190,27 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 일반]\nSG 회복량: [100%]\n재사용 대기 시간: [12초]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 일반]\nSG 회복량: [100%]\n재사용 대기 시간: [11초]",
           "RequiredLevel": 5,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 일반]\nSG 회복량: [100%]\n재사용 대기 시간: [10초]",
           "RequiredLevel": 9,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 일반]\nSG 회복량: [100%]\n재사용 대기 시간: [9초]",
           "RequiredLevel": 13,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 일반]\nSG 회복량: [100%]\n재사용 대기 시간: [8초]",
           "RequiredLevel": 17,
           "RequiredSP": 3
         }
@@ -227,7 +227,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_QuickReload_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "지속시간 및 일정 횟수 동안 기본공격이 강화되고 관통력이 증가합니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -236,17 +236,17 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[특성 정보: 플레셰트]\n기본공격 피해량: [4배] 증가\n기본공격 슈퍼아머 파괴량: [4배] 증가\n관통력: [10회] 증가\n플레셰트 발사 횟수: [5회]\n지속시간: [30초]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[특성 정보: 플레셰트]\n기본공격 피해량: [4배] 증가\n기본공격 슈퍼아머 파괴량: [4배] 증가\n관통력: [10회] 증가\n플레셰트 발사 횟수: [7회]\n지속시간: [30초]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[특성 정보: 플레셰트]\n기본공격 피해량: [4배] 증가\n기본공격 슈퍼아머 파괴량: [4배] 증가\n관통력: [10회] 증가\n플레셰트 발사 횟수: [10회]\n지속시간: [30초]",
           "RequiredLevel": 27,
           "RequiredSP": 2
         }
@@ -259,7 +259,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_QuickReload_B.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "지속시간동안 기본공격이 강화되고 폭발범위가 증가합니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -268,17 +268,17 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[특성 정보: 파쇄탄]\n기본공격 피해량: [4배] 증가\n기본공격 슈퍼아머 파괴량: [4배] 증가\n범위증가 : 지름 [2.4m]증가\n파쇄탄 발사 횟수: [5회]\n지속시간: [30초]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[특성 정보: 파쇄탄]\n기본공격 피해량: [4배] 증가\n기본공격 슈퍼아머 파괴량: [4배] 증가\n범위증가 : 지름 [2.4m]증가\n파쇄탄 발사 횟수: [7회]\n지속시간: [30초]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[특성 정보: 파쇄탄]\n기본공격 피해량: [4배] 증가\n기본공격 슈퍼아머 파괴량: [4배] 증가\n범위증가 : 지름 [2.4m]증가\n파쇄탄 발사 횟수: [10회]\n지속시간: [30초]",
           "RequiredLevel": 27,
           "RequiredSP": 2
         }
@@ -290,7 +290,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_SnakingShotgun.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "와이어를 발사하여 적들을 통과하며 전방으로 이동합니다. 이동 중 추가 조작으로 샷건을 발사할 수 있습니다. 샷건은 멀리 있는 적일 수록 타격수가 감소 합니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -299,27 +299,27 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 샷건]\n피해량: [240%]\n슈퍼아머 파괴량: [120%]\n\n[스킬 정보: 일반]\nSG 소모량: [40]\n재사용 대기 시간: [20초]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 샷건]\n타격당 피해량: [276%]\n타격당 슈퍼아머 파괴량: [138%]\n\n[스킬 정보: 일반]\nSG 소모량: [40]\n재사용 대기 시간: [19초]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 샷건]\n타격당 피해량: [334%]\n타격당 슈퍼아머 파괴량: [167%]\n\n[스킬 정보: 일반]\nSG 소모량: [40]\n재사용 대기 시간: [18초]",
           "RequiredLevel": 12,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 샷건]\n타격당 피해량: [384%]\n타격당 슈퍼아머 파괴량: [192%]\n\n[스킬 정보: 일반]\nSG 소모량: [40]\n재사용 대기 시간: [17초]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 샷건]\n타격당 피해량: [485%]\n타격당 슈퍼아머 파괴량: [242%]\n\n[스킬 정보: 일반]\nSG 소모량: [40]\n재사용 대기 시간: [15초]",
           "RequiredLevel": 20,
           "RequiredSP": 3
         }
@@ -331,7 +331,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_Acidgas.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "산성 가스탄을 터뜨려 좁은 범위의 적에게 폭발 피해를 입히고 넓은 범위에 가스 피해를 입히며 공중으로 점프합니다. 가스 피해는 폭심지를 폭발 시키지 않습니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -340,27 +340,27 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 가스탄 폭발]\n피해량: [83%]\n슈퍼아머 파괴량: [23%]\n\n[스킬 정보: 가스 피해]\n타격당 피해량: [83%]\n타격당 슈퍼아머 파괴량: [23%]\n가스 지속시간: [10초]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 가스탄 폭발]\n피해량: [88%]\n슈퍼아머 파괴량: [24%]\n\n[스킬 정보: 가스 피해]\n타격당 피해량: [88%]\n타격당 슈퍼아머 파괴량: [24%]\n가스 지속시간: [10초]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 가스탄 폭발]\n피해량: [96%]\n슈퍼아머 파괴량: [27%]\n\n[스킬 정보: 가스 피해]\n타격당 피해량: [96%]\n타격당 슈퍼아머 파괴량: [27%]\n가스 지속시간: [10초]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
           "RequiredLevel": 14,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 가스탄 폭발]\n피해량: [109%]\n슈퍼아머 파괴량: [30%]\n\n[스킬 정보: 가스 피해]\n타격당 피해량: [109%]\n타격당 슈퍼아머 파괴량: [30%]\n가스 지속시간: [10초]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
           "RequiredLevel": 18,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 가스탄 폭발]\n피해량: [125%]\n슈퍼아머 파괴량: [35%]\n\n[스킬 정보: 가스 피해]\n타격당 피해량: [125%]\n타격당 슈퍼아머 파괴량: [35%]\n가스 지속시간: [10초]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
           "RequiredLevel": 22,
           "RequiredSP": 3
         }
@@ -376,7 +376,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_Acidgas_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "가스탄을 폭발 시 주번에 폭심지를 설치합니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -385,12 +385,12 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[특성 정보: 폭심지]\n폭심지 설치 수: [2개]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[특성 정보: 폭심지]\n폭심지 설치 수: [4개]",
           "RequiredLevel": 27,
           "RequiredSP": 1,
           "Preview": {
@@ -398,7 +398,7 @@
           }
         },
         "3": {
-          "Effect": "",
+          "Effect": "[특성 정보: 폭심지]\n폭심지 설치 수: [6개]",
           "RequiredLevel": 32,
           "RequiredSP": 2,
           "Preview": {
@@ -413,7 +413,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_BustDriver.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "엎드려 쏴 자세로 JHP 확산탄을 발사합니다.\nJHP 확산탄은 적과 충돌 시 넓은 범위에 강력한 피해를 입힙니다.\n사격 시 근접해 있는 적을 넉백 시킵니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -422,27 +422,27 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 피해량: [735%]\n타격당 슈퍼아머 파괴량: [735%]\n\n[스킬 정보: 일반]\nSG 소모량: [70]\n재사용 대기 시간: [40초]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 피해량: [771%]\n타격당 슈퍼아머 파괴량: [771%]\n\n[스킬 정보: 일반]\nSG 소모량: [70]\n재사용 대기 시간: [40초]",
           "RequiredLevel": 12,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 피해량: [862%]\n타격당 슈퍼아머 파괴량: [862%]\n\n[스킬 정보: 일반]\nSG 소모량: [70]\n재사용 대기 시간: [40초]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 피해량: [955%]\n타격당 슈퍼아머 파괴량: [955%]\n\n[스킬 정보: 일반]\nSG 소모량: [70]\n재사용 대기 시간: [40초]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 피해량: [1102%]\n타격당 슈퍼아머 파괴량: [1102%]\n\n[스킬 정보: 일반]\nSG 소모량: [70]\n재사용 대기 시간: [40초]",
           "RequiredLevel": 24,
           "RequiredSP": 3
         }
@@ -457,7 +457,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_FlagBomb.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "폭탄 3개를 공중에 던진 후 폭발시킵니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -466,27 +466,27 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 피해량: [300%]\n타격당 슈퍼아머 파괴량: [360%]\n\n[스킬 정보: 일반]\nSG 소모량: [40]\n재사용 대기 시간: [25초]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 피해량: [328%]\n타격당 슈퍼아머 파괴량: [393%]\n\n[스킬 정보: 일반]\nSG 소모량: [40]\n재사용 대기 시간: [25초]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 피해량: [394%]\n타격당 슈퍼아머 파괴량: [472%]\n\n[스킬 정보: 일반]\nSG 소모량: [40]\n재사용 대기 시간: [25초]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 피해량: [462%]\n타격당 슈퍼아머 파괴량: [555%]\n\n[스킬 정보: 일반]\nSG 소모량: [40]\n재사용 대기 시간: [25초]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 피해량: [567%]\n타격당 슈퍼아머 파괴량: [681%]\n\n[스킬 정보: 일반]\nSG 소모량: [40]\n재사용 대기 시간: [25초]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -503,7 +503,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_FlagBomb_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "폭발 횟수가 증가하여 더 많은 피해를 입힙니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -512,17 +512,17 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[특성 정보: 추가 폭발]\n타격당 피해량: [189%]\n타격당 슈퍼아머 파괴량: [227%]",
           "RequiredLevel": 33,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[특성 정보: 폭발]\n타격당 피해량: [647%]\n타격당 슈퍼아머 파괴량: [794%]\n\n[특성 정보: 추가 폭발]\n타격당 피해량: [215%]\n타격당 슈퍼아머 파괴량: [265%]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[특성 정보: 폭발]\n타격당 피해량: [736%]\n타격당 슈퍼아머 파괴량: [996%]\n\n[특성 정보: 추가 폭발]\n타격당 피해량: [245%]\n타격당 슈퍼아머 파괴량: [332%]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         }
@@ -535,7 +535,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_FlagBomb_B.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "던진 폭탄이 압력을 일으켜 적들을 폭발지점 한가운데로 모은 후 피해를 입힙니다.\n스킬의 피해량과 슈퍼아머 파괴량이 증가합니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -544,17 +544,17 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[특성 정보: 열압력화기]\n타격당 피해량: [567%]\n타격당 슈퍼아머 파괴량: [681%]",
           "RequiredLevel": 33,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[특성 정보: 열압력화기]\n타격당 피해량: [647%]\n타격당 슈퍼아머 파괴량: [794%]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[특성 정보: 열압력화기]\n타격당 피해량: [736%]\n타격당 슈퍼아머 파괴량: [996%]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         }
@@ -566,7 +566,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_HuneyBee.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "신호탄을 위로 발사하면 공중에서 전투 지원용 드론이 등장합니다.\n등장 시 지면을 폭격하여 이나비 주변 적들을 타격하며 이후 유지시간 동안 적들을 향해 사격 합니다. 허니비는 30회 피격 시 파괴됩니다.(일부 공격 제외)\n*배틀룸에서는 드론의 유지시간이 절반으로 감소합니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -575,27 +575,27 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 폭격]\n총 피해량: [556%]\n총 슈퍼아머 파괴량: [417%]\n\n[스킬 정보: 사격]\n 피해량: [556%]\n 슈퍼아머 파괴량: [417%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [2%] 증가\n버프: 치명타 피해량 [50%] 증가\n\n[스킬 정보: 일반]\n드론 유지시간: [20초]\nSG 소모량: [80]\n재사용 대기 시간: [40초]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 폭격]\n총 피해량: [667%]\n총 슈퍼아머 파괴량: [500%]\n\n[스킬 정보: 사격]\n 피해량: [667%]\n 슈퍼아머 파괴량: [500%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [4%] 증가\n버프: 치명타 피해량 [100%] 증가\n\n[스킬 정보: 일반]\n드론 유지시간: [20초]\nSG 소모량: [80]\n재사용 대기 시간: [40초]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 폭격]\n총 피해량: [801%]\n총 슈퍼아머 파괴량: [601%]\n\n[스킬 정보: 사격]\n 피해량: [801%]\n 슈퍼아머 파괴량: [601%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [6%] 증가\n버프: 치명타 피해량 [150%] 증가\n\n[스킬 정보: 일반]\n드론 유지시간: [20초]\nSG 소모량: [80]\n재사용 대기 시간: [40초]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 폭격]\n총 피해량: [961%]\n총 슈퍼아머 파괴량: [721%]\n\n[스킬 정보: 사격]\n 피해량: [961%]\n 슈퍼아머 파괴량: [721%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [8%] 증가\n버프: 치명타 피해량 [200%] 증가\n\n[스킬 정보: 일반]\n드론 유지시간: [20초]\nSG 소모량: [80]\n재사용 대기 시간: [40초]",
           "RequiredLevel": 28,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 폭격]\n총 피해량: [1153%]\n총 슈퍼아머 파괴량: [865%]\n\n[스킬 정보: 사격]\n 피해량: [1153%]\n 슈퍼아머 파괴량: [862%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [10%] 증가\n버프: 치명타 피해량 [250%] 증가\n\n[스킬 정보: 일반]\n드론 유지시간: [20초]\nSG 소모량: [80]\n재사용 대기 시간: [40초]",
           "RequiredLevel": 33,
           "RequiredSP": 3
         }
@@ -610,7 +610,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_CloseQuartersCombat.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "전방으로 짧게 돌진한 후 추가 조작으로 주변에 권총 사격을 가한 뒤 샷건으로 마무리 합니다.\n권총 사격은 얇은 상처 디버프를 남기며 얇은 상처는 샷건 타격을 받으면 폭발하여 추가피해를 줍니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -619,27 +619,27 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 피해량: [80%]\n타격당 슈퍼아머 파괴량: [40%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 피해량: [240%]\n타격당 슈퍼아머 파괴량: [120%]\n\n[스킬 정보: 일반]\nSG 소모량: [60]\n재사용 대기 시간: [25초]",
           "RequiredLevel": 34,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 피해량: [92%]\n타격당 슈퍼아머 파괴량: [46%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 피해량: [276%]\n타격당 슈퍼아머 파괴량: [138%]\n\n[스킬 정보: 일반]\nSG 소모량: [60]\n재사용 대기 시간: [25초]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 피해량: [111%]\n타격당 슈퍼아머 파괴량: [55%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 피해량: [334%]\n타격당 슈퍼아머 파괴량: [167%]\n\n[스킬 정보: 일반]\nSG 소모량: [60]\n재사용 대기 시간: [25초]",
           "RequiredLevel": 42,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 피해량: [128%]\n타격당 슈퍼아머 파괴량: [64%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 피해량: [384%]\n타격당 슈퍼아머 파괴량: [192%]\n\n[스킬 정보: 일반]\nSG 소모량: [60]\n재사용 대기 시간: [25초]",
           "RequiredLevel": 46,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 피해량: [161%]\n타격당 슈퍼아머 파괴량: [80%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 피해량: [485%]\n타격당 슈퍼아머 파괴량: [242%]\n\n[스킬 정보: 일반]\nSG 소모량: [60]\n재사용 대기 시간: [25초]",
           "RequiredLevel": 50,
           "RequiredSP": 3
         }
@@ -651,7 +651,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_Chainsaw.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "제자리에서 미니건을 생성하여 오랫동안 전방에 연사할 수 있습니다.\n미니건을 사용하는 동안 일반 몬스터에게 주는 추가 피해가 증가합니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -660,27 +660,27 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 미니건]\n타격당 피해량: [108%] \n타격당 슈퍼아머 파괴량: [163%]\n미니건 유지시간: [5초]\n\n[스킬 정보: 일반]\nSG 소모량: [80]\n재사용 대기 시간: [45초]\n버프: 일반 몬스터 추가 피해[75%]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 미니건]\n타격당 피해량: [120%] \n타격당 슈퍼아머 파괴량: [180%]\n미니건 유지시간: [5초]\n\n[스킬 정보: 일반]\nSG 소모량: [80]\n재사용 대기 시간: [45초]\n버프: 일반 몬스터 추가 피해[75%]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 미니건]\n타격당 피해량: [132%] \n타격당 슈퍼아머 파괴량: [199%]\n미니건 유지시간: [5초]\n\n[스킬 정보: 일반]\nSG 소모량: [80]\n재사용 대기 시간: [45초]\n버프: 일반 몬스터 추가 피해[75%]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 미니건]\n타격당 피해량: [145%] \n타격당 슈퍼아머 파괴량: [218%]\n미니건 유지시간: [5초]\n\n[스킬 정보: 일반]\nSG 소모량: [80]\n재사용 대기 시간: [45초]\n버프: 일반 몬스터 추가 피해[75%]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 미니건]\n타격당 피해량: [160%] \n타격당 슈퍼아머 파괴량: [240%]\n미니건 유지시간: [5초]\n\n[스킬 정보: 일반]\nSG 소모량: [80]\n재사용 대기 시간: [45초]\n버프: 일반 몬스터 추가 피해[75%]",
           "RequiredLevel": 41,
           "RequiredSP": 3
         }
@@ -697,7 +697,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_Chainsaw_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "피해량 및 피해 범위가 증가합니다.(슈퍼아머 파괴량은 변경 없음)\n피격된 적에게 화상 디버프를 부여합니다.\n*배틀룸에서는 소이탄의 초당 HP 감소가 [2%] 로 적용됩니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -706,17 +706,17 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[특성 정보: 소이탄]\n타격당 피해량: [168%]\n\n[특성 정보: 화상 디버프]\n초당 HP 감소: [15%]\n디버프 지속시간: [3초]",
           "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[특성 정보: 소이탄]\n타격당 피해량: [176%]\n\n[특성 정보: 화상 디버프]\n초당 HP 감소: [15%]\n디버프 지속시간: [3초]",
           "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[특성 정보: 소이탄]\n타격당 피해량: [185%]\n\n[특성 정보: 화상 디버프]\n초당 HP 감소: [15%]\n디버프 지속시간: [3초]",
           "RequiredLevel": 51,
           "RequiredSP": 2
         }
@@ -729,7 +729,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_Chainsaw_B.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "연사하는 동안 방어도 관통과 슈퍼아머 파괴량이 증가합니다.(피해량은 변경 없음)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -738,17 +738,17 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[특성 정보: 철갑탄]\n슈퍼아머 파괴량: [264%]\n\n[특성 정보: 버프]\n방어도 관통: [15%]증가",
           "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[특성 정보: 철갑탄]\n슈퍼아머 파괴량: [290%]\n\n[특성 정보: 버프]\n방어도 관통: [15%]증가",
           "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[특성 정보: 철갑탄]\n슈퍼아머 파괴량: [319%]\n\n[특성 정보: 버프]\n방어도 관통: [15%]증가",
           "RequiredLevel": 51,
           "RequiredSP": 2
         }
@@ -760,7 +760,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_GranadeLauncher.png",
       "Levels": {
         "0": {
-          "Description": "ソウルエナジーを放出し、バリアを付与する。",
+          "Description": "공중상태에서 그레네이드 런처를 꺼내 유탄을 여러발 발사하여 지상을 폭격합니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -769,39 +769,39 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 피해량: [499%]\n타격당 슈퍼아머 파괴량: [499%]\n\n[스킬 정보: 일반]\nSG 소모량: [60]\n재사용 대기 시간: [30초]",
           "RequiredLevel": 28,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 피해량: [576%]\n타격당 슈퍼아머 파괴량: [576%]\n\n[스킬 정보: 일반]\nSG 소모량: [60]\n재사용 대기 시간: [30초]",
           "RequiredLevel": 32,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 피해량: [662%]\n타격당 슈퍼아머 파괴량: [662%]\n\n[스킬 정보: 일반]\nSG 소모량: [60]\n재사용 대기 시간: [30초]",
           "RequiredLevel": 38,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 피해량: [749%]\n타격당 슈퍼아머 파괴량: [749%]\n\n[스킬 정보: 일반]\nSG 소모량: [60]\n재사용 대기 시간: [30초]",
           "RequiredLevel": 42,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 피해량: [921%]\n타격당 슈퍼아머 파괴량: [921%]\n\n[스킬 정보: 일반]\nSG 소모량: [60]\n재사용 대기 시간: [30초]",
           "RequiredLevel": 48,
           "RequiredSP": 3
         }
       }
     },
-    "Thunderbolt": {
+    "SaveEnergy": {
       "Name": "세이브 에너지",
       "ID": 22,
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_SaveEnergy.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "이나비가 비상용 전투식량을 섭취하여 에너지를 보충합니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -810,27 +810,27 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [3%] 회복\n버프 효과 : 초당 SG [5%] 회복\n버프 지속시간: [4초]\n\n[스킬 정보: 일반]\nSG 소모량: [70]\n재사용 대기 시간: [60초]",
           "RequiredLevel": 34,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [4%] 회복\n버프 효과 : 초당 SG [6%] 회복\n버프 지속시간: [4초]\n\n[스킬 정보: 일반]\nSG 소모량: [65]\n재사용 대기 시간: [60초]",
           "RequiredLevel": 37,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [5%] 회복\n버프 효과 : 초당 SG [7%] 회복\n버프 지속시간: [4초]\n\n[스킬 정보: 일반]\nSG 소모량: [60]\n재사용 대기 시간: [60초]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [6%] 회복\n버프 효과 : 초당 SG [8%] 회복\n버프 지속시간: [4초]\n\n[스킬 정보: 일반]\nSG 소모량: [50]\n재사용 대기 시간: [60초]",
           "RequiredLevel": 43,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [7%] 회복\n버프 효과 : 초당 SG [10%] 회복\n버프 지속시간: [4초]\n\n[스킬 정보: 일반]\nSG 소모량: [40]\n재사용 대기 시간: [60초]",
           "RequiredLevel": 46,
           "RequiredSP": 3
         }
@@ -846,7 +846,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_SaveEnergy_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "스킬 사용 시 주변에 추가보급이 생성되어 획득 시 이로운 효과를 얻습니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -855,12 +855,12 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[특성 정보: 탄창]\n공격력 증가: [150%]\n보급 개수: [4개]\n공격력 증가 지속시간: [20초]",
           "RequiredLevel": 46,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[특성 정보: 탄창]\n공격력 증가: [150%]\n보급 개수: [4개]\n공격력 증가 지속시간: [20초]\n\n[특성 정보: 전투식량]\nHP회복: [20%]\nSG회복: [30%]\n보급 개수: [4개]",
           "RequiredLevel": 50,
           "RequiredSP": 1,
           "Preview": {
@@ -868,7 +868,7 @@
           }
         },
         "3": {
-          "Effect": "",
+          "Effect": "[특성 정보: 탄창]\n공격력 증가: [150%]\n보급 개수: [4개]\n공격력 증가 지속시간: [20초]\n\n[특성 정보: 전투식량]\nHP회복: [20%]\nSG회복: [30%]\n보급 개수: [4개]\n\n[특성 정보: 보급상자]\n재사용 대기시간 감소: [10%]\n보급 개수: [2개]\n\n보급상자는 시전자만 획득 가능 합니다.",
           "RequiredLevel": 54,
           "RequiredSP": 2,
           "Preview": {
@@ -883,7 +883,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_LastStrike.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "소총에 강력한 파괴력을 가진 소울에너지 탄을 장전 한 뒤 전방에 발사합니다. 발사하기 전까지 방향을 조정할 수 있으며 발사된 탄환은 벏은 범위에 강력한 피해를 입힙니다. 특수탄환은 조준선상의 적들에겐 0.3배의 추가 피해를 입힙니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -892,27 +892,27 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 특수 탄환]\n피해량: [2397%]\n슈퍼아머 파괴량: [2876%]\n\n[스킬 정보: 일반]\nSG 소모량: [75]\n재사용 대기 시간: [45초]",
           "RequiredLevel": 42,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 특수 탄환]\n피해량: [2636%]\n슈퍼아머 파괴량: [3163%]\n\n[스킬 정보: 일반]\nSG 소모량: [75]\n재사용 대기 시간: [45초]",
           "RequiredLevel": 45,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 특수 탄환]\n피해량: [2954%]\n슈퍼아머 파괴량: [3545%]\n\n[스킬 정보: 일반]\nSG 소모량: [75]\n재사용 대기 시간: [45초]",
           "RequiredLevel": 48,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 특수 탄환]\n피해량: [3367%]\n슈퍼아머 파괴량: [4040%]\n\n[스킬 정보: 일반]\nSG 소모량: [75]\n재사용 대기 시간: [45초]",
           "RequiredLevel": 51,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 특수 탄환]\n피해량: [3972%]\n슈퍼아머 파괴량: [4766%]\n\n[스킬 정보: 일반]\nSG 소모량: [75]\n재사용 대기 시간: [45초]",
           "RequiredLevel": 54,
           "RequiredSP": 3
         }
@@ -932,7 +932,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_BustDriver_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "폭발 범위와 위력은 감소하지만 적들을 관통하며 관통시 직선상으로 폭발하는 탄을 발사합니다. 뭉쳐있는 적들에게 위력적이며 폭심지를 이용해 타격수를 증가시킬 수도 있습니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -941,17 +941,17 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[특성 정보: JHP 확산탄]\n타격당 피해량: [1424%]\n타격당 슈퍼아머 파괴량: [1424%]\n\n[특성 정보: FMJ 성형작약탄]\n타격당 피해량: [854%]\n타격당 슈퍼아머 파괴량: [854%]\n관통 횟수: [10회]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[특성 정보: JHP 확산탄]\n타격당 피해량: [1424%]\n타격당 슈퍼아머 파괴량: [1424%]\n\n[특성 정보: FMJ 성형작약탄]\n타격당 피해량: [854%]\n타격당 슈퍼아머 파괴량: [854%]\n관통 횟수: [10회]",
           "RequiredLevel": 59,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[특성 정보: JHP 확산탄]\n타격당 피해량: [1638%]\n타격당 슈퍼아머 파괴량: [1638%]\n\n[특성 정보: FMJ 성형작약탄]\n타격당 피해량: [983%]\n타격당 슈퍼아머 파괴량: [983%]\n관통 횟수: [10회]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
@@ -968,7 +968,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_HuneyBee_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "허니비 등장 시 포탑이 함께 등장해 주변의 적들을 공격합니다.\n포탑은 30회 피격 시 파괴됩니다.(일부 공격 제외)\n*배틀룸에서는 포탑의 지속시간이 절반으로 감소하고 최대 소환 개수가 1개로 고정됩니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -977,12 +977,12 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[특성 정보: 포탑]\n타격당 피해량: [51%]\n타격당 슈퍼아머 파괴량: [129%]\n지속시간: [20초]\n소환 포탑 개수: [1개]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[특성 정보: 포탑]\n타격당 피해량: [51%]\n타격당 슈퍼아머 파괴량: [129%]\n지속시간: [20초]\n소환 포탑 개수: [2개]",
           "RequiredLevel": 59,
           "RequiredSP": 1,
           "Preview": {
@@ -990,7 +990,7 @@
           }        
         },
         "3": {
-          "Effect": "",
+          "Effect": "[특성 정보: 포탑]\n타격당 피해량: [51%]\n타격당 슈퍼아머 파괴량: [129%]\n지속시간: [20초]\n소환 포탑 개수: [3개]",
           "RequiredLevel": 60,
           "RequiredSP": 2,
           "Preview": {
@@ -1010,7 +1010,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "공중상태에서 순간적인 빠른 움직임으로 가장 가까운 적을 향해 자동으로 3회 저격합니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1019,27 +1019,27 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 저격]\n피해량: [1840%]\n슈퍼아머 파괴량: [1656%]\n\n[스킬 정보: 일반]\nSG 소모량: [45]\n재사용 대기 시간: [30초]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 저격]\n피해량: [2092%]\n슈퍼아머 파괴량: [1882%]\n\n[스킬 정보: 일반]\nSG 소모량: [45]\n재사용 대기 시간: [30초]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 저격]\n피해량: [2417%]\n슈퍼아머 파괴량: [2176%]\n\n[스킬 정보: 일반]\nSG 소모량: [45]\n재사용 대기 시간: [30초]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 저격]\n피해량: [2842%]\n슈퍼아머 파괴량: [2557%]\n\n[스킬 정보: 일반]\nSG 소모량: [45]\n재사용 대기 시간: [30초]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 저격]\n피해량: [3456%]\n슈퍼아머 파괴량: [3110%]\n\n[스킬 정보: 일반]\nSG 소모량: [45]\n재사용 대기 시간: [30초]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -1055,7 +1055,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_WildSnapshot.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "주변에 샷건을 발사하여 타격을 입힌 후 소총과 권총을 난사합니다.\n스킬 사용 중 빠르게 이동이 가능합니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1064,27 +1064,27 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 샷건]\n타격당 피해량: [173%]\n타격당 슈퍼아머 파괴량: [156%]\n\n[스킬 정보: 난사]\n피해량: [722%]\n슈퍼아머 파괴량: [650%]\n\n[스킬 정보: 일반]\nSG 소모량: [40]\n재사용 대기 시간: [25초]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 샷건]\n타격당 피해량: [197%]\n타격당 슈퍼아머 파괴량: [177%]\n\n[스킬 정보: 난사]\n피해량: [821%]\n슈퍼아머 파괴량: [738%]\n\n[스킬 정보: 일반]\nSG 소모량: [40]\n재사용 대기 시간: [25초]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 샷건]\n타격당 피해량: [228%]\n타격당 슈퍼아머 파괴량: [205%]\n\n[스킬 정보: 난사]\n피해량: [948%]\n슈퍼아머 파괴량: [853%]\n\n[스킬 정보: 일반]\nSG 소모량: [40]\n재사용 대기 시간: [25초]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 샷건]\n타격당 피해량: [267%]\n타격당 슈퍼아머 파괴량: [241%]\n\n[스킬 정보: 난사]\n피해량: [1114%]\n슈퍼아머 파괴량: [1003%]\n\n[스킬 정보: 일반]\nSG 소모량: [40]\n재사용 대기 시간: [25초]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 샷건]\n타격당 피해량: [325%]\n타격당 슈퍼아머 파괴량: [293%]\n\n[스킬 정보: 난사]\n피해량: [1355%]\n슈퍼아머 파괴량: [1220%]\n\n[스킬 정보: 일반]\nSG 소모량: [40]\n재사용 대기 시간: [25초]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -1096,7 +1096,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_Destronail.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "잠시동안 좌표를 표시하면 잠시후 공중에서 열화우라늄 기둥이 좌표지점으로 낙하합니다. 기둥의 낙하지점에 0.5배의 추가피해를 입히고 넓은 범위에 충격파 피해를 입힙니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1105,22 +1105,22 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 충격파]\n피해량: [2135%]\n슈퍼아머 파괴량: [2135%]\n\n[스킬 정보: 일반]\nSG 소모량: [80]\n재사용 대기 시간: [55초]",
           "RequiredLevel": 62,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 충격파]\n피해량: [2348%]\n슈퍼아머 파괴량: [2348%]\n\n[스킬 정보: 일반]\nSG 소모량: [80]\n재사용 대기 시간: [55초]",
           "RequiredLevel": 65,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 충격파]\n피해량: [2631%]\n슈퍼아머 파괴량: [2631%]\n\n[스킬 정보: 일반]\nSG 소모량: [80]\n재사용 대기 시간: [55초]",
           "RequiredLevel": 68,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 충격파]\n피해량: [2999%]\n슈퍼아머 파괴량: [2999%]\n\n[스킬 정보: 일반]\nSG 소모량: [80]\n재사용 대기 시간: [55초]",
           "RequiredLevel": 71,
           "RequiredSP": 3
         }
@@ -1133,7 +1133,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_LastStrike_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "탄환이 지나간 자리에 강력한 후폭풍이 생성되어 추가 피해를 줍니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1142,17 +1142,17 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[특성 정보: 특수 탄환]\n피해량: [4369%]\n슈퍼아머 파괴량: [5243%]\n\n[특성 정보: 후폭풍]\n피해량: [1092%]\n슈퍼아머 파괴량: [1311%]",
           "RequiredLevel": 68,
           "RequiredSP": 2
         },
         "2": {
-          "Effect": "",
+          "Effect": "[특성 정보: 특수 탄환]\n피해량: [4806%]\n슈퍼아머 파괴량: [5767%]\n\n[특성 정보: 후폭풍]\n피해량: [1202%]\n슈퍼아머 파괴량: [1442%]",
           "RequiredLevel": 70,
           "RequiredSP": 3
         },
         "3": {
-          "Effect": "",
+          "Effect": "[특성 정보: 특수 탄환]\n피해량: [5286%]\n슈퍼아머 파괴량: [6343%]\n\n[특성 정보: 후폭풍]\n피해량: [1322%]\n슈퍼아머 파괴량: [1586%]",
           "RequiredLevel": 72,
           "RequiredSP": 4
         }
@@ -1166,7 +1166,7 @@
       "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_DefaultAttack.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "[스킬 정보 : 소총 사격]\n타격당 피해량: [30%]\n타격당 슈퍼아머 피해량: [30%]\nSG소모량: [10]\n\n[스킬 정보 : 넉다운 공격]\n타격당 피해량: [120%]\n타격당 슈퍼아머 피해량: [120%]\nSG소모량: [10]\n\n바라보는 방향을 향해 소총을 사격하고 근접해 있는 적을 약간 넉백 시킵니다.\n지상 기본공격은 5번째 공격마다 높은 피해량과 일반적인 적들을 넉다운 시키는 공격을 합니다.\n공격 시 SG를 소모합니다.\n\n[스킬 정보 : 공중 소총 사격]\n타격당 피해량: [30%]\n타격당 슈퍼아머 피해량: [30%]\nSG소모량: [10]\n\n공중에서 바라보는 방향을 향해 소총을 사격합니다.\n공격 시 SG를 소모합니다.\n\n[조작법: 지상]\n마우스: (좌클릭) x5",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1180,7 +1180,7 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보 : 소총 사격]\n타격당 피해량: [40%]\n타격당 슈퍼아머 피해량: [40%]\nSG소모량: [10]\n\n[스킬 정보 : 넉다운 공격]\n타격당 피해량: [160%]\n타격당 슈퍼아머 피해량: [160%]\nSG소모량: [10]\n\n바라보는 방향을 향해 소총을 사격하고 근접해 있는 적을 약간 넉백 시킵니다.\n지상 기본공격은 5번째 공격마다 높은 피해량과 일반적인 적들을 넉다운 시키는 공격을 합니다.\n공격 시 SG를 소모합니다.\n\n[스킬 정보 : 공중 소총 사격]\n타격당 피해량: [40%]\n타격당 슈퍼아머 피해량: [40%]\nSG소모량: [10]\n\n공중에서 바라보는 방향을 향해 소총을 사격합니다.\n공격 시 SG를 소모합니다.\n\n[조작법: 지상]\n마우스: (좌클릭) x5",
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
@@ -1188,7 +1188,7 @@
           }
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보 : 소총 사격]\n타격당 피해량: [50%]\n타격당 슈퍼아머 피해량: [50%]\nSG소모량: [10]\n\n[스킬 정보 : 넉다운 공격]\n타격당 피해량: [200%]\n타격당 슈퍼아머 피해량: [200%]\nSG소모량: [10]\n\n바라보는 방향을 향해 소총을 사격하고 근접해 있는 적을 약간 넉백 시킵니다.\n지상 기본공격은 5번째 공격마다 높은 피해량과 일반적인 적들을 넉다운 시키는 공격을 합니다.\n공격 시 SG를 소모합니다.\n\n[스킬 정보 : 공중 소총 사격]\n타격당 피해량: [50%]\n타격당 슈퍼아머 피해량: [50%]\nSG소모량: [10]\n\n공중에서 바라보는 방향을 향해 소총을 사격합니다.\n공격 시 SG를 소모합니다.\n\n[조작법: 지상]\n마우스: (좌클릭) x5",
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
@@ -1196,7 +1196,7 @@
           }
         },
         "4": {
-          "Effect": "",
+          "Effect": "[스킬 정보 : 소총 사격]\n타격당 피해량: [60%]\n타격당 슈퍼아머 피해량: [60%]\nSG소모량: [10]\n\n[스킬 정보 : 넉다운 공격]\n타격당 피해량: [240%]\n타격당 슈퍼아머 피해량: [240%]\nSG소모량: [10]\n\n바라보는 방향을 향해 소총을 사격하고 근접해 있는 적을 약간 넉백 시킵니다.\n지상 기본공격은 4번째 공격마다 높은 피해량과 일반적인 적들을 넉다운 시키는 공격을 합니다.\n공격 시 SG를 소모합니다.\n\n[스킬 정보 : 공중 소총 사격]\n타격당 피해량: [60%]\n타격당 슈퍼아머 피해량: [60%]\nSG소모량: [10]\n\n공중에서 바라보는 방향을 향해 소총을 사격합니다.\n공격 시 SG를 소모합니다.\n\n[조작법: 지상]\n마우스: (좌클릭) x4",
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
@@ -1204,7 +1204,7 @@
           }
         },
         "5": {
-          "Effect": "",
+          "Effect": "[스킬 정보 : 소총 사격]\n타격당 피해량: [70%]\n타격당 슈퍼아머 피해량: [70%]\nSG소모량: [10]\n\n[스킬 정보 : 넉다운 공격]\n타격당 피해량: [280%]\n타격당 슈퍼아머 피해량: [280%]\nSG소모량: [10]\n\n바라보는 방향을 향해 소총을 사격하고 근접해 있는 적을 약간 넉백 시킵니다.\n지상 기본공격은 4번째 공격마다 높은 피해량과 일반적인 적들을 넉다운 시키는 공격을 합니다.\n공격 시 SG를 소모합니다.\n\n[스킬 정보 : 공중 소총 사격]\n타격당 피해량: [70%]\n타격당 슈퍼아머 피해량: [70%]\nSG소모량: [10]\n\n공중에서 바라보는 방향을 향해 소총을 사격합니다.\n공격 시 SG를 소모합니다.\n\n[조작법: 지상]\n마우스: (좌클릭) x4",
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
@@ -1221,7 +1221,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_OwnAbility.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "[스킬 정보: 지상]\n타격당 피해량: [240%]\n타격당 슈퍼아머 파괴량: [120%]\nSG소모량: [30]\n재사용 대기시간: [10초]\n\n앉은 자세에서 바라보는 방향을 향해 소총을 발사합니다.\n관통력이 매우 높으며 타격에 맞은 일반적인 적들을 넉백 시킵니다.\n최대 4회까지 발사할 수 있습니다.\n\n[스킬 정보: 공중]\n타격당 피해량: [240%]\n타격당 슈퍼아머 파괴량: [120%]\nSG소모량: [30]\n재사용 대기시간: [10초]\n\n지상을 향해 산탄총을 발사합니다.\n발사지점과 가까운 적에게 더 많이 타격하여 최대 4회까지 타격합니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1235,12 +1235,12 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 지상]\n타격당 피해량: [276%]\n타격당 슈퍼아머 파괴량: [138%]\nSG소모량: [30]\n재사용 대기시간: [10초]\n\n앉은 자세에서 바라보는 방향을 향해 소총을 발사합니다.\n관통력이 매우 높으며 타격에 맞은 일반적인 적들을 넉백 시킵니다.\n최대 4회까지 발사할 수 있습니다.\n\n[스킬 정보: 공중]\n타격당 피해량: [276%]\n타격당 슈퍼아머 파괴량: [138%]\nSG소모량: [30]\n재사용 대기시간: [10초]\n\n지상을 향해 산탄총을 발사합니다.\n발사지점과 가까운 적에게 더 많이 타격하여 최대 4회까지 타격합니다.",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[스킬 정보: 지상]\n타격당 피해량: [334%]\n타격당 슈퍼아머 파괴량: [167%]\nSG소모량: [30]\n재사용 대기시간: [10초]\n\n앉은 자세에서 바라보는 방향을 향해 소총을 발사합니다.\n관통력이 매우 높으며 타격에 맞은 일반적인 적들을 넉백 시킵니다.\n최대 4회까지 발사할 수 있습니다.\n\n[스킬 정보: 공중]\n타격당 피해량: [334%]\n타격당 슈퍼아머 파괴량: [167%]\nSG소모량: [30]\n재사용 대기시간: [10초]\n\n지상을 향해 산탄총을 발사합니다.\n발사지점과 가까운 적에게 더 많이 타격하여 최대 4회까지 타격합니다.",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
