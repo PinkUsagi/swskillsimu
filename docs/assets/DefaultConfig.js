@@ -94,7 +94,7 @@
                 url: "Ephnel",
                 selectImage: "assets/images/Ephnel_Select.png"
             },
-            "이나비 (Alpha version)": {
+            "이나비": {
                 url: "Nabi",
                 selectImage: "assets/images/Nabi_Select.png"
 			},
