@@ -15,7 +15,7 @@
     */
     var localize = {
         General: {
-            WindowTitle: "SW スキルシミュレーター",
+            WindowTitle: "SoulWorker スキルシミュレーター",
 
             // {0}: the character name
             WindowTitleWithCharacter: "SW スキルシミュレーター - {0}",
