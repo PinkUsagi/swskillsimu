@@ -3,17 +3,17 @@
   "CharacterWikiURL": "https://wikiwiki.jp/soulworker/%E3%82%B9%E3%83%86%E3%83%A9%E3%83%BB%E3%83%A6%E3%83%8B%E3%83%99%E3%83%AB",
   "AvailableClass": {
     "0": {
-      "Name": "ベース",
-      "Cover": "../assets/images/Stella_Base.png"
+      "Name": "ノーマル",
+      "Cover": "../assets/images/Nabi_Normal.png"
     },
     "1": {
-      "Name": "昇級",
-      "Cover": "../assets/images/Stella_Promotion.png",
+      "Name": "アップグレード",
+      "Cover": "../assets/images/Nabi_Upgrade.png",
       "RequiredLevel": 57
     },
     "2": {
-      "Name": "デザイア覚醒",
-      "Cover": "../assets/images/Stella_Desire.png",
+      "Name": "デザイア",
+      "Cover": "../assets/images/Nabi_Desire.png",
       "RequiredLevel": 65
     }
   },

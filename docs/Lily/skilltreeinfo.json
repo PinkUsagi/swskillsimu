@@ -3,16 +3,16 @@
   "CharacterWikiURL": "https://wikiwiki.jp/soulworker/%E3%83%AA%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%96%E3%83%AB%E3%83%BC%E3%83%A0%E3%83%A1%E3%83%AB%E3%83%98%E3%83%B3",
   "AvailableClass": {
     "0": {
-      "Name": "ベース",
-      "Cover": "../assets/images/Lily_Base.png"
+      "Name": "ノーマル",
+      "Cover": "../assets/images/Lily_Normal.png"
     },
     "1": {
-      "Name": "昇級",
-      "Cover": "../assets/images/Lily_Promotion.png",
+      "Name": "アップグレード",
+      "Cover": "../assets/images/Lily_Upgrade.png",
       "RequiredLevel": 57
     },
     "2": {
-      "Name": "デザイア覚醒",
+      "Name": "デザイア",
       "Cover": "../assets/images/Lily_Desire.png",
       "RequiredLevel": 65
     }

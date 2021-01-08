@@ -3,16 +3,16 @@
   "CharacterWikiURL": "https://wikiwiki.jp/soulworker/%E3%82%A8%E3%83%95%E3%83%8D%E3%83%AB",
   "AvailableClass": {
     "0": {
-      "Name": "ベース",
-      "Cover": "../assets/images/Ephnel_Base.png"
+      "Name": "ノーマル",
+      "Cover": "../assets/images/Ephnel_Normal.png"
     },
     "1": {
-      "Name": "昇級",
-      "Cover": "../assets/images/Ephnel_Promotion.png",
+      "Name": "アップグレード",
+      "Cover": "../assets/images/Ephnel_Upgrade.png",
       "RequiredLevel": 57
     },
     "2": {
-      "Name": "デザイア覚醒",
+      "Name": "デザイア",
       "Cover": "../assets/images/Ephnel_Desire.png",
       "RequiredLevel": 65
     }

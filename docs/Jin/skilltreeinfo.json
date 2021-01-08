@@ -3,16 +3,16 @@
   "CharacterWikiURL": "https://wikiwiki.jp/soulworker/%E3%82%B8%E3%83%B3%E3%83%BB%E3%82%BB%E3%82%A4%E3%83%91%E3%83%BC%E3%83%84",
   "AvailableClass": {
     "0": {
-      "Name": "ベース",
-      "Cover": "../assets/images/Jin_Base.png"
+      "Name": "ノーマル",
+      "Cover": "../assets/images/Jin_Normal.png"
     },
     "1": {
-      "Name": "昇級",
-      "Cover": "../assets/images/Jin_Promotion.png",
+      "Name": "アップグレード",
+      "Cover": "../assets/images/Jin_Upgrade.png",
       "RequiredLevel": 57
     },
     "2": {
-      "Name": "デザイア覚醒",
+      "Name": "デザイア",
       "Cover": "../assets/images/Jin_Desire.png",
       "RequiredLevel": 65
     }
