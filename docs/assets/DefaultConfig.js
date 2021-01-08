@@ -74,13 +74,13 @@
                 url: "Lily",
                 selectImage: "assets/images/Lily_Select.png"
             },
-            "ジン・セイパーツ": {
-                url: "Jin",
-                selectImage: "assets/images/Jin_Select.png"
-            },
             "ステラ・ユニベル": {
                 url: "Stella",
                 selectImage: "assets/images/Stella_Select.png"
+            },
+            "ジン・セイパーツ": {
+                url: "Jin",
+                selectImage: "assets/images/Jin_Select.png"
             },
             "イリス・ユマ": {
                 url: "Iris",
