@@ -3,14 +3,14 @@
     if (w.SkillTreeData.Localization.General.Lang) {
         d.documentElement.setAttribute('lang', w.SkillTreeData.Localization.General.Lang);
     }
-    
+
     if (w.SkillTreeData.Localization.Others.CreativeCommonNoteIndex) {
         let link_cc = "<a href=\"https://creativecommons.org/licenses/by-nc-sa/3.0/deed.ja\" target=\"_blank\" rel=\"nofollow noreferrer noopener\">" + w.SkillTreeData.Localization.Others.CreativeCommon + "</a>",
             link_liongames = "<a href=\"http://www.liongames.co.kr/Front/\" target=\"_blank\" rel=\"nofollow noreferrer noopener\">Lion Games</a>";
         d.getElementById("creativecommon-index").innerHTML = w.SkillTreeData.Localization.Others.CreativeCommonNoteIndex.fformat(link_cc, link_liongames);
     }
-    
-	let theElement = d.getElementById("isPromiseSupportedLabel");
+
+    let theElement = d.getElementById("isPromiseSupportedLabel");
     let text;
     if (typeof (Promise) !== "undefined") {
         text = d.createTextNode("お使いのウェブブラウザは、Promiseオブジェクトをサポートしています。");
@@ -29,7 +29,7 @@
         theElement.parentNode.appendChild(theMoreInfo);
     }
     theElement.appendChild(text);
-        
+
     if (w.SkillTreeData.hasOwnProperty("CharacterTable")) {
         let characterTable = w.SkillTreeData.CharacterTable,
             domCharacterList = d.getElementById("character_select");
@@ -39,7 +39,6 @@
         for (let i = 0; i < characterNames.length; i++) {
             let characterData = characterTable[characterNames[i]];
             if (typeof (characterData) === "object" && characterData.hasOwnProperty("url")) {
-                //$('charName').src(`assets/images/('url')_Select.png`);
                 let elementImg = d.createElement("img"),
                     elementHyperlink = d.createElement("a");
                 elementImg.draggable = false;

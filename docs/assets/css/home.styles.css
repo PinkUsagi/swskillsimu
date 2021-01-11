@@ -2,21 +2,18 @@ body {
     background-color: rgb(17, 17, 17);
     background-image: url("../images/bg.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
     background-position: center center;
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック", "MS Gothic", "Noto Sans CJK JP", TakaoPGothic, sans-serif;
     font-feature-settings: "palt";
 }
 
 .col-md-1 {
-    padding-right: 220px;
+    padding-right: 194px;
     padding-left: 15px;
-}
-
-.col-md-2 {
-    padding-right: 0%;
-    padding-left: 0%;
 }
 
 .text-feature-supported {
@@ -32,7 +29,6 @@ body {
     flex-wrap: nowrap;
     overflow-x: show;
     overflow-y: hidden;
-
     transform: rotateX(180deg);
     -ms-transform: rotateX(180deg);
     /* IE 9 */
@@ -53,7 +49,7 @@ body {
     /* Safari and Chrome */
 }
 
-.whitetext {
+.white-text {
     color: white;
 }
 
@@ -67,11 +63,10 @@ body {
 }
 
 .characterimage {
-    width: auto;
-    height: 110%;
-    opacity: 0.5;
+    max-width: auto;
+    max-height: auto;
+    opacity: 0.6;
     transition: all .2s ease-in-out;
-
 }
 
 .hideaway {
@@ -83,22 +78,39 @@ body {
     transform: translate(-100%, -100%);
 }
 
+/* PinkUsagi custom */
+h1 {
+    font-size: 3.6em;
+}
+
+@media screen and (max-width: 599px) {
+    .col-md-1 {
+        padding-right: 0px;
+        padding-left: 15px;
+    }
+}
+
 ::-webkit-scrollbar {
     background-color: #202324;
     color: #aba499;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: #454a4d;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background-color: #575e62;
 }
+
 ::-webkit-scrollbar-thumb:active {
     background-color: #484e51;
 }
+
 ::-webkit-scrollbar-corner {
     background-color: #181a1b;
 }
+
 * {
     scrollbar-color: #202324 #454a4d;
 }

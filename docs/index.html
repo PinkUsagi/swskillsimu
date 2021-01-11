@@ -1,145 +1,161 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-    <head>
-        <meta charset="utf-8" />
-        <title>SoulWorker スキルシミュレーター</title>
-        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="assets/css/bootstrap4.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-        </script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
-            integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
-        <link rel="stylesheet" href="assets/sakura/jquery-sakura.min.css" />
-        <link rel="stylesheet" href="assets/css/home.styles.css?v=3" />
-        <!--<script src="js/bootstrap-switch.min.js"></script>-->
-        <script src="assets/js/common.js"></script>
-        <script src="assets/DefaultConfig.js"></script>
-        <script src="assets/Localization.js"></script>
-        <script src="assets/js/imagesLoaded.js"></script>
-        <script src="assets/sakura/jquery-sakura.min.js"></script>
-        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
-        <link rel="manifest" href="manifest.json">
-        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="favicon.ico">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 
-        <meta property="og:title" content="SoulWorker スキルシミュレーター" />
-        <meta property="og:description" content="ソウルワーカー(SoulWorker)のスキルシミュレーター" />
-        <meta property="og:image" content="https://raw.githubusercontent.com/PinkUsagi/swskillsimu_jp/master/images/og-meta-preview.png" />
-        <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/PinkUsagi/swskillsimu_jp/master/images/og-meta-preview.png" />
-        <meta property="og:type" content="website" />
-        <meta property="og:author" content="PinkUsagi" />
+    <title>SoulWorker スキルシミュレーター</title>
 
-        <meta name="robots" content="index">
-        <meta name="description" content="ソウルワーカー(SoulWorker)のスキルシミュレーター">
-        <meta name="author" content="PinkUsagi">
-        <meta name="keywords" content="ソウルワーカー, スキル, シミュ, シミュレータ, シミュレーター, SoulWorker, SW">
+    <!-- ▼ Libs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap4.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- ▲ Libs -->
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178473853-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
+    <!-- ▼ CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/sakura/jquery-sakura.min.css" />
+    <link rel="stylesheet" href="assets/css/home.styles.css?v=3" />
+    <!-- ▲ CSS -->
 
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
+    <!-- ▼ JS -->
+    <script src="assets/js/common.js"></script>
+    <script src="assets/DefaultConfig.js"></script>
+    <script src="assets/Localization.js"></script>
+    <script src="assets/js/imagesLoaded.js"></script>
+    <script src="assets/sakura/jquery-sakura.min.js"></script>
+    <!-- ▲ JS -->
 
-            gtag('config', 'UA-178473853-1');
-        </script>
-    </head>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="apple-touch-icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon-512x512.png">
+    <link rel="icon" sizes="16x16" type="image/png" href="favicon-16x16.png">
+    <link rel="icon" sizes="32x32" type="image/png" href="favicon-32x32.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicon.ico">
 
-    <body>
-        <div id="sakura" class="sakurabg1"></div>
-        <div class="container-fluid">
-            <div class="container bg-dark-fade">
-                <h1 class="text-center">SoulWorker スキルシミュレーター</h1>
-                <p>
-                    このスキルシミュレーターは、ほとんどがソウルワーカー(Soulworker)の日本版データを基に作られており、一部韓国語版のデータも含まれています。
-                </p>
-                <p>
-                    このスキルシミュレータはJavaScriptをONにする必要があります。
-                    <span id="jsEnabled" class="text-feature-missing"><br />JavaScriptが無効になっています。</span>
-                    <br />
-                    スキルシミュレータは、最新のウェブブラウザのほとんどで動作するはずです。<br />
-                    <br />
-                    現在、シミュレーターではスキルプレビュー動画が利用可能です。（<a
-                        href="https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise" rel="nofollow noreferrer noopener"
-                        target="_blank">Promise</a>オブジェクトが必要です）
-                    <br />
-                    <span id="isPromiseSupportedLabel"></span>
-                </p>
-                <span>下記は、基となった英語版の原作者と投稿者の名前であり、</span>
-                <ul>
-                    原作者（英語版）
-                    <ol>Dramiel Leayal (Github: <a href="https://github.com/Leayal" rel="nofollow noreferrer noopener" target="_blank">Leayal</a>)</ol>
+    <meta property="og:title" content="SoulWorker スキルシミュレーター" />
+    <meta property="og:description" content="ソウルワーカー(SoulWorker)のスキルシミュレーター" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/PinkUsagi/swskillsimu_jp/master/images/og-meta-preview.png" />
+    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/PinkUsagi/swskillsimu_jp/master/images/og-meta-preview.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:author" content="PinkUsagi" />
 
-                    投稿者（英語版）                    
-                    <ol>Asai「朝顔」</ol>
-                    <ol>Queentato</ol>
-                    <ol>Ignia</ol>
-                    <ol>IIBLACKANGELII</ol>
-                    <ol>Amaririsu</ol>
-                    <ol>SoulumStriker</ol>
-                    <ol>Yuuki</ol>
-                    <ol>すめらぎ</ol>
-                    <ol>Ruerwin</ol>
-                    <ol>Eden~♡ (Github: <a href="https://github.com/Eden333" rel="nofollow noreferrer noopener" target="_blank">Eden333</a>)</ol>
-                </ul>
-                <p>
-                    英語版のスキルシミュレーターにデータを追加して、<a href="https://github.com/PinkUsagi" target="_blank">PinkUsagi</a>（私）が日本語版でのスキルシミュレーターを製作しました。
-                    (ページ内の一部文章の校正の協力：<a href="https://ameblo.jp/lake12/" target="_blank">lacus</a>)<br /><br />
-                    原作者のLeayalさんと貢献してくれたすべての人に感謝します。<br /><br />
-                    DeepL翻訳を使って翻訳しています。プロが作った物ではないので、ミスなどはありますが、どうかご理解ください。
-                    <center><img src="https://img.shields.io/github/last-commit/PinkUsagi/swskillsimu_jp" alt="Github last commit"></center>
-                </p>
+    <meta name="robots" content="index">
+    <meta name="description" content="ソウルワーカー(SoulWorker)のスキルシミュレーター">
+    <meta name="author" content="PinkUsagi">
+    <meta name="keywords" content="ソウルワーカー, スキル, シミュ, シミュレータ, シミュレーター, SoulWorker, SW">
 
-                <div class="py-3 text-center" id="creativecommon-index">
-                    <span class="text-center">Content is available under <a
-                            href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="nofollow noreferrer noopener" target="_blank">Creative Commons
-                            Attribution-NonCommercial-ShareAlike</a>
-                        unless stated.<br />Official Art, Game Content and Screenshots are trademarks and
-                        copyrights of <a href="http://www.liongames.co.kr/Front/" rel="nofollow noreferrer noopener" target="_blank">Lion
-                            Games</a> and the game's publishers.
-                    </span>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178473853-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-178473853-1');
+    </script>
+</head>
+
+<body>
+    <div id="sakura" class="sakurabg1"></div>
+    <div class="container-fluid">
+        <div class="container bg-dark-fade">
+            <h1 class="text-center">SoulWorker スキルシミュレーター</h1>
+            <p>
+                このスキルシミュレーターは、ほとんどがソウルワーカー(Soulworker)の日本版データを基に作られており、一部韓国語版のデータも含まれています。
+            </p>
+            <p>
+                このスキルシミュレータはJavaScriptをONにする必要があります。
+                <span id="jsEnabled" class="text-feature-missing"><br />JavaScriptが無効になっています。</span>
+                <br />
+                スキルシミュレータは、最新のウェブブラウザのほとんどで動作するはずです。<br />
+                <br />
+                現在、シミュレーターではスキルプレビュー動画が利用可能です。（<a
+                    href="https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+                    rel="nofollow noreferrer noopener" target="_blank">Promise</a>オブジェクトが必要です）
+                <br />
+                <span id="isPromiseSupportedLabel"></span>
+            </p>
+            <span>下記は、基となった英語版の原作者と投稿者の名前であり、</span>
+            <ul>
+                原作者（英語版）
+                <ol>Dramiel Leayal (Github: <a href="https://github.com/Leayal" rel="nofollow noreferrer noopener"
+                        target="_blank">Leayal</a>)</ol>
+
+                投稿者（英語版）
+                <ol>Asai「朝顔」</ol>
+                <ol>Queentato</ol>
+                <ol>Ignia</ol>
+                <ol>IIBLACKANGELII</ol>
+                <ol>Amaririsu</ol>
+                <ol>SoulumStriker</ol>
+                <ol>Yuuki</ol>
+                <ol>すめらぎ</ol>
+                <ol>Ruerwin</ol>
+                <ol>Eden~♡ (Github: <a href="https://github.com/Eden333" rel="nofollow noreferrer noopener"
+                        target="_blank">Eden333</a>)</ol>
+            </ul>
+            <p>
+                英語版のスキルシミュレーターにデータを追加して、<a href="https://github.com/PinkUsagi"
+                    target="_blank">PinkUsagi</a>（私）が日本語版でのスキルシミュレーターを製作しました。
+                (ページ内の一部文章の校正の協力：<a href="https://ameblo.jp/lake12/" target="_blank">lacus</a>)<br /><br />
+                原作者のLeayalさんと貢献してくれたすべての人に感謝します。<br /><br />
+                DeepL翻訳を使って翻訳しています。プロが作った物ではないので、ミスなどはありますが、どうかご理解ください。
+            </p>
+
+            <div class="py-3 text-center" id="creativecommon-index">
+                <span class="text-center">Content is available under <a
+                        href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="nofollow noreferrer noopener"
+                        target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike</a>
+                    unless stated.<br />Official Art, Game Content and Screenshots are trademarks and copyrights of <a
+                        href="http://www.liongames.co.kr/Front/" rel="nofollow noreferrer noopener" target="_blank">Lion
+                        Games</a> and the game's publishers.
+                </span>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col col-auto">
+                    <a class="nav-link github-button" href=https://github.com/PinkUsagi/swskillsimu_jp/fork
+                        github-button-type="fork" data-size="large"
+                        aria-label="Fork PinkUsagi's repo on GitHub">Fork</a>
                 </div>
-
-                <div class="row justify-content-center">
-                    <div class="col col-auto">
-                        <a class="nav-link github-button" href=https://github.com/PinkUsagi/swskillsimu_jp/fork github-button-type="fork" data-size="large"
-                            aria-label="Fork PinkUsagi's repo on GitHub">Fork</a>
-					</div>
-                    <div class="col col-auto">
-                        <a class="nav-link github-button" github-button-type="issues" data-size="large"
-                            aria-label="Report issue on GitHub">Report Issue</a>
-                    </div>
-                    <div class="col col-auto">
-                        <a class="nav-link github-button" github-button-type="download" data-size="large"
-                            aria-label="Download source from GitHub">Download Source</a>
-                    </div>
+                <div class="col col-auto">
+                    <a class="nav-link github-button" github-button-type="issues" data-size="large"
+                        aria-label="Report issue on GitHub">Report Issue</a>
+                </div>
+                <div class="col col-auto">
+                    <a class="nav-link github-button" github-button-type="download" data-size="large"
+                        aria-label="Download source from GitHub">Download Source</a>
                 </div>
             </div>
-            <div class="clearfix py-5">
-                <h2 class="text-center">キャラクターを選択してください</h2>
-                <h4 class="text-center require-js">(右にスクロールして他のキャラクターを見る)</h5>
-                <noscript>
-                    <h4 class="text-center">(Javascriptが無効になっているため、以下のキャラクターが表示されません)</h5>
-                </noscript>
-            </div>
-            <div class="scrolling-wrapper-flexbox require-js">
-                <div class="content whitetext row" id="character_select"></div>
-            </div>
+        </div><!-- .container .bg-dark-fade -->
+
+        <div class="clearfix py-5">
+            <h3 class="text-center">キャラクターを選択してください</h3>
+            <h4 class="text-center require-js">(右にスクロールして他のキャラクターを見る)</h4>
+            <noscript>
+                <h4 class="text-center">JavaScript を有効にしてください。</h4>
+            </noscript>
         </div>
+
+        <div class="scrolling-wrapper-flexbox require-js">
+            <div class="content white-text row" id="character_select"></div>
         </div>
-        <script src="assets/EntryPoint.js"></script>
-        <script src="assets/EntryPoint_Homepage.js"></script>
-        <script async defer src="assets/js/github-buttons.min.js"></script>
-    </body>
+    </div><!-- .container-fluid -->
+
+    <!-- ▼ JS -->
+    <script src="assets/EntryPoint.js"></script>
+    <script src="assets/EntryPoint_Homepage.js"></script>
+    <script async defer src="assets/js/github-buttons.min.js"></script>
+    <!-- ▲ JS -->
+
+</body>
 
 </html>
