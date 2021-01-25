@@ -8,9 +8,9 @@ const ClassOperator = {
 };
 
 const ClassIndex = {
-    Base: 0,
-    Promotion: 1,
-    DesireAwakening: 2
+    Normal: 0,
+    Upgrade: 1,
+    Desire: 2
 }
 
 function SkillInfo(_skilltreeCore, __id, skillName, infos) {
@@ -94,7 +94,7 @@ SkillInfo.prototype.readInfos = function (ob) {
     if (ob.hasOwnProperty("RowSpan")) {
         let highestCount = this.SkillCore.GetAvailableClassIndex(),
             lastknownvalue = 1;
-        for (var classIndex = ClassIndex.Base; classIndex <= highestCount; classIndex++) {
+        for (var classIndex = ClassIndex.Normal; classIndex <= highestCount; classIndex++) {
             if (ob.RowSpan.hasOwnProperty(classIndex)) {
                 lastknownvalue = ob.RowSpan[classIndex];
             }
@@ -206,10 +206,6 @@ SkillInfo.prototype.GetExtensions = function () {
         for (var extIndex in this._string_extensions) {
             extName = this._string_extensions[extIndex];
             exteItem = this.SkillCore.GetSkill(extName);
-            if (!exteItem) {
-                console.log(extName);
-               }
-               //for debugging
             exteItem.SetParent(this);
             this._extensions[extName] = exteItem;
         }

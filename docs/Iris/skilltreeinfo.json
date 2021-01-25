@@ -1563,10 +1563,6 @@
       "Passive": true,
       "Name": "快速攻撃",
       "ID": 1011,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
       "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_SGPassive.png",
       "Levels": {
         "0": {
@@ -1594,13 +1590,9 @@
     },
     "BlowofWrath": {
       "Passive": true,
+      "Name": "憤怒の一撃",
       "DefaultLevel": 1,
       "ID": 1012,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
-      "Name": "憤怒の一撃",
       "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_SoulMastery.png",
       "Levels": {
         "0": {

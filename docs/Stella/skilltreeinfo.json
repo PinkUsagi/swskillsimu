@@ -1479,10 +1479,6 @@
       "Passive": true,
       "Name": "サウンドウェーブ",
       "ID": 1011,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_SGPassive.png",
       "Levels": {
         "0": {
@@ -1510,13 +1506,9 @@
     },
     "SorrowfulNote": {
       "Passive": true,
+      "Name": "悲しみの楽想",
       "DefaultLevel": 1,
       "ID": 1012,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
-      "Name": "悲しみの楽想",
       "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_SoulMastery.png",
       "Levels": {
         "0": {

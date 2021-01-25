@@ -8,7 +8,8 @@ body {
     background-attachment: fixed;
     background-position: center center;
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック", "MS Gothic", "Noto Sans CJK JP", TakaoPGothic, sans-serif;
-    font-feature-settings: "palt";
+    font-feature-settings: "palt" 1;
+    line-height: 1.6;
 }
 
 .col-md-1 {
@@ -78,7 +79,6 @@ body {
     transform: translate(-100%, -100%);
 }
 
-/* PinkUsagi custom */
 h1 {
     font-size: 3.6em;
 }

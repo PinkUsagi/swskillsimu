@@ -1468,10 +1468,6 @@
       "Passive": true,
       "Name": "意外な幸運",
       "ID": 1011,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
       "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_SGPassive.png",
       "Levels": {
         "0": {
@@ -1499,13 +1495,9 @@
     },
     "BulletofPleasure": {
       "Passive": true,
+      "Name": "快楽の弾丸",
       "DefaultLevel": 1,
       "ID": 1012,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
-      "Name": "快楽の弾丸",
       "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_SoulMastery.png",
       "Levels": {
         "0": {

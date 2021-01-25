@@ -1565,10 +1565,6 @@
       "Passive": true,
       "Name": "猫の柔軟性",
       "ID": 1011,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
       "Icon": "../assets/SkillIcons/Chii/Icon_DesperRoar_Skill_SGPassive.png",
       "Levels": {
         "0": {
@@ -1599,10 +1595,6 @@
       "Name": "熱望の猫刀",
       "DefaultLevel": 1,
       "ID": 1012,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
       "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_SoulMastery.png",
       "Levels": {
         "0": {

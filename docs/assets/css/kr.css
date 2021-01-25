@@ -157,19 +157,10 @@
 
 .image-bg-character {
     position: absolute;
-    /*border: 50px solid (rgb(0,0,255), transparent);
-    border-bottom: none;*/
     height: 503px;
     width: auto;
     bottom: 0px;
-    /*mask-image: linear-gradient(rgba(0, 0, 0, 0.1), transparent);
-    /*clip-path: inset(0% 0 0 5%);*/
-    /*mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
-    -webkit-mask-image:-webkit-gradient(linear, right bottom, left top, from(rgba(0, 0, 0, 0)), to(rgba(0,0,0,100)));*/
-
-     
 }
-
 
 .foreground-white {
     color: white

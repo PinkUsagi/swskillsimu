@@ -1566,10 +1566,6 @@
       "Passive": true,
       "Name": "出力強化",
       "ID": 1011,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
       "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_SGPassive.png",
       "Levels": {
         "0": {
@@ -1596,11 +1592,10 @@
       }
     },
     "IndomitableSpear": {
-      "ID": 1012,
       "Passive": true,
-      "DefaultLevel": 1,
-      "RowSpan": 2,
       "Name": "不屈の槍",
+      "DefaultLevel": 1,
+      "ID": 1012,
       "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_SoulMastery.png",
       "Levels": {
         "0": {

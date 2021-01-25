@@ -1482,10 +1482,6 @@
       "Passive": true,
       "Name": "果てなき闘争",
       "ID": 1011,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
       "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_SGPassive.png",
       "Levels": {
         "0": {
@@ -1516,10 +1512,6 @@
       "Name": "復讐の剣",
       "DefaultLevel": 1,
       "ID": 1012,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
       "Icon": "../assets/SkillIcons/Common/Icon_Common_Skill_SoulMastery.png",
       "Levels": {
         "0": {
