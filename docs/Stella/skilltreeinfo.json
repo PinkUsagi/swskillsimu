@@ -4,16 +4,16 @@
   "AvailableClass": {
     "0": {
       "Name": "ノーマル",
-      "Cover": "../assets/images/Nabi_Normal.png"
+      "Cover": "../assets/images/Stella_Normal.png"
     },
     "1": {
       "Name": "アップグレード",
-      "Cover": "../assets/images/Nabi_Upgrade.png",
+      "Cover": "../assets/images/Stella_Upgrade.png",
       "RequiredLevel": 57
     },
     "2": {
       "Name": "デザイア",
-      "Cover": "../assets/images/Nabi_Desire.png",
+      "Cover": "../assets/images/Stella_Desire.png",
       "RequiredLevel": 65
     }
   },
