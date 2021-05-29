@@ -842,10 +842,7 @@
         "2": {
           "Effect": "[特性情報：基本攻撃]\nダメージ：[489%]\nSA破壊：[466%]\n\n[特性情報：追加攻撃]\nダメージ：[699%]\nSA破壊：[666%]\n攻撃回数：2秒",
           "RequiredLevel": 55,
-          "RequiredSP": 1,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_03.{{auto}}"
-          }
+          "RequiredSP": 1
         }
       }
     },
