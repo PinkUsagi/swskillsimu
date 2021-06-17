@@ -15,10 +15,10 @@
     */
     var localize = {
         General: {
-            WindowTitle: "SoulWorker スキルシミュレーター",
+            WindowTitle: "Soulworker スキルシミュレーター",
 
             // {0}: the character name
-            WindowTitleWithCharacter: "SW スキルシミュレーター - {0}",
+            WindowTitleWithCharacter: "Soulworker スキルシミュレーター - {0}",
 
             ClipboardSuccess: "コピーに成功",
             ClipboardAccessFailure: "コピーに失敗。 下記のリンクをコピーしてください。",

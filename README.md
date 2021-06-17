@@ -1,5 +1,5 @@
-# SoulWorker スキルシミュレーター
-ソウルワーカー(SoulWorker)のスキルシミュレーター。
+# Soulworker スキルシミュレーター
+ソウルワーカー(Soulworker)のスキルシミュレーター。
 
 [シミュレータへのリンク](https://pinkusagi.github.io/swskillsimu_jp/)
 
