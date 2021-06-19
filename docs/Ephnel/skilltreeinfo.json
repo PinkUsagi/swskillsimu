@@ -135,7 +135,7 @@
       "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_SonicBoom.png",
       "Levels": {
         "0": {
-          "Description": "素早く前方に突進して敵を貫きます。\n弾丸バフまたは武器制限解除バフ時、突進中に追加爆発が発生します。  ",
+          "Description": "素早く前方に突進して敵を貫きます。\n弾丸バフまたは武器制限解除バフ時、突進中に追加爆発が発生します。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1633,7 +1633,7 @@
           }
         },
         "1": {
-          "Effect": "ダメージ量：[8000%]\nSA破壊量：[7700%]\nSV獲得：[10] ",
+          "Effect": "ダメージ量：[8000%]\nSA破壊量：[7700%]\nSV獲得：[10]",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }
@@ -1644,7 +1644,7 @@
       "Name": "イロージョン",
       "DefaultLevel": 1,
       "ID": 2001,
-      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_BreakErode.png ",
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_BreakErode.png",
       "Assignable": false,
       "Levels": {
         "0": {

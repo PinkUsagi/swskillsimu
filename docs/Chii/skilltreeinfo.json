@@ -176,7 +176,7 @@
     },
     "OverturnGround-A": {
       "Visible": false,
-      "Name": "黒い血[鳥落とし] ",
+      "Name": "黒い血[鳥落とし]",
       "ID": 5,
       "Icon": "../assets/SkillIcons/Chii/Icon_DesperRoar_Skill_DarkBlood_A.png",
       "Levels": {
@@ -1270,7 +1270,7 @@
       "Icon": "../assets/SkillIcons/Chii/Icon_DesperRoar_Skill_OwnAbility.png",
       "Levels": {
         "0": {
-          "Description": "攻撃命中時、SGを回復します。\n\nソウルエナジーを放出してダメージを与えます。\n周囲に[獲物捕捉]を付与されている敵がいた場合、\n爆発による追加ダメージを与えます。\n\n追加ダメージは[獲物捕捉]の数(最大3重複)により\n威力が増加し、ダメージに比例した[n%]のHPを回復します。\n\n(HP回復効果はスキル使用毎に、１度適用されます。)",
+          "Description": "攻撃命中時、SGを回復します。\n\nソウルエナジーを放出してダメージを与えます。\n周囲に[獲物捕捉]を付与されている敵がいた場合、\n爆発による追加ダメージを与えます。\n\n追加ダメージは[獲物捕捉]の数(最大3重複)により\n威力が増加し、ダメージに比例した[n%]のHPを回復します。\n\n(HP回復効果はスキル使用毎に、１度適用されます)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1632,7 +1632,7 @@
           }
         },
         "1": {
-          "Effect": "ダメージ量：[7740%]\nSA破壊量：[7430%]\nSV獲得：[10] ",
+          "Effect": "ダメージ量：[7740%]\nSA破壊量：[7430%]\nSV獲得：[10]",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }

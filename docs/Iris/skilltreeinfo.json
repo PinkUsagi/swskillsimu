@@ -436,7 +436,7 @@
       }
     },
     "PulseFire": {
-      "Name": "パルスファイア ",
+      "Name": "パルスファイア",
       "ID": 12,
       "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_PulseFire.png",
       "Levels": {
@@ -1102,7 +1102,7 @@
       "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_CombatFalcons.png",
       "Levels": {
         "0": {
-          "Description": "前方の敵を浮かばせた後、クラスターウィングで、\n周辺の敵を一定時間攻撃します。 ",
+          "Description": "前方の敵を浮かばせた後、クラスターウィングで、\n周辺の敵を一定時間攻撃します。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
