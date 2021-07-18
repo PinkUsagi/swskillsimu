@@ -3,7 +3,13 @@
     // modify the data here to your liking
     let app_data = {
             "github-repo": "PinkUsagi/swskillsimu_jp", // Set to null to let auto-detect from Github Page default URL, unreliable though
-            maxCharacterLevel: 72 // Default max level will be used if the value cannot be found in a character's JSON data
+            maxCharacterLevel: 72, // Default max level will be used if the value cannot be found in a character's JSON data
+
+            // How many times the warning notification will show to let user know that the skill preview videos are blocked by browser's autoplay policy.
+            // 0 will disable it
+            // Less than 0 will show the notification unlimited times
+            // More than 0 is the count.
+            videoBlockedPolicyWarningCount: 3
         },
         // SP table.
         table_SkillPoint = {
@@ -48,7 +54,9 @@
                 71: 1,
                 72: 1,
                 73: 1,
-                74: 1
+                74: 1,
+                75: 1,
+                76: 1
             }
         },
         table_Character = {
@@ -88,19 +96,19 @@
                 url: "Iris",
                 selectImage: "assets/images/Iris_Select.png"
             },
-			"チイ・アルエル": {
+            "チイ・アルエル": {
                 url: "Chii",
                 selectImage: "assets/images/Chii_Select.png"
-			},
-			"エフネル": {
+            },
+            "エフネル": {
                 url: "Ephnel",
                 selectImage: "assets/images/Ephnel_Select.png"
             },
             "ナビ": {
                 url: "Nabi",
                 selectImage: "assets/images/Nabi_Select.png"
-			},
-            };
+            },
+        };
 
     // Debug purpose. Don't modify unless you know what're you doing or testing something
     let debug_data = {

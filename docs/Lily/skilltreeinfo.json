@@ -216,7 +216,7 @@
     },
     "GrimCountdown-A": {
       "Visible": false,
-      "Name": "HP吸収",
+      "Name": "SG吸収",
       "ID": 6,
       "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_GrimCountdown_A.png",
       "Levels": {
