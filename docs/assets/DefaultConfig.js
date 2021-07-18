@@ -2,7 +2,7 @@
     'use strict'
     // modify the data here to your liking
     let app_data = {
-            "github-repo": "PinkUsagi/swskillsimu_jp", // Set to null to let auto-detect from Github Page default URL, unreliable though
+            "github-repo": "PinkUsagi/swskillsimu_jp",  // Set to null to let auto-detect from Github Page default URL, unreliable though
             maxCharacterLevel: 72, // Default max level will be used if the value cannot be found in a character's JSON data
 
             // How many times the warning notification will show to let user know that the skill preview videos are blocked by browser's autoplay policy.
