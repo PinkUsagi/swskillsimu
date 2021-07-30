@@ -916,7 +916,7 @@
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_WhirlDance_A.png",
       "Levels": {
         "0": {
-          "Description": "\n\nワールダンス使用中に移動できるようになり、\n回避度が上昇します。\n\n(一部特殊攻撃は回避できない事があります)",
+          "Description": "ワールダンス使用中に移動できるようになり、\n回避度が上昇します。\n\n(一部特殊攻撃は回避できない事があります)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
