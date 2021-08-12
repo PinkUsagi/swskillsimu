@@ -712,77 +712,77 @@
         }
       }
     },
-    "Sprinter": {
-      "Name": "スプリンター",
+    "ChainBombing": {
+      "Name": "チェーンボミング",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_Splinter.png",
+      "Icon": "../assets/SkillIcons/Erwin/Icon_Gjazz_Skill_ChainBombing.png",
       "Levels": {
         "0": {
-          "Description": "自分とパーティーメンバーの空中に弾を発射し、一定時間移動速度を増加させる。",
+          "Description": "空中に信号弾を発射し、前方へミサイルによる連鎖爆発を起こす。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_Sprinter.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_ChainBombing.{{auto}}"
           }
         },
         "1": {
-          "Effect": "バフ効果：移動速度[5%]増加\nバフ持続時間：[20秒]\nSG消費量：[3]\nクールタイム：[45秒]",
+          "Effect": "ダメージ量：[1396%]\nSA破壊量：[1880%]\nSG消費量：[3]\nクールタイム：[40秒]",
           "RequiredLevel": 28,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "バフ効果：移動速度[6%]増加\nバフ持続時間：[20秒]\nSG消費量：[3]\nクールタイム：[45秒]",
+          "Effect": "ダメージ量：[1536%]\nSA破壊量：[2086%]\nSG消費量：[3]\nクールタイム：[40秒]",
           "RequiredLevel": 32,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "バフ効果：移動速度[7%]増加\nバフ持続時間：[20秒]\nSG消費量：[3]\nクールタイム：[45秒]",
+          "Effect": "ダメージ量：[1843%]\nSA破壊量：[2481%]\nSG消費量：[3]\nクールタイム：[40秒]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "バフ効果：移動速度[8%]増加\nバフ持続時間：[20秒]\nSG消費量：[3]\nクールタイム：[45秒]",
+          "Effect": "ダメージ量：[2211%]\nSA破壊量：[2977%]\nSG消費量：[3]\nクールタイム：[40秒]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "バフ効果：移動速度[10%]増加\nバフ持続時間：[20秒]\nSG消費量：[3]\nクールタイム：[45秒]",
+          "Effect": "ダメージ量：[2875%]\nSA破壊量：[3870%]\nSG消費量：[3]\nクールタイム：[40秒]",
           "RequiredLevel": 44,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "Sprinter-A"
+        "ChainBombing-A"
       ]
     },
-    "Sprinter-A": {
+    "ChainBombing-A": {
       "Visible": false,
-      "Name": "SG回復",
+      "Name": "ラストボミング",
       "ID": 20,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_Splinter_A.png",
+      "Icon": "../assets/SkillIcons/Erwin/Icon_Gjazz_Skill_LastBombing.png",
       "Levels": {
         "0": {
-          "Description": "味方のSGを回復させるバフが追加で発動する。\nSG消費量が減少する。",
+          "Description": "爆発地点に火炎地帯が発生する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_Sprinter_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_ChainBombing_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[特性情報]\nSG消費量：[2]\nバフ効果：1毎秒SG[2%]回復\nバフ持続時間：[20秒]",
+          "Effect": "[特性情報：火炎地帯]\nダメージ量：[288%]\nSA破壊量：[387%]\n火炎地帯持続時間：[3秒]",
           "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[特性情報]\nSG消費量：[2]\nバフ効果：1毎秒SG[3%]回復\nバフ持続時間：[20秒]",
+          "Effect": "[特性情報：火炎地帯]\nダメージ量：[431%]\nSA破壊量：[581%]\n火炎地帯持続時間：[3秒]",
           "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[特性情報]\nSG消費量：[2]\nバフ効果：1毎秒SG[5%]回復\nバフ持続時間：[20秒]",
+          "Effect": "[特性情報：火炎地帯]\nダメージ量：[575%]\nSA破壊量：[774%]\n火炎地帯持続時間：[3秒]",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
