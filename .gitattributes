@@ -1,3 +1,2 @@
 docs/** -linguist-documentation
 *.bat -linguist-detectable
-docs/**/*.json linguist-detectable
