@@ -1468,23 +1468,23 @@
       "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "カウンターまたは特殊攻撃で強化されたスキルを使用するたび、SVを獲得します。",
+          "Description": "カウンターまたは特殊攻撃で強化されたスキルを使用するたび、SVを獲得する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "強化スキル使用時SV獲得：[1]\nクールタイム：[5秒]",
+          "Effect": "強化スキル使用時SV獲得：[1]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "強化スキル使用時SV獲得：[2]\nクールタイム：[5秒]",
+          "Effect": "強化スキル使用時SV獲得：[2]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "強化スキル使用時SV獲得：[2]",
+          "Effect": "強化スキル使用時SV獲得：[3]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }

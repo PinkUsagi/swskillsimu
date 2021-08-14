@@ -1540,23 +1540,23 @@
       "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "スキル使用による[弾丸]バフ発生時、SGが即時回復します。",
+          "Description": "パッシブ効果：スキル使用による[弾丸]バフ発生時、SGが[n%]、SVが[n]回復する。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "パッシブ効果：SG回復量：[5%]",
+          "Effect": "SGが[5%]、SVが[1]回復する。",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "パッシブ効果：SG回復量：[7%]",
+          "Effect": "SGが[7%]、SVが[1]回復する。",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "パッシブ効果：SG回復量：[10%]",
+          "Effect": "SGが[10%]、SVが[2]回復する。",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }
