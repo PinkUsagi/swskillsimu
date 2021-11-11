@@ -359,77 +359,77 @@
         }
       }
     },
-    "SpiralPierce": {
-      "Name": "スパイラルピアス",
+    "FortressCannon": {
+      "Name": "フォートレスキャノン",
       "ID": 10,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_SpiralPierce.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_FortressCannon.png",
       "Levels": {
         "0": {
-          "Description": "銃口を正面に突き出しドリル状の能力で\n連続攻撃をし、最後に衝撃波と共に飛ばす。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_SpiralPierce.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_FortressCannon.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[29%]\nSA破壊量：[66%]\nSG消費量：[45]\nクールタイム：[16秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[49%]\nSA破壊量：[110%]\n\n[スキル情報：発射攻撃]\nダメージ量：[49%]\nSA破壊量：[110%]\n\nデバフ効果：命中時、防御度[20%]減少",
+          "Effect": "",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[31%]\nSA破壊量：[69%]\nSG消費量：[45]\nクールタイム：[16秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[51%]\nSA破壊量：[115%]\n\n[スキル情報：発射攻撃]\nダメージ量：[51%]\nSA破壊量：[115%]\n\nデバフ効果：命中時、防御度[20%]減少",
+          "Effect": "",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[34%]\nSA破壊量：[77%]\nSG消費量：[45]\nクールタイム：[16秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[57%]\nSA破壊量：[129%]\n\n[スキル情報：発射攻撃]\nダメージ量：[57%]\nSA破壊量：[129%]\n\nデバフ効果：命中時、防御度[20%]減少",
+          "Effect": "",
           "RequiredLevel": 14,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[38%]\nSA破壊量：[86%]\nSG消費量：[45]\nクールタイム：[16秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[63%]\nSA破壊量：[143%]\n\n[スキル情報：発射攻撃]\nダメージ量：[63%]\nSA破壊量：[143%]\n\nデバフ効果：命中時、防御度[20%]減少",
+          "Effect": "",
           "RequiredLevel": 18,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[44%]\nSA破壊量：[99%]\nSG消費量：[45]\nクールタイム：[16秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[73%]\nSA破壊量：[165%]\n\n[スキル情報：発射攻撃]\nダメージ量：[73%]\nSA破壊量：[165%]\n\nデバフ効果：命中時、防御度[20%]減少",
+          "Effect": "",
           "RequiredLevel": 22,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "SpiralPierce-A"
+        "FortressCannon-A"
       ]
     },
-    "SpiralPierce-A": {
+    "FortressCannon-A": {
       "Visible": false,
-      "Name": "疾風",
+      "Name": "クイックチャージ",
       "ID": 11,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_SpiralPierce_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_FortressCannon_A.png",
       "Levels": {
         "0": {
-          "Description": "つむじ風が発生し、引き寄せ効果が追加される。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_SpiralPierce_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_FortressCannon_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[特性情報：基本攻撃]\nダメージ量：[114%]\nSA破壊量：[154%]\n\n[特性情報：追加攻撃]\nダメージ量：[190%]\nSA破壊量：[257%]\n\n[特性情報：発射攻撃]\nダメージ量：[190%]\nSA破壊量：[257%]\n\nデバフ効果：命中時、防御度[20%]減少",
+          "Effect": "",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[特性情報：基本攻撃]\nダメージ量：[132%]\nSA破壊量：[178%]\n\n[特性情報：追加攻撃]\nダメージ量：[220％]\nSA破壊量：[296%]\n\n[特性情報：発射攻撃]\nダメージ量：[220%]\nSA破壊量：[296%]\n\nデバフ効果：命中時、防御度[20%]減少",
+          "Effect": "",
           "RequiredLevel": 27,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[特性情報：基本攻撃]\nダメージ量：[150%]\nSA破壊量：[202%]\n\n[特性情報：追加攻撃]\nダメージ量：[248%]\nSA破壊量：[336%]\n\n[特性情報：発射攻撃]\nダメージ量：[248%]\nSA破壊量：[336%]\n\nデバフ効果：命中時、防御度[20%]減少",
+          "Effect": "",
           "RequiredLevel": 32,
           "RequiredSP": 2
         }
@@ -694,48 +694,48 @@
         }
       }
     },
-    "FullBurst": {
-      "Name": "フルバースト",
+    "Liberator": {
+      "Name": "リベレイター",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_FullBurst.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_Liberator.png",
       "Levels": {
         "0": {
-          "Description": "チャージ段階によって攻撃範囲が増加する。\n2段階目で性能が80％上昇し、最大150％上昇する。\n\n武器を両手で持ち、銃口のレーザービームを振るって\n敵を攻撃する。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_FullBurst.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_Liberator.{{auto}}"
           }
         },
         "1": {
-          "Effect": "チャージ段階によって攻撃範囲が増加する。\n2段階目で性能が80％上昇し、最大150％上昇する。\n\n最大チャージ段階：[3]\nダメージ量：[885%]\nSA破壊量：[113%]\nSG消費量：[40]\nクールタイム：[12秒]",
+          "Effect": "",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "チャージ段階によって攻撃範囲が増加する。\n2段階目で性能が80％上昇し、最大150％上昇する。\n\n最大チャージ段階：[3]\nダメージ量：[930%]\nSA破壊量：[118%]\nSG消費量：[40]\nクールタイム：[12秒]",
+          "Effect": "",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "チャージ段階によって攻撃範囲が増加する。\n2段階目で性能が80％上昇し、最大150％上昇する。\n\n最大チャージ段階：[3]\nダメージ量：[1040%]\nSA破壊量：[133%]\nSG消費量：[40]\nクールタイム：[12秒]",
+          "Effect": "",
           "RequiredLevel": 27,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "チャージ段階によって攻撃範囲が増加する。\n2段階目で性能が80％上昇し、最大150％上昇する。\n\n最大チャージ段階：[3]\nダメージ量：[1151%]\nSA破壊量：[147%]\nSG消費量：[40]\nクールタイム：[12秒]",
+          "Effect": "",
           "RequiredLevel": 32,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "チャージ段階によって攻撃範囲が増加する。\n2段階目で性能が80％上昇し、最大150％上昇する。\n\n最大チャージ段階：[3]\nダメージ量：[1329%]\nSA破壊量：[169%]\nSG消費量：[40]\nクールタイム：[12秒]",
+          "Effect": "",
           "RequiredLevel": 37,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "FullBurst-A"
+        "Liberator-A"
       ]
     },
     "EternalAbyss": {
@@ -1010,37 +1010,37 @@
         }
       }
     },
-    "FullBurst-A": {
+    "Liberator-A": {
       "Visible": false,
-      "Name": "フルバースト-斬撃",
+      "Name": "スタビライザー",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_FullBurst_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_Liberator_A.png",
       "Levels": {
         "0": {
-          "Description": "一度の攻撃で前方の敵を切り裂く。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_FullBurst_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_Liberator_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[特性情報]\n最大チャージ時間：[2.7秒]\n最大チャージ段階：[3]",
+          "Effect": "",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[特性情報]\n最大チャージ時間：[2秒]\n最大チャージ段階：[2]",
+          "Effect": "",
           "RequiredLevel": 59,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[特性情報]\nチャージ時間：[1.7秒]\n最大チャージ段階：[2]",
+          "Effect": "",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
