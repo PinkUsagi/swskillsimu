@@ -697,7 +697,7 @@
     "Liberator": {
       "Name": "リベレイター",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_Liberator.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_Liberator.png",
       "Levels": {
         "0": {
           "Description": "",
