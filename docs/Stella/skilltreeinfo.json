@@ -1101,6 +1101,11 @@
           "Effect": "ダメージ量：[611%]\nSA破壊量：[649%]\nSG消費量：[40]\nクールタイム：[40秒]",
           "RequiredLevel": 71,
           "RequiredSP": 3
+        },
+        "5": {
+          "Effect": "ダメージ量：[704%]\nSA破壊量：[749%]\nSG消費量：[40]\nクールタイム：[40秒]",
+          "RequiredLevel": 74,
+          "RequiredSP": 3
         }
       }
     },
