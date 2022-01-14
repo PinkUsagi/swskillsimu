@@ -118,8 +118,8 @@ const previewOptionExplains = (function () {
                 d.title = myLocal.General.WindowTitle;
             }
 			if (myLocal.Others.CreativeCommonNote) {
-				let link_cc = "<a href=\"https://creativecommons.org/licenses/by-nc-sa/3.0/deed.ja\" target=\"_blank\">" + myLocal.Others.CreativeCommon + "</a>",
-                    link_liongames = "<a href=\"http://www.liongames.co.kr/Front/\" target=\"_blank\">Lion Games</a>";
+				let link_cc = "<a href=\"https://creativecommons.org/licenses/by-nc-sa/3.0/deed.ja\"target=\"_blank\" rel=\"nofollow noreferrer noopener\">" + myLocal.Others.CreativeCommon + "</a>",
+                    link_liongames = "<a href=\"http://www.liongames.co.kr/Front/\" target=\"_blank\" rel=\"nofollow noreferrer noopener\">Lion Games</a>";
                 d.getElementById("creativecommon").innerHTML = myLocal.Others.CreativeCommonNote.fformat(link_cc, link_liongames);
             }
         }

@@ -402,9 +402,9 @@ SkillTreeCore.prototype.ReadTree = function (loadingCallback, loadedCallback) {
                 $("#charName").text(GetCurrentFolderUrl());
             if (json.CharacterWikiURL) {
                 if (json.CharacterName) {
-                    $("#morecharacterinfo").attr("href", json.CharacterWikiURL).attr("target", "_blank").text(window.SkillTreeData.Localization.SkillTree.MenuItem_MoreInfoAboutCharacter.fformat(json.CharacterName));
+                    $("#morecharacterinfo").attr("href", json.CharacterWikiURL).attr("target", "_blank").attr("rel", "nofollow noreferrer noopener").text(window.SkillTreeData.Localization.SkillTree.MenuItem_MoreInfoAboutCharacter.fformat(json.CharacterName));
                 } else {
-                    $("#morecharacterinfo").attr("href", json.CharacterWikiURL).attr("target", "_blank").text(window.SkillTreeData.Localization.SkillTree.MenuItem_MoreInfoAboutCharacter.fformat(GetCurrentFolderUrl()));
+                    $("#morecharacterinfo").attr("href", json.CharacterWikiURL).attr("target", "_blank").attr("rel", "nofollow noreferrer noopener").text(window.SkillTreeData.Localization.SkillTree.MenuItem_MoreInfoAboutCharacter.fformat(GetCurrentFolderUrl()));
                 }
             } else
                 $("#morecharacterinfo").remove();
