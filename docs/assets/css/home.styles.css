@@ -118,3 +118,8 @@ h1 {
 * {
     scrollbar-color: #202324 #454a4d;
 }
+
+
+.notice {
+    color:yellow;
+}
