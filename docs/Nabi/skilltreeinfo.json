@@ -1163,6 +1163,41 @@
         }
       }
     },
+    "EOD": {
+      "Name": "バウンシングベティ",
+      "ID": 31,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Nabi/Icon_RoyarRifle_Skill_EOD.png",
+      "Levels": {
+        "0": {
+          "Description": "前方へ設置した特殊爆弾を跳び退きながら拳銃で爆発させる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Nabi/B_Skill_EOD.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：連鎖爆発]\nダメージ量：[104%]\nSA破壊量：[97%]\n\n[スキル情報：追加爆発]\nダメージ量：[270%]\nSA破壊量：[253%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1586%]\nバフ追加SA破壊量：[1903%]\nSG消費量：[35]\nクールタイム：[15秒]",
+          "RequiredLevel": 72,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[スキル情報：連鎖爆発]\nダメージ量：[114%]\nSA破壊量：[107%]\n\n[スキル情報：追加爆発]\nダメージ量：[297%]\nSA破壊量：[278%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1586%]\nバフ追加SA破壊量：[1903%]\nSG消費量：[35]\nクールタイム：[15秒]",
+          "RequiredLevel": 76,
+          "RequiredSP": 0
+        },
+        "3": {
+          "Effect": "[スキル情報：連鎖爆発]\nダメージ量：[128%]\nSA破壊量：[120%]\n\n[スキル情報：追加爆発]\nダメージ量：[333%]\nSA破壊量：[312%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1586%]\nバフ追加SA破壊量：[1903%]\nSG消費量：[35]\nクールタイム：[15秒]",
+          "RequiredLevel": 78,
+          "RequiredSP": 0
+        }
+      }
+    },
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "基本攻撃マスタリー",

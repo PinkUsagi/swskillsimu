@@ -1210,6 +1210,41 @@
         }
       }
     },
+    "WitchsBlast": {
+      "Name": "ウィッチズブラスト",
+      "ID": 32,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_WitchsBlast.png",
+      "Levels": {
+        "0": {
+          "Description": "ソウルエナジーへと分解した武器を片腕へと吸収し、空中へ連続砲撃して敵を一網打尽にする。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_WitchsBlast.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：衝撃波および砲撃]\nダメージ量：[496%]\nSA破壊量：[463%]\n\n[スキル情報：追加砲撃]\nダメージ量：[1489%]\nSA破壊量：[1388%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1225%]\nバフ追加SA破壊量：[839%]\nSG消費量：[50]\nクールタイム：[45秒]",
+          "RequiredLevel": 72,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[スキル情報：衝撃波および砲撃]\nダメージ量：[546%]\nSA破壊量：[513%]\n\n[スキル情報：追加砲撃]\nダメージ量：[1638%]\nSA破壊量：[1539%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1225%]\nバフ追加SA破壊量：[839%]\nSG消費量：[50]\nクールタイム：[45秒]",
+          "RequiredLevel": 76,
+          "RequiredSP": 0
+        },
+        "3": {
+          "Effect": "[スキル情報：衝撃波および砲撃]\nダメージ量：[612%]\nSA破壊量：[575%]\n\n[スキル情報：追加砲撃]\nダメージ量：[1836%]\nSA破壊量：[1724%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1225%]\nバフ追加SA破壊量：[839%]\nSG消費量：[50]\nクールタイム：[45秒]",
+          "RequiredLevel": 78,
+          "RequiredSP": 0
+        }
+      }
+    },
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "基本攻撃マスタリー",

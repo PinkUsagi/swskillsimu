@@ -3,7 +3,7 @@
     // modify the data here to your liking
     let app_data = {
             "github-repo": "PinkUsagi/swskillsimu_jp",  // Set to null to let auto-detect from Github Page default URL, unreliable though
-            maxCharacterLevel: 76, // Default max level will be used if the value cannot be found in a character's JSON data
+            maxCharacterLevel: 79, // Default max level will be used if the value cannot be found in a character's JSON data
 
             // How many times the warning notification will show to let user know that the skill preview videos are blocked by browser's autoplay policy.
             // 0 will disable it
@@ -14,12 +14,14 @@
         // SP table.
         table_SkillPoint = {
             // Default SP for level up that is not found within the "Special" below
-            DefaultSP: 2,
+            DefaultSP: 3,
 
             // Special cases, specify an amount of SP to receive on these character levels
             Special: {
                 // Should be all numbers, putting anything else at your own risk.
                 // The format is: `[number] Level: [number] The amount of SP`
+                1: 1
+                /*
                 0: 0,
                 1: 0,
                 2: 0,
@@ -57,6 +59,7 @@
                 74: 1,
                 75: 1,
                 76: 1
+                */
             }
         },
         table_Character = {

@@ -41,22 +41,22 @@
         "2": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[708%]\nSA破壊量：[380%]\n\n[スキル情報：追加攻撃]\nダメージ量：[142%]\nSA破壊量：[76%]\n\n[スキル情報：一般]\nSG消費量：[35]\nクールタイム：[10秒]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[792%]\nSA破壊量：[426%]\n\n[スキル情報：追加攻撃]\nダメージ量：[158%]\nSA破壊量：[85%]\n\n[スキル情報：一般]\nSG消費量：[35]\nクールタイム：[10秒]",
           "RequiredLevel": 7,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "4": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[877%]\nSA破壊量：[470%]\n\n[スキル情報：追加攻撃]\nダメージ量：[175%]\nSA破壊量：[94%]\n\n[スキル情報：一般]\nSG消費量：[35]\nクールタイム：[10秒]",
           "RequiredLevel": 10,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "5": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[1012%]\nSA破壊量：[543%]\n\n[スキル情報：追加攻撃]\nダメージ量：[202%]\nSA破壊量：[109%]\n\n[スキル情報：一般]\nSG消費量：[35]\nクールタイム：[10秒]",
           "RequiredLevel": 13,
-          "RequiredSP": 3
+          "RequiredSP": 0
         }
       },
       "Extensions": [
@@ -81,17 +81,17 @@
         "1": {
           "Effect": "[特性情報：基本攻撃]\nダメージ量：[1012%]\nSA破壊量：[543%]\n\n[特性情報：追加攻撃]\nダメージ量：[202%]\nSA破壊量：[109%]\n\n火炎ダメージ：[304%]\n火炎SA破壊量：[163%]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "[特性情報：基本攻撃]\nダメージ量：[1113%]\nSA破壊量：[597%]\n\n[特性情報：追加攻撃]\nダメージ量：[223%]\nSA破壊量：[119%]\n\n火炎ダメージ：[334%]\n火炎SA破壊量：[179%]",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "[特性情報：基本攻撃]\nダメージ量：[1314%]\nSA破壊量：[706%]\n\n[特性情報：追加攻撃]\nダメージ量：[263%]\nSA破壊量：[141%]\n\n火炎ダメージ：[394%]\n火炎SA破壊量：[212%]",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP": 0
         }
       }
     },
@@ -111,29 +111,29 @@
           }
         },
         "1": {
-          "Effect": "ダメージ量：[83%]\nSA破壊量：[380%]\nSG消費量：[15]\nクールタイム：[8秒]",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[25%]\nSA破壊量：[114%]\nSG消費量：[15]\nクールタイム：[8秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "ダメージ量：[87%]\nSA破壊量：[399%]\nSG消費量：[15]\nクールタイム：[8秒]",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[26%]\nSA破壊量：[120%]\nSG消費量：[15]\nクールタイム：[8秒]",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
-          "Effect": "ダメージ量：[97%]\nSA破壊量：[446%]\nSG消費量：[15]\nクールタイム：[8秒]",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[29%]\nSA破壊量：[134%]\nSG消費量：[15]\nクールタイム：[8秒]",
           "RequiredLevel": 11,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "4": {
-          "Effect": "ダメージ量：[108%]\nSA破壊量：[493%]\nSG消費量：[15]\nクールタイム：[8秒]",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[32%]\nSA破壊量：[148%]\nSG消費量：[15]\nクールタイム：[8秒]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "5": {
-          "Effect": "ダメージ量：[124%]\nSA破壊量：[569%]\nSG消費量：[15]\nクールタイム：[8秒]",
+          "Effect": "[スキル情報：基本攻撃]\nダメージ量：[37%]\nSA破壊量：[171%]\nSG消費量：[15]\nクールタイム：[8秒]",
           "RequiredLevel": 21,
-          "RequiredSP": 3
+          "RequiredSP": 0
         }
       },
       "Extensions": [
@@ -159,12 +159,12 @@
         "1": {
           "Effect": "[特性情報：基本攻撃]\nダメージ量追加値：[92%]\nSA破壊量減少値：[438%]\n\n[特性情報：追加攻撃]\nダメージ量：[65%]\nSA破壊量：[39%]\n\nピアスステップ後、回転斬りで敵を押し出す。",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "[特性情報：基本攻撃]\nダメージ量追加値：[92%]\nSA破壊量減少値：[438%]\n\n[特性情報：追加攻撃]\nダメージ量：[216%]\nSA破壊量：[131%]\n\nピアスステップ後、2回転斬りで敵を押し出す。",
           "RequiredLevel": 26,
-          "RequiredSP": 1,
+          "RequiredSP": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step_Attack02.{{auto}}"
           }
@@ -189,7 +189,7 @@
         "1": {
           "Effect": "[特性情報：追加攻撃]\nダメージ量：[74%]\nSA破壊量：[341%]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 0
         }
       }
     },
@@ -215,22 +215,22 @@
         "2": {
           "Effect": "ダメージ量：[187%]\nSA破壊量：[96%]\nSG消費量：[35]\nクールタイム：[5秒]",
           "RequiredLevel": 5,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "ダメージ量：[209%]\nSA破壊量：[108%]\nSG消費量：[35]\nクールタイム：[5秒]",
           "RequiredLevel": 9,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "4": {
           "Effect": "ダメージ量：[231%]\nSA破壊量：[119%]\nSG消費量：[35]\nクールタイム：[5秒]",
           "RequiredLevel": 13,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "5": {
           "Effect": "ダメージ量：[267%]\nSA破壊量：[138%]\nSG消費量：[35]\nクールタイム：[5秒]",
           "RequiredLevel": 17,
-          "RequiredSP": 3
+          "RequiredSP": 0
         }
       },
       "Extensions": [
@@ -252,29 +252,29 @@
           }
         },
         "1": {
-          "Effect": "バフ効果：SA破壊量[4%]増加、命中時SG獲得[1%]\nバフ持続時間：[50秒]\nSG消費量：[50]\nクールタイム：[70秒]",
+          "Effect": "バフ効果：SA破壊量[4%]増加、命中時SG獲得[1%]\nバフ持続時間：[60秒]\nSG消費量：[50]\nクールタイム：[45秒]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
-          "Effect": "バフ効果：SA破壊量[8%]増加、命中時SG獲得[1.2%]\nバフ持続時間：[50秒]\nSG消費量：[50]\nクールタイム：[70秒]",
+          "Effect": "バフ効果：SA破壊量[8%]増加、命中時SG獲得[1.2%]\nバフ持続時間：[60秒]\nSG消費量：[50]\nクールタイム：[45秒]",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
-          "Effect": "バフ効果：SA破壊量[12%]増加、命中時SG獲得[1.6%]\nバフ持続時間：[50秒]\nSG消費量：[50]\nクールタイム：[70秒]",
+          "Effect": "バフ効果：SA破壊量[12%]増加、命中時SG獲得[1.6%]\nバフ持続時間：[60秒]\nSG消費量：[50]\nクールタイム：[45秒]",
           "RequiredLevel": 12,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "4": {
-          "Effect": "バフ効果：SA破壊量[16%]増加、命中時SG獲得[2%]\nバフ持続時間：[50秒]\nSG消費量：[50]\nクールタイム：[70秒]",
+          "Effect": "バフ効果：SA破壊量[16%]増加、命中時SG獲得[2%]\nバフ持続時間：[60秒]\nSG消費量：[50]\nクールタイム：[45秒]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "5": {
-          "Effect": "バフ効果：SA破壊量[20%]増加、命中時SG獲得[3%]\nバフ持続時間：[50秒]\nSG消費量：[50]\nクールタイム：[70秒]",
+          "Effect": "バフ効果：SA破壊量[20%]増加、命中時SG獲得[3%]\nバフ持続時間：[60秒]\nSG消費量：[50]\nクールタイム：[45秒]",
           "RequiredLevel": 20,
-          "RequiredSP": 3
+          "RequiredSP": 0
         }
       }
     },
@@ -295,27 +295,27 @@
         "1": {
           "Effect": "ダメージ量：[551%]\nSA破壊量：[692%]\nSG消費量：[45]\nクールタイム：[16秒]",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "ダメージ量：[579%]\nSA破壊量：[727%]\nSG消費量：[45]\nクールタイム：[16秒]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "ダメージ量：[646%]\nSA破壊量：[814%]\nSG消費量：[45]\nクールタイム：[16秒]",
           "RequiredLevel": 14,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "4": {
           "Effect": "ダメージ量：[718%]\nSA破壊量：[900%]\nSG消費量：[45]\nクールタイム：[16秒]",
           "RequiredLevel": 18,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "5": {
           "Effect": "ダメージ量：[827%]\nSA破壊量：[1039%]\nSG消費量：[45]\nクールタイム：[16秒]",
           "RequiredLevel": 22,
-          "RequiredSP": 3
+          "RequiredSP": 0
         }
       },
       "Extensions": [
@@ -340,17 +340,17 @@
         "1": {
           "Effect": "[特性情報]\nダメージ量：[992%]\nSA破壊量：[1245%]\nデバフ効果：気絶\nデバフ持続時間：[3秒]",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "[特性情報]\nダメージ量：[1188%]\nSA破壊量：[1495%]\nデバフ効果：気絶\nデバフ持続時間：[3秒]",
           "RequiredLevel": 27,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "[特性情報]\nダメージ量：[1425%]\nSA破壊量：[1793%]\nデバフ効果：気絶\nデバフ持続時間：[3秒]",
           "RequiredLevel": 32,
-          "RequiredSP": 2
+          "RequiredSP": 0
         }
       }
     },
@@ -371,27 +371,27 @@
         "1": {
           "Effect": "ダメージ量：[149%]\nSA破壊量：[310%]\nSG消費量：[40]\nクールタイム：[12秒]",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "ダメージ量：[157%]\nSA破壊量：[326%]\nSG消費量：[40]\nクールタイム：[12秒]",
           "RequiredLevel": 12,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "ダメージ量：[175%]\nSA破壊量：[364%]\nSG消費量：[40]\nクールタイム：[12秒]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "4": {
           "Effect": "ダメージ量：[194%]\nSA破壊量：[403%]\nSG消費量：[40]\nクールタイム：[12秒]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "5": {
           "Effect": "ダメージ量：[224%]\nSA破壊量：[465%]\nSG消費量：[40]\nクールタイム：[12秒]",
           "RequiredLevel": 24,
-          "RequiredSP": 3
+          "RequiredSP": 0
         }
       }
     },
@@ -412,27 +412,27 @@
         "1": {
           "Effect": "ダメージ量：[1006%]\nSA破壊量：[869%]\nSG消費量：[50]\nクールタイム：[15秒]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "ダメージ量：[1057%]\nSA破壊量：[915%]\nSG消費量：[50]\nクールタイム：[15秒]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "ダメージ量：[1182%]\nSA破壊量：[1021%]\nSG消費量：[50]\nクールタイム：[15秒]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "4": {
           "Effect": "ダメージ量：[1308%]\nSA破壊量：[1131%]\nSG消費量：[50]\nクールタイム：[15秒]",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "5": {
           "Effect": "ダメージ量：[1510%]\nSA破壊量：[1306%]\nSG消費量：[50]\nクールタイム：[15秒]",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP": 0
         }
       }
     },
@@ -453,27 +453,27 @@
         "1": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[392%]\nSA破壊量：[629%]\n\n[スキル情報：一般]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[392%]\nSA破壊量：[629%]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[411%]\nSA破壊量：[660%]\n\n[スキル情報：一般]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[411%]\nSA破壊量：[660%]",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[460%]\nSA破壊量：[739%]\n\n[スキル情報：一般]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[460%]\nSA破壊量：[739%]",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "4": {
           "Effect": "ダ[スキル情報：基本攻撃]\nダメージ量：[509%]\nSA破壊量：[817%]\n\n[スキル情報：一般]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[509%]\nSA破壊量：[817%]",
           "RequiredLevel": 28,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "5": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[588%]\nSA破壊量：[943%]\n\n[スキル情報：一般]\nSG消費量：[45]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[588%]\nSA破壊量：[943%]",
           "RequiredLevel": 33,
-          "RequiredSP": 3
+          "RequiredSP": 0
         }
       },
       "Extensions": [
@@ -499,17 +499,17 @@
         "1": {
           "Effect": "[特性情報：基本攻撃]\nダメージ量：[690%]\nSA破壊量：[1250%]\n\n[特性情報：追加攻撃]\nダメージ量：[1035%]\nSA破壊量：[1875%]\n\n攻撃回数：[7回]",
           "RequiredLevel": 33,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "[特性情報：基本攻撃]\nダメージ量：[759%]\nSA破壊量：[1374%]\n\n[特性情報：追加攻撃]\nダメージ量：[1139%]\nSA破壊量：[2061%]\n\n攻撃回数：[8回]",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "[特性情報：基本攻撃]\nダメージ量：[873%]\nSA破壊量：[1584%]\n\n[特性情報：追加攻撃]\nダメージ量：[1310%]\nSA破壊量：[2376%]\n\n攻撃回数：[9回]",
           "RequiredLevel": 43,
-          "RequiredSP": 2
+          "RequiredSP": 0
         }
       }
     },
@@ -531,17 +531,17 @@
         "1": {
           "Effect": "[特性情報：基本攻撃]\nダメージ量：[1035%]\nSA破壊量：[1757%]\n\n[特性情報：追加攻撃]\nダメージ量：[690%]\nSA破壊量：[1171%]",
           "RequiredLevel": 33,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "[特性情報：基本攻撃]\nダメージ量：[1139%]\nSA破壊量：[1931%]\n\n[特性情報：追加攻撃]\nダメージ量：[759%]\nSA破壊量：[1287%]",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "[特性情報：基本攻撃]\nダメージ量：[1310%]\nSA破壊量：[2226%]\n\n[特性情報：追加攻撃]\nダメージ量：[873%]\nSA破壊量：[1484%]",
           "RequiredLevel": 43,
-          "RequiredSP": 2
+          "RequiredSP": 0
         }
       }
     },
@@ -562,27 +562,27 @@
         "1": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[100%]\nSA破壊量：[100%]\n\n[バフ効果：パーティー]\nバフ効果：ダメージ量[1%]増加\nバフ持続時間：[20秒]\n\n[バフ効果：個人]\nバフ効果：ダメージ量[5%]増加\nバフ持続時間：[20秒]\n\nバフエリア持続時間：[10秒]\nSG消費量：[50]\nクールタイム：[45秒]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[100%]\nSA破壊量：[100%]\n\n[バフ効果：パーティー]\nバフ効果：ダメージ量[2%]増加\nバフ持続時間：[20秒]\n\n[バフ効果：個人]\nバフ効果：ダメージ量[6%]増加\nバフ持続時間：[20秒]\n\nバフエリア持続時間：[10秒]\nSG消費量：[50]\nクールタイム：[45秒]",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[100%]\nSA破壊量：[100%]\n\n[バフ効果：パーティー]\nバフ効果：ダメージ量[3%]増加\nバフ持続時間：[20秒]\n\n[バフ効果：個人]\nバフ効果：ダメージ量[7%]増加\nバフ持続時間：[20秒]\n\nバフエリア持続時間：[10秒]\nSG消費量：[50]\nクールタイム：[45秒]",
           "RequiredLevel": 27,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "4": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[100%]\nSA破壊量：[100%]\n\n[バフ効果：パーティー]\nバフ効果：ダメージ量[4%]増加\nバフ持続時間：[20秒]\n\n[バフ効果：個人]\nバフ効果：ダメージ量[8%]増加\nバフ持続時間：[20秒]\n\nバフエリア持続時間：[10秒]\nSG消費量：[50]\nクールタイム：[45秒]",
           "RequiredLevel": 32,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "5": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[100%]\nSA破壊量：[100%]\n\n[バフ効果：パーティー]\nバフ効果：ダメージ量[5%]増加\nバフ持続時間：[20秒]\n\n[バフ効果：個人]\nバフ効果：ダメージ量[10%]増加\nバフ持続時間：[20秒]\n\nバフエリア持続時間：[10秒]\nSG消費量：[50]\nクールタイム：[45秒]",
           "RequiredLevel": 37,
-          "RequiredSP": 3
+          "RequiredSP": 0
         }
       },
       "Extensions": [
@@ -608,17 +608,17 @@
         "1": {
           "Effect": "[特性情報：基本攻撃]\nバフエリア持続時間増加値：[5秒]\nSG消費量減少：[10%]\n持続時間：[3秒]",
           "RequiredLevel": 37,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "[特性情報：基本攻撃]\nバフエリア持続時間増加値：[7秒]\nSG消費量減少：[12%]\n持続時間：[3秒]",
           "RequiredLevel": 42,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "[特性情報：基本攻撃]\nバフエリア持続時間増加値：[10秒]\nSG消費量減少：[15%]\n持続時間：[3秒]",
           "RequiredLevel": 47,
-          "RequiredSP": 2
+          "RequiredSP": 0
         }
       }
     },
@@ -640,17 +640,17 @@
         "1": {
           "Effect": "[バフ情報：パーティー]\nバフ効果：ダメージ量[5%]増加\nバフ持続時間：[30秒]\n\n[バフ情報：個人]\nバフ効果：ダメージ量[10%]増加\nバフ持続時間：[30秒]\n\n[特性情報：追加攻撃]\nデバフ効果：気絶\nデバフ持続時間：[1秒]",
           "RequiredLevel": 37,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "[バフ情報：パーティー]\nバフ効果：ダメージ量[5%]増加\nバフ持続時間：[30秒]\n\n[バフ情報：個人]\nバフ効果：ダメージ量[10%]増加\nバフ持続時間：[30秒]\n\n[特性情報：追加攻撃]\nデバフ効果：気絶\nデバフ持続時間：[2秒]",
           "RequiredLevel": 43,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "[バフ情報：パーティー]\nバフ効果：ダメージ量[5%]増加\nバフ持続時間：[30秒]\n\n[バフ情報：個人]\nバフ効果：ダメージ量[10%]増加\nバフ持続時間：[30秒]\n\n[特性情報：追加攻撃]\nデバフ効果：気絶\nデバフ持続時間：[3秒]",
           "RequiredLevel": 47,
-          "RequiredSP": 2
+          "RequiredSP": 0
         }
       }
     },
@@ -671,27 +671,27 @@
         "1": {
           "Effect": "ダメージ量：[562%]\nSA破壊量：[726%]\nSG消費量：[35]\nクールタイム：[20秒]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "ダメージ量：[589%]\nSA破壊量：[762%]\nSG消費量：[35]\nクールタイム：[20秒]",
           "RequiredLevel": 26,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "ダメージ量：[660%]\nSA破壊量：[852%]\nSG消費量：[35]\nクールタイム：[20秒]",
           "RequiredLevel": 31,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "4": {
           "Effect": "ダメージ量：[730%]\nSA破壊量：[943%]\nSG消費量：[35]\nクールタイム：[20秒]",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "5": {
           "Effect": "ダメージ量：[842%]\nSA破壊量：[1088%]\nSG消費量：[35]\nクールタイム：[20秒]",
           "RequiredLevel": 41,
-          "RequiredSP": 3
+          "RequiredSP": 0
         }
       },
       "Extensions": [
@@ -716,27 +716,27 @@
         "1": {
           "Effect": "ダメージ量：攻撃1回あたり[98%]\nSA破壊量：攻撃1回あたり[74%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 28,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "ダメージ量：攻撃1回あたり[102%]\nSA破壊量：攻撃1回あたり[77%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 32,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "ダメージ量：攻撃1回あたり[114%]\nSA破壊量：攻撃1回あたり[86%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "4": {
           "Effect": "ダメージ量：攻撃1回あたり[126%]\nSA破壊量：攻撃1回あたり[96%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 40,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "5": {
           "Effect": "ダメージ量：攻撃1回あたり[146%]\nSA破壊量：攻撃1回あたり[110%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 44,
-          "RequiredSP": 3
+          "RequiredSP": 0
         }
       },
       "Extensions": [
@@ -761,17 +761,17 @@
         "1": {
           "Effect": "[特性情報]\nダメージ量減少値：攻撃1回あたり[28%]\nSA破壊量減少値：攻撃1回あたり[21%]\n3秒間、火炎地帯を作り出す。\n火炎地帯ダメージ量：毎秒[45%]\n火炎地帯SA破壊量：毎秒[34%]",
           "RequiredLevel": 44,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "[特性情報]\nダメージ量減少値：攻撃1回あたり[13%]\nSA破壊量減少値：攻撃1回あたり[10%]\n3秒間、火炎地帯を作り出す。\n火炎地帯ダメージ量：毎秒[50%]\n火炎地帯SA破壊量：毎秒[38%]",
           "RequiredLevel": 49,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "[特性情報]\nダメージ量増加値：攻撃1回あたり[23%]\nSA破壊量増加値：攻撃1回あたり[17%]\n3秒間、火炎地帯を作り出す。\n火炎地帯ダメージ量：毎秒[62%]\n火炎地帯SA破壊量：毎秒[47%]",
           "RequiredLevel": 54,
-          "RequiredSP": 2
+          "RequiredSP": 0
         }
       }
     },
@@ -792,27 +792,27 @@
         "1": {
           "Effect": "ダメージ量：攻撃1回あたり[466%]\nSA破壊量：[444%]\n\nSG消費量：[50]\nクールタイム：[35秒]",
           "RequiredLevel": 34,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "ダメージ量：攻撃1回あたり[489%]\nSA破壊量：[466%]\n\nSG消費量：[50]\nクールタイム：[35秒]",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "ダメージ量：攻撃1回あたり[547%]\nSA破壊量：[522%]\n\nSG消費量：[50]\nクールタイム：[35秒]",
           "RequiredLevel": 42,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "4": {
           "Effect": "ダメージ量：攻撃1回あたり[605%]\nSA破壊量：[577%]\n\nSG消費量：[50]\nクールタイム：[35秒]",
           "RequiredLevel": 46,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "5": {
           "Effect": "ダメージ量：攻撃1回あたり[699%]\nSA破壊量：[666%]\n\nSG消費量：[50]\nクールタイム：[35秒]",
           "RequiredLevel": 50,
-          "RequiredSP": 3
+          "RequiredSP": 0
         }
       },
       "Extensions": [
@@ -837,12 +837,12 @@
         "1": {
           "Effect": "[特性情報：基本攻撃]\nダメージ量：[489%]\nSA破壊量：[466%]\n\n[特性情報：追加攻撃]\nダメージ量：[699%]\nSA破壊量：[666%]\n攻撃回数：3回",
           "RequiredLevel": 50,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "[特性情報：基本攻撃]\nダメージ量：[489%]\nSA破壊量：[466%]\n\n[特性情報：追加攻撃]\nダメージ量：[699%]\nSA破壊量：[666%]\n\n時間内に制限なく剣気を放つことができる。",
           "RequiredLevel": 55,
-          "RequiredSP": 1
+          "RequiredSP": 0
         }
       }
     },
@@ -863,27 +863,27 @@
         "1": {
           "Effect": "ダメージ量：[2097%]\nSA破壊量：[2237%]\nSG消費量：[75]\nクールタイム：[45秒]",
           "RequiredLevel": 42,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "ダメージ量：[2201%]\nSA破壊量：[2350%]\nSG消費量：[75]\nクールタイム：[45秒]",
           "RequiredLevel": 45,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "ダメージ量：[2464%]\nSA破壊量：[2630%]\nSG消費量：[75]\nクールタイム：[45秒]",
           "RequiredLevel": 48,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "4": {
           "Effect": "ダメージ量：[2726%]\nSA破壊量：[2909%]\nSG消費量：[75]\nクールタイム：[45秒]",
           "RequiredLevel": 51,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "5": {
           "Effect": "ダメージ量：[3145%]\nSA破壊量：[3357%]\nSG消費量：[75]\nクールタイム：[45秒]",
           "RequiredLevel": 54,
-          "RequiredSP": 3
+          "RequiredSP": 0
         }
       },
       "Extensions": [
@@ -912,17 +912,17 @@
         "1": {
           "Effect": "[特性情報]\n追加ダメージ量：[354%]\n追加SA破壊量：[552%]\n\n[特性情報:追加攻撃]\n追加ダメージ量：[354%]\n追加SA破壊量：[552%]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "[特性情報]\n追加ダメージ量：[407%]\n追加SA破壊量：[635%]\n\n[特性情報:追加攻撃]\n追加ダメージ量：[407%]\n追加SA破壊量：[635%]",
           "RequiredLevel": 58,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "[特性情報]\n追加ダメージ量：[513%]\n追加SA破壊量：[801%]\n\n[特性情報:追加攻撃]\n追加ダメージ量：[513%]\n追加SA破壊量：[801%]",
           "RequiredLevel": 60,
-          "RequiredSP": 2
+          "RequiredSP": 0
         }
       }
     },
@@ -948,17 +948,17 @@
         "1": {
           "Effect": "[特性情報]\nダメージ量：[1673%]\nSA破壊量：[1170%]\nデバフ効果：気絶[1.8秒]\nクールタイム：[20秒]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "[特性情報]\nダメージ量：[1924%]\nSA破壊量：[1346%]\nデバフ効果：気絶[2.4秒]\nクールタイム：[20秒]",
           "RequiredLevel": 59,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "[特性情報]\nダメージ量：[2425%]\nSA破壊量：[1697%]\nデバフ効果：気絶[3.2秒]\nクールタイム：[20秒]",
           "RequiredLevel": 60,
-          "RequiredSP": 2
+          "RequiredSP": 0
         }
       }
     },
@@ -984,27 +984,27 @@
         "1": {
           "Effect": "ダメージ量：[1368%]\nSA破壊量：[1920%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "ダメージ量：[1440%]\nSA破壊量：[2016%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "ダメージ量：[1572%]\nSA破壊量：[2208%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 58,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "4": {
           "Effect": "ダメージ量：[1776%]\nSA破壊量：[2496%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "5": {
           "Effect": "ダメージ量：[2052%]\nSA破壊量：[2880%]\nSG消費量：[45]\nクールタイム：[30秒]",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP": 0
         }
       }
     },
@@ -1029,27 +1029,27 @@
         "1": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[1905%]\nSA破壊量：[956%]\nSG消費量：[30]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[190%]\nSA破壊量：[95%]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[2097%]\nSA破壊量：[1053%]\nSG消費量：[30]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[209%]\nSA破壊量：[105%]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[2349%]\nSA破壊量：[1180%]\nSG消費量：[30]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[234%]\nSA破壊量：[118%]",
           "RequiredLevel": 58,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "4": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[2679%]\nSA破壊量：[1346%]\nSG消費量：[30]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[267%]\nSA破壊量：[134%]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "5": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[3090%]\nSA破壊量：[1553%]\nSG消費量：[30]\nクールタイム：[20秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[309%]\nSA破壊量：[155%]",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP": 0
         }
       }
     },
@@ -1070,27 +1070,27 @@
         "1": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[2154%]\nSA破壊量：[2375%]\nSG消費量：[50]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[215%]\nSA破壊量：[238%]",
           "RequiredLevel": 62,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[2370%]\nSA破壊量：[2614%]\nSG消費量：[50]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[237%]\nSA破壊量：[261%]",
           "RequiredLevel": 65,
-          "RequiredSP": 1
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[2654%]\nSA破壊量：[2928%]\nSG消費量：[50]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[265%]\nSA破壊量：[293%]",
           "RequiredLevel": 68,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "4": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[3026%]\nSA破壊量：[3338%]\nSG消費量：[50]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[303%]\nSA破壊量：[334%]",
           "RequiredLevel": 71,
-          "RequiredSP": 3
+          "RequiredSP": 0
         },
         "5": {
           "Effect": "[スキル情報：基本攻撃]\nダメージ量：[3489%]\nSA破壊量：[3849%]\nSG消費量：[50]\nクールタイム：[40秒]\n\n[スキル情報：追加攻撃]\nダメージ量：[348%]\nSA破壊量：[384%]",
           "RequiredLevel": 74,
-          "RequiredSP": 3
+          "RequiredSP": 0
         }
       }
     },
@@ -1112,17 +1112,52 @@
         "1": {
           "Effect": "ダメージ量：[315%]\nSA破壊量：[336%]\n\n[特性情報：追加攻撃]\nダメージ量：[1258%]\nSA破壊量：[1343%]",
           "RequiredLevel": 68,
-          "RequiredSP": 2
+          "RequiredSP": 0
         },
         "2": {
           "Effect": "ダメージ量：[346%]\nSA破壊量：[369%]\n\n[特性情報：追加攻撃]\nダメージ量：[1384%]\nSA破壊量：[1477%]",
           "RequiredLevel": 70,
-          "RequiredSP": 3
+          "RequiredSP": 0
         },
         "3": {
           "Effect": "ダメージ量：[398%]\nSA破壊量：[425%]\n\n[特性情報：追加攻撃]\nダメージ量：[1592%]\nSA破壊量：[1699%]",
           "RequiredLevel": 72,
-          "RequiredSP": 4
+          "RequiredSP": 0
+        }
+      }
+    },
+    "SunRevolve": {
+      "Name": "サンリボルブ",
+      "ID": 30,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_SunRevolve.png",
+      "Levels": {
+        "0": {
+          "Description": "光の剣を召喚し、一定時間周囲の敵を斬り裂く。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/B_Skill_SunRevolve.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[136%]\nSA破壊量：[134%]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1194%]\nバフ追加SA破壊量：[1274%]\nSG消費量：[50]\nクールタイム：[40秒]",
+          "RequiredLevel": 72,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "ダメージ量：[149%]\nSA破壊量：[148%]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1194%]\nバフ追加SA破壊量：[1274%]\nSG消費量：[50]\nクールタイム：[40秒]",
+          "RequiredLevel": 76,
+          "RequiredSP": 0
+        },
+        "3": {
+          "Effect": "ダメージ量：[167%]\nSA破壊量：[165%]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1194%]\nバフ追加SA破壊量：[1274%]\nSG消費量：[50]\nクールタイム：[40秒]",
+          "RequiredLevel": 78,
+          "RequiredSP": 0
         }
       }
     },

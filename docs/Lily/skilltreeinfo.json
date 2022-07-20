@@ -1096,6 +1096,41 @@
         }
       }
     },
+    "GehennaGate": {
+      "Name": "シザーズエクセキューション",
+      "ID": 29,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_GehennaGate.png",
+      "Levels": {
+        "0": {
+          "Description": "前方へ死神を突進させ、素早く敵を斬って引き戻す。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_GehennaGate.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "ダメージ量：[2086%]\nSA破壊量：[1849%]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1453%]\nバフ追加SA破壊量：[954%]\nSG消費量：[30]\nクールタイム：[20秒]",
+          "RequiredLevel": 72,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "ダメージ量：[2294%]\nSA破壊量：[2034%]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1453%]\nバフ追加SA破壊量：[954%]\nSG消費量：[30]\nクールタイム：[20秒]",
+          "RequiredLevel": 76,
+          "RequiredSP": 0
+        },
+        "3": {
+          "Effect": "ダメージ量：[2570%]\nSA破壊量：[2278%]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1453%]\nバフ追加SA破壊量：[954%]\nSG消費量：[30]\nクールタイム：[20秒]",
+          "RequiredLevel": 78,
+          "RequiredSP": 0
+        }
+      }
+    },
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "基本攻撃マスタリー",

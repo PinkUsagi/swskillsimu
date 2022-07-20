@@ -401,6 +401,7 @@ SkillInfo.prototype.UpdateSkill = function () {
     // panel.children("p[insight=\"skilllexevel\"]:first").text(this._currentskilllevel + "" + this._skillmaxlevel);
     if (this._currentskilllevel <= this._defaultLevel) {
         button_skilldown.addClass("disabled");
+        button_skillup.removeClass("disabled");
         let pa = this._parent;
         if (pa && !(pa.GetNextLevelInfo())) {
             let skillextensions = pa.GetExtensions();
@@ -409,6 +410,7 @@ SkillInfo.prototype.UpdateSkill = function () {
         }
     } else if (this._currentskilllevel == this._skillmaxlevel) {
         button_skillup.addClass("disabled");
+        button_skilldown.removeClass("disabled");
         let pa = this._parent;
         let skillextensions;
         if (pa) {

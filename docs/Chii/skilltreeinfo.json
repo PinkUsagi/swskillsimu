@@ -1212,6 +1212,41 @@
         }
       }
     },
+    "HellsOrigin": {
+      "Name": "猫刀・参ノ型・改：空隙斬",
+      "ID": 32,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Chii/Icon_DesperRoar_Skill_HellsOrigin.png",
+      "Levels": {
+        "0": {
+          "Description": "エナジーを集めて前方の空間を斬り裂き、敵にダメージを与える。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_HellsOrigin.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：斬撃]\nダメージ量：[1297%]\nSA破壊量：[1289%]\n\n[スキル情報：追加攻撃]\nダメージ量：[160%]\nSA破壊量：[159%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1739%]\nバフ追加SA破壊量：[1277%]\nSG消費量：[30]\nクールタイム：[40秒]",
+          "RequiredLevel": 72,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[スキル情報：斬撃]\nダメージ量：[1427%]\nSA破壊量：[1418%]\n\n[スキル情報：追加攻撃]\nダメージ量：[176%]\nSA破壊量：[175%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1739%]\nバフ追加SA破壊量：[1277%]\nSG消費量：[30]\nクールタイム：[40秒]",
+          "RequiredLevel": 76,
+          "RequiredSP": 0
+        },
+        "3": {
+          "Effect": "[スキル情報：斬撃]\nダメージ量：[1598%]\nSA破壊量：[1588%]\n\n[スキル情報：追加攻撃]\nダメージ量：[197%]\nSA破壊量：[196%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1739%]\nバフ追加SA破壊量：[1277%]\nSG消費量：[30]\nクールタイム：[40秒]",
+          "RequiredLevel": 78,
+          "RequiredSP": 0
+        }
+      }
+    },
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "基本攻撃マスタリー",

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -11,7 +13,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック", "MS Gothic", "Noto Sans CJK JP", TakaoPGothic, sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     font-feature-settings: "palt" 1;
     line-height: 1.6;
 }

@@ -1141,6 +1141,41 @@
         }
       }
     },
+    "GustPillar": {
+      "Name": "ボールドタイフーン",
+      "ID": 30,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Jin/Icon_Spirt_Skill_GustPillar.png",
+      "Levels": {
+        "0": {
+          "Description": "拳にソウルエナジーを集め全力で振り下ろす。また振り下ろした場所に巨大な火柱が発生し、一定時間周囲の敵にダメージを与える。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Jin/B_Skill_GustPillar.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：振り下ろし]\nダメージ量：[2962%]\nSA破壊量：[2613%]\n\n[スキル情報：追加攻撃]\nダメージ量：[87%]\nSA破壊量：[77%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1137%]\nバフ追加SA破壊量：[1209%]\nSG消費量：[35]\nクールタイム：[40秒]",
+          "RequiredLevel": 72,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[スキル情報：振り下ろし]\nダメージ量：[3257%]\nSA破壊量：[2875%]\n\n[スキル情報：追加攻撃]\nダメージ量：[96%]\nSA破壊量：[85%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1137%]\nバフ追加SA破壊量：[1209%]\nSG消費量：[35]\nクールタイム：[40秒]",
+          "RequiredLevel": 76,
+          "RequiredSP": 0
+        },
+        "3": {
+          "Effect": "[スキル情報：振り下ろし]\nダメージ量：[3648%]\nSA破壊量：[3220%]\n\n[スキル情報：追加攻撃]\nダメージ量：[107%]\nSA破壊量：[95%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1137%]\nバフ追加SA破壊量：[1209%]\nSG消費量：[35]\nクールタイム：[40秒]",
+          "RequiredLevel": 78,
+          "RequiredSP": 0
+        }
+      }
+    },
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "基本攻撃マスタリー",

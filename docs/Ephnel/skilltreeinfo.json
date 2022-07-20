@@ -1213,6 +1213,41 @@
         }
       }
     },
+    "TerrorSweeper": {
+      "Name": "テンペストドライブ",
+      "ID": 32,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Ephnel/Icon_BombingSpear_Skill_TerrorSweeper.png",
+      "Levels": {
+        "0": {
+          "Description": "武器を回転させながらエナジーボールを生成し、前方へと飛ばして爆発させる。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_TerrorSweeper.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：ソウルエナジー爆発]\nダメージ量：[1288%]\nSA破壊量：[1214%]\n\n[スキル情報：エナジー攻撃]\nダメージ量：[129%]\nSA破壊量：[121%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1159%]\nバフ追加SA破壊量：[1075%]\nSG消費量：[30]\nクールタイム：[25秒]",
+          "RequiredLevel": 72,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[スキル情報：ソウルエナジー爆発]\nダメージ量：[1417%]\nSA破壊量：[1335%]\n\n[スキル情報：エナジー攻撃]\nダメージ量：[142%]\nSA破壊量：[134%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1159%]\nバフ追加SA破壊量：[1075%]\nSG消費量：[30]\nクールタイム：[25秒]",
+          "RequiredLevel": 76,
+          "RequiredSP": 0
+        },
+        "3": {
+          "Effect": "[スキル情報：ソウルエナジー爆発]\nダメージ量：[1588%]\nSA破壊量：[1495%]\n\n[スキル情報：エナジー攻撃]\nダメージ量：[159%]\nSA破壊量：[150%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加ダメージ量：[1159%]\nバフ追加SA破壊量：[1075%]\nSG消費量：[30]\nクールタイム：[25秒]",
+          "RequiredLevel": 78,
+          "RequiredSP": 0
+        }
+      }
+    },
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "基本攻撃マスタリー",

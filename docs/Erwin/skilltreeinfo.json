@@ -1115,6 +1115,41 @@
         }
       }
     },
+    "No5": {
+      "Name": "ナンバーファイブ",
+      "ID": 30,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Erwin/Icon_Gjazz_Skill_No5.png",
+      "Levels": {
+        "0": {
+          "Description": "特殊部隊ユニットNo.1～4を召喚して前方の敵を攻撃する。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_No5.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[スキル情報：連射攻撃]\nダメージ量：[2775%]\nSA破壊量：[2878%]\n\n[スキル情報：追加攻撃]\nダメージ量：[1850%]\nSA破壊量：[1918%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加総ダメージ量：[1327%]\nバフ追加総SA破壊量：[1179%]\nSG消費量：[3]\nクールタイム：[40秒]",
+          "RequiredLevel": 72,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[スキル情報：連射攻撃]\nダメージ量：[3053%]\nSA破壊量：[3166%]\n\n[スキル情報：追加攻撃]\nダメージ量：[2035%]\nSA破壊量：[2110%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加総ダメージ量：[1327%]\nバフ追加総SA破壊量：[1179%]\nSG消費量：[3]\nクールタイム：[40秒]",
+          "RequiredLevel": 76,
+          "RequiredSP": 0
+        },
+        "3": {
+          "Effect": "[スキル情報：連射攻撃]\nダメージ量：[3419%]\nSA破壊量：[3546%]\n\n[スキル情報：追加攻撃]\nダメージ量：[2280%]\nSA破壊量：[2364%]\n\n[スキル情報：一般]\nバフ効果：Lv.42スキル特性1回強化\nバフ追加総ダメージ量：[1327%]\nバフ追加総SA破壊量：[1179%]\nSG消費量：[3]\nクールタイム：[40秒]",
+          "RequiredLevel": 78,
+          "RequiredSP": 0
+        }
+      }
+    },
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "基本攻撃マスタリー",
