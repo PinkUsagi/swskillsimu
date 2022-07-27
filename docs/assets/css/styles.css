@@ -253,7 +253,7 @@ div.popover-body,
 #tooltip .tooltipheader,
 #tooltip .tooltipcontent {
     font-family: "Noto Sans JP", sans-serif;
-    font-feature-settings: "palt"1;
+    font-feature-settings: "palt" 1;
 }
 
 div.popover-body,
@@ -714,4 +714,14 @@ div.stretch {
 
 * {
     scrollbar-color: #202324 #454a4d;
+}
+
+.navbar-expand-md .navbar-nav {
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 878px) {
+    main .container-fluid {
+        padding-top: 15%;
+    }
 }
